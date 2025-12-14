@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Maryland-Baltimore County,W,,74,32,1,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+2,"Thu, Nov 7, 2024",,Box Score,,Coppin State,W,,70,47,2,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+3,"Sun, Nov 10, 2024",,Box Score,,Duke,W,,85,80,3,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+4,"Wed, Nov 13, 2024",,Box Score,@,Syracuse,W,,84,73,4,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+5,"Sun, Nov 17, 2024",,Box Score,,Towson,W,,98,63,5,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+6,"Sun, Nov 24, 2024",,Box Score,,Saint Francis (PA),W,,107,35,6,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+7,"Sat, Nov 30, 2024",,Box Score,N,George Mason,W,,66,56,7,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+8,"Sun, Dec 1, 2024",,Box Score,N,Toledo,W,,92,70,8,0,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+9,"Tue, Dec 3, 2024",,Box Score,,Mount St. Mary's,W,,87,52,9,0,A. Kubek · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+10,"Sat, Dec 7, 2024",,Box Score,@,Purdue,W,,78,69,10,0,C. Dalce · A. Kubek · S. Poffenbarger · S. Sellers · K. Smikle
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Thu, Dec 19, 2024",,Box Score,,William & Mary,W,,107,57,11,0,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+12,"Sun, Dec 29, 2024",,Box Score,,Michigan State,W,,72,66,12,0,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+13,"Thu, Jan 2, 2025",,Box Score,,Rutgers,W,,78,61,13,0,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+14,"Sun, Jan 5, 2025",,Box Score,@,Iowa,W,,74,66,14,0,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+15,"Wed, Jan 8, 2025",,Box Score,,Southern California,L,,74,79,14,1,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+16,"Sat, Jan 11, 2025",,Box Score,@,Wisconsin,W,,83,68,15,1,C. Dalce · A. Kubek · B. McDaniel · S. Sellers · K. Smikle
+17,"Tue, Jan 14, 2025",,Box Score,,Minnesota,W,,99,92,16,1,C. Dalce · B. McDaniel · S. Poffenbarger · S. Sellers · K. Smikle
+18,"Mon, Jan 20, 2025",,Box Score,N,Texas,L,,51,89,16,2,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+19,"Thu, Jan 23, 2025",,Box Score,@,Ohio State,L,,66,74,16,3,C. Dalce · A. Kubek · S. Poffenbarger · K. Smikle · S. Te-Biasu
+20,"Sun, Jan 26, 2025",,Box Score,,UCLA,L,,67,82,16,4,C. Dalce · A. DeBerry · S. Poffenbarger · K. Smikle · S. Te-Biasu
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 29, 2025",,Box Score,@,Penn State,W,,82,73,17,4,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+22,"Sun, Feb 2, 2025",,Box Score,,Illinois,L,,65,66,17,5,C. Dalce · A. DeBerry · S. Sellers · K. Smikle · S. Te-Biasu
+23,"Thu, Feb 6, 2025",,Box Score,@,Oregon,W,,79,61,18,5,A. Kubek · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+24,"Sun, Feb 9, 2025",,Box Score,@,Washington,W,,81,73,19,5,A. Kubek · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+25,"Thu, Feb 13, 2025",,Box Score,,Nebraska,L,,71,91,19,6,A. Kubek · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+26,"Mon, Feb 17, 2025",,Box Score,,Michigan,W,,85,77,20,6,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+27,"Thu, Feb 20, 2025",,Box Score,@,Northwestern,W,,85,79,21,6,C. Dalce · S. Poffenbarger · S. Sellers · K. Smikle · S. Te-Biasu
+28,"Thu, Feb 27, 2025",,Box Score,@,Indiana,W,,74,60,22,6,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+29,"Sun, Mar 2, 2025",,Box Score,,Ohio State,W,OT,93,90,23,6,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+30,"Fri, Mar 7, 2025",,Box Score,N,Michigan,L,,71,98,23,7,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+31,"Sat, Mar 22, 2025",,Box Score,,Norfolk State,W,,82,69,24,7,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+32,"Mon, Mar 24, 2025",,Box Score,,Alabama,W,2OT,111,108,25,7,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu
+33,"Fri, Mar 28, 2025",,Box Score,N,South Carolina,L,,67,71,25,8,C. Dalce · A. Kubek · S. Sellers · K. Smikle · S. Te-Biasu

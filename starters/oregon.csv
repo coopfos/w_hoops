@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,California Baptist,W,,93,63,1,0,S. Bell · D. Kelly · A. Muhammad · P. Scott · A. Whitfield
+2,"Wed, Nov 6, 2024",,Box Score,,Nevada,W,,76,58,2,0,S. Bell · D. Kelly · A. Muhammad · P. Scott · A. Whitfield
+3,"Sun, Nov 10, 2024",,Box Score,,Baylor,W,,76,74,3,0,S. Bell · D. Kelly · A. Muhammad · P. Scott · A. Whitfield
+4,"Tue, Nov 12, 2024",,Box Score,,North Texas,W,,66,35,4,0,S. Bell · D. Kelly · A. Muhammad · P. Scott · A. Whitfield
+5,"Mon, Nov 18, 2024",,Box Score,,Grand Canyon,W,,70,54,5,0,S. Bell · D. Kelly · A. Muhammad · P. Scott · A. Whitfield
+6,"Wed, Nov 20, 2024",,Box Score,,Auburn,W,,70,68,6,0,S. Bell · D. Kelly · P. Kyei · A. Muhammad · P. Scott
+7,"Mon, Nov 25, 2024",,Box Score,N,Georgia Tech,L,,58,74,6,1,S. Bell · D. Kelly · P. Kyei · P. Scott · A. Whitfield
+8,"Tue, Nov 26, 2024",,Box Score,N,South Dakota State,L,,70,75,6,2,E. Etute · N. Falatea · D. Kelly · S. Rambus · P. Scott
+9,"Wed, Dec 4, 2024",,Box Score,,Washington State,W,,85,70,7,2,D. Kelly · E. Mevius · A. Muhammad · P. Scott · A. Whitfield
+10,"Sat, Dec 7, 2024",,Box Score,,Southern California,L,,53,66,7,3,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Tue, Dec 17, 2024",,Box Score,,Air Force,W,,98,36,8,3,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+12,"Thu, Dec 19, 2024",,Box Score,,UC Irvine,W,,71,43,9,3,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+13,"Sat, Dec 28, 2024",,Box Score,@,Illinois,L,,59,64,9,4,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+14,"Tue, Dec 31, 2024",,Box Score,@,Northwestern,W,,85,65,10,4,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+15,"Sat, Jan 4, 2025",,Box Score,,Wisconsin,W,,68,52,11,4,N. Falatea · D. Kelly · P. Kyei · E. Mevius · A. Muhammad
+16,"Thu, Jan 9, 2025",,Box Score,@,Penn State,W,,63,61,12,4,N. Falatea · D. Kelly · P. Kyei · E. Mevius · A. Muhammad
+17,"Sun, Jan 12, 2025",,Box Score,@,Ohio State,L,,60,69,12,5,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+18,"Wed, Jan 15, 2025",,Box Score,,Purdue,W,,69,53,13,5,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+19,"Sun, Jan 19, 2025",,Box Score,,Iowa,W,,50,49,14,5,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+20,"Fri, Jan 24, 2025",,Box Score,,Indiana,W,,54,47,15,5,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,@,Michigan State,W,,63,59,16,5,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+22,"Sun, Feb 2, 2025",,Box Score,@,Michigan,L,,48,80,16,6,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+23,"Thu, Feb 6, 2025",,Box Score,,Maryland,L,,61,79,16,7,D. Kelly · P. Kyei · E. Mevius · A. Muhammad · P. Scott
+24,"Sun, Feb 9, 2025",,Box Score,,UCLA,L,,52,62,16,8,N. Falatea · D. Kelly · P. Kyei · E. Mevius · A. Whitfield
+25,"Wed, Feb 12, 2025",,Box Score,,Washington,W,,68,67,17,8,S. Bell · N. Falatea · D. Kelly · P. Kyei · E. Mevius
+26,"Sun, Feb 16, 2025",,Box Score,@,Minnesota,W,,76,70,18,8,S. Bell · N. Falatea · D. Kelly · P. Kyei · E. Mevius
+27,"Wed, Feb 19, 2025",,Box Score,@,Nebraska,L,OT,90,94,18,9,S. Bell · N. Falatea · D. Kelly · P. Kyei · E. Mevius
+28,"Sun, Feb 23, 2025",,Box Score,,Rutgers,W,,77,58,19,9,N. Falatea · D. Kelly · P. Kyei · P. Scott · A. Whitfield
+29,"Sun, Mar 2, 2025",,Box Score,@,Washington,L,,56,64,19,10,S. Bell · N. Falatea · D. Kelly · P. Kyei · P. Scott
+30,"Thu, Mar 6, 2025",,Box Score,N,Indiana,L,,62,78,19,11,N. Falatea · D. Kelly · P. Kyei · A. Muhammad · P. Scott
+31,"Fri, Mar 21, 2025",,Box Score,N,Vanderbilt,W,OT,77,73,20,11,N. Falatea · D. Kelly · P. Kyei · A. Muhammad · P. Scott
+32,"Sun, Mar 23, 2025",,Box Score,@,Duke,L,,53,59,20,12,N. Falatea · D. Kelly · P. Kyei · A. Muhammad · P. Scott

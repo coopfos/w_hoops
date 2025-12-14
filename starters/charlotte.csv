@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Presbyterian,W,,77,63,1,0,A. Andrews · H. Breland · K. Green · J. Kelly · K. Rembert
+2,"Thu, Nov 7, 2024",,Box Score,,Wake Forest,L,,41,60,1,1,A. Andrews · H. Breland · K. Green · J. Kelly · K. Rembert
+3,"Tue, Nov 12, 2024",,Box Score,@,Ohio State,L,,53,94,1,2,A. Andrews · H. Breland · K. Green · J. Kelly · K. Rembert
+4,"Fri, Nov 15, 2024",,Box Score,@,UNC Asheville,W,,59,47,2,2,A. Andrews · H. Breland · K. Green · J. Kelly · K. Rembert
+5,"Mon, Nov 18, 2024",,Box Score,,Charleston Southern,L,,59,63,2,3,A. Andrews · H. Breland · K. Green · J. Kelly · K. Rembert
+6,"Thu, Nov 21, 2024",,Box Score,,Gardner-Webb,W,,83,67,3,3,H. Breland · K. Green · K. Rembert · M. Roshelle · I. Smith
+7,"Fri, Nov 29, 2024",,Box Score,@,Miami (FL),L,,63,79,3,4,H. Breland · K. Green · J. Kelly · M. Roshelle · I. Smith
+8,"Sun, Dec 1, 2024",,Box Score,N,Southeastern Louisiana,L,,53,62,3,5,H. Breland · K. Green · J. Kelly · M. Roshelle · I. Smith
+9,"Thu, Dec 5, 2024",,Box Score,@,Mercer,W,,43,42,4,5,H. Breland · K. Green · K. Rembert · M. Roshelle · I. Smith
+10,"Mon, Dec 16, 2024",,Box Score,,Winthrop,W,,55,47,5,5,H. Breland · K. Green · K. Rembert · M. Roshelle · I. Smith
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,@,Davidson,L,,55,82,5,6,H. Breland · K. Green · K. Rembert · M. Roshelle · I. Smith
+12,"Sun, Dec 29, 2024",,Box Score,,UTSA,L,,50,64,5,7,H. Breland · K. Green · J. Kelly · J. Peete · K. Rembert
+13,"Wed, Jan 1, 2025",,Box Score,@,South Florida,L,OT,68,69,5,8,H. Breland · J. Peete · K. Rembert · I. Smith · C. Thiel
+14,"Sat, Jan 4, 2025",,Box Score,,Tulane,L,,58,79,5,9,H. Breland · J. Kelly · J. Peete · K. Rembert · I. Smith
+15,"Wed, Jan 8, 2025",,Box Score,@,Tulsa,L,,70,76,5,10,H. Breland · J. Kelly · J. Peete · K. Rembert · I. Smith
+16,"Wed, Jan 15, 2025",,Box Score,,East Carolina,L,,65,72,5,11,H. Breland · J. Peete · K. Rembert · I. Smith · C. Thiel
+17,"Sat, Jan 18, 2025",,Box Score,@,Temple,L,,62,80,5,12,J. Peete · K. Rembert · M. Roshelle · I. Smith · N. Young
+18,"Wed, Jan 22, 2025",,Box Score,@,Florida Atlantic,W,,75,68,6,12,H. Breland · K. Green · J. Kelly · J. Peete · M. Roshelle
+19,"Sat, Jan 25, 2025",,Box Score,,Rice,L,,60,84,6,13,H. Breland · K. Green · J. Kelly · J. Peete · M. Roshelle
+20,"Wed, Jan 29, 2025",,Box Score,@,Memphis,W,,67,59,7,13,H. Breland · K. Green · T. Ikidi · J. Peete · K. Rembert
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Feb 5, 2025",,Box Score,,Tulsa,L,,53,81,7,14,H. Breland · K. Green · A. Harris · K. Rembert · I. Smith
+22,"Sat, Feb 8, 2025",,Box Score,@,UAB,L,,80,86,7,15,H. Breland · K. Green · K. Rembert · I. Smith · C. Thiel
+23,"Wed, Feb 12, 2025",,Box Score,,Wichita State,W,,73,59,8,15,H. Breland · T. Ikidi · J. Peete · K. Rembert · I. Smith
+24,"Sat, Feb 15, 2025",,Box Score,@,East Carolina,L,,45,63,8,16,H. Breland · T. Ikidi · J. Peete · K. Rembert · I. Smith
+25,"Tue, Feb 18, 2025",,Box Score,,South Florida,L,,52,70,8,17,H. Breland · J. Peete · K. Rembert · I. Smith · C. Thiel
+26,"Sat, Feb 22, 2025",,Box Score,,Florida Atlantic,W,,58,53,9,17,H. Breland · J. Peete · K. Rembert · I. Smith · C. Thiel
+27,"Wed, Feb 26, 2025",,Box Score,@,North Texas,L,,58,67,9,18,H. Breland · K. Green · J. Peete · K. Rembert · C. Thiel
+28,"Sat, Mar 1, 2025",,Box Score,@,Wichita State,L,,43,62,9,19,H. Breland · K. Green · J. Peete · K. Rembert · C. Thiel
+29,"Tue, Mar 4, 2025",,Box Score,,Temple,L,,54,60,9,20,H. Breland · K. Green · J. Peete · K. Rembert · C. Thiel
+30,"Sat, Mar 8, 2025",,Box Score,N,Florida Atlantic,W,,55,51,10,20,H. Breland · K. Green · J. Peete · K. Rembert · C. Thiel
+31,"Sun, Mar 9, 2025",,Box Score,N,Tulsa,W,,71,66,11,20,H. Breland · K. Green · J. Peete · K. Rembert · I. Smith
+32,"Mon, Mar 10, 2025",,Box Score,N,Temple,L,,34,65,11,21,H. Breland · K. Green · J. Peete · K. Rembert · C. Thiel

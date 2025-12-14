@@ -1,0 +1,38 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Mount Olive,W,,72,29,1,0,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+2,"Thu, Nov 7, 2024",,Box Score,@,Western Carolina,L,,72,73,1,1,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+3,"Thu, Nov 14, 2024",,Box Score,,High Point,W,,60,47,2,1,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+4,"Tue, Nov 19, 2024",,Box Score,,East Tennessee State,W,,58,51,3,1,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+5,"Fri, Nov 22, 2024",,Box Score,@,Miami (FL),L,,66,71,3,2,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+6,"Tue, Nov 26, 2024",,Box Score,N,Furman,W,,82,72,4,2,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+7,"Wed, Nov 27, 2024",,Box Score,N,Purdue Fort Wayne,W,OT,71,67,5,2,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+8,"Thu, Nov 28, 2024",,Box Score,@,Georgia State,L,,43,58,5,3,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+9,"Wed, Dec 4, 2024",,Box Score,@,Wake Forest,L,,46,63,5,4,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+10,"Mon, Dec 16, 2024",,Box Score,,Guilford,W,,87,41,6,4,C. Dahlquist · H. Dill · J. Felton · A. Fuller · G. Nunez
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,@,Virginia Tech,L,,46,81,6,5,C. Dahlquist · H. Dill · J. Felton · A. Fuller · G. Nunez
+12,"Mon, Dec 30, 2024",,Box Score,,Bethune-Cookman,W,,64,50,7,5,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+13,"Fri, Jan 3, 2025",,Box Score,@,UNC Wilmington,L,,61,67,7,6,G. Boone · C. Dahlquist · A. Fuller · G. Nunez · O. Tucker
+14,"Sun, Jan 5, 2025",,Box Score,@,College of Charleston,L,,63,78,7,7,G. Boone · C. Dahlquist · H. Dill · G. Nunez · O. Tucker
+15,"Sun, Jan 12, 2025",,Box Score,,Hampton,W,,72,42,8,7,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+16,"Fri, Jan 17, 2025",,Box Score,,UNC Wilmington,W,,68,55,9,7,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+17,"Sun, Jan 19, 2025",,Box Score,,Delaware,W,,75,54,10,7,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+18,"Fri, Jan 24, 2025",,Box Score,@,Hofstra,L,,47,55,10,8,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+19,"Sun, Jan 26, 2025",,Box Score,@,Stony Brook,L,,70,75,10,9,G. Boone · C. Dahlquist · H. Dill · A. Fuller · G. Nunez
+20,"Fri, Jan 31, 2025",,Box Score,,Monmouth,W,,76,67,11,9,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Feb 2, 2025",,Box Score,@,William & Mary,W,,92,71,12,9,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+22,"Fri, Feb 7, 2025",,Box Score,,Northeastern,W,,81,41,13,9,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+23,"Sun, Feb 9, 2025",,Box Score,@,North Carolina A&T,W,,56,52,14,9,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+24,"Sun, Feb 16, 2025",,Box Score,@,Elon,W,,48,45,15,9,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+25,"Fri, Feb 21, 2025",,Box Score,,Drexel,L,,54,60,15,10,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+26,"Sun, Feb 23, 2025",,Box Score,,Stony Brook,W,,76,51,16,10,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+27,"Fri, Feb 28, 2025",,Box Score,@,Towson,W,,58,57,17,10,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+28,"Sun, Mar 2, 2025",,Box Score,@,Drexel,W,,56,52,18,10,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+29,"Thu, Mar 6, 2025",,Box Score,,College of Charleston,L,,54,75,18,11,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+30,"Sat, Mar 8, 2025",,Box Score,,William & Mary,W,,73,55,19,11,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+31,"Fri, Mar 14, 2025",,Box Score,N,Towson,W,,73,54,20,11,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+32,"Sat, Mar 15, 2025",,Box Score,N,College of Charleston,W,,80,59,21,11,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+33,"Sun, Mar 16, 2025",,Box Score,N,William & Mary,L,,63,66,21,12,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+34,"Thu, Mar 20, 2025",,Box Score,@,Coastal Carolina,W,,57,55,22,12,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez
+35,"Sun, Mar 23, 2025",,Box Score,@,Southern Indiana,L,,51,60,22,13,G. Boone · C. Dahlquist · J. Felton · A. Fuller · G. Nunez

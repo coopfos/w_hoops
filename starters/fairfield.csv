@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Arkansas,W,,81,67,1,0,M. Andersen · J. Brown · K. L'Amoreaux · S. Scott · E. Selimovic
+2,"Tue, Nov 12, 2024",,Box Score,,Richmond,L,,39,62,1,1,M. Andersen · J. Brown · K. L'Amoreaux · K. McGruder · E. Selimovic
+3,"Sat, Nov 16, 2024",,Box Score,@,Oklahoma State,L,,62,64,1,2,M. Andersen · J. Brown · K. L'Amoreaux · K. McGruder · E. Selimovic
+4,"Wed, Nov 20, 2024",,Box Score,,Central Connecticut State,W,,82,54,2,2,M. Andersen · C. Coe · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+5,"Mon, Nov 25, 2024",,Box Score,@,Charleston Southern,W,,79,36,3,2,M. Andersen · J. Brown · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+6,"Wed, Nov 27, 2024",,Box Score,@,Wake Forest,W,,72,65,4,2,M. Andersen · J. Brown · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+7,"Tue, Dec 3, 2024",,Box Score,,Staten Island,W,,94,47,5,2,M. Andersen · L. Beach · J. Brown · I. Nicoletti Leite · E. Selimovic
+8,"Sun, Dec 8, 2024",,Box Score,,Villanova,W,,74,71,6,2,M. Andersen · J. Brown · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+9,"Sun, Dec 15, 2024",,Box Score,@,St. John's (NY),L,,68,77,6,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+10,"Sat, Dec 21, 2024",,Box Score,,Mount St. Mary's,W,,76,61,7,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Thu, Jan 2, 2025",,Box Score,@,Rider,W,,69,37,8,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+12,"Sat, Jan 4, 2025",,Box Score,,Merrimack,W,,72,48,9,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+13,"Thu, Jan 9, 2025",,Box Score,@,Iona,W,,72,50,10,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+14,"Sat, Jan 11, 2025",,Box Score,,Marist,W,,70,31,11,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+15,"Thu, Jan 16, 2025",,Box Score,@,Niagara,W,,96,49,12,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+16,"Sat, Jan 18, 2025",,Box Score,@,Canisius,W,,97,51,13,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+17,"Thu, Jan 23, 2025",,Box Score,,Manhattan,W,,69,44,14,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+18,"Sat, Jan 25, 2025",,Box Score,@,Merrimack,W,,74,55,15,3,M. Andersen · L. Beach · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+19,"Thu, Jan 30, 2025",,Box Score,,Quinnipiac,W,,72,63,16,3,M. Andersen · C. Coe · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+20,"Sat, Feb 1, 2025",,Box Score,,Iona,W,,63,46,17,3,M. Andersen · C. Coe · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Feb 6, 2025",,Box Score,@,Marist,W,,80,49,18,3,M. Andersen · C. Coe · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+22,"Sat, Feb 8, 2025",,Box Score,@,Sacred Heart,W,,82,76,19,3,M. Andersen · C. Coe · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+23,"Thu, Feb 13, 2025",,Box Score,,Saint Peter's,W,,73,43,20,3,M. Andersen · J. Huerter · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+24,"Sat, Feb 15, 2025",,Box Score,@,Manhattan,W,,84,45,21,3,M. Andersen · J. Huerter · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+25,"Thu, Feb 20, 2025",,Box Score,,Rider,W,,72,46,22,3,M. Andersen · J. Huerter · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+26,"Thu, Feb 27, 2025",,Box Score,@,Mount St. Mary's,W,,81,61,23,3,M. Andersen · J. Huerter · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+27,"Sat, Mar 1, 2025",,Box Score,,Sacred Heart,W,,69,58,24,3,M. Andersen · J. Huerter · K. L'Amoreaux · I. Nicoletti Leite · E. Selimovic
+28,"Thu, Mar 6, 2025",,Box Score,,Siena,W,,62,49,25,3,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic
+29,"Sat, Mar 8, 2025",,Box Score,@,Quinnipiac,L,,65,72,25,4,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic
+30,"Wed, Mar 12, 2025",,Box Score,N,Manhattan,W,,58,51,26,4,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic
+31,"Fri, Mar 14, 2025",,Box Score,N,Mount St. Mary's,W,,49,48,27,4,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic
+32,"Sat, Mar 15, 2025",,Box Score,N,Quinnipiac,W,,76,53,28,4,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic
+33,"Fri, Mar 21, 2025",,Box Score,N,Kansas State,L,,41,85,28,5,M. Andersen · K. L'Amoreaux · K. McGruder · I. Nicoletti Leite · E. Selimovic

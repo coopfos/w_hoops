@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,North Florida,W,,119,49,1,0,O. Gordon · T. Latson · M. Timpson · C. Viegas · M. Williams
+2,"Thu, Nov 7, 2024",,Box Score,@,Illinois,L,,74,83,1,1,O. Gordon · T. Latson · M. Timpson · C. Viegas · M. Williams
+3,"Mon, Nov 11, 2024",,Box Score,,Florida A&M,W,,93,54,2,1,O. Gordon · T. Latson · M. Timpson · C. Viegas · M. Williams
+4,"Thu, Nov 14, 2024",,Box Score,,Samford,W,,101,68,3,1,S. Bowles · O. Gordon · M. Timpson · C. Viegas · M. Williams
+5,"Mon, Nov 18, 2024",,Box Score,,North Carolina Central,W,,119,57,4,1,O. Gordon · T. Latson · M. Timpson · C. Viegas · M. Williams
+6,"Fri, Nov 22, 2024",,Box Score,,Florida,W,,98,74,5,1,O. Gordon · T. Latson · M. Timpson · C. Viegas · M. Williams
+7,"Thu, Nov 28, 2024",,Box Score,N,Texas Tech,W,,70,62,6,1,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+8,"Fri, Nov 29, 2024",,Box Score,N,Missouri State,W,,97,66,7,1,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+9,"Sat, Nov 30, 2024",,Box Score,N,Gonzaga,W,,95,54,8,1,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+10,"Wed, Dec 4, 2024",,Box Score,@,Tennessee,L,,77,79,8,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,,Southern Methodist,W,,93,85,9,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+12,"Sun, Dec 15, 2024",,Box Score,,Drexel,W,,101,51,10,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+13,"Thu, Dec 19, 2024",,Box Score,,Jacksonville,W,,97,74,11,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+14,"Thu, Jan 2, 2025",,Box Score,@,Virginia Tech,W,,105,74,12,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+15,"Sun, Jan 5, 2025",,Box Score,,Syracuse,W,,85,73,13,2,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+16,"Thu, Jan 9, 2025",,Box Score,@,Stanford,L,,84,89,13,3,O. Gordon · T. Latson · M. Timpson · B. Turnage · C. Viegas
+17,"Sun, Jan 12, 2025",,Box Score,@,California,L,,70,82,13,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · B. Turnage
+18,"Thu, Jan 16, 2025",,Box Score,,Clemson,W,,82,67,14,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+19,"Sun, Jan 19, 2025",,Box Score,,Miami (FL),W,,88,66,15,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+20,"Sun, Jan 26, 2025",,Box Score,@,North Carolina,W,,86,84,16,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,@,Boston College,W,,104,80,17,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+22,"Sun, Feb 2, 2025",,Box Score,,Wake Forest,W,,97,68,18,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+23,"Thu, Feb 6, 2025",,Box Score,@,Virginia,W,,101,68,19,4,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+24,"Sun, Feb 9, 2025",,Box Score,,NC State,L,,74,97,19,5,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+25,"Thu, Feb 13, 2025",,Box Score,,Louisville,L,,69,83,19,6,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+26,"Sun, Feb 16, 2025",,Box Score,@,Miami (FL),W,,83,82,20,6,A. Bonner · S. Bowles · O. Gordon · M. Timpson · M. Williams
+27,"Thu, Feb 20, 2025",,Box Score,,Pittsburgh,W,,69,55,21,6,A. Bonner · S. Bowles · R. Dos Santos · M. Timpson · M. Williams
+28,"Sun, Feb 23, 2025",,Box Score,@,Georgia Tech,W,,73,70,22,6,A. Bonner · S. Bowles · M. Timpson · C. Viegas · M. Williams
+29,"Thu, Feb 27, 2025",,Box Score,@,Notre Dame,W,,86,81,23,6,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+30,"Sun, Mar 2, 2025",,Box Score,,Duke,L,,57,71,23,7,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+31,"Fri, Mar 7, 2025",,Box Score,N,North Carolina,L,,56,60,23,8,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+32,"Sat, Mar 22, 2025",,Box Score,N,George Mason,W,,94,59,24,8,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams
+33,"Mon, Mar 24, 2025",,Box Score,@,Louisiana State,L,,71,101,24,9,S. Bowles · O. Gordon · T. Latson · M. Timpson · M. Williams

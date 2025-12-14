@@ -1,0 +1,41 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Troy,W,,80,78,1,0,L. Cornfield · T. Harness · K. Lewis-Williams · A. Seawell · C. Watson
+2,"Fri, Nov 8, 2024",,Box Score,,Buffalo State,W,,123,44,2,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+3,"Wed, Nov 13, 2024",,Box Score,@,Maryland-Eastern Shore,W,,56,46,3,0,L. Cornfield · T. Harness · K. Lewis-Williams · A. Seawell · C. Watson
+4,"Mon, Nov 18, 2024",,Box Score,,Cedarville,W,,77,57,4,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+5,"Fri, Nov 22, 2024",,Box Score,@,Canisius,W,,62,50,5,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+6,"Tue, Nov 26, 2024",,Box Score,@,Niagara,W,,86,53,6,0,A. Davis · T. Harness · K. Lewis-Williams · P. Lopez · C. Watson
+7,"Sat, Nov 30, 2024",,Box Score,,St. Bonaventure,W,,74,46,7,0,A. Davis · T. Harness · K. Lewis-Williams · P. Lopez · C. Watson
+8,"Wed, Dec 4, 2024",,Box Score,,Binghamton,W,,74,51,8,0,A. Davis · T. Harness · K. Lewis-Williams · P. Lopez · C. Watson
+9,"Sat, Dec 14, 2024",,Box Score,,Stony Brook,W,,72,55,9,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+10,"Thu, Dec 19, 2024",,Box Score,,Vermont,W,,70,68,10,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 28, 2024",,Box Score,@,Le Moyne,W,,107,59,11,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+12,"Wed, Jan 1, 2025",,Box Score,,Central Michigan,W,,81,55,12,0,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+13,"Sun, Jan 5, 2025",,Box Score,@,Kent State,L,,73,82,12,1,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+14,"Wed, Jan 8, 2025",,Box Score,@,Bowling Green,W,,70,60,13,1,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+15,"Sat, Jan 11, 2025",,Box Score,,Ball State,L,,56,78,13,2,L. Cornfield · A. Davis · T. Harness · K. Lewis-Williams · C. Watson
+16,"Wed, Jan 15, 2025",,Box Score,@,Eastern Michigan,W,,77,55,14,2,L. Cornfield · A. Davis · S. Gines · K. Lewis-Williams · C. Watson
+17,"Sat, Jan 18, 2025",,Box Score,,Miami (OH),W,,59,51,15,2,L. Cornfield · A. Davis · S. Gines · K. Lewis-Williams · C. Watson
+18,"Wed, Jan 22, 2025",,Box Score,,Ohio,W,,72,55,16,2,L. Cornfield · S. Gines · K. Lewis-Williams · A. Seawell · C. Watson
+19,"Sat, Jan 25, 2025",,Box Score,@,Akron,W,,80,71,17,2,L. Cornfield · A. Davis · S. Gines · A. Seawell · C. Watson
+20,"Wed, Jan 29, 2025",,Box Score,@,Western Michigan,W,,73,40,18,2,L. Cornfield · S. Gines · K. Lewis-Williams · A. Seawell · C. Watson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,,Northern Illinois,W,,84,58,19,2,L. Cornfield · A. Davis · S. Gines · K. Lewis-Williams · C. Watson
+22,"Wed, Feb 5, 2025",,Box Score,,Toledo,L,,55,58,19,3,J. Beaty · L. Cornfield · S. Gines · K. Lewis-Williams · C. Watson
+23,"Sat, Feb 8, 2025",,Box Score,@,Coastal Carolina,L,,65,73,19,4,L. Cornfield · A. Davis · S. Gines · K. Lewis-Williams · C. Watson
+24,"Sat, Feb 15, 2025",,Box Score,@,Ohio,W,,79,67,20,4,A. Davis · S. Gines · K. Lewis-Williams · P. Lopez · C. Watson
+25,"Wed, Feb 19, 2025",,Box Score,,Kent State,W,,76,70,21,4,J. Beaty · S. Gines · K. Lewis-Williams · P. Lopez · C. Watson
+26,"Sat, Feb 22, 2025",,Box Score,@,Miami (OH),W,,68,54,22,4,J. Beaty · S. Gines · K. Lewis-Williams · P. Lopez · C. Watson
+27,"Wed, Feb 26, 2025",,Box Score,@,Toledo,L,,68,71,22,5,J. Beaty · S. Gines · K. Lewis-Williams · P. Lopez · C. Watson
+28,"Sat, Mar 1, 2025",,Box Score,,Eastern Michigan,W,,71,54,23,5,J. Beaty · S. Gines · K. Lewis-Williams · P. Lopez · C. Watson
+29,"Wed, Mar 5, 2025",,Box Score,@,Ball State,L,,60,72,23,6,J. Beaty · L. Cornfield · S. Gines · K. Lewis-Williams · C. Watson
+30,"Sat, Mar 8, 2025",,Box Score,,Western Michigan,W,,80,54,24,6,J. Beaty · L. Cornfield · S. Gines · K. Lewis-Williams · C. Watson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Wed, Mar 12, 2025",,Box Score,N,Bowling Green,W,,65,63,25,6,J. Beaty · L. Cornfield · S. Gines · K. Lewis-Williams · C. Watson
+32,"Fri, Mar 14, 2025",,Box Score,N,Toledo,L,,49,56,25,7,L. Cornfield · A. Davis · S. Gines · K. Lewis-Williams · C. Watson
+33,"Sun, Mar 23, 2025",,Box Score,,Massachusetts,W,OT,84,82,26,7,J. Beaty · L. Cornfield · K. Lewis-Williams · P. Lopez · C. Watson
+34,"Thu, Mar 27, 2025",,Box Score,@,Southern Indiana,W,,76,64,27,7,J. Beaty · L. Cornfield · K. Lewis-Williams · P. Lopez · C. Watson
+35,"Sun, Mar 30, 2025",,Box Score,,Rutgers,W,,71,64,28,7,J. Beaty · L. Cornfield · K. Lewis-Williams · P. Lopez · C. Watson
+36,"Wed, Apr 2, 2025",,Box Score,,Cleveland State,W,,74,69,29,7,J. Beaty · L. Cornfield · K. Lewis-Williams · P. Lopez · C. Watson
+37,"Sat, Apr 5, 2025",,Box Score,,Troy,W,,88,84,30,7,J. Beaty · L. Cornfield · S. Gines · K. Lewis-Williams · C. Watson

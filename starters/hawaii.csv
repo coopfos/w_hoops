@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Thu, Nov 7, 2024",,Box Score,@,Portland,L,,65,76,0,1,M. McBee · I. Perez · D. Phillips · B. Rewers · L. Wahinekapu
+2,"Sat, Nov 9, 2024",,Box Score,@,Portland State,W,,72,50,1,1,M. 'Uhila · K. Imai · J. Peacock · D. Phillips · R. Tamilo
+3,"Fri, Nov 22, 2024",,Box Score,,Louisiana-Monroe,W,,69,64,2,1,M. McBee · I. Perez · D. Phillips · R. Tamilo · L. Wahinekapu
+4,"Sun, Nov 24, 2024",,Box Score,,Eastern Washington,W,,67,55,3,1,M. McBee · I. Perez · D. Phillips · R. Tamilo · L. Wahinekapu
+5,"Fri, Nov 29, 2024",,Box Score,,Fresno State,W,,50,47,4,1,M. McBee · I. Perez · D. Phillips · R. Tamilo · L. Wahinekapu
+6,"Sat, Nov 30, 2024",,Box Score,,Tennessee-Martin,W,,47,39,5,1,M. McBee · I. Perez · D. Phillips · R. Tamilo · L. Wahinekapu
+7,"Sun, Dec 1, 2024",,Box Score,,UCLA,L,,49,70,5,2,M. McBee · I. Perez · D. Phillips · B. Rewers · L. Wahinekapu
+8,"Sun, Dec 8, 2024",,Box Score,,Long Beach State,L,OT,69,73,5,3,M. McBee · I. Perez · D. Phillips · R. Tamilo · L. Wahinekapu
+9,"Tue, Dec 17, 2024",,Box Score,,Arkansas-Pine Bluff,W,,56,15,6,3,J. Lefotu · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+10,"Fri, Dec 20, 2024",,Box Score,N,Clemson,L,,58,72,6,4,K. Filemu · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,@,San Diego State,L,,52,54,6,5,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+12,"Thu, Jan 2, 2025",,Box Score,@,UC Santa Barbara,L,,62,72,6,6,M. McBee · J. Peacock · D. Phillips · R. Tamilo · L. Wahinekapu
+13,"Sat, Jan 4, 2025",,Box Score,@,Cal Poly,W,,62,50,7,6,M. McBee · J. Peacock · D. Phillips · R. Tamilo · L. Wahinekapu
+14,"Fri, Jan 10, 2025",,Box Score,,UC Riverside,W,,61,47,8,6,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+15,"Sun, Jan 12, 2025",,Box Score,,Cal State Fullerton,W,,54,44,9,6,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+16,"Thu, Jan 16, 2025",,Box Score,@,Cal State Northridge,W,,75,47,10,6,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+17,"Sat, Jan 18, 2025",,Box Score,@,Cal State Bakersfield,W,,66,37,11,6,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+18,"Fri, Jan 24, 2025",,Box Score,,UC Davis,W,,56,46,12,6,M. McBee · J. Peacock · I. Perez · R. Tamilo · L. Wahinekapu
+19,"Sun, Jan 26, 2025",,Box Score,,UC Irvine,W,,46,42,13,6,M. 'Uhila · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+20,"Thu, Jan 30, 2025",,Box Score,@,UC San Diego,W,OT,65,63,14,6,M. 'Uhila · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,@,Cal State Fullerton,W,,54,47,15,6,M. 'Uhila · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+22,"Fri, Feb 7, 2025",,Box Score,,Cal Poly,W,,67,43,16,6,M. 'Uhila · K. Imai · M. McBee · I. Perez · R. Tamilo
+23,"Sun, Feb 9, 2025",,Box Score,,UC Santa Barbara,W,,65,58,17,6,M. 'Uhila · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+24,"Thu, Feb 13, 2025",,Box Score,@,Long Beach State,W,,72,65,18,6,M. 'Uhila · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+25,"Sat, Feb 15, 2025",,Box Score,@,UC Irvine,W,,49,44,19,6,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+26,"Sun, Feb 23, 2025",,Box Score,,UC San Diego,W,,49,44,20,6,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+27,"Thu, Feb 27, 2025",,Box Score,@,UC Riverside,L,,51,61,20,7,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+28,"Sat, Mar 1, 2025",,Box Score,@,UC Davis,L,,66,74,20,8,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+29,"Fri, Mar 7, 2025",,Box Score,,Cal State Bakersfield,W,,66,51,21,8,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+30,"Sun, Mar 9, 2025",,Box Score,,Cal State Northridge,W,,62,36,22,8,M. 'Uhila · K. Imai · M. McBee · B. Rewers · L. Wahinekapu
+31,"Fri, Mar 14, 2025",,Box Score,N,UC San Diego,L,,49,51,22,9,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu
+32,"Thu, Mar 20, 2025",,Box Score,@,Nevada-Las Vegas,L,,46,63,22,10,K. Imai · M. McBee · I. Perez · R. Tamilo · L. Wahinekapu

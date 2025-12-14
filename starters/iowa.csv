@@ -1,0 +1,37 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Wed, Nov 6, 2024",,Box Score,,Northern Illinois,W,,91,73,1,0,K. Feuerbach · T. McCabe · A. O'Grady · L. Olsen · H. Stuelke
+2,"Sun, Nov 10, 2024",,Box Score,N,Virginia Tech,W,,71,52,2,0,K. Feuerbach · T. McCabe · A. O'Grady · L. Olsen · H. Stuelke
+3,"Wed, Nov 13, 2024",,Box Score,,Toledo,W,,94,57,3,0,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+4,"Sun, Nov 17, 2024",,Box Score,@,Drake,W,,86,73,4,0,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+5,"Wed, Nov 20, 2024",,Box Score,N,Kansas,W,,71,58,5,0,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+6,"Sun, Nov 24, 2024",,Box Score,,Washington State,W,,72,43,6,0,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+7,"Thu, Nov 28, 2024",,Box Score,N,Rhode Island,W,,69,62,7,0,S. Affolter · K. Feuerbach · A. O'Grady · T. Stremlow · H. Stuelke
+8,"Fri, Nov 29, 2024",,Box Score,N,Brigham Young,W,,68,48,8,0,S. Affolter · K. Feuerbach · A. O'Grady · T. Stremlow · H. Stuelke
+9,"Sat, Dec 7, 2024",,Box Score,N,Tennessee,L,,68,78,8,1,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+10,"Wed, Dec 11, 2024",,Box Score,,Iowa State,W,,75,69,9,1,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,@,Michigan State,L,,66,68,9,2,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+12,"Fri, Dec 20, 2024",,Box Score,,Northern Iowa,W,,92,86,10,2,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+13,"Sun, Dec 29, 2024",,Box Score,,Purdue,W,,84,63,11,2,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+14,"Wed, Jan 1, 2025",,Box Score,@,Penn State,W,,80,68,12,2,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+15,"Sun, Jan 5, 2025",,Box Score,,Maryland,L,,66,74,12,3,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+16,"Thu, Jan 9, 2025",,Box Score,@,Illinois,L,,57,62,12,4,S. Affolter · K. Feuerbach · A. Guyton · L. Olsen · H. Stuelke
+17,"Sun, Jan 12, 2025",,Box Score,,Indiana,L,,67,74,12,5,S. Affolter · K. Feuerbach · A. O'Grady · L. Olsen · H. Stuelke
+18,"Thu, Jan 16, 2025",,Box Score,,Nebraska,L,OT,84,87,12,6,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+19,"Sun, Jan 19, 2025",,Box Score,@,Oregon,L,,49,50,12,7,S. Affolter · K. Feuerbach · T. McCabe · A. O'Grady · L. Olsen
+20,"Wed, Jan 22, 2025",,Box Score,@,Washington,W,,85,61,13,7,S. Affolter · K. Feuerbach · T. McCabe · A. O'Grady · L. Olsen
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Tue, Jan 28, 2025",,Box Score,,Northwestern,W,,85,80,14,7,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+22,"Sun, Feb 2, 2025",,Box Score,,Southern California,W,,76,69,15,7,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+23,"Thu, Feb 6, 2025",,Box Score,@,Minnesota,W,,68,60,16,7,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+24,"Mon, Feb 10, 2025",,Box Score,@,Nebraska,W,,81,66,17,7,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+25,"Thu, Feb 13, 2025",,Box Score,,Rutgers,W,,55,43,18,7,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+26,"Mon, Feb 17, 2025",,Box Score,@,Ohio State,L,OT,78,86,18,8,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+27,"Sun, Feb 23, 2025",,Box Score,,UCLA,L,,65,67,18,9,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+28,"Wed, Feb 26, 2025",,Box Score,@,Michigan,W,,79,66,19,9,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+29,"Sun, Mar 2, 2025",,Box Score,,Wisconsin,W,,81,66,20,9,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+30,"Wed, Mar 5, 2025",,Box Score,N,Wisconsin,W,,81,54,21,9,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+31,"Thu, Mar 6, 2025",,Box Score,N,Michigan State,W,,74,61,22,9,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+32,"Fri, Mar 7, 2025",,Box Score,N,Ohio State,L,,59,60,22,10,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+33,"Sat, Mar 22, 2025",,Box Score,N,Murray State,W,,92,57,23,10,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke
+34,"Mon, Mar 24, 2025",,Box Score,@,Oklahoma,L,,62,96,23,11,S. Affolter · K. Feuerbach · T. McCabe · L. Olsen · H. Stuelke

@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,James Madison,L,,56,67,0,1,J. Batsch · B. Dunn · K. Perkins · R. Rismiller · T. Thomas
+2,"Thu, Nov 7, 2024",,Box Score,,Walsh,W,,113,54,1,1,J. Batsch · B. Dunn · M. Murray · K. Perkins · R. Rismiller
+3,"Thu, Nov 14, 2024",,Box Score,@,NC State,L,,51,79,1,2,M. Babbitt · J. Batsch · B. Dunn · R. Rismiller · T. Thomas
+4,"Sat, Nov 16, 2024",,Box Score,@,Elon,L,,63,66,1,3,M. Babbitt · J. Batsch · B. Dunn · J. Hildebrand · R. Rismiller
+5,"Wed, Nov 20, 2024",,Box Score,,Duquesne,W,,81,61,2,3,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+6,"Sat, Nov 23, 2024",,Box Score,,Xavier,W,,89,69,3,3,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+7,"Thu, Nov 28, 2024",,Box Score,N,Brown,W,,74,51,4,3,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+8,"Fri, Nov 29, 2024",,Box Score,N,Colorado State,L,,54,60,4,4,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+9,"Thu, Dec 5, 2024",,Box Score,@,Niagara,W,,89,73,5,4,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+10,"Mon, Dec 16, 2024",,Box Score,,VU Lynchburg,W,,103,41,6,4,M. Babbitt · J. Batsch · B. Dunn · M. Murray · R. Rismiller
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Thu, Dec 19, 2024",,Box Score,@,Coppin State,L,OT,61,67,6,5,M. Babbitt · J. Batsch · B. Dunn · D. Gray · R. Rismiller
+12,"Sun, Dec 29, 2024",,Box Score,,John Carroll,W,,97,59,7,5,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+13,"Wed, Jan 1, 2025",,Box Score,,Bowling Green,W,,81,71,8,5,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+14,"Sun, Jan 5, 2025",,Box Score,,Buffalo,W,,82,73,9,5,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+15,"Wed, Jan 8, 2025",,Box Score,@,Toledo,L,,59,70,9,6,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+16,"Sat, Jan 11, 2025",,Box Score,@,Ohio,W,,79,64,10,6,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+17,"Wed, Jan 15, 2025",,Box Score,,Ball State,L,,57,66,10,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+18,"Sat, Jan 18, 2025",,Box Score,,Western Michigan,W,,80,50,11,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+19,"Wed, Jan 22, 2025",,Box Score,@,Central Michigan,W,,77,56,12,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+20,"Sat, Jan 25, 2025",,Box Score,@,Miami (OH),W,,77,63,13,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 29, 2025",,Box Score,,Eastern Michigan,W,,79,59,14,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+22,"Sat, Feb 1, 2025",,Box Score,,Akron,W,,73,51,15,7,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+23,"Wed, Feb 5, 2025",,Box Score,@,Northern Illinois,L,,69,73,15,8,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+24,"Sat, Feb 8, 2025",,Box Score,@,Troy,W,,84,73,16,8,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+25,"Sat, Feb 15, 2025",,Box Score,,Miami (OH),L,,62,64,16,9,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+26,"Wed, Feb 19, 2025",,Box Score,@,Buffalo,L,,70,76,16,10,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+27,"Sat, Feb 22, 2025",,Box Score,@,Ball State,W,,60,54,17,10,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+28,"Wed, Feb 26, 2025",,Box Score,,Northern Illinois,W,,76,58,18,10,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+29,"Sat, Mar 1, 2025",,Box Score,@,Akron,W,,64,44,19,10,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+30,"Wed, Mar 5, 2025",,Box Score,@,Bowling Green,L,,61,84,19,11,M. Babbitt · J. Batsch · B. Dunn · D. Gray · T. Thomas
+31,"Sat, Mar 8, 2025",,Box Score,,Toledo,W,,69,62,20,11,J. Batsch · B. Dunn · D. Gray · B. Juzzo · L. Linton
+32,"Wed, Mar 12, 2025",,Box Score,N,Miami (OH),W,,68,61,21,11,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler
+33,"Fri, Mar 14, 2025",,Box Score,N,Ball State,L,,53,70,21,12,M. Babbitt · J. Batsch · B. Dunn · D. Gray · J. Tyler

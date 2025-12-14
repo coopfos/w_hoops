@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,San Francisco,W,,52,47,1,0,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+2,"Fri, Nov 8, 2024",,Box Score,,Oregon State,W,,65,59,2,0,M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental · S. Strom
+3,"Wed, Nov 13, 2024",,Box Score,@,Brigham Young,L,,55,69,2,1,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+4,"Sat, Nov 16, 2024",,Box Score,,Columbia College,W,,85,28,3,1,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+5,"Tue, Nov 19, 2024",,Box Score,,Southern,W,,78,47,4,1,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+6,"Sat, Nov 23, 2024",,Box Score,,Northern Arizona,L,,80,84,4,2,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+7,"Mon, Nov 25, 2024",,Box Score,,Black Hills State,W,,59,39,5,2,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+8,"Fri, Nov 29, 2024",,Box Score,N,Kent State,W,,60,54,6,2,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+9,"Sat, Nov 30, 2024",,Box Score,N,Brown,L,,63,69,6,3,K. Froebe · E. Ronsiek · H. Ronsiek · H. Simental · S. Strom
+10,"Sun, Dec 8, 2024",,Box Score,,Gonzaga,W,OT,74,72,7,3,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Mon, Dec 16, 2024",,Box Score,,UTEP,W,,70,52,8,3,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+12,"Fri, Dec 20, 2024",,Box Score,N,Georgia,W,,72,56,9,3,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+13,"Sat, Dec 21, 2024",,Box Score,N,Stephen F. Austin,L,,69,80,9,4,K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek · S. Strom
+14,"Sun, Dec 29, 2024",,Box Score,@,Utah State,W,,83,74,10,4,B. Carlson · K. Froebe · E. Ronsiek · H. Ronsiek · J. Vaz
+15,"Wed, Jan 1, 2025",,Box Score,,San Diego State,W,,67,56,11,4,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · J. Vaz
+16,"Sat, Jan 4, 2025",,Box Score,,San Jose State,W,,87,51,12,4,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · J. Vaz
+17,"Wed, Jan 8, 2025",,Box Score,@,Nevada-Las Vegas,L,,61,70,12,5,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · J. Vaz
+18,"Wed, Jan 15, 2025",,Box Score,@,San Diego State,W,,62,58,13,5,B. Carlson · K. Froebe · M. Leimane · E. Ronsiek · H. Ronsiek
+19,"Sat, Jan 18, 2025",,Box Score,,New Mexico,L,,74,78,13,6,K. Froebe · K. Headrick · M. Leimane · E. Ronsiek · H. Ronsiek
+20,"Tue, Jan 21, 2025",,Box Score,,Boise State,W,,79,70,14,6,B. Carlson · K. Froebe · E. Ronsiek · H. Ronsiek · H. Simental
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Wyoming,W,,61,56,15,6,B. Carlson · K. Froebe · E. Ronsiek · H. Ronsiek · H. Simental
+22,"Sat, Feb 1, 2025",,Box Score,,Air Force,L,,71,75,15,7,B. Carlson · K. Froebe · E. Ronsiek · H. Ronsiek · H. Simental
+23,"Tue, Feb 4, 2025",,Box Score,@,New Mexico,W,,69,63,16,7,K. Headrick · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+24,"Sat, Feb 8, 2025",,Box Score,@,Boise State,W,,67,61,17,7,K. Headrick · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+25,"Wed, Feb 12, 2025",,Box Score,,Utah State,W,,72,54,18,7,B. Carlson · K. Headrick · E. Ronsiek · H. Ronsiek · H. Simental
+26,"Sat, Feb 15, 2025",,Box Score,@,Air Force,W,,65,58,19,7,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+27,"Wed, Feb 19, 2025",,Box Score,,Fresno State,W,,68,48,20,7,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+28,"Sat, Feb 22, 2025",,Box Score,,Nevada-Las Vegas,L,,65,69,20,8,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+29,"Wed, Feb 26, 2025",,Box Score,@,Nevada,W,,61,45,21,8,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+30,"Sat, Mar 1, 2025",,Box Score,,Wyoming,L,,55,68,21,9,M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental · J. Vaz
+31,"Tue, Mar 4, 2025",,Box Score,@,San Jose State,W,,90,70,22,9,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental
+32,"Mon, Mar 10, 2025",,Box Score,N,Fresno State,L,,52,54,22,10,B. Carlson · M. Leimane · E. Ronsiek · H. Ronsiek · H. Simental

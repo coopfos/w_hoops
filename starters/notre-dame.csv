@@ -1,0 +1,37 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Mercyhurst,W,,105,61,1,0,H. Hidalgo · L. King · K. Koval · O. Miles · C. Prosper
+2,"Sun, Nov 10, 2024",,Box Score,@,Purdue,W,,102,58,2,0,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+3,"Wed, Nov 13, 2024",,Box Score,,James Madison,W,,92,46,3,0,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+4,"Sun, Nov 17, 2024",,Box Score,@,Lafayette,W,,91,55,4,0,S. Citron · H. Hidalgo · K. Koval · O. Miles · C. Prosper
+5,"Sat, Nov 23, 2024",,Box Score,@,Southern California,W,,74,61,5,0,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+6,"Fri, Nov 29, 2024",,Box Score,N,TCU,L,,68,76,5,1,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+7,"Sat, Nov 30, 2024",,Box Score,N,Utah,L,,67,78,5,2,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+8,"Thu, Dec 5, 2024",,Box Score,,Texas,W,OT,80,70,6,2,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+9,"Sun, Dec 8, 2024",,Box Score,@,Syracuse,W,,93,62,7,2,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+10,"Thu, Dec 12, 2024",,Box Score,,Connecticut,W,,79,68,8,2,S. Citron · H. Hidalgo · L. King · K. Koval · O. Miles
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Eastern Michigan,W,,118,49,9,2,S. Citron · H. Hidalgo · L. Karlen · L. King · O. Miles
+12,"Sun, Dec 22, 2024",,Box Score,,Loyola (MD),W,,97,54,10,2,H. Hidalgo · L. Karlen · L. King · O. Miles · C. Prosper
+13,"Sun, Dec 29, 2024",,Box Score,,Virginia,W,,95,54,11,2,S. Citron · H. Hidalgo · L. Karlen · L. King · O. Miles
+14,"Sun, Jan 5, 2025",,Box Score,@,North Carolina,W,,76,66,12,2,S. Citron · H. Hidalgo · L. Karlen · L. King · O. Miles
+15,"Thu, Jan 9, 2025",,Box Score,,Wake Forest,W,,100,64,13,2,S. Citron · H. Hidalgo · L. Karlen · L. King · O. Miles
+16,"Sun, Jan 12, 2025",,Box Score,@,Clemson,W,,67,58,14,2,S. Citron · L. Karlen · L. King · O. Miles · C. Prosper
+17,"Thu, Jan 16, 2025",,Box Score,,Georgia Tech,W,,81,66,15,2,S. Citron · L. Karlen · L. King · O. Miles · M. Westbeld
+18,"Sun, Jan 19, 2025",,Box Score,,Southern Methodist,W,,88,64,16,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+19,"Thu, Jan 23, 2025",,Box Score,@,Boston College,W,,89,63,17,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+20,"Thu, Jan 30, 2025",,Box Score,@,Virginia Tech,W,,77,61,18,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Feb 2, 2025",,Box Score,@,Louisville,W,,89,71,19,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+22,"Thu, Feb 6, 2025",,Box Score,,Stanford,W,,96,47,20,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+23,"Sun, Feb 9, 2025",,Box Score,,California,W,,91,52,21,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+24,"Thu, Feb 13, 2025",,Box Score,@,Pittsburgh,W,,88,57,22,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+25,"Mon, Feb 17, 2025",,Box Score,,Duke,W,,64,49,23,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+26,"Thu, Feb 20, 2025",,Box Score,@,Miami (FL),W,,82,42,24,2,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+27,"Sun, Feb 23, 2025",,Box Score,@,NC State,L,2OT,95,104,24,3,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+28,"Thu, Feb 27, 2025",,Box Score,,Florida State,L,,81,86,24,4,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+29,"Sun, Mar 2, 2025",,Box Score,,Louisville,W,,72,59,25,4,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+30,"Fri, Mar 7, 2025",,Box Score,N,California,W,,73,64,26,4,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+31,"Sat, Mar 8, 2025",,Box Score,N,Duke,L,,56,61,26,5,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+32,"Fri, Mar 21, 2025",,Box Score,,Stephen F. Austin,W,,106,54,27,5,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+33,"Sun, Mar 23, 2025",,Box Score,,Michigan,W,,76,55,28,5,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld
+34,"Sat, Mar 29, 2025",,Box Score,N,TCU,L,,62,71,28,6,S. Citron · H. Hidalgo · L. King · O. Miles · M. Westbeld

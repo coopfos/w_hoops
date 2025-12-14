@@ -1,0 +1,40 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Central Connecticut State,W,,89,48,1,0,A. Battle · M. Braun · G. Grocholski · S. Hart · M. Heyer
+2,"Fri, Nov 8, 2024",,Box Score,,Vermont,W,,74,52,2,0,A. Battle · M. Braun · G. Grocholski · S. Hart · M. Heyer
+3,"Tue, Nov 12, 2024",,Box Score,,Massachusetts-Lowell,W,,82,37,3,0,A. Battle · M. Braun · G. Grocholski · S. Hart · M. Heyer
+4,"Sat, Nov 16, 2024",,Box Score,N,Oregon State,W,,73,38,4,0,A. Battle · M. Braun · G. Grocholski · S. Hart · M. Heyer
+5,"Sun, Nov 17, 2024",,Box Score,N,Southern Methodist,W,,65,56,5,0,A. Battle · M. Braun · G. Grocholski · S. Hart · M. Heyer
+6,"Wed, Nov 20, 2024",,Box Score,,Eastern Illinois,W,,81,52,6,0,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+7,"Sun, Nov 24, 2024",,Box Score,,Montana,W,,84,45,7,0,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+8,"Fri, Nov 29, 2024",,Box Score,N,Houston,W,,61,44,8,0,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+9,"Sat, Nov 30, 2024",,Box Score,N,Louisiana,W,,68,48,9,0,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+10,"Tue, Dec 3, 2024",,Box Score,,North Florida,W,,90,44,10,0,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,@,Nebraska,L,,65,84,10,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+12,"Wed, Dec 11, 2024",,Box Score,,Jackson State,W,,81,43,11,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+13,"Fri, Dec 20, 2024",,Box Score,,Prairie View,W,,96,57,12,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+14,"Sat, Dec 28, 2024",,Box Score,,Penn State,W,,90,54,13,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+15,"Tue, Dec 31, 2024",,Box Score,@,Wisconsin,W,,59,50,14,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+16,"Sun, Jan 5, 2025",,Box Score,,Illinois,W,,68,61,15,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+17,"Wed, Jan 8, 2025",,Box Score,,Rutgers,W,,76,50,16,1,A. Battle · G. Grocholski · S. Hart · M. Heyer · A. Rose
+18,"Tue, Jan 14, 2025",,Box Score,@,Maryland,L,,92,99,16,2,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+19,"Sun, Jan 19, 2025",,Box Score,@,Northwestern,W,,87,82,17,2,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+20,"Wed, Jan 22, 2025",,Box Score,,Michigan,L,,65,70,17,3,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Jan 26, 2025",,Box Score,,Wisconsin,W,,71,50,18,3,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+22,"Thu, Jan 30, 2025",,Box Score,@,Southern California,L,,69,82,18,4,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+23,"Sun, Feb 2, 2025",,Box Score,@,UCLA,L,,53,79,18,5,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+24,"Thu, Feb 6, 2025",,Box Score,,Iowa,L,,60,68,18,6,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+25,"Sun, Feb 9, 2025",,Box Score,,Indiana,W,,66,56,19,6,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+26,"Thu, Feb 13, 2025",,Box Score,@,Ohio State,L,OT,84,87,19,7,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+27,"Sun, Feb 16, 2025",,Box Score,,Oregon,L,,70,76,19,8,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+28,"Wed, Feb 19, 2025",,Box Score,@,Purdue,W,,74,61,20,8,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+29,"Wed, Feb 26, 2025",,Box Score,,Washington,L,,62,72,20,9,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+30,"Sat, Mar 1, 2025",,Box Score,@,Michigan State,L,,58,73,20,10,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Wed, Mar 5, 2025",,Box Score,N,Washington,L,,65,79,20,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+32,"Thu, Mar 20, 2025",,Box Score,@,Toledo,W,,65,53,21,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+33,"Sun, Mar 23, 2025",,Box Score,@,Missouri State,W,,78,71,22,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+34,"Thu, Mar 27, 2025",,Box Score,,Gonzaga,W,OT,82,77,23,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+35,"Mon, Mar 31, 2025",,Box Score,N,Florida,W,,66,52,24,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney
+36,"Wed, Apr 2, 2025",,Box Score,N,Belmont,W,,75,63,25,11,A. Battle · G. Grocholski · S. Hart · M. Heyer · T. McKinney

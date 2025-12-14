@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Middle Tennessee,L,,58,79,0,1,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+2,"Thu, Nov 7, 2024",,Box Score,@,Kentucky,L,,41,70,0,2,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+3,"Sun, Nov 10, 2024",,Box Score,@,Marshall,W,,80,78,1,2,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+4,"Fri, Nov 15, 2024",,Box Score,,Cedarville,W,,81,67,2,2,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+5,"Sun, Nov 17, 2024",,Box Score,@,Toledo,L,,73,76,2,3,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+6,"Sat, Nov 23, 2024",,Box Score,@,Southern Indiana,L,,73,75,2,4,M. Blevins · A. Hamilton · H. Idowu · J. Jones · A. Wolterman
+7,"Wed, Nov 27, 2024",,Box Score,@,Bradley,L,,57,62,2,5,M. Blevins · H. Idowu · J. Jones · K. Morgan · A. Wolterman
+8,"Sat, Nov 30, 2024",,Box Score,,Eastern Kentucky,L,,75,84,2,6,M. Blevins · H. Idowu · J. Jones · K. Morgan · A. Wolterman
+9,"Wed, Dec 4, 2024",,Box Score,@,Cleveland State,L,,54,67,2,7,H. Idowu · J. Jones · M. Meredith · K. Morgan · A. Wolterman
+10,"Sat, Dec 7, 2024",,Box Score,,Youngstown State,L,,47,56,2,8,H. Idowu · J. Jones · M. Meredith · K. Morgan · A. Wolterman
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Ball State,L,,51,77,2,9,J. Jones · M. Meredith · K. Morgan · G. Razzano · A. Wolterman
+12,"Thu, Dec 19, 2024",,Box Score,@,UC San Diego,W,,58,50,3,9,H. Idowu · J. Jones · M. Meredith · K. Morgan · A. Wolterman
+13,"Fri, Dec 20, 2024",,Box Score,N,La Salle,L,,67,70,3,10,H. Idowu · J. Jones · M. Meredith · K. Morgan · A. Wolterman
+14,"Sun, Dec 29, 2024",,Box Score,,Oakland,L,OT,85,86,3,11,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+15,"Thu, Jan 2, 2025",,Box Score,@,Green Bay,L,,59,78,3,12,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+16,"Sat, Jan 4, 2025",,Box Score,@,Milwaukee,W,,68,65,4,12,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+17,"Wed, Jan 8, 2025",,Box Score,,Robert Morris,W,,72,58,5,12,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+18,"Sat, Jan 11, 2025",,Box Score,,IU Indy,W,,80,63,6,12,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+19,"Wed, Jan 15, 2025",,Box Score,@,Youngstown State,L,,66,75,6,13,H. Idowu · J. Jones · M. Meredith · K. Morgan · A. Wolterman
+20,"Sat, Jan 18, 2025",,Box Score,@,Purdue Fort Wayne,L,,52,76,6,14,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 23, 2025",,Box Score,,Milwaukee,W,,66,62,7,14,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+22,"Sat, Jan 25, 2025",,Box Score,,Green Bay,L,,56,64,7,15,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+23,"Wed, Jan 29, 2025",,Box Score,,Detroit Mercy,W,,79,49,8,15,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+24,"Sat, Feb 1, 2025",,Box Score,@,Wright State,L,,67,75,8,16,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+25,"Sat, Feb 8, 2025",,Box Score,@,IU Indy,W,,82,79,9,16,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+26,"Wed, Feb 12, 2025",,Box Score,,Cleveland State,W,,72,69,10,16,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+27,"Sun, Feb 16, 2025",,Box Score,@,Robert Morris,L,,59,63,10,17,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+28,"Thu, Feb 20, 2025",,Box Score,,Purdue Fort Wayne,L,,57,69,10,18,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+29,"Sat, Feb 22, 2025",,Box Score,,Wright State,L,,62,68,10,19,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+30,"Thu, Feb 27, 2025",,Box Score,@,Detroit Mercy,L,,75,81,10,20,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+31,"Sat, Mar 1, 2025",,Box Score,@,Oakland,W,,61,58,11,20,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman
+32,"Thu, Mar 6, 2025",,Box Score,@,Robert Morris,L,,57,70,11,21,M. Blevins · H. Idowu · J. Jones · M. Meredith · A. Wolterman

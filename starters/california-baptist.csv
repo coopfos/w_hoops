@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Oregon,L,,63,93,0,1,F. Barros · N. Bosch Duran · E. Johansson · G. Schmidt · A. Tu'ua
+2,"Sat, Nov 9, 2024",,Box Score,@,Liberty,L,,44,72,0,2,F. Barros · N. Bosch Duran · E. Johansson · G. Schmidt · A. Tu'ua
+3,"Sat, Nov 16, 2024",,Box Score,,Pepperdine,L,,64,75,0,3,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+4,"Wed, Nov 20, 2024",,Box Score,,San Diego State,L,,66,78,0,4,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+5,"Sat, Nov 23, 2024",,Box Score,@,Portland,L,,66,85,0,5,N. Bosch Duran · E. Johansson · S. Nordstrom · G. Schmidt · A. Tu'ua
+6,"Tue, Nov 26, 2024",,Box Score,,Saint Louis,L,,70,82,0,6,N. Bosch Duran · E. Johansson · S. Nordstrom · G. Schmidt · A. Tu'ua
+7,"Fri, Nov 29, 2024",,Box Score,@,Florida Gulf Coast,L,,56,66,0,7,N. Bosch Duran · E. Johansson · S. Nordstrom · G. Schmidt · A. Tu'ua
+8,"Sat, Nov 30, 2024",,Box Score,N,Pennsylvania,L,,51,64,0,8,N. Bosch Duran · E. Johansson · S. Nordstrom · G. Schmidt · A. Tu'ua
+9,"Tue, Dec 3, 2024",,Box Score,@,Southern California,L,,52,94,0,9,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+10,"Sat, Dec 7, 2024",,Box Score,@,Saint Mary's (CA),W,,71,68,1,9,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Wed, Dec 11, 2024",,Box Score,@,Cal State Northridge,W,,73,71,2,9,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+12,"Sat, Dec 14, 2024",,Box Score,,UC San Diego,L,,58,81,2,10,C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua · S. White
+13,"Tue, Dec 17, 2024",,Box Score,,Middle Tennessee,L,,54,74,2,11,C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua · S. White
+14,"Thu, Dec 19, 2024",,Box Score,,Texas Southern,W,,72,58,3,11,C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua · S. White
+15,"Sat, Jan 4, 2025",,Box Score,@,Seattle,W,,70,64,4,11,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+16,"Sat, Jan 11, 2025",,Box Score,,Utah Valley,W,,77,50,5,11,N. Bosch Duran · C. Fiel · E. Johansson · K. Lemon · G. Schmidt
+17,"Thu, Jan 16, 2025",,Box Score,,Tarleton State,W,,73,72,6,11,N. Bosch Duran · C. Fiel · E. Johansson · C. Legaspi · K. Lemon
+18,"Sat, Jan 18, 2025",,Box Score,,Abilene Christian,L,,55,71,6,12,N. Bosch Duran · C. Fiel · E. Johansson · C. Legaspi · K. Lemon
+19,"Thu, Jan 23, 2025",,Box Score,@,Utah Valley,L,,50,59,6,13,N. Bosch Duran · C. Fiel · E. Johansson · C. Legaspi · K. Lemon
+20,"Sat, Jan 25, 2025",,Box Score,,Southern Utah,L,,63,64,6,14,N. Bosch Duran · C. Fiel · E. Johansson · C. Legaspi · K. Lemon
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,@,Abilene Christian,W,,87,84,7,14,N. Bosch Duran · E. Johansson · K. Lemon · G. Schmidt · A. Tu'ua
+22,"Thu, Feb 6, 2025",,Box Score,@,Southern Utah,W,,69,66,8,14,N. Bosch Duran · C. Fiel · E. Johansson · G. Schmidt · A. Tu'ua
+23,"Sat, Feb 8, 2025",,Box Score,@,Grand Canyon,L,,55,84,8,15,N. Bosch Duran · E. Johansson · K. Lemon · G. Schmidt · A. Tu'ua
+24,"Thu, Feb 13, 2025",,Box Score,,UT Arlington,W,,90,79,9,15,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+25,"Sat, Feb 15, 2025",,Box Score,@,Utah Tech,W,,81,75,10,15,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+26,"Sat, Feb 22, 2025",,Box Score,,Grand Canyon,L,,56,74,10,16,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+27,"Thu, Feb 27, 2025",,Box Score,,Seattle,W,,81,68,11,16,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+28,"Sat, Mar 1, 2025",,Box Score,,Utah Tech,W,,94,74,12,16,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+29,"Thu, Mar 6, 2025",,Box Score,@,Tarleton State,L,,44,75,12,17,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+30,"Sat, Mar 8, 2025",,Box Score,@,UT Arlington,L,,73,87,12,18,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua
+31,"Thu, Mar 13, 2025",,Box Score,N,UT Arlington,L,,66,72,12,19,N. Bosch Duran · C. Legaspi · K. Lemon · G. Schmidt · A. Tu'ua

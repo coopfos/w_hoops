@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,North Carolina Central,W,,96,52,1,0,A. Avinger · D. Flournoy · R. Makolo · T. Turner · M. Woolfolk
+2,"Fri, Nov 8, 2024",,Box Score,,Houston,W,,61,47,2,0,A. Avinger · A. Evans · D. Flournoy · R. Makolo · T. Turner
+3,"Sun, Nov 10, 2024",,Box Score,,Furman,W,,74,46,3,0,A. Avinger · A. Evans · D. Flournoy · R. Makolo · T. Turner
+4,"Thu, Nov 14, 2024",,Box Score,,Georgia State,L,,60,66,3,1,A. Avinger · A. Evans · D. Flournoy · R. Makolo · T. Turner
+5,"Sun, Nov 17, 2024",,Box Score,@,Georgia Tech,L,,67,83,3,2,A. Avinger · F. Diakhate · A. Evans · R. Makolo · T. Turner
+6,"Thu, Nov 21, 2024",,Box Score,N,Tulsa,W,,60,44,4,2,F. Diakhate · A. Evans · D. Flournoy · R. Makolo · T. Turner
+7,"Sat, Nov 23, 2024",,Box Score,N,Penn State,L,,47,67,4,3,A. Avinger · F. Diakhate · A. Evans · D. Flournoy · R. Makolo
+8,"Tue, Nov 26, 2024",,Box Score,,Prairie View,W,,79,62,5,3,A. Avinger · F. Diakhate · A. Evans · D. Flournoy · T. Turner
+9,"Sun, Dec 1, 2024",,Box Score,,Hampton,L,OT,74,76,5,4,A. Avinger · S. Davis · F. Diakhate · A. Evans · T. Turner
+10,"Wed, Dec 4, 2024",,Box Score,,Virginia Tech,L,,61,70,5,5,A. Avinger · S. Davis · F. Diakhate · R. Makolo · T. Turner
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Mon, Dec 16, 2024",,Box Score,,UNC Greensboro,W,,59,52,6,5,A. Avinger · S. Davis · F. Diakhate · R. Makolo · T. Turner
+12,"Thu, Dec 19, 2024",,Box Score,N,Clemson,W,,75,68,7,5,A. Avinger · S. Davis · F. Diakhate · R. Makolo · T. Turner
+13,"Fri, Dec 20, 2024",,Box Score,N,Colorado State,L,,56,72,7,6,A. Avinger · S. Davis · F. Diakhate · R. Makolo · T. Turner
+14,"Sat, Dec 28, 2024",,Box Score,,Ohio,W,,83,50,8,6,A. Avinger · F. Diakhate · R. Makolo · T. Turner · M. Woolfolk
+15,"Thu, Jan 2, 2025",,Box Score,@,Vanderbilt,L,,82,108,8,7,A. Avinger · F. Diakhate · R. Makolo · T. Turner · M. Woolfolk
+16,"Sun, Jan 5, 2025",,Box Score,@,Florida,L,,57,73,8,8,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Woolfolk
+17,"Thu, Jan 9, 2025",,Box Score,,Missouri,W,,74,72,9,8,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+18,"Sun, Jan 12, 2025",,Box Score,,Mississippi State,L,,68,79,9,9,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+19,"Thu, Jan 16, 2025",,Box Score,@,Texas A&M,L,,63,68,9,10,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+20,"Sun, Jan 19, 2025",,Box Score,,Kentucky,L,,64,78,9,11,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Jan 26, 2025",,Box Score,@,Oklahoma,L,,55,86,9,12,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+22,"Thu, Jan 30, 2025",,Box Score,,Mississippi,L,,58,63,9,13,A. Avinger · S. Davis · F. Diakhate · T. Turner · M. Verse
+23,"Sun, Feb 2, 2025",,Box Score,@,Alabama,L,,57,72,9,14,A. Avinger · F. Diakhate · D. Flournoy · T. Turner · M. Verse
+24,"Thu, Feb 6, 2025",,Box Score,,South Carolina,L,,42,74,9,15,A. Avinger · F. Diakhate · D. Flournoy · T. Turner · M. Verse
+25,"Sun, Feb 9, 2025",,Box Score,,Arkansas,W,,62,61,10,15,A. Avinger · S. Davis · F. Diakhate · R. Makolo · T. Turner
+26,"Sun, Feb 16, 2025",,Box Score,@,Kentucky,L,,55,84,10,16,A. Avinger · F. Diakhate · R. Makolo · T. Turner · M. Woolfolk
+27,"Thu, Feb 20, 2025",,Box Score,@,Louisiana State,L,,63,79,10,17,A. Avinger · F. Diakhate · R. Makolo · T. Turner · M. Woolfolk
+28,"Mon, Feb 24, 2025",,Box Score,,Texas,L,,26,57,10,18,A. Avinger · F. Diakhate · D. Flournoy · R. Makolo · M. Woolfolk
+29,"Thu, Feb 27, 2025",,Box Score,,Auburn,W,,62,59,11,18,A. Avinger · F. Diakhate · D. Flournoy · R. Makolo · M. Woolfolk
+30,"Sun, Mar 2, 2025",,Box Score,@,Tennessee,W,,72,69,12,18,A. Avinger · F. Diakhate · D. Flournoy · R. Makolo · M. Woolfolk
+31,"Wed, Mar 5, 2025",,Box Score,N,Arkansas,W,,79,74,13,18,A. Avinger · F. Diakhate · D. Flournoy · R. Makolo · M. Woolfolk
+32,"Thu, Mar 6, 2025",,Box Score,N,Oklahoma,L,,52,70,13,19,A. Avinger · F. Diakhate · D. Flournoy · R. Makolo · M. Woolfolk

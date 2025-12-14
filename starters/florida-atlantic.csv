@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Florida,L,,54,82,0,1,S. Ingram · J. Moore · M. Myklebust · M. Perry · E. Van Der Woude
+2,"Sat, Nov 9, 2024",,Box Score,,Mercer,W,,58,48,1,1,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+3,"Wed, Nov 13, 2024",,Box Score,,North Florida,W,,50,41,2,1,S. Ingram · M. Myklebust · M. Perry · E. Rodgers · A. Rouser
+4,"Sat, Nov 16, 2024",,Box Score,,Bethune-Cookman,W,,78,49,3,1,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+5,"Tue, Nov 19, 2024",,Box Score,@,Stetson,L,,63,75,3,2,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+6,"Sat, Nov 23, 2024",,Box Score,@,Florida International,W,,62,52,4,2,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+7,"Fri, Nov 29, 2024",,Box Score,,Manhattan,W,,65,50,5,2,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+8,"Sun, Dec 1, 2024",,Box Score,,Austin Peay,L,,58,59,5,3,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+9,"Wed, Dec 4, 2024",,Box Score,@,TCU,L,,42,78,5,4,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+10,"Fri, Dec 13, 2024",,Box Score,,Kennesaw State,W,,71,56,6,4,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Wed, Dec 18, 2024",,Box Score,N,Georgia Southern,W,OT,71,66,7,4,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+12,"Thu, Dec 19, 2024",,Box Score,@,Grand Canyon,L,,60,81,7,5,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+13,"Sat, Dec 21, 2024",,Box Score,N,Wright State,W,,68,52,8,5,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+14,"Sun, Dec 29, 2024",,Box Score,,Tulane,L,,71,91,8,6,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+15,"Sat, Jan 4, 2025",,Box Score,@,East Carolina,W,,64,48,9,6,S. Ingram · T. Jenks · J. Moore · M. Perry · E. Van Der Woude
+16,"Wed, Jan 8, 2025",,Box Score,,Temple,L,OT,69,75,9,7,L. Asbrink Hose · S. Ingram · T. Jenks · J. Moore · M. Perry
+17,"Sat, Jan 11, 2025",,Box Score,,UAB,L,,61,73,9,8,L. Asbrink Hose · K. Godfrey · T. Jenks · J. Moore · M. Perry
+18,"Wed, Jan 15, 2025",,Box Score,@,Tulsa,L,,64,79,9,9,L. Asbrink Hose · S. Ingram · T. Jenks · J. Moore · M. Perry
+19,"Sat, Jan 18, 2025",,Box Score,@,South Florida,L,,59,85,9,10,L. Asbrink Hose · S. Ingram · T. Jenks · J. Moore · M. Perry
+20,"Wed, Jan 22, 2025",,Box Score,,Charlotte,L,,68,75,9,11,L. Asbrink Hose · S. Ingram · T. Jenks · J. Moore · M. Perry
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,,North Texas,L,,61,73,9,12,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+22,"Wed, Jan 29, 2025",,Box Score,@,Tulane,L,,52,68,9,13,K. Godfrey · S. Ingram · T. Jenks · J. Moore · A. Rouser
+23,"Sat, Feb 1, 2025",,Box Score,,Rice,W,,66,61,10,13,Z. Arizmendi Rubio · S. Ingram · T. Jenks · J. Moore · A. Rouser
+24,"Wed, Feb 5, 2025",,Box Score,@,Wichita State,L,,44,54,10,14,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+25,"Sat, Feb 8, 2025",,Box Score,@,Memphis,L,,60,73,10,15,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+26,"Sat, Feb 15, 2025",,Box Score,,South Florida,L,,62,74,10,16,S. Ingram · T. Jenks · J. Moore · M. Perry · A. Rouser
+27,"Tue, Feb 18, 2025",,Box Score,@,Rice,L,,39,72,10,17,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+28,"Sat, Feb 22, 2025",,Box Score,@,Charlotte,L,,53,58,10,18,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+29,"Wed, Feb 26, 2025",,Box Score,,East Carolina,L,,70,80,10,19,K. Godfrey · S. Ingram · J. Moore · M. Myklebust · A. Rouser
+30,"Sat, Mar 1, 2025",,Box Score,@,UTSA,L,,42,60,10,20,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+31,"Tue, Mar 4, 2025",,Box Score,,Memphis,W,,69,62,11,20,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser
+32,"Sat, Mar 8, 2025",,Box Score,N,Charlotte,L,,51,55,11,21,S. Ingram · J. Moore · M. Myklebust · M. Perry · A. Rouser

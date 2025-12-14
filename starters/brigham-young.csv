@@ -1,0 +1,33 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Wed, Nov 6, 2024",,Box Score,,Idaho,W,,67,62,1,0,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+2,"Sat, Nov 9, 2024",,Box Score,,Wyoming,W,,76,63,2,0,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+3,"Wed, Nov 13, 2024",,Box Score,,Colorado State,W,,69,55,3,0,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+4,"Sat, Nov 16, 2024",,Box Score,@,Idaho State,W,,77,68,4,0,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+5,"Tue, Nov 19, 2024",,Box Score,,McNeese State,W,,85,64,5,0,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+6,"Sat, Nov 23, 2024",,Box Score,,Northern Colorado,L,OT,60,67,5,1,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+7,"Thu, Nov 28, 2024",,Box Score,N,Rice,W,,63,51,6,1,E. Calvert · D. Gibb · M. Hudgins · K. Martin · A. Whiting
+8,"Fri, Nov 29, 2024",,Box Score,N,Iowa,L,,48,68,6,2,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+9,"Thu, Dec 5, 2024",,Box Score,@,UTEP,W,,81,68,7,2,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+10,"Tue, Dec 10, 2024",,Box Score,,Utah Valley,W,,76,36,8,2,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Fri, Dec 13, 2024",,Box Score,@,Washington State,W,,72,57,9,2,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+12,"Sat, Dec 21, 2024",,Box Score,,Arizona,L,,53,57,9,3,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+13,"Wed, Jan 1, 2025",,Box Score,@,Cincinnati,L,,63,72,9,4,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+14,"Sat, Jan 4, 2025",,Box Score,@,West Virginia,L,,53,66,9,5,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+15,"Wed, Jan 8, 2025",,Box Score,,Houston,W,,89,75,10,5,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+16,"Sat, Jan 11, 2025",,Box Score,,Kansas State,L,,65,92,10,6,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+17,"Sat, Jan 18, 2025",,Box Score,@,Texas Tech,L,,65,70,10,7,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+18,"Wed, Jan 22, 2025",,Box Score,@,Iowa State,L,,59,82,10,8,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+19,"Sat, Jan 25, 2025",,Box Score,,Utah,L,,76,81,10,9,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+20,"Wed, Jan 29, 2025",,Box Score,,Colorado,L,,66,67,10,10,E. Calvert · L. Davenport · D. Gibb · K. Martin · A. Whiting
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,@,Arizona State,W,,77,67,11,10,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+22,"Wed, Feb 5, 2025",,Box Score,,UCF,W,,73,66,12,10,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+23,"Sat, Feb 8, 2025",,Box Score,@,Baylor,L,,71,83,12,11,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+24,"Tue, Feb 11, 2025",,Box Score,@,TCU,L,,47,79,12,12,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+25,"Sat, Feb 15, 2025",,Box Score,,Oklahoma State,W,,68,64,13,12,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+26,"Wed, Feb 19, 2025",,Box Score,@,Arizona,L,,57,65,13,13,K. Barber · E. Calvert · D. Gibb · K. Martin · A. Whiting
+27,"Sat, Feb 22, 2025",,Box Score,,Arizona State,L,OT,73,85,13,14,E. Calvert · B. Cannon · D. Gibb · K. Martin · A. Whiting
+28,"Tue, Feb 25, 2025",,Box Score,,Kansas,L,,66,71,13,15,E. Calvert · B. Cannon · D. Gibb · K. Martin · A. Whiting
+29,"Sat, Mar 1, 2025",,Box Score,@,Utah,L,OT,73,76,13,16,E. Calvert · B. Cannon · D. Gibb · K. Martin · A. Whiting
+30,"Wed, Mar 5, 2025",,Box Score,N,UCF,L,,69,81,13,17,E. Calvert · B. Cannon · D. Gibb · K. Martin · A. Whiting

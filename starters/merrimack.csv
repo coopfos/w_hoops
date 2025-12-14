@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Bryant,L,,50,65,0,1,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+2,"Fri, Nov 8, 2024",,Box Score,@,Pennsylvania,L,,52,64,0,2,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+3,"Mon, Nov 11, 2024",,Box Score,,New Hampshire,W,,59,49,1,2,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+4,"Sat, Nov 16, 2024",,Box Score,,Bucknell,W,,62,59,2,2,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+5,"Tue, Nov 19, 2024",,Box Score,@,Yale,W,,50,45,3,2,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+6,"Sat, Nov 23, 2024",,Box Score,,NJIT,W,,87,76,4,2,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+7,"Thu, Dec 5, 2024",,Box Score,@,South Florida,L,,43,62,4,3,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+8,"Sat, Dec 14, 2024",,Box Score,@,Providence,L,,44,62,4,4,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+9,"Mon, Dec 16, 2024",,Box Score,@,Albany (NY),L,,64,79,4,5,R. Caso · M. Fiore · P. Garcia · L. Melashenko · M. Roman
+10,"Thu, Dec 19, 2024",,Box Score,,Canisius,W,,62,47,5,5,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,,Niagara,W,,71,56,6,5,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+12,"Sat, Jan 4, 2025",,Box Score,@,Fairfield,L,,48,72,6,6,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+13,"Thu, Jan 9, 2025",,Box Score,,Sacred Heart,W,,64,53,7,6,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+14,"Sat, Jan 11, 2025",,Box Score,@,Manhattan,L,,61,77,7,7,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+15,"Thu, Jan 16, 2025",,Box Score,,Quinnipiac,L,,67,72,7,8,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+16,"Sat, Jan 18, 2025",,Box Score,@,Siena,L,,57,79,7,9,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+17,"Thu, Jan 23, 2025",,Box Score,,Saint Peter's,W,,64,49,8,9,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+18,"Sat, Jan 25, 2025",,Box Score,,Fairfield,L,,55,74,8,10,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+19,"Thu, Jan 30, 2025",,Box Score,@,Mount St. Mary's,L,,49,75,8,11,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+20,"Sat, Feb 1, 2025",,Box Score,,Rider,L,,63,65,8,12,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Feb 6, 2025",,Box Score,@,Niagara,W,,66,52,9,12,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+22,"Sat, Feb 8, 2025",,Box Score,@,Canisius,L,,62,68,9,13,R. Caso · M. Fiore · P. Garcia · M. Roman · T. Shepard
+23,"Thu, Feb 13, 2025",,Box Score,,Manhattan,W,,71,69,10,13,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+24,"Sat, Feb 15, 2025",,Box Score,@,Marist,W,,55,48,11,13,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+25,"Thu, Feb 20, 2025",,Box Score,@,Sacred Heart,L,,48,74,11,14,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+26,"Sat, Feb 22, 2025",,Box Score,,Iona,W,,81,36,12,14,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+27,"Thu, Feb 27, 2025",,Box Score,@,Rider,L,,61,64,12,15,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+28,"Sat, Mar 1, 2025",,Box Score,@,Quinnipiac,L,,44,76,12,16,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+29,"Thu, Mar 6, 2025",,Box Score,,Marist,W,,55,47,13,16,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+30,"Thu, Mar 13, 2025",,Box Score,N,Siena,W,,79,72,14,16,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard
+31,"Fri, Mar 14, 2025",,Box Score,N,Quinnipiac,L,,51,65,14,17,R. Caso · P. Garcia · L. Melashenko · M. Roman · T. Shepard

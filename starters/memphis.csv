@@ -1,0 +1,33 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Mississippi Valley State,W,,89,78,1,0,T. Boler · Q. Fulmore · H. Riddick · A. Smith · T. Welch
+2,"Thu, Nov 7, 2024",,Box Score,@,Mississippi State,L,,56,100,1,1,T. Boler · Q. Fulmore · H. Riddick · A. Smith · T. Welch
+3,"Sun, Nov 10, 2024",,Box Score,,Samford,W,,88,75,2,1,T. Boler · E. Eaton · Q. Fulmore · H. Riddick · A. Smith
+4,"Wed, Nov 13, 2024",,Box Score,@,Ball State,L,,66,95,2,2,T. Boler · E. Eaton · Q. Fulmore · H. Riddick · A. Smith
+5,"Tue, Nov 19, 2024",,Box Score,,Southeastern Louisiana,L,,57,63,2,3,T. Boler · E. Eaton · Q. Fulmore · A. Smith · T. Welch
+6,"Sat, Nov 23, 2024",,Box Score,,Murray State,L,,83,87,2,4,T. Boler · E. Eaton · Q. Fulmore · R. Sims · A. Smith
+7,"Sun, Dec 1, 2024",,Box Score,@,East Tennessee State,L,,71,78,2,5,T. Boler · E. Eaton · Q. Fulmore · R. Sims · A. Smith
+8,"Sun, Dec 8, 2024",,Box Score,@,Southern Mississippi,L,,69,82,2,6,T. Boler · L. Cox · E. Eaton · A. Smith · T. Welch
+9,"Sat, Dec 14, 2024",,Box Score,@,Troy,L,,67,85,2,7,T. Boler · L. Cox · E. Eaton · A. Smith · T. Welch
+10,"Wed, Dec 18, 2024",,Box Score,,Tennessee,L,,75,90,2,8,T. Boler · B. Gilmore · D. Hagemann · A. Smith · T. Welch
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,,Louisville,L,,68,87,2,9,T. Boler · L. Cox · D. Hagemann · A. Smith · T. Welch
+12,"Wed, Jan 1, 2025",,Box Score,,Wichita State,W,,93,83,3,9,T. Boler · L. Cox · D. Hagemann · A. Smith · T. Welch
+13,"Sat, Jan 4, 2025",,Box Score,,North Texas,L,,71,73,3,10,T. Boler · L. Cox · D. Hagemann · A. Smith · T. Welch
+14,"Wed, Jan 8, 2025",,Box Score,@,UAB,L,,56,73,3,11,T. Boler · E. Eaton · D. Hagemann · A. Smith · T. Welch
+15,"Sun, Jan 12, 2025",,Box Score,@,Rice,L,,59,70,3,12,T. Boler · L. Cox · D. Hagemann · A. Smith · T. Welch
+16,"Wed, Jan 15, 2025",,Box Score,,UTSA,L,,68,70,3,13,T. Boler · L. Cox · D. Hagemann · T. Welch · L. Williamson
+17,"Sat, Jan 18, 2025",,Box Score,@,Tulane,W,,68,65,4,13,T. Boler · D. Hagemann · A. Smith · T. Welch · L. Williamson
+18,"Sat, Jan 25, 2025",,Box Score,@,Tulsa,L,,57,64,4,14,T. Boler · D. Hagemann · A. Smith · T. Welch · L. Williamson
+19,"Wed, Jan 29, 2025",,Box Score,,Charlotte,L,,59,67,4,15,T. Boler · E. Eaton · D. Hagemann · A. Smith · L. Williamson
+20,"Sat, Feb 1, 2025",,Box Score,,East Carolina,W,,75,69,5,15,E. Eaton · D. Hagemann · A. Smith · T. Welch · L. Williamson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Feb 5, 2025",,Box Score,@,Temple,L,,66,74,5,16,D. Hagemann · A. Smith · T. Smith · T. Welch · L. Williamson
+22,"Sat, Feb 8, 2025",,Box Score,,Florida Atlantic,W,,73,60,6,16,T. Boler · B. Gilmore · D. Hagemann · A. Smith · T. Welch
+23,"Wed, Feb 12, 2025",,Box Score,@,North Texas,L,,57,97,6,17,T. Boler · B. Gilmore · D. Hagemann · A. Smith · T. Welch
+24,"Sat, Feb 15, 2025",,Box Score,@,UTSA,L,,61,80,6,18,T. Boler · E. Eaton · B. Gilmore · A. Smith · T. Welch
+25,"Wed, Feb 19, 2025",,Box Score,,UAB,W,,80,71,7,18,T. Boler · B. Gilmore · R. Sims · A. Smith · T. Welch
+26,"Sat, Feb 22, 2025",,Box Score,@,South Florida,L,,70,80,7,19,T. Boler · E. Eaton · B. Gilmore · A. Smith · T. Welch
+27,"Tue, Feb 25, 2025",,Box Score,,Temple,L,,79,91,7,20,T. Boler · E. Eaton · B. Gilmore · A. Smith · T. Welch
+28,"Sat, Mar 1, 2025",,Box Score,,Tulsa,L,,79,81,7,21,T. Boler · L. Cox · E. Eaton · A. Smith · T. Welch
+29,"Tue, Mar 4, 2025",,Box Score,@,Florida Atlantic,L,,62,69,7,22,T. Boler · L. Cox · E. Eaton · A. Smith · T. Welch
+30,"Sun, Mar 9, 2025",,Box Score,N,East Carolina,L,,45,64,7,23,T. Boler · L. Cox · E. Eaton · A. Smith · T. Welch

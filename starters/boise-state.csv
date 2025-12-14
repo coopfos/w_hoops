@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Eastern Oregon,W,,87,57,1,0,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+2,"Sun, Nov 10, 2024",,Box Score,,Colorado,W,,50,47,2,0,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+3,"Thu, Nov 14, 2024",,Box Score,,UC Riverside,W,,72,57,3,0,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+4,"Mon, Nov 18, 2024",,Box Score,,College of Idaho,W,,86,34,4,0,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+5,"Thu, Nov 21, 2024",,Box Score,@,San Francisco,W,,59,57,5,0,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+6,"Sun, Nov 24, 2024",,Box Score,,Weber State,W,,96,46,6,0,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+7,"Fri, Nov 29, 2024",,Box Score,N,Illinois State,W,,79,76,7,0,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+8,"Sat, Nov 30, 2024",,Box Score,N,West Virginia,L,,47,82,7,1,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+9,"Sun, Dec 1, 2024",,Box Score,N,Butler,L,,64,70,7,2,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+10,"Fri, Dec 6, 2024",,Box Score,,Utah Tech,W,,90,56,8,2,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,,San Diego,W,,76,59,9,2,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+12,"Wed, Dec 18, 2024",,Box Score,N,Furman,W,,74,65,10,2,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+13,"Thu, Dec 19, 2024",,Box Score,N,North Dakota State,L,,66,70,10,3,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+14,"Sun, Dec 29, 2024",,Box Score,@,San Diego State,L,,59,74,10,4,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+15,"Wed, Jan 1, 2025",,Box Score,,Air Force,W,,66,55,11,4,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+16,"Sat, Jan 4, 2025",,Box Score,,Nevada-Las Vegas,L,,57,61,11,5,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+17,"Wed, Jan 8, 2025",,Box Score,@,Utah State,W,,82,77,12,5,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+18,"Sat, Jan 11, 2025",,Box Score,@,Fresno State,L,,62,68,12,6,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+19,"Wed, Jan 15, 2025",,Box Score,,San Jose State,W,,93,64,13,6,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+20,"Sat, Jan 18, 2025",,Box Score,,Nevada,W,,61,53,14,6,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Tue, Jan 21, 2025",,Box Score,@,Colorado State,L,,70,79,14,7,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+22,"Tue, Jan 28, 2025",,Box Score,,New Mexico,W,,89,80,15,7,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+23,"Sat, Feb 1, 2025",,Box Score,@,Wyoming,L,,45,79,15,8,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+24,"Wed, Feb 5, 2025",,Box Score,@,Nevada,L,,61,69,15,9,D. Bayes · M. Hansen · A. Muse · M. Naro · T. Thompson
+25,"Sat, Feb 8, 2025",,Box Score,,Colorado State,L,,61,67,15,10,D. Bayes · J. Clark · A. Muse · N. Pasco · T. Thompson
+26,"Thu, Feb 13, 2025",,Box Score,@,New Mexico,L,OT,83,88,15,11,M. Hansen · E. Lolotte · A. Muse · M. Naro · N. Pasco
+27,"Sat, Feb 15, 2025",,Box Score,,Fresno State,L,,63,67,15,12,D. Bayes · M. Hansen · E. Lolotte · A. Muse · M. Naro
+28,"Tue, Feb 18, 2025",,Box Score,,Wyoming,W,,78,73,16,12,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+29,"Wed, Feb 26, 2025",,Box Score,@,Nevada-Las Vegas,L,,53,83,16,13,M. Hansen · A. Muse · M. Naro · N. Pasco · T. Thompson
+30,"Sat, Mar 1, 2025",,Box Score,@,Air Force,L,,68,75,16,14,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+31,"Tue, Mar 4, 2025",,Box Score,,Utah State,W,,72,59,17,14,D. Bayes · E. Lolotte · A. Muse · M. Naro · N. Pasco
+32,"Sun, Mar 9, 2025",,Box Score,N,Nevada,W,,54,48,18,14,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson
+33,"Mon, Mar 10, 2025",,Box Score,N,Nevada-Las Vegas,L,,70,80,18,15,D. Bayes · A. Muse · M. Naro · N. Pasco · T. Thompson

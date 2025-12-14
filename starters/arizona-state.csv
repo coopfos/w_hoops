@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Jacksonville State,W,,74,66,1,0,K. Basham · J. Brown · K. Fauntleroy · N. Parkinson · T. Skinner
+2,"Fri, Nov 8, 2024",,Box Score,,Arkansas State,L,,96,100,1,1,K. Basham · J. Brown · K. Fauntleroy · N. Parkinson · T. Skinner
+3,"Thu, Nov 14, 2024",,Box Score,N,Grand Canyon,L,,59,70,1,2,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+4,"Sat, Nov 16, 2024",,Box Score,,Southern Methodist,W,,80,73,2,2,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+5,"Sun, Nov 17, 2024",,Box Score,,Oregon State,W,,79,60,3,2,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+6,"Tue, Nov 26, 2024",,Box Score,N,Kentucky,L,,61,77,3,3,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+7,"Wed, Nov 27, 2024",,Box Score,N,South Dakota,W,,95,88,4,3,M. Besselink · J. Brown · J. Jackson · J. LoVett · T. Skinner
+8,"Thu, Dec 5, 2024",,Box Score,@,Coppin State,L,OT,68,74,4,4,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+9,"Sat, Dec 7, 2024",,Box Score,@,Maryland-Eastern Shore,W,,64,57,5,4,K. Basham · J. Brown · J. Jackson · N. Parkinson · T. Skinner
+10,"Sun, Dec 15, 2024",,Box Score,@,UC Davis,L,,50,57,5,5,K. Basham · M. Besselink · J. Brown · J. Jackson · T. Skinner
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Tue, Dec 17, 2024",,Box Score,@,San Francisco,L,,64,67,5,6,K. Basham · M. Besselink · K. Fauntleroy · J. LoVett · T. Skinner
+12,"Sat, Dec 21, 2024",,Box Score,@,Utah,L,,82,102,5,7,K. Basham · M. Besselink · J. Brown · J. LoVett · T. Skinner
+13,"Mon, Dec 30, 2024",,Box Score,,Pennsylvania,W,,73,67,6,7,K. Basham · J. LoVett · M. Moore · N. Parkinson · T. Skinner
+14,"Wed, Jan 1, 2025",,Box Score,,Texas Tech,W,,79,61,7,7,K. Basham · K. Fauntleroy · J. LoVett · N. Parkinson · T. Skinner
+15,"Sat, Jan 4, 2025",,Box Score,@,Houston,W,,69,60,8,7,K. Basham · K. Fauntleroy · J. LoVett · N. Parkinson · T. Skinner
+16,"Wed, Jan 8, 2025",,Box Score,,Iowa State,L,,83,90,8,8,K. Basham · K. Fauntleroy · J. LoVett · N. Parkinson · T. Skinner
+17,"Sat, Jan 11, 2025",,Box Score,,Baylor,L,,59,78,8,9,J. Brown · K. Fauntleroy · J. LoVett · N. Parkinson · T. Skinner
+18,"Thu, Jan 16, 2025",,Box Score,@,Kansas,L,,52,75,8,10,J. Brown · J. Jackson · J. LoVett · N. Parkinson · T. Skinner
+19,"Sun, Jan 19, 2025",,Box Score,@,Kansas State,L,,69,81,8,11,J. Brown · K. Fauntleroy · J. LoVett · N. Parkinson · T. Skinner
+20,"Wed, Jan 22, 2025",,Box Score,,West Virginia,L,,59,89,8,12,K. Basham · J. Brown · K. Fauntleroy · J. LoVett · T. Skinner
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,,Cincinnati,L,,66,73,8,13,K. Basham · J. Brown · K. Fauntleroy · J. LoVett · N. Parkinson
+22,"Wed, Jan 29, 2025",,Box Score,@,Oklahoma State,L,,71,83,8,14,J. Brown · K. Fauntleroy · J. Jackson · N. Parkinson · T. Skinner
+23,"Sat, Feb 1, 2025",,Box Score,,Brigham Young,L,,67,77,8,15,K. Basham · J. Brown · K. Fauntleroy · J. Jackson · T. Skinner
+24,"Sat, Feb 8, 2025",,Box Score,@,Arizona,L,,59,66,8,16,K. Basham · J. Brown · J. LoVett · N. Parkinson · T. Skinner
+25,"Wed, Feb 12, 2025",,Box Score,@,UCF,L,,76,85,8,17,K. Basham · J. Brown · J. LoVett · N. Parkinson · T. Skinner
+26,"Sat, Feb 15, 2025",,Box Score,,Utah,L,,62,98,8,18,K. Basham · J. Brown · J. LoVett · M. Moore · T. Skinner
+27,"Wed, Feb 19, 2025",,Box Score,,TCU,L,,66,82,8,19,K. Basham · J. Brown · J. LoVett · M. Moore · T. Skinner
+28,"Sat, Feb 22, 2025",,Box Score,@,Brigham Young,W,OT,85,73,9,19,J. Brown · J. LoVett · M. Moore · N. Parkinson · T. Skinner
+29,"Wed, Feb 26, 2025",,Box Score,@,Colorado,L,,54,89,9,20,J. Brown · J. LoVett · M. Moore · N. Parkinson · T. Skinner
+30,"Sat, Mar 1, 2025",,Box Score,,Arizona,L,,59,71,9,21,K. Basham · J. Brown · J. LoVett · N. Parkinson · T. Skinner
+31,"Wed, Mar 5, 2025",,Box Score,N,Cincinnati,W,,82,75,10,21,K. Basham · J. Brown · J. LoVett · N. Parkinson · T. Skinner
+32,"Thu, Mar 6, 2025",,Box Score,N,Iowa State,L,,88,96,10,22,K. Basham · J. Brown · J. LoVett · N. Parkinson · T. Skinner

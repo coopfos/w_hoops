@@ -1,0 +1,38 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Chicago State,W,,96,56,1,0,A. Brown · A. Crooks · A. Jackson · E. Ryan · A. Tanke
+2,"Thu, Nov 7, 2024",,Box Score,,Indiana State,W,,64,42,2,0,A. Brown · A. Crooks · A. Jackson · E. Ryan · A. Tanke
+3,"Sun, Nov 10, 2024",,Box Score,,Southern,W,,84,56,3,0,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+4,"Thu, Nov 14, 2024",,Box Score,,St. Thomas,W,,80,47,4,0,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+5,"Wed, Nov 20, 2024",,Box Score,@,Northern Iowa,L,,75,87,4,1,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+6,"Sun, Nov 24, 2024",,Box Score,,Drake,W,,80,78,5,1,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+7,"Thu, Nov 28, 2024",,Box Score,N,South Carolina,L,,36,76,5,2,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+8,"Sat, Nov 30, 2024",,Box Score,N,Middle Tennessee,W,,75,59,6,2,A. Brown · A. Crooks · M. Hare · E. Ryan · A. Tanke
+9,"Tue, Dec 3, 2024",,Box Score,,South Carolina Upstate,W,,92,35,7,2,A. Brown · A. Crooks · M. Hare · E. Ryan · A. Tanke
+10,"Sun, Dec 8, 2024",,Box Score,,Central Michigan,W,,82,56,8,2,A. Brown · A. Crooks · M. Hare · A. Jackson · E. Ryan
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Wed, Dec 11, 2024",,Box Score,@,Iowa,L,,69,75,8,3,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+12,"Sun, Dec 15, 2024",,Box Score,,Eastern Illinois,W,,87,55,9,3,A. Brown · A. Crooks · A. Jackson · E. Ryan · A. Tanke
+13,"Tue, Dec 17, 2024",,Box Score,N,Connecticut,L,,68,101,9,4,A. Brown · A. Crooks · A. Jackson · E. Ryan · A. Tanke
+14,"Sat, Dec 21, 2024",,Box Score,@,Oklahoma State,L,,75,81,9,5,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+15,"Wed, Jan 1, 2025",,Box Score,,Kansas,W,,78,64,10,5,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+16,"Sun, Jan 5, 2025",,Box Score,,Utah,L,,67,75,10,6,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+17,"Wed, Jan 8, 2025",,Box Score,@,Arizona State,W,,90,83,11,6,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+18,"Sat, Jan 11, 2025",,Box Score,@,Arizona,W,,79,58,12,6,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+19,"Tue, Jan 14, 2025",,Box Score,,Texas Tech,W,,71,58,13,6,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+20,"Sun, Jan 19, 2025",,Box Score,@,West Virginia,L,,68,82,13,7,A. Brown · A. Crooks · S. Harris · A. Jackson · K. Joens
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 22, 2025",,Box Score,,Brigham Young,W,,82,59,14,7,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+22,"Sat, Jan 25, 2025",,Box Score,,UCF,W,,90,56,15,7,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+23,"Thu, Jan 30, 2025",,Box Score,@,Kansas State,L,OT,79,87,15,8,A. Brown · A. Crooks · S. Harris · A. Jackson · E. Ryan
+24,"Sun, Feb 2, 2025",,Box Score,,TCU,L,,69,82,15,9,A. Brown · A. Crooks · A. Jackson · E. Ryan · R. Wilson
+25,"Wed, Feb 5, 2025",,Box Score,@,Cincinnati,W,,72,52,16,9,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+26,"Sat, Feb 8, 2025",,Box Score,,Colorado,W,,86,56,17,9,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+27,"Sat, Feb 15, 2025",,Box Score,@,Kansas,W,,93,80,18,9,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+28,"Wed, Feb 19, 2025",,Box Score,,Houston,W,,64,53,19,9,A. Brown · A. Crooks · K. Joens · E. Ryan · R. Wilson
+29,"Sat, Feb 22, 2025",,Box Score,@,Baylor,L,,52,67,19,10,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+30,"Tue, Feb 25, 2025",,Box Score,@,UCF,W,,98,73,20,10,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+31,"Sun, Mar 2, 2025",,Box Score,,Kansas State,W,,85,63,21,10,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+32,"Thu, Mar 6, 2025",,Box Score,N,Arizona State,W,,96,88,22,10,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+33,"Fri, Mar 7, 2025",,Box Score,N,Baylor,L,,63,69,22,11,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+34,"Wed, Mar 19, 2025",,Box Score,N,Princeton,W,,68,63,23,11,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan
+35,"Fri, Mar 21, 2025",,Box Score,N,Michigan,L,,74,80,23,12,A. Brown · A. Crooks · A. Jackson · K. Joens · E. Ryan

@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,N,UCLA,L,,59,66,0,1,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+2,"Fri, Nov 8, 2024",,Box Score,,Southern Indiana,W,,75,51,1,1,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+3,"Tue, Nov 12, 2024",,Box Score,@,Tennessee-Martin,W,,86,64,2,1,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+4,"Sat, Nov 16, 2024",,Box Score,@,Kentucky,L,OT,61,71,2,2,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+5,"Thu, Nov 21, 2024",,Box Score,,Morehead State,W,,107,70,3,2,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+6,"Sun, Nov 24, 2024",,Box Score,N,South Florida,W,,64,60,4,2,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+7,"Sat, Nov 30, 2024",,Box Score,@,Colorado,W,,79,71,5,2,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+8,"Wed, Dec 4, 2024",,Box Score,,Oklahoma,L,,72,78,5,3,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+9,"Sat, Dec 7, 2024",,Box Score,N,Connecticut,L,,52,85,5,4,O. Cochran · N. Harris · M. Randolph · T. Roberts · J. Williams
+10,"Thu, Dec 12, 2024",,Box Score,,Grambling,W,,96,57,6,4,O. Cochran · N. Harris · T. Roberts · M. Russell · J. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,NC State,L,,42,72,6,5,O. Cochran · N. Harris · T. Roberts · M. Russell · J. Williams
+12,"Sat, Dec 21, 2024",,Box Score,@,Memphis,W,,87,68,7,5,O. Cochran · N. Harris · T. Roberts · M. Russell · J. Williams
+13,"Sun, Dec 29, 2024",,Box Score,@,Boston College,W,,86,73,8,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+14,"Thu, Jan 2, 2025",,Box Score,,Miami (FL),W,,74,56,9,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+15,"Sun, Jan 5, 2025",,Box Score,@,Wake Forest,W,OT,81,76,10,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+16,"Thu, Jan 9, 2025",,Box Score,@,Pittsburgh,W,,65,56,11,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+17,"Sun, Jan 12, 2025",,Box Score,,Georgia Tech,W,,69,60,12,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+18,"Thu, Jan 16, 2025",,Box Score,,Syracuse,W,,72,62,13,5,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+19,"Sun, Jan 19, 2025",,Box Score,@,Virginia Tech,L,,65,70,13,6,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+20,"Sun, Jan 26, 2025",,Box Score,@,Virginia,W,,68,65,14,6,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,@,Southern Methodist,W,,80,75,15,6,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+22,"Sun, Feb 2, 2025",,Box Score,,Notre Dame,L,,71,89,15,7,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+23,"Thu, Feb 6, 2025",,Box Score,,California,W,,70,63,16,7,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+24,"Sun, Feb 9, 2025",,Box Score,,Stanford,W,,74,65,17,7,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+25,"Thu, Feb 13, 2025",,Box Score,@,Florida State,W,,83,69,18,7,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+26,"Thu, Feb 20, 2025",,Box Score,@,Duke,W,,70,62,19,7,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+27,"Sun, Feb 23, 2025",,Box Score,,North Carolina,L,,75,79,19,8,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+28,"Thu, Feb 27, 2025",,Box Score,,Clemson,W,,78,52,20,8,O. Cochran · J. Curry · T. Roberts · M. Russell · J. Williams
+29,"Sun, Mar 2, 2025",,Box Score,@,Notre Dame,L,,59,72,20,9,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+30,"Thu, Mar 6, 2025",,Box Score,N,Clemson,W,OT,70,68,21,9,I. Berry · O. Cochran · N. Harris · T. Roberts · J. Williams
+31,"Fri, Mar 7, 2025",,Box Score,N,Duke,L,,48,61,21,10,I. Berry · O. Cochran · N. Harris · T. Roberts · J. Williams
+32,"Fri, Mar 21, 2025",,Box Score,N,Nebraska,W,,63,58,22,10,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams
+33,"Sun, Mar 23, 2025",,Box Score,@,TCU,L,,70,85,22,11,O. Cochran · J. Curry · N. Harris · T. Roberts · J. Williams

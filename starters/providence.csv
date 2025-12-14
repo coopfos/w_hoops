@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Mercy,W,,64,32,1,0,E. Archibald · G. Efosa · B. Farrell · O. Olsen · K. Sheppard
+2,"Fri, Nov 8, 2024",,Box Score,,Columbia,L,OT,69,77,1,1,G. Efosa · B. Farrell · O. Gormley · K. Sheppard · U. Sirtautaite
+3,"Tue, Nov 12, 2024",,Box Score,@,Vermont,W,,58,53,2,1,E. Archibald · G. Efosa · M. Morales · O. Olsen · K. Sheppard
+4,"Sun, Nov 17, 2024",,Box Score,@,Boston College,L,,60,67,2,2,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+5,"Thu, Nov 21, 2024",,Box Score,@,Dayton,L,,61,65,2,3,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+6,"Sun, Nov 24, 2024",,Box Score,,Delaware,W,,60,53,3,3,E. Archibald · G. Efosa · B. Farrell · O. Gormley · O. Olsen
+7,"Thu, Nov 28, 2024",,Box Score,N,Virginia Commonwealth,L,,51,57,3,4,E. Archibald · G. Efosa · B. Farrell · O. Olsen · K. Sheppard
+8,"Fri, Nov 29, 2024",,Box Score,N,Wisconsin,L,,57,66,3,5,E. Archibald · G. Efosa · M. Morales · O. Olsen · K. Sheppard
+9,"Sat, Nov 30, 2024",,Box Score,N,San Diego State,W,,55,54,4,5,E. Archibald · G. Efosa · M. Morales · O. Olsen · K. Sheppard
+10,"Wed, Dec 4, 2024",,Box Score,@,Rhode Island,W,,48,45,5,5,E. Archibald · G. Efosa · M. Morales · O. Olsen · M. Scarlett
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 7, 2024",,Box Score,,Brown,W,OT,87,81,6,5,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+12,"Wed, Dec 11, 2024",,Box Score,,Penn State,L,,51,68,6,6,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+13,"Sat, Dec 14, 2024",,Box Score,,Merrimack,W,,62,44,7,6,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+14,"Sat, Dec 21, 2024",,Box Score,@,Seton Hall,L,,40,51,7,7,E. Archibald · G. Efosa · B. Farrell · O. Olsen · M. Scarlett
+15,"Sun, Dec 29, 2024",,Box Score,@,Connecticut,L,,41,67,7,8,G. Efosa · B. Farrell · M. Morales · O. Olsen · K. Sheppard
+16,"Wed, Jan 1, 2025",,Box Score,,St. John's (NY),W,OT,59,52,8,8,G. Efosa · B. Farrell · M. Morales · O. Olsen · K. Sheppard
+17,"Sat, Jan 4, 2025",,Box Score,,Creighton,L,,46,60,8,9,G. Efosa · B. Farrell · M. Morales · O. Olsen · K. Sheppard
+18,"Wed, Jan 8, 2025",,Box Score,@,Butler,L,,47,57,8,10,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+19,"Sun, Jan 12, 2025",,Box Score,@,DePaul,L,,56,62,8,11,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+20,"Wed, Jan 15, 2025",,Box Score,,Xavier,W,,51,45,9,11,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 18, 2025",,Box Score,,Georgetown,L,,48,60,9,12,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+22,"Wed, Jan 22, 2025",,Box Score,,Marquette,L,,54,67,9,13,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+23,"Wed, Jan 29, 2025",,Box Score,@,St. John's (NY),L,,55,62,9,14,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+24,"Sun, Feb 2, 2025",,Box Score,@,Creighton,L,,66,79,9,15,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+25,"Thu, Feb 6, 2025",,Box Score,,DePaul,W,,76,63,10,15,G. Efosa · B. Farrell · M. Morales · O. Olsen · M. Scarlett
+26,"Sun, Feb 9, 2025",,Box Score,,Connecticut,L,,40,77,10,16,E. Archibald · G. Efosa · B. Farrell · M. Morales · O. Olsen
+27,"Wed, Feb 12, 2025",,Box Score,@,Xavier,W,,61,53,11,16,G. Efosa · B. Farrell · M. Morales · O. Olsen · N. Scott
+28,"Sun, Feb 16, 2025",,Box Score,,Seton Hall,L,,38,59,11,17,G. Efosa · B. Farrell · M. Morales · O. Olsen · N. Scott
+29,"Wed, Feb 19, 2025",,Box Score,@,Marquette,L,,51,69,11,18,G. Efosa · B. Farrell · O. Olsen · M. Scarlett · N. Scott
+30,"Sun, Feb 23, 2025",,Box Score,,Villanova,W,,63,56,12,18,E. Archibald · G. Efosa · B. Farrell · M. Morales · O. Olsen
+31,"Sat, Mar 1, 2025",,Box Score,@,Georgetown,W,,66,62,13,18,E. Archibald · G. Efosa · B. Farrell · M. Morales · O. Olsen
+32,"Fri, Mar 7, 2025",,Box Score,N,Georgetown,L,,56,58,13,19,E. Archibald · G. Efosa · B. Farrell · M. Morales · O. Olsen

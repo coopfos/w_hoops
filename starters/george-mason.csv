@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Johnson C. Smith,W,,106,51,1,0,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+2,"Sat, Nov 9, 2024",,Box Score,,Towson,W,,76,55,2,0,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+3,"Tue, Nov 12, 2024",,Box Score,,Monmouth,W,,89,66,3,0,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+4,"Sun, Nov 17, 2024",,Box Score,@,Marshall,W,,69,56,4,0,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+5,"Wed, Nov 20, 2024",,Box Score,@,Wake Forest,W,,50,41,5,0,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+6,"Tue, Nov 26, 2024",,Box Score,,Mount St. Mary's,W,,87,51,6,0,J. Brown · T. Habib · N. Kaysia · P. Suarez · Z. Walton
+7,"Sat, Nov 30, 2024",,Box Score,N,Maryland,L,,56,66,6,1,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+8,"Sun, Dec 1, 2024",,Box Score,@,Navy,W,,85,63,7,1,K. Harris · N. Kaysia · P. Suarez · L. Volker · Z. Walton
+9,"Tue, Dec 3, 2024",,Box Score,@,George Washington,W,,87,55,8,1,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+10,"Mon, Dec 9, 2024",,Box Score,@,Georgetown,W,,63,55,9,1,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 14, 2024",,Box Score,,Maryland-Eastern Shore,W,,61,40,10,1,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+12,"Fri, Dec 20, 2024",,Box Score,,Maryland-Baltimore County,W,,75,53,11,1,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+13,"Thu, Jan 2, 2025",,Box Score,,Saint Joseph's,L,,55,61,11,2,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+14,"Sun, Jan 5, 2025",,Box Score,,St. Bonaventure,W,,83,63,12,2,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+15,"Wed, Jan 8, 2025",,Box Score,@,Richmond,L,,86,88,12,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+16,"Sun, Jan 12, 2025",,Box Score,@,Rhode Island,W,,71,65,13,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+17,"Wed, Jan 15, 2025",,Box Score,,Loyola (IL),W,,69,39,14,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+18,"Sat, Jan 18, 2025",,Box Score,@,La Salle,W,,57,40,15,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+19,"Wed, Jan 22, 2025",,Box Score,,Davidson,W,,81,73,16,3,T. Habib · K. Harris · P. Suarez · L. Volker · Z. Walton
+20,"Sat, Jan 25, 2025",,Box Score,,George Washington,W,,91,50,17,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 29, 2025",,Box Score,@,Saint Louis,W,,80,53,18,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+22,"Sat, Feb 1, 2025",,Box Score,@,Dayton,W,,86,53,19,3,J. Brown · T. Habib · N. Kaysia · P. Suarez · Z. Walton
+23,"Wed, Feb 5, 2025",,Box Score,,Virginia Commonwealth,W,,66,48,20,3,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+24,"Sat, Feb 8, 2025",,Box Score,@,Fordham,W,,70,43,21,3,J. Brown · T. Habib · N. Kaysia · P. Suarez · Z. Walton
+25,"Wed, Feb 12, 2025",,Box Score,,Rhode Island,W,,56,44,22,3,J. Brown · T. Habib · N. Kaysia · P. Suarez · Z. Walton
+26,"Sun, Feb 16, 2025",,Box Score,,Massachusetts,W,,76,66,23,3,T. Habib · N. Kaysia · N. Mitchell · P. Suarez · Z. Walton
+27,"Thu, Feb 20, 2025",,Box Score,@,Davidson,L,,50,66,23,4,T. Habib · N. Kaysia · N. Mitchell · P. Suarez · Z. Walton
+28,"Sun, Feb 23, 2025",,Box Score,@,Saint Joseph's,L,,69,83,23,5,T. Habib · N. Kaysia · N. Mitchell · P. Suarez · Z. Walton
+29,"Sat, Mar 1, 2025",,Box Score,,Duquesne,W,,86,63,24,5,T. Habib · N. Kaysia · K. McNeal · P. Suarez · Z. Walton
+30,"Fri, Mar 7, 2025",,Box Score,N,Saint Louis,W,,87,57,25,5,T. Habib · N. Kaysia · N. Mitchell · P. Suarez · Z. Walton
+31,"Sat, Mar 8, 2025",,Box Score,N,Davidson,W,,63,50,26,5,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+32,"Sun, Mar 9, 2025",,Box Score,N,Saint Joseph's,W,,73,58,27,5,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton
+33,"Sat, Mar 22, 2025",,Box Score,N,Florida State,L,,59,94,27,6,T. Habib · K. Harris · N. Kaysia · P. Suarez · Z. Walton

@@ -1,0 +1,38 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Tue, Nov 5, 2024",,Box Score,,Montana,W,,82,69,1,0,I. Bettencourt · Y. Ejim · M. Huijbens · E. Little · C. O'Connor
+2,"Sun, Nov 10, 2024",,Box Score,@,Stanford,L,,58,89,1,1,I. Bettencourt · Y. Ejim · M. Huijbens · E. Little · C. O'Connor
+3,"Thu, Nov 14, 2024",,Box Score,,California,L,,65,86,1,2,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+4,"Sun, Nov 17, 2024",,Box Score,,Wyoming,W,,62,51,2,2,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+5,"Thu, Nov 21, 2024",,Box Score,,Rice,W,,72,69,3,2,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+6,"Sun, Nov 24, 2024",,Box Score,@,New Mexico,W,,81,68,4,2,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+7,"Thu, Nov 28, 2024",,Box Score,N,Missouri State,L,,64,65,4,3,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+8,"Fri, Nov 29, 2024",,Box Score,N,Texas Tech,L,,49,67,4,4,I. Bettencourt · Y. Ejim · M. Huijbens · E. Little · A. Turner
+9,"Sat, Nov 30, 2024",,Box Score,N,Florida State,L,,54,95,4,5,I. Bettencourt · Y. Ejim · M. Huijbens · E. Little · A. Turner
+10,"Sun, Dec 8, 2024",,Box Score,@,Colorado State,L,OT,72,74,4,6,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 14, 2024",,Box Score,,Eastern Washington,W,,79,50,5,6,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+12,"Thu, Dec 19, 2024",,Box Score,@,San Francisco,L,,58,73,5,7,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+13,"Sat, Dec 21, 2024",,Box Score,@,San Diego,W,,66,59,6,7,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+14,"Sat, Dec 28, 2024",,Box Score,,Oregon State,L,OT,67,71,6,8,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+15,"Mon, Dec 30, 2024",,Box Score,,Pepperdine,W,,75,54,7,8,Y. Ejim · M. Huijbens · E. Little · C. O'Connor · A. Turner
+16,"Thu, Jan 2, 2025",,Box Score,@,Portland,W,,76,71,8,8,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+17,"Sat, Jan 4, 2025",,Box Score,,Santa Clara,W,,82,56,9,8,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+18,"Sat, Jan 11, 2025",,Box Score,@,Washington State,W,,69,61,10,8,I. Bettencourt · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+19,"Thu, Jan 16, 2025",,Box Score,,Portland,W,,66,65,11,8,I. Bettencourt · Y. Ejim · E. Little · C. O'Connor · A. Turner
+20,"Sat, Jan 18, 2025",,Box Score,@,Loyola Marymount,W,,69,58,12,8,I. Bettencourt · Y. Ejim · E. Little · C. O'Connor · A. Turner
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Pepperdine,W,,81,53,13,8,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+22,"Thu, Jan 30, 2025",,Box Score,,San Diego,W,,64,48,14,8,M. Dalan · T. Dalton · Y. Ejim · C. O'Connor · A. Turner
+23,"Sat, Feb 1, 2025",,Box Score,,Pacific,W,,68,64,15,8,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+24,"Thu, Feb 6, 2025",,Box Score,@,Saint Mary's (CA),W,,69,58,16,8,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+25,"Sat, Feb 8, 2025",,Box Score,,Washington State,W,OT,73,69,17,8,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+26,"Thu, Feb 13, 2025",,Box Score,@,Oregon State,W,OT,66,62,18,8,I. Bettencourt · T. Dalton · Y. Ejim · E. Little · A. Turner
+27,"Sat, Feb 15, 2025",,Box Score,,Loyola Marymount,W,,69,57,19,8,I. Bettencourt · T. Dalton · Y. Ejim · E. Little · A. Turner
+28,"Thu, Feb 20, 2025",,Box Score,,Saint Mary's (CA),W,,60,53,20,8,T. Dalton · Y. Ejim · E. Little · B. Salenbien · A. Turner
+29,"Sat, Feb 22, 2025",,Box Score,,San Francisco,L,,68,70,20,9,T. Dalton · Y. Ejim · M. Huijbens · E. Little · B. Salenbien
+30,"Thu, Feb 27, 2025",,Box Score,@,Pacific,W,,72,56,21,9,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+31,"Sat, Mar 1, 2025",,Box Score,@,Santa Clara,W,,68,61,22,9,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+32,"Mon, Mar 10, 2025",,Box Score,N,Oregon State,L,,61,63,22,10,T. Dalton · Y. Ejim · E. Little · C. O'Connor · A. Turner
+33,"Thu, Mar 20, 2025",,Box Score,,UTSA,W,,67,51,23,10,T. Dalton · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+34,"Sun, Mar 23, 2025",,Box Score,@,Colorado,W,,64,55,24,10,T. Dalton · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner
+35,"Thu, Mar 27, 2025",,Box Score,@,Minnesota,L,OT,77,82,24,11,T. Dalton · Y. Ejim · M. Huijbens · C. O'Connor · A. Turner

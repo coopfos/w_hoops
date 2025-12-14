@@ -1,0 +1,37 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Wed, Nov 6, 2024",,Box Score,,Chicago State,W,,87,45,1,0,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+2,"Sat, Nov 9, 2024",,Box Score,@,Milwaukee,W,OT,79,70,2,0,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+3,"Wed, Nov 13, 2024",,Box Score,,Indiana,W,,56,46,3,0,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+4,"Sun, Nov 17, 2024",,Box Score,@,Vanderbilt,L,,52,81,3,1,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+5,"Wed, Nov 20, 2024",,Box Score,,Indiana State,W,,80,55,4,1,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+6,"Sun, Nov 24, 2024",,Box Score,,Massachusetts-Lowell,W,,69,44,5,1,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+7,"Fri, Nov 29, 2024",,Box Score,N,Santa Clara,W,,79,50,6,1,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+8,"Sat, Nov 30, 2024",,Box Score,N,Texas,L,,59,94,6,2,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+9,"Sun, Dec 1, 2024",,Box Score,N,Boise State,W,,70,64,7,2,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+10,"Thu, Dec 5, 2024",,Box Score,,Tennessee-Martin,W,,70,60,8,2,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,@,Ohio,W,,69,60,9,2,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+12,"Wed, Dec 11, 2024",,Box Score,,Wisconsin,L,2OT,64,71,9,3,C. Carter · R. Makalusky · K. McGuff · K. Norman · C. Strande
+13,"Sun, Dec 15, 2024",,Box Score,,Saint Francis (PA),W,,95,38,10,3,C. Carter · R. Makalusky · K. McGuff · K. Norman · L. Zeinstra
+14,"Sat, Dec 21, 2024",,Box Score,@,DePaul,L,,43,66,10,4,C. Carter · R. Makalusky · K. McGuff · K. Norman · L. Zeinstra
+15,"Sun, Dec 29, 2024",,Box Score,,Seton Hall,L,,49,69,10,5,S. Jaynes · R. Makalusky · K. McGuff · K. Norman · L. Zeinstra
+16,"Wed, Jan 1, 2025",,Box Score,@,Creighton,L,,64,68,10,6,S. Jaynes · R. Makalusky · K. McGuff · K. Norman · L. Zeinstra
+17,"Sat, Jan 4, 2025",,Box Score,@,Marquette,L,,54,57,10,7,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+18,"Wed, Jan 8, 2025",,Box Score,,Providence,W,,57,47,11,7,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+19,"Tue, Jan 14, 2025",,Box Score,,Georgetown,W,,63,53,12,7,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+20,"Sat, Jan 18, 2025",,Box Score,@,Xavier,L,,49,50,12,8,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 22, 2025",,Box Score,,Creighton,L,,52,63,12,9,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+22,"Sun, Jan 26, 2025",,Box Score,,DePaul,L,OT,67,74,12,10,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+23,"Wed, Jan 29, 2025",,Box Score,@,Seton Hall,L,,48,71,12,11,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+24,"Sun, Feb 2, 2025",,Box Score,@,Connecticut,L,,59,101,12,12,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+25,"Wed, Feb 5, 2025",,Box Score,,Villanova,L,,59,63,12,13,L. Carmody · S. Jaynes · K. McGuff · K. Norman · L. Zeinstra
+26,"Sun, Feb 9, 2025",,Box Score,,Marquette,W,,67,65,13,13,L. Carmody · S. Jaynes · R. Makalusky · K. McGuff · L. Zeinstra
+27,"Wed, Feb 12, 2025",,Box Score,@,Georgetown,W,,76,70,14,13,L. Carmody · S. Jaynes · R. Makalusky · K. McGuff · L. Zeinstra
+28,"Sun, Feb 16, 2025",,Box Score,@,St. John's (NY),L,,43,65,14,14,S. Jaynes · R. Makalusky · K. McGuff · K. Norman · L. Zeinstra
+29,"Wed, Feb 19, 2025",,Box Score,,Xavier,W,,58,54,15,14,S. Jaynes · R. Makalusky · K. McGuff · A. Wiggins · L. Zeinstra
+30,"Sat, Feb 22, 2025",,Box Score,,Connecticut,L,,47,86,15,15,S. Jaynes · R. Makalusky · K. McGuff · A. Wiggins · L. Zeinstra
+31,"Wed, Feb 26, 2025",,Box Score,@,Villanova,L,,54,56,15,16,S. Jaynes · R. Makalusky · K. McGuff · A. Wiggins · L. Zeinstra
+32,"Fri, Mar 7, 2025",,Box Score,N,St. John's (NY),L,,50,66,15,17,L. Carmody · S. Jaynes · R. Makalusky · K. McGuff · L. Zeinstra
+33,"Sun, Mar 23, 2025",,Box Score,,Illinois-Chicago,W,,61,54,16,17,L. Carmody · S. Jaynes · J. Land · K. McGuff · L. Zeinstra
+34,"Fri, Mar 28, 2025",,Box Score,@,Purdue Fort Wayne,L,,61,87,16,18,L. Carmody · S. Jaynes · J. Land · K. McGuff · L. Zeinstra

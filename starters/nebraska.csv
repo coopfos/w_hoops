@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Omaha,W,,88,48,1,0,C. Hake · A. Markowski · N. Potts · B. Prince · A. Weidner
+2,"Sat, Nov 9, 2024",,Box Score,,Southeastern Louisiana,W,,78,68,2,0,C. Hake · A. Markowski · N. Potts · A. Rimdal · A. Weidner
+3,"Tue, Nov 12, 2024",,Box Score,,Southern,W,,84,58,3,0,C. Hake · A. Markowski · N. Potts · B. Prince · A. Weidner
+4,"Sat, Nov 16, 2024",,Box Score,N,South Dakota,W,,113,70,4,0,A. Markowski · L. Nissley · N. Potts · B. Prince · A. Rimdal
+5,"Tue, Nov 19, 2024",,Box Score,,North Alabama,W,,85,48,5,0,A. Markowski · L. Nissley · N. Potts · B. Prince · A. Rimdal
+6,"Fri, Nov 22, 2024",,Box Score,@,Creighton,L,,74,80,5,1,A. Markowski · L. Nissley · J. Petrie · B. Prince · A. Rimdal
+7,"Tue, Nov 26, 2024",,Box Score,,Kansas City,W,,84,38,6,1,C. Hake · A. Markowski · K. Moriarty · J. Petrie · B. Prince
+8,"Tue, Dec 3, 2024",,Box Score,,Lindenwood,W,,69,48,7,1,K. Coley · C. Hake · A. Markowski · L. Nissley · B. Prince
+9,"Sun, Dec 8, 2024",,Box Score,,Minnesota,W,,84,65,8,1,K. Coley · C. Hake · A. Markowski · L. Nissley · B. Prince
+10,"Wed, Dec 11, 2024",,Box Score,,Tarleton State,W,,63,50,9,1,K. Coley · C. Hake · A. Markowski · L. Nissley · B. Prince
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Chattanooga,W,,66,42,10,1,C. Hake · A. Hargrove · A. Markowski · B. Prince · A. Rimdal
+12,"Sat, Dec 21, 2024",,Box Score,@,Georgia Tech,L,,61,72,10,2,C. Hake · A. Hargrove · A. Markowski · B. Prince · A. Rimdal
+13,"Sun, Dec 29, 2024",,Box Score,@,UCLA,L,,54,91,10,3,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+14,"Wed, Jan 1, 2025",,Box Score,@,Southern California,L,,55,75,10,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+15,"Sun, Jan 5, 2025",,Box Score,,Penn State,W,,72,61,11,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+16,"Wed, Jan 8, 2025",,Box Score,,Michigan State,W,,85,80,12,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+17,"Sun, Jan 12, 2025",,Box Score,@,Rutgers,W,,69,62,13,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+18,"Thu, Jan 16, 2025",,Box Score,@,Iowa,W,OT,87,84,14,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+19,"Mon, Jan 20, 2025",,Box Score,,Wisconsin,W,,91,60,15,4,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+20,"Sun, Jan 26, 2025",,Box Score,,Ohio State,L,,66,72,15,5,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,@,Purdue,W,,74,68,16,5,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+22,"Sun, Feb 2, 2025",,Box Score,@,Indiana,L,,60,76,16,6,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+23,"Thu, Feb 6, 2025",,Box Score,,Michigan,L,,60,78,16,7,C. Hake · A. Markowski · K. Moriarty · J. Petrie · B. Prince
+24,"Mon, Feb 10, 2025",,Box Score,,Iowa,L,,66,81,16,8,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+25,"Thu, Feb 13, 2025",,Box Score,@,Maryland,W,,91,71,17,8,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+26,"Sun, Feb 16, 2025",,Box Score,@,Illinois,L,,68,77,17,9,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+27,"Wed, Feb 19, 2025",,Box Score,,Oregon,W,OT,94,90,18,9,C. Hake · A. Markowski · K. Moriarty · L. Nissley · J. Petrie
+28,"Sun, Feb 23, 2025",,Box Score,,Washington,L,,62,83,18,10,C. Hake · A. Markowski · K. Moriarty · L. Nissley · J. Petrie
+29,"Sun, Mar 2, 2025",,Box Score,@,Northwestern,W,,98,77,19,10,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+30,"Wed, Mar 5, 2025",,Box Score,N,Rutgers,W,,84,60,20,10,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+31,"Thu, Mar 6, 2025",,Box Score,N,Illinois,W,,74,70,21,10,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+32,"Fri, Mar 7, 2025",,Box Score,N,UCLA,L,,74,85,21,11,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince
+33,"Fri, Mar 21, 2025",,Box Score,N,Louisville,L,,58,63,21,12,C. Hake · A. Markowski · L. Nissley · J. Petrie · B. Prince

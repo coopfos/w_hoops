@@ -1,0 +1,33 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Adelphi,L,,50,58,0,1,T. Davis · A. Ferguson · C. Harris · I. Murua · R. Nelson
+2,"Fri, Nov 8, 2024",,Box Score,,Cal State Fullerton,W,,66,51,1,1,K. Berry · T. Davis · A. Ferguson · C. Harris · I. Murua
+3,"Tue, Nov 12, 2024",,Box Score,@,Seton Hall,L,,44,67,1,2,K. Berry · T. Davis · A. Ferguson · C. Harris · I. Murua
+4,"Fri, Nov 15, 2024",,Box Score,,Saint Peter's,W,,64,56,2,2,K. Berry · T. Davis · T. Donaldson · A. Ferguson · I. Murua
+5,"Wed, Nov 20, 2024",,Box Score,@,Manhattan,L,,58,65,2,3,T. Donaldson · A. Ferguson · C. Harris · I. Murua · R. Nelson
+6,"Sat, Nov 23, 2024",,Box Score,,Siena,W,,90,51,3,3,K. Berry · T. Donaldson · A. Ferguson · I. Murua · R. Nelson
+7,"Sun, Dec 1, 2024",,Box Score,@,Stony Brook,W,,64,55,4,3,K. Berry · T. Donaldson · A. Ferguson · I. Murua · R. Nelson
+8,"Wed, Dec 4, 2024",,Box Score,@,Yale,W,,71,54,5,3,K. Berry · T. Donaldson · A. Ferguson · I. Murua · R. Nelson
+9,"Sun, Dec 8, 2024",,Box Score,,Long Island University,W,,62,43,6,3,K. Berry · T. Donaldson · A. Ferguson · I. Murua · R. Nelson
+10,"Sat, Dec 21, 2024",,Box Score,@,California,L,,53,69,6,4,K. Berry · T. Davis · T. Donaldson · C. Harris · I. Murua
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 22, 2024",,Box Score,N,Xavier,L,,62,71,6,5,K. Berry · T. Davis · T. Donaldson · C. Harris · I. Murua
+12,"Sun, Dec 29, 2024",,Box Score,@,Massachusetts,L,,61,78,6,6,A. Ferguson · C. Harris · I. Murua · A. Veljovic · E. Wilson-Saltos
+13,"Thu, Jan 2, 2025",,Box Score,,Richmond,W,,80,78,7,6,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+14,"Sun, Jan 5, 2025",,Box Score,@,Duquesne,W,,64,62,8,6,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+15,"Wed, Jan 8, 2025",,Box Score,,George Washington,W,,61,53,9,6,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+16,"Sat, Jan 11, 2025",,Box Score,@,Loyola (IL),W,,68,53,10,6,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+17,"Wed, Jan 15, 2025",,Box Score,@,Saint Joseph's,L,,65,72,10,7,K. Berry · T. Davis · T. Donaldson · I. Murua · R. Nelson
+18,"Sat, Jan 18, 2025",,Box Score,,Dayton,W,,58,55,11,7,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+19,"Sat, Jan 25, 2025",,Box Score,,St. Bonaventure,W,,51,49,12,7,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+20,"Wed, Jan 29, 2025",,Box Score,,Rhode Island,L,,35,53,12,8,T. Davis · T. Donaldson · C. Harris · I. Murua · E. Wilson-Saltos
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,@,Saint Louis,L,OT,53,59,12,9,K. Antoine · T. Donaldson · I. Murua · R. Nelson · A. Veljovic
+22,"Tue, Feb 4, 2025",,Box Score,@,George Washington,L,,59,69,12,10,K. Antoine · T. Donaldson · C. Harris · I. Murua · A. Veljovic
+23,"Sat, Feb 8, 2025",,Box Score,,George Mason,L,,43,70,12,11,K. Berry · T. Davis · I. Murua · R. Nelson · A. Veljovic
+24,"Wed, Feb 12, 2025",,Box Score,@,La Salle,W,,61,58,13,11,K. Berry · T. Davis · T. Donaldson · I. Murua · A. Veljovic
+25,"Sun, Feb 16, 2025",,Box Score,,Virginia Commonwealth,L,,57,76,13,12,T. Davis · C. Harris · I. Murua · R. Nelson · A. Veljovic
+26,"Wed, Feb 19, 2025",,Box Score,,Duquesne,W,,56,53,14,12,T. Davis · I. Murua · R. Nelson · A. Veljovic · E. Wilson-Saltos
+27,"Sat, Feb 22, 2025",,Box Score,@,Dayton,L,,57,62,14,13,K. Berry · T. Davis · I. Murua · R. Nelson · E. Wilson-Saltos
+28,"Wed, Feb 26, 2025",,Box Score,,La Salle,W,,72,51,15,13,K. Berry · T. Davis · T. Donaldson · I. Murua · R. Nelson
+29,"Sat, Mar 1, 2025",,Box Score,@,Davidson,L,,52,64,15,14,K. Berry · T. Davis · T. Donaldson · I. Murua · R. Nelson
+30,"Thu, Mar 6, 2025",,Box Score,N,Duquesne,L,,63,79,15,15,T. Davis · T. Donaldson · I. Murua · R. Nelson · A. Veljovic

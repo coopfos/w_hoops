@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,South Florida,L,,44,87,0,1,J. Brooks · K. Clark · D. Dorsey · C. McDonald · K. Woods
+2,"Sat, Nov 9, 2024",,Box Score,,Univ. of Ft. Lauderdale,W,,102,27,1,1,J. Brooks · K. Clark · D. Dorsey · C. McDonald · K. Woods
+3,"Tue, Nov 12, 2024",,Box Score,@,Georgia Southern,L,,50,54,1,2,J. Brooks · K. Clark · D. Dorsey · C. McDonald · K. Woods
+4,"Sat, Nov 16, 2024",,Box Score,@,Florida Atlantic,L,,49,78,1,3,J. Brooks · K. Clark · D. Dorsey · C. McDonald · K. Woods
+5,"Tue, Nov 19, 2024",,Box Score,,Trinity Baptist,W,,117,34,2,3,J. Brooks · K. Clark · D. Dorsey · C. McDonald · K. Woods
+6,"Sun, Nov 24, 2024",,Box Score,@,Virginia,L,,48,82,2,4,J. Brooks · D. Dorsey · C. McDonald · A. Nicholson · K. Woods
+7,"Sat, Nov 30, 2024",,Box Score,,Mercer,L,,64,70,2,5,J. Brooks · C. McDonald · A. Nicholson · S. Phillips · K. Woods
+8,"Sun, Dec 8, 2024",,Box Score,@,Miami (FL),L,,63,81,2,6,K. Clark · D. Dorsey · A. Nicholson · S. Phillips · K. White
+9,"Fri, Dec 13, 2024",,Box Score,@,Cleveland State,L,,59,78,2,7,K. Clark · D. Dorsey · A. Nicholson · S. Phillips · K. White
+10,"Thu, Dec 19, 2024",,Box Score,N,Bradley,L,,36,71,2,8,J. Brooks · K. Clark · D. Dorsey · A. Nicholson · S. Phillips
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Fri, Dec 20, 2024",,Box Score,N,South Alabama,W,,67,62,3,8,J. Brooks · K. Clark · D. Dorsey · A. Nicholson · S. Phillips
+12,"Mon, Dec 30, 2024",,Box Score,@,Campbell,L,,50,64,3,9,J. Brooks · K. Clark · D. Dorsey · A. Nicholson · S. Phillips
+13,"Sat, Jan 4, 2025",,Box Score,@,Florida A&M,L,,54,62,3,10,J. Brooks · K. Clark · D. Dorsey · A. Nicholson · S. Phillips
+14,"Thu, Jan 9, 2025",,Box Score,@,Southern,L,,56,73,3,11,J. Brooks · K. Clark · D. Dorsey · J. Kelley · A. Nicholson
+15,"Sat, Jan 11, 2025",,Box Score,@,Grambling,W,,70,52,4,11,J. Brooks · K. Clark · D. Dorsey · J. Kelley · A. Nicholson
+16,"Thu, Jan 16, 2025",,Box Score,,Arkansas-Pine Bluff,W,,62,58,5,11,J. Brooks · K. Clark · D. Dorsey · J. Kelley · A. Nicholson
+17,"Sat, Jan 18, 2025",,Box Score,,Mississippi Valley State,W,,67,49,6,11,J. Brooks · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+18,"Sat, Jan 25, 2025",,Box Score,@,Jackson State,L,,47,64,6,12,J. Brooks · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+19,"Mon, Jan 27, 2025",,Box Score,@,Alcorn State,L,,58,68,6,13,J. Brooks · K. Clark · D. Dorsey · J. Kelley · A. Nicholson
+20,"Thu, Jan 30, 2025",,Box Score,,Alabama A&M,L,,49,66,6,14,J. Brooks · K. Clark · D. Dorsey · J. Kelley · A. Nicholson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,,Alabama State,W,,71,40,7,14,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+22,"Thu, Feb 6, 2025",,Box Score,@,Texas Southern,L,,57,64,7,15,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+23,"Sat, Feb 8, 2025",,Box Score,@,Prairie View,L,,60,65,7,16,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+24,"Thu, Feb 13, 2025",,Box Score,,Jackson State,L,,53,59,7,17,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+25,"Sat, Feb 15, 2025",,Box Score,,Alcorn State,W,,65,52,8,17,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+26,"Thu, Feb 20, 2025",,Box Score,@,Alabama State,W,,56,53,9,17,J. Brooks · K. Clark · D. Dorsey · C. McDonald · A. Nicholson
+27,"Sat, Feb 22, 2025",,Box Score,@,Alabama A&M,L,,62,70,9,18,K. Clark · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+28,"Thu, Feb 27, 2025",,Box Score,,Grambling,L,,59,71,9,19,K. Clark · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+29,"Sat, Mar 1, 2025",,Box Score,,Southern,L,,54,62,9,20,K. Clark · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+30,"Sat, Mar 8, 2025",,Box Score,,Florida A&M,W,OT,71,60,10,20,K. Clark · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson
+31,"Tue, Mar 11, 2025",,Box Score,N,Prairie View,L,OT,52,57,10,21,K. Clark · D. Dorsey · J. Kelley · C. McDonald · A. Nicholson

@@ -1,0 +1,37 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Ohio,W,,82,70,1,0,B. Akinsola · M. Eddings · I. Green · N. Gwynn · L. Johnson
+2,"Sat, Nov 9, 2024",,Box Score,@,North Florida,W,,81,65,2,0,B. Akinsola · M. Eddings · I. Green · N. Gwynn · L. Johnson
+3,"Tue, Nov 12, 2024",,Box Score,,Bethune-Cookman,W,,54,50,3,0,B. Akinsola · M. Eddings · I. Green · N. Gwynn · L. Johnson
+4,"Sat, Nov 16, 2024",,Box Score,,Longwood,W,,68,64,4,0,B. Akinsola · I. Green · N. Gwynn · J. Jackson · L. Johnson
+5,"Sat, Nov 23, 2024",,Box Score,@,George Washington,L,,46,56,4,1,B. Akinsola · I. Green · N. Gwynn · J. Jackson · L. Johnson
+6,"Fri, Nov 29, 2024",,Box Score,N,Maryland-Eastern Shore,W,,58,47,5,1,B. Akinsola · P. Gaines · N. Gwynn · J. Jackson · L. Johnson
+7,"Sat, Nov 30, 2024",,Box Score,@,Rutgers,L,,60,77,5,2,P. Gaines · N. Gwynn · J. Jackson · L. Johnson · N. Mays-Prince
+8,"Thu, Dec 5, 2024",,Box Score,,Jacksonville,L,,51,56,5,3,P. Gaines · I. Green · N. Gwynn · J. Jackson · N. Mays-Prince
+9,"Fri, Dec 13, 2024",,Box Score,,Coastal Georgia,W,,78,46,6,3,I. Green · N. Gwynn · J. Jackson · L. Johnson · N. Mays-Prince
+10,"Wed, Dec 18, 2024",,Box Score,N,Florida Atlantic,L,OT,66,71,6,4,M. Eddings · P. Gaines · I. Green · N. Gwynn · J. Jackson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Thu, Dec 19, 2024",,Box Score,N,Wright State,W,,88,82,7,4,M. Eddings · P. Gaines · I. Green · N. Gwynn · J. Jackson
+12,"Sat, Dec 21, 2024",,Box Score,@,Grand Canyon,L,,52,79,7,5,B. Akinsola · M. Eddings · P. Gaines · I. Green · N. Gwynn
+13,"Sun, Dec 29, 2024",,Box Score,,Louisiana,L,,57,68,7,6,B. Akinsola · I. Green · N. Gwynn · J. Jackson · J. Jones
+14,"Thu, Jan 2, 2025",,Box Score,@,Louisiana-Monroe,L,,67,83,7,7,B. Akinsola · M. Eddings · I. Green · N. Gwynn · L. Johnson
+15,"Sat, Jan 4, 2025",,Box Score,@,Arkansas State,L,,73,76,7,8,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Jackson
+16,"Wed, Jan 8, 2025",,Box Score,@,Georgia State,W,,82,57,8,8,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+17,"Sat, Jan 11, 2025",,Box Score,@,James Madison,L,,68,85,8,9,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+18,"Wed, Jan 15, 2025",,Box Score,,Texas State,W,,69,62,9,9,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+19,"Sat, Jan 18, 2025",,Box Score,,Georgia State,L,3OT,83,88,9,10,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+20,"Wed, Jan 22, 2025",,Box Score,@,Marshall,L,,60,67,9,11,M. Eddings · I. Green · N. Gwynn · N. Mays-Prince · J. Simmons
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Appalachian State,L,,56,60,9,12,B. Akinsola · M. Eddings · N. Gwynn · L. Johnson · J. Simmons
+22,"Wed, Jan 29, 2025",,Box Score,,James Madison,L,,60,77,9,13,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+23,"Sat, Feb 1, 2025",,Box Score,,Marshall,L,,65,71,9,14,B. Akinsola · M. Eddings · I. Green · N. Gwynn · J. Simmons
+24,"Wed, Feb 5, 2025",,Box Score,@,Southern Mississippi,W,,49,42,10,14,M. Eddings · I. Green · N. Gwynn · L. Johnson · N. Mays-Prince
+25,"Sat, Feb 8, 2025",,Box Score,,Akron,W,,60,36,11,14,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons
+26,"Wed, Feb 12, 2025",,Box Score,,Coastal Carolina,L,,56,67,11,15,I. Green · N. Gwynn · J. Jackson · N. Mays-Prince · J. Simmons
+27,"Sat, Feb 15, 2025",,Box Score,,South Alabama,W,,95,68,12,15,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons
+28,"Wed, Feb 19, 2025",,Box Score,@,Coastal Carolina,L,,58,64,12,16,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons
+29,"Sat, Feb 22, 2025",,Box Score,@,Old Dominion,L,,66,68,12,17,M. Eddings · I. Green · N. Gwynn · L. Johnson · N. Mays-Prince
+30,"Wed, Feb 26, 2025",,Box Score,,Appalachian State,W,,57,55,13,17,M. Eddings · I. Green · N. Gwynn · L. Johnson · N. Mays-Prince
+31,"Fri, Feb 28, 2025",,Box Score,,Old Dominion,W,,86,79,14,17,M. Eddings · I. Green · N. Gwynn · L. Johnson · N. Mays-Prince
+32,"Tue, Mar 4, 2025",,Box Score,N,Southern Mississippi,W,,70,59,15,17,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons
+33,"Wed, Mar 5, 2025",,Box Score,N,Louisiana-Monroe,W,,75,69,16,17,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons
+34,"Thu, Mar 6, 2025",,Box Score,N,Georgia State,L,,64,70,16,18,I. Green · N. Gwynn · L. Johnson · N. Mays-Prince · J. Simmons

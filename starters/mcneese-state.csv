@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Southeastern Baptist College,W,,99,19,1,0,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+2,"Thu, Nov 7, 2024",,Box Score,,College of Biblical Studies,W,,105,35,2,0,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+3,"Sun, Nov 10, 2024",,Box Score,,North American,W,,77,52,3,0,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+4,"Mon, Nov 18, 2024",,Box Score,@,Utah,L,,50,118,3,1,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+5,"Tue, Nov 19, 2024",,Box Score,@,Brigham Young,L,,64,85,3,2,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+6,"Sat, Nov 23, 2024",,Box Score,,Utah Tech,L,,69,79,3,3,K. Davis · K. Ellis · W. Joseph · T. Williams · M. Yespes
+7,"Wed, Nov 27, 2024",,Box Score,,St. Thomas (TX),W,,81,43,4,3,B. Berry · J. Puente Valverde · A. Reeves · T. Williams · M. Yespes
+8,"Fri, Dec 6, 2024",,Box Score,N,William & Mary,L,,48,57,4,4,K. Ellis · W. Joseph · A. Reeves · T. Williams · M. Yespes
+9,"Sat, Dec 7, 2024",,Box Score,N,South Carolina State,W,,62,38,5,4,K. Ellis · W. Joseph · L. Kahrimanovic · T. Williams · M. Yespes
+10,"Sun, Dec 8, 2024",,Box Score,@,Longwood,L,,54,81,5,5,K. Ellis · W. Joseph · L. Kahrimanovic · T. Williams · M. Yespes
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Mon, Dec 16, 2024",,Box Score,@,Oklahoma State,L,,41,92,5,6,B. Berry · W. Joseph · L. Kahrimanovic · T. Williams · M. Yespes
+12,"Sat, Dec 21, 2024",,Box Score,,Southeastern Louisiana,L,,56,82,5,7,B. Berry · P. Guillory · W. Joseph · T. Williams · M. Yespes
+13,"Thu, Jan 2, 2025",,Box Score,@,Northwestern State,L,,55,70,5,8,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+14,"Sat, Jan 4, 2025",,Box Score,@,East Texas A&M,W,,64,55,6,8,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+15,"Thu, Jan 9, 2025",,Box Score,@,Houston Christian,W,,61,51,7,8,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+16,"Sat, Jan 11, 2025",,Box Score,,Nicholls State,L,,47,60,7,9,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+17,"Thu, Jan 16, 2025",,Box Score,,Stephen F. Austin,L,,49,91,7,10,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+18,"Sat, Jan 18, 2025",,Box Score,,Lamar,L,,52,68,7,11,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+19,"Sat, Jan 25, 2025",,Box Score,@,Texas-Rio Grande Valley,L,,65,73,7,12,K. Ellis · P. Guillory · W. Joseph · T. Williams · M. Yespes
+20,"Mon, Jan 27, 2025",,Box Score,@,Texas A&M-Corpus Christi,W,,59,54,8,12,K. Ellis · P. Guillory · W. Joseph · A. Reeves · T. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Jan 30, 2025",,Box Score,,Incarnate Word,L,,63,77,8,13,B. Berry · K. Ellis · P. Guillory · W. Joseph · T. Williams
+22,"Sat, Feb 1, 2025",,Box Score,@,Nicholls State,L,,67,84,8,14,K. Ellis · P. Guillory · W. Joseph · T. Williams · A. Young
+23,"Thu, Feb 6, 2025",,Box Score,,East Texas A&M,L,,51,67,8,15,K. Ellis · P. Guillory · W. Joseph · A. Reeves · T. Williams
+24,"Sat, Feb 8, 2025",,Box Score,,Northwestern State,L,,56,80,8,16,K. Ellis · W. Joseph · S. McQuietor · A. Reeves · T. Williams
+25,"Thu, Feb 13, 2025",,Box Score,@,Southeastern Louisiana,L,,45,65,8,17,K. Ellis · W. Joseph · S. McQuietor · A. Reeves · T. Williams
+26,"Sat, Feb 15, 2025",,Box Score,@,New Orleans,W,,71,66,9,17,K. Ellis · W. Joseph · A. Reeves · T. Williams · M. Yespes
+27,"Thu, Feb 20, 2025",,Box Score,,Texas-Rio Grande Valley,L,,44,67,9,18,K. Ellis · W. Joseph · A. Reeves · T. Williams · M. Yespes
+28,"Sat, Feb 22, 2025",,Box Score,,Texas A&M-Corpus Christi,W,,69,60,10,18,K. Ellis · W. Joseph · A. Reeves · T. Williams · M. Yespes
+29,"Thu, Feb 27, 2025",,Box Score,@,Stephen F. Austin,L,,57,80,10,19,K. Ellis · P. Guillory · W. Joseph · A. Reeves · M. Yespes
+30,"Sat, Mar 1, 2025",,Box Score,@,Lamar,L,,60,69,10,20,K. Ellis · P. Guillory · W. Joseph · A. Reeves · M. Yespes
+31,"Tue, Mar 4, 2025",,Box Score,,New Orleans,L,,71,73,10,21,K. Ellis · P. Guillory · W. Joseph · A. Reeves · T. Williams

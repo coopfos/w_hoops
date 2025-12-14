@@ -1,0 +1,38 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,University of the Southwest,W,,95,38,1,0,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+2,"Fri, Nov 8, 2024",,Box Score,@,Florida International,W,,76,73,2,0,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+3,"Tue, Nov 12, 2024",,Box Score,,Stephen F. Austin,L,,65,68,2,1,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+4,"Sat, Nov 16, 2024",,Box Score,,North Texas,L,,60,71,2,2,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+5,"Tue, Nov 19, 2024",,Box Score,@,Texas Tech,L,,40,66,2,3,N. Chavez · B. Davis · B. Earle · P. Hull · E. Troxell
+6,"Thu, Nov 21, 2024",,Box Score,,Western Kentucky,L,,64,68,2,4,N. Chavez · B. Davis · B. Earle · P. Hull · E. Troxell
+7,"Sun, Nov 24, 2024",,Box Score,@,Incarnate Word,W,,61,53,3,4,N. Chavez · B. Earle · P. Hull · M. Rivers · E. Troxell
+8,"Fri, Nov 29, 2024",,Box Score,N,Sacramento State,W,,75,53,4,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+9,"Sun, Dec 1, 2024",,Box Score,@,Florida International,W,,87,67,5,4,B. Davis · B. Earle · P. Hull · M. Mayes · M. Rivers
+10,"Wed, Dec 4, 2024",,Box Score,@,Texas-Rio Grande Valley,W,,59,45,6,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 7, 2024",,Box Score,,East Texas A&M,W,,74,59,7,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+12,"Tue, Dec 17, 2024",,Box Score,,Howard Payne,W,,108,35,8,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+13,"Fri, Dec 20, 2024",,Box Score,N,Sacramento State,W,,80,49,9,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+14,"Sat, Dec 21, 2024",,Box Score,@,New Mexico,W,,77,69,10,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+15,"Mon, Dec 30, 2024",,Box Score,,Nelson,W,,87,40,11,4,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+16,"Sat, Jan 4, 2025",,Box Score,,Utah Valley,L,2OT,63,64,11,5,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+17,"Sat, Jan 11, 2025",,Box Score,,Seattle,W,,83,55,12,5,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+18,"Thu, Jan 16, 2025",,Box Score,,Grand Canyon,L,,67,81,12,6,B. Earle · P. Hull · M. Mayes · M. Rivers · E. Troxell
+19,"Sat, Jan 18, 2025",,Box Score,@,California Baptist,W,,71,55,13,6,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+20,"Thu, Jan 23, 2025",,Box Score,@,Tarleton State,L,,54,79,13,7,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,UT Arlington,L,,52,71,13,8,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+22,"Thu, Jan 30, 2025",,Box Score,,California Baptist,L,,84,87,13,9,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+23,"Thu, Feb 6, 2025",,Box Score,,Utah Tech,W,,84,66,14,9,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+24,"Sat, Feb 8, 2025",,Box Score,,Southern Utah,W,,74,52,15,9,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+25,"Thu, Feb 13, 2025",,Box Score,@,Seattle,W,,84,62,16,9,B. Davis · M. Mayes · P. Pique · E. Troxell · E. Woodson
+26,"Wed, Feb 19, 2025",,Box Score,@,Southern Utah,L,,46,49,16,10,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+27,"Sat, Feb 22, 2025",,Box Score,@,Utah Tech,W,,71,60,17,10,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+28,"Thu, Feb 27, 2025",,Box Score,,Tarleton State,W,,59,56,18,10,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+29,"Sat, Mar 1, 2025",,Box Score,,UT Arlington,W,,81,74,19,10,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+30,"Thu, Mar 6, 2025",,Box Score,@,Utah Valley,W,,71,62,20,10,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+31,"Sat, Mar 8, 2025",,Box Score,@,Grand Canyon,L,,57,70,20,11,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+32,"Thu, Mar 13, 2025",,Box Score,N,Utah Valley,L,,65,75,20,12,B. Davis · B. Earle · M. Mayes · E. Troxell · E. Woodson
+33,"Thu, Mar 20, 2025",,Box Score,,Northwestern State,W,,86,59,21,12,B. Davis · B. Earle · P. Hull · M. Mayes · E. Troxell
+34,"Mon, Mar 24, 2025",,Box Score,@,Central Arkansas,W,,75,53,22,12,B. Davis · B. Earle · P. Hull · M. Mayes · E. Troxell
+35,"Thu, Mar 27, 2025",,Box Score,@,Illinois State,L,,68,78,22,13,B. Davis · B. Earle · P. Hull · M. Mayes · E. Troxell

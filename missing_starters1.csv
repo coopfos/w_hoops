@@ -1,0 +1,353 @@
+Unnamed: 0,School,sid
+11,Arizona,arizona
+12,Arizona State,arizona-state
+13,Arkansas,arkansas
+14,Arkansas State NCAA,arkansas-state
+15,Arkansas-Pine Bluff,arkansas-pine-bluff
+16,Army,army
+17,Auburn,auburn
+18,Austin Peay,austin-peay
+19,Ball State NCAA,ball-state
+20,Baylor NCAA,baylor
+21,Bellarmine,bellarmine
+22,Belmont,belmont
+23,Bethune-Cookman,bethune-cookman
+24,Binghamton,binghamton
+25,Boise State,boise-state
+26,Boston College,boston-college
+27,Boston University,boston-university
+28,Bowling Green,bowling-green-state
+29,Bradley,bradley
+30,Brigham Young,brigham-young
+31,Brown,brown
+32,Bryant,bryant
+33,Bucknell,bucknell
+34,Buffalo,buffalo
+35,Butler,butler
+36,Cal Poly,cal-poly
+37,Cal State Bakersfield,cal-state-bakersfield
+38,Cal State Fullerton,cal-state-fullerton
+39,Cal State Northridge,cal-state-northridge
+40,California Baptist,california-baptist
+41,California NCAA,california
+42,Campbell,campbell
+43,Canisius,canisius
+44,Central Arkansas,central-arkansas
+45,Central Connecticut State,central-connecticut-state
+46,Central Michigan,central-michigan
+47,Charleston Southern,charleston-southern
+48,Charlotte,charlotte
+49,Chattanooga,chattanooga
+50,Chicago State,chicago-state
+51,Cincinnati,cincinnati
+52,Clemson,clemson
+53,Cleveland State,cleveland-state
+54,Coastal Carolina,coastal-carolina
+55,Colgate,colgate
+56,College of Charleston,college-of-charleston
+57,Colorado,colorado
+58,Colorado State,colorado-state
+59,Columbia NCAA,columbia
+60,Connecticut NCAA,connecticut
+61,Coppin State,coppin-state
+62,Cornell,cornell
+63,Creighton NCAA,creighton
+64,Dartmouth,dartmouth
+65,Davidson,davidson
+66,Dayton,dayton
+67,DePaul,depaul
+68,Delaware,delaware
+69,Delaware State,delaware-state
+70,Denver,denver
+71,Detroit Mercy,detroit-mercy
+72,Drake,drake
+73,Drexel,drexel
+74,Duke NCAA,duke
+75,Duquesne,duquesne
+76,East Carolina,east-carolina
+77,East Tennessee State,east-tennessee-state
+78,East Texas A&M,texas-am-commerce
+79,Eastern Illinois,eastern-illinois
+80,Eastern Kentucky,eastern-kentucky
+81,Eastern Michigan,eastern-michigan
+82,Eastern Washington,eastern-washington
+83,Elon,elon
+84,Evansville,evansville
+85,FDU NCAA,fairleigh-dickinson
+86,Fairfield NCAA,fairfield
+87,Florida,florida
+88,Florida A&M,florida-am
+89,Florida Atlantic,florida-atlantic
+90,Florida Gulf Coast NCAA,florida-gulf-coast
+91,Florida International,florida-international
+92,Florida State NCAA,florida-state
+93,Fordham,fordham
+94,Fresno State,fresno-state
+95,Furman,furman
+96,Gardner-Webb,gardner-webb
+97,George Mason NCAA,george-mason
+98,George Washington,george-washington
+99,Georgetown,georgetown
+100,Georgia,georgia
+101,Georgia Southern,georgia-southern
+102,Georgia State,georgia-state
+103,Georgia Tech NCAA,georgia-tech
+104,Gonzaga,gonzaga
+105,Grambling,grambling
+106,Grand Canyon NCAA,grand-canyon
+107,Green Bay NCAA,green-bay
+108,Hampton,hampton
+109,Harvard NCAA,harvard
+110,Hawaii,hawaii
+111,High Point NCAA,high-point
+112,Hofstra,hofstra
+113,Holy Cross,holy-cross
+114,Houston,houston
+115,Houston Christian,houston-baptist
+116,Howard,howard
+117,IU Indy,iupui
+118,Idaho,idaho
+119,Idaho State,idaho-state
+120,Illinois State,illinois-state
+121,Illinois-Chicago,illinois-chicago
+122,Illinois NCAA,illinois
+123,Incarnate Word,incarnate-word
+124,Indiana State,indiana-state
+125,Indiana NCAA,indiana
+126,Iona,iona
+127,Iowa State NCAA,iowa-state
+128,Iowa NCAA,iowa
+129,Jackson State,jackson-state
+130,Jacksonville,jacksonville
+131,Jacksonville State,jacksonville-state
+132,James Madison,james-madison
+133,Kansas,kansas
+134,Kansas City,missouri-kansas-city
+135,Kansas State NCAA,kansas-state
+136,Kennesaw State,kennesaw-state
+137,Kent State,kent-state
+138,Kentucky NCAA,kentucky
+139,La Salle,la-salle
+140,Lafayette,lafayette
+141,Lamar,lamar
+142,Le Moyne,le-moyne
+143,Lehigh NCAA,lehigh
+144,Liberty NCAA,liberty
+145,Lindenwood,lindenwood
+146,Lipscomb,lipscomb
+147,Little Rock,arkansas-little-rock
+148,Long Beach State,long-beach-state
+149,Long Island University,long-island-university
+150,Longwood,longwood
+151,Louisiana,louisiana-lafayette
+152,Louisiana State NCAA,louisiana-state
+153,Louisiana Tech,louisiana-tech
+154,Louisiana-Monroe,louisiana-monroe
+155,Louisville NCAA,louisville
+156,Loyola (IL),loyola-il
+157,Loyola (MD),loyola-md
+158,Loyola Marymount,loyola-marymount
+159,Maine,maine
+160,Manhattan,manhattan
+161,Marist,marist
+162,Marquette,marquette
+163,Marshall,marshall
+164,Maryland-Baltimore County,maryland-baltimore-county
+165,Maryland-Eastern Shore,maryland-eastern-shore
+166,Maryland NCAA,maryland
+167,Massachusetts,massachusetts
+168,Massachusetts-Lowell,massachusetts-lowell
+169,McNeese State,mcneese-state
+170,Memphis,memphis
+171,Mercer,mercer
+172,Mercyhurst,mercyhurst
+173,Merrimack,merrimack
+174,Miami (FL),miami-fl
+175,Miami (OH),miami-oh
+176,Michigan State NCAA,michigan-state
+177,Michigan NCAA,michigan
+178,Middle Tennessee,middle-tennessee
+179,Milwaukee,milwaukee
+180,Minnesota,minnesota
+181,Mississippi State NCAA,mississippi-state
+182,Mississippi Valley State,mississippi-valley-state
+183,Mississippi NCAA,mississippi
+184,Missouri,missouri
+185,Missouri State,missouri-state
+186,Monmouth,monmouth
+187,Montana,montana
+188,Montana State NCAA,montana-state
+189,Morehead State,morehead-state
+190,Morgan State,morgan-state
+191,Mount St. Mary's,mount-st-marys
+192,Murray State NCAA,murray-state
+193,NC State NCAA,north-carolina-state
+194,NJIT,njit
+195,Navy,navy
+196,Nebraska NCAA,nebraska
+197,Nevada,nevada
+198,Nevada-Las Vegas,nevada-las-vegas
+199,New Hampshire,new-hampshire
+200,New Mexico,new-mexico
+201,New Mexico State,new-mexico-state
+202,New Orleans,new-orleans
+203,Niagara,niagara
+204,Nicholls State,nicholls-state
+205,Norfolk State NCAA,norfolk-state
+206,North Alabama,north-alabama
+207,North Carolina A&T,north-carolina-at
+208,North Carolina Central,north-carolina-central
+209,North Carolina NCAA,north-carolina
+210,North Dakota,north-dakota
+211,North Dakota State,north-dakota-state
+212,North Florida,north-florida
+213,North Texas,north-texas
+214,Northeastern,northeastern
+215,Northern Arizona,northern-arizona
+216,Northern Colorado,northern-colorado
+217,Northern Illinois,northern-illinois
+218,Northern Iowa,northern-iowa
+219,Northern Kentucky,northern-kentucky
+220,Northwestern,northwestern
+221,Northwestern State,northwestern-state
+222,Notre Dame NCAA,notre-dame
+223,Oakland,oakland
+224,Ohio,ohio
+225,Ohio State NCAA,ohio-state
+226,Oklahoma State NCAA,oklahoma-state
+227,Oklahoma NCAA,oklahoma
+228,Old Dominion,old-dominion
+229,Omaha,nebraska-omaha
+230,Oral Roberts,oral-roberts
+231,Oregon State NCAA,oregon-state
+232,Oregon NCAA,oregon
+233,Pacific,pacific
+234,Penn State,penn-state
+235,Pennsylvania,pennsylvania
+236,Pepperdine,pepperdine
+237,Pittsburgh,pittsburgh
+238,Portland,portland
+239,Portland State,portland-state
+240,Prairie View,prairie-view
+241,Presbyterian,presbyterian
+242,Princeton NCAA,princeton
+243,Providence,providence
+244,Purdue,purdue
+245,Purdue Fort Wayne,ipfw
+246,Queens (NC),queens-nc
+247,Quinnipiac,quinnipiac
+248,Radford,radford
+249,Rhode Island,rhode-island
+250,Rice,rice
+251,Richmond NCAA,richmond
+252,Rider,rider
+253,Robert Morris,robert-morris
+254,Rutgers,rutgers
+255,SIU Edwardsville,southern-illinois-edwardsville
+256,Sacramento State,sacramento-state
+257,Sacred Heart,sacred-heart
+258,Saint Francis (PA),saint-francis-pa
+259,Saint Joseph's,saint-josephs
+260,Saint Louis,saint-louis
+261,Saint Mary's (CA),saint-marys-ca
+262,Saint Peter's,saint-peters
+263,Sam Houston,sam-houston-state
+264,Samford,samford
+265,San Diego,san-diego
+266,San Diego State NCAA,san-diego-state
+267,San Francisco,san-francisco
+268,San Jose State,san-jose-state
+269,Santa Clara,santa-clara
+270,Seattle,seattle
+271,Seton Hall,seton-hall
+272,Siena,siena
+273,South Alabama,south-alabama
+274,South Carolina State,south-carolina-state
+275,South Carolina Upstate,south-carolina-upstate
+276,South Carolina NCAA,south-carolina
+277,South Dakota,south-dakota
+278,South Dakota State NCAA,south-dakota-state
+279,South Florida NCAA,south-florida
+280,Southeast Missouri State,southeast-missouri-state
+281,Southeastern Louisiana,southeastern-louisiana
+282,Southern California NCAA,southern-california
+283,Southern Illinois,southern-illinois
+284,Southern Indiana,southern-indiana
+285,Southern Methodist,southern-methodist
+286,Southern Mississippi,southern-mississippi
+287,Southern Utah,southern-utah
+288,Southern NCAA,southern
+289,St. Bonaventure,st-bonaventure
+290,St. John's (NY),st-johns-ny
+291,St. Thomas,st-thomas-mn
+292,Stanford,stanford
+293,Stephen F. Austin NCAA,stephen-f-austin
+294,Stetson,stetson
+295,Stonehill,stonehill
+296,Stony Brook,stony-brook
+297,Syracuse,syracuse
+298,TCU NCAA,texas-christian
+299,Tarleton State,tarleton-state
+300,Temple,temple
+301,Tennessee State,tennessee-state
+302,Tennessee Tech NCAA,tennessee-tech
+303,Tennessee-Martin,tennessee-martin
+304,Tennessee NCAA,tennessee
+305,Texas A&M,texas-am
+306,Texas A&M-Corpus Christi,texas-am-corpus-christi
+307,Texas Southern,texas-southern
+308,Texas State,texas-state
+309,Texas Tech,texas-tech
+310,Texas-Rio Grande Valley,texas-pan-american
+311,Texas NCAA,texas
+312,Toledo,toledo
+313,Towson,towson
+314,Troy,troy
+315,Tulane,tulane
+316,Tulsa,tulsa
+317,UAB,alabama-birmingham
+318,UC Davis,california-davis
+319,UC Irvine,california-irvine
+320,UC Riverside,california-riverside
+321,UC San Diego NCAA,california-san-diego
+322,UC Santa Barbara,california-santa-barbara
+323,UCF,central-florida
+324,UCLA NCAA,ucla
+325,UNC Asheville,north-carolina-asheville
+326,UNC Greensboro NCAA,north-carolina-greensboro
+327,UNC Wilmington,north-carolina-wilmington
+328,UT Arlington,texas-arlington
+329,UTEP,texas-el-paso
+330,UTSA,texas-san-antonio
+331,Utah State,utah-state
+332,Utah Tech,dixie-state
+333,Utah Valley,utah-valley
+334,Utah NCAA,utah
+335,Valparaiso,valparaiso
+336,Vanderbilt NCAA,vanderbilt
+337,Vermont NCAA,vermont
+338,Villanova,villanova
+339,Virginia,virginia
+340,Virginia Commonwealth,virginia-commonwealth
+341,Virginia Tech,virginia-tech
+342,Wagner,wagner
+343,Wake Forest,wake-forest
+344,Washington State,washington-state
+345,Washington NCAA,washington
+346,Weber State,weber-state
+347,West Georgia,west-georgia
+348,West Virginia NCAA,west-virginia
+349,Western Carolina,western-carolina
+350,Western Illinois,western-illinois
+351,Western Kentucky,western-kentucky
+352,Western Michigan,western-michigan
+353,Wichita State,wichita-state
+354,William & Mary NCAA,william-mary
+355,Winthrop,winthrop
+356,Wisconsin,wisconsin
+357,Wofford,wofford
+358,Wright State,wright-state
+359,Wyoming,wyoming
+360,Xavier,xavier
+361,Yale,yale
+362,Youngstown State,youngstown-state

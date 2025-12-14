@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Quinnipiac,L,,74,78,0,1,L. Berger · M. Cahalan · K. Flanagan · S. Foreman · G. Munt
+2,"Sat, Nov 9, 2024",,Box Score,@,Massachusetts-Lowell,W,,61,49,1,1,L. Berger · M. Cahalan · K. Flanagan · S. Foreman · G. Munt
+3,"Wed, Nov 13, 2024",,Box Score,@,Brown,W,,68,53,2,1,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+4,"Sat, Nov 16, 2024",,Box Score,@,Vermont,L,,50,67,2,2,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+5,"Wed, Nov 20, 2024",,Box Score,@,Massachusetts,W,,75,70,3,2,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+6,"Sat, Nov 23, 2024",,Box Score,,Boston College,L,,55,81,3,3,M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan · S. Foreman
+7,"Tue, Nov 26, 2024",,Box Score,@,New Hampshire,W,,57,43,4,3,M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan · S. Foreman
+8,"Tue, Dec 3, 2024",,Box Score,@,Connecticut,L,,52,88,4,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+9,"Sun, Dec 8, 2024",,Box Score,,Stony Brook,W,,73,56,5,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+10,"Tue, Dec 17, 2024",,Box Score,,Marist,W,,66,49,6,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 21, 2024",,Box Score,@,Northeastern,W,,61,37,7,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+12,"Thu, Jan 2, 2025",,Box Score,@,Loyola (MD),W,,49,46,8,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+13,"Sun, Jan 5, 2025",,Box Score,,American,W,,69,61,9,4,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+14,"Wed, Jan 8, 2025",,Box Score,@,Navy,L,,56,67,9,5,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · S. Foreman
+15,"Sat, Jan 11, 2025",,Box Score,,Lafayette,W,,75,69,10,5,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+16,"Wed, Jan 15, 2025",,Box Score,,Bucknell,W,,63,37,11,5,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+17,"Sat, Jan 18, 2025",,Box Score,@,American,W,,76,44,12,5,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+18,"Wed, Jan 22, 2025",,Box Score,@,Army,W,,61,52,13,5,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+19,"Sat, Jan 25, 2025",,Box Score,,Loyola (MD),W,,53,27,14,5,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+20,"Mon, Jan 27, 2025",,Box Score,@,Boston University,L,,49,52,14,6,L. Berger · M. Cahalan · M. Donnelly · K. Eddy · K. Flanagan
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,@,Lehigh,L,,47,60,14,7,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+22,"Sat, Feb 8, 2025",,Box Score,,Boston University,W,,60,47,15,7,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+23,"Wed, Feb 12, 2025",,Box Score,@,Colgate,L,,51,73,15,8,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+24,"Sat, Feb 15, 2025",,Box Score,,Lehigh,L,OT,59,69,15,9,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+25,"Wed, Feb 19, 2025",,Box Score,@,Lafayette,W,,83,42,16,9,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+26,"Sat, Feb 22, 2025",,Box Score,,Navy,L,,57,66,16,10,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+27,"Wed, Feb 26, 2025",,Box Score,,Colgate,W,,59,55,17,10,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+28,"Sat, Mar 1, 2025",,Box Score,@,Bucknell,W,,67,60,18,10,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+29,"Wed, Mar 5, 2025",,Box Score,,Army,L,,46,64,18,11,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+30,"Mon, Mar 10, 2025",,Box Score,@,Navy,W,,66,52,19,11,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber
+31,"Thu, Mar 13, 2025",,Box Score,@,Lehigh,L,,44,65,19,12,L. Berger · M. Cahalan · M. Donnelly · K. Flanagan · L. Huber

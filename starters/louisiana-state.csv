@@ -1,0 +1,41 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Eastern Kentucky,W,,95,44,1,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+2,"Fri, Nov 8, 2024",,Box Score,,Northwestern State,W,,95,36,2,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+3,"Tue, Nov 12, 2024",,Box Score,,Charleston Southern,W,,117,44,3,0,F. Johnson · A. Morrow · J. Richard · S. Smith · M. Williams
+4,"Fri, Nov 15, 2024",,Box Score,,Murray State,W,,74,60,4,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+5,"Mon, Nov 18, 2024",,Box Score,,Troy,W,,98,59,5,0,A. Bartlett · S. Day-Wilson · F. Johnson · A. Morrow · M. Williams
+6,"Wed, Nov 20, 2024",,Box Score,,Tulane,W,,85,74,6,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+7,"Mon, Nov 25, 2024",,Box Score,N,Washington,W,,68,67,7,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+8,"Wed, Nov 27, 2024",,Box Score,N,NC State,W,,82,65,8,0,F. Johnson · A. Morrow · L. Poa · S. Smith · M. Williams
+9,"Sun, Dec 1, 2024",,Box Score,,North Carolina Central,W,,131,44,9,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+10,"Thu, Dec 5, 2024",,Box Score,,Stanford,W,OT,94,88,10,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,N,Grambling,W,,100,54,11,0,F. Johnson · A. Morrow · L. Poa · S. Smith · M. Williams
+12,"Sun, Dec 15, 2024",,Box Score,,Louisiana,W,,85,57,12,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+13,"Tue, Dec 17, 2024",,Box Score,N,Seton Hall,W,,91,64,13,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+14,"Thu, Dec 19, 2024",,Box Score,@,Illinois-Chicago,W,,91,73,14,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+15,"Sun, Dec 29, 2024",,Box Score,,Albany (NY),W,,83,61,15,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+16,"Thu, Jan 2, 2025",,Box Score,@,Arkansas,W,,98,64,16,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+17,"Sun, Jan 5, 2025",,Box Score,,Auburn,W,,73,63,17,0,F. Johnson · A. Morrow · L. Poa · M. Williams · J. Wolfenbarger
+18,"Thu, Jan 9, 2025",,Box Score,@,Tennessee,W,,89,87,18,0,S. Day-Wilson · F. Johnson · A. Morrow · M. Williams · J. Wolfenbarger
+19,"Mon, Jan 13, 2025",,Box Score,,Vanderbilt,W,,83,77,19,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+20,"Sun, Jan 19, 2025",,Box Score,@,Florida,W,,80,63,20,0,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Fri, Jan 24, 2025",,Box Score,@,South Carolina,L,,56,66,20,1,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+22,"Sun, Jan 26, 2025",,Box Score,,Texas A&M,W,,64,51,21,1,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+23,"Thu, Jan 30, 2025",,Box Score,,Oklahoma,W,,107,100,22,1,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+24,"Sun, Feb 2, 2025",,Box Score,,Mississippi State,W,,81,67,23,1,S. Day-Wilson · F. Johnson · A. Morrow · M. Williams · J. Wolfenbarger
+25,"Thu, Feb 6, 2025",,Box Score,@,Missouri,W,,71,60,24,1,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+26,"Sun, Feb 9, 2025",,Box Score,,Tennessee,W,,82,77,25,1,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+27,"Sun, Feb 16, 2025",,Box Score,@,Texas,L,,58,65,25,2,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+28,"Thu, Feb 20, 2025",,Box Score,,Georgia,W,,79,63,26,2,F. Johnson · L. Poa · S. Smith · M. Williams · J. Wolfenbarger
+29,"Sun, Feb 23, 2025",,Box Score,@,Kentucky,W,,65,58,27,2,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+30,"Thu, Feb 27, 2025",,Box Score,@,Alabama,L,OT,85,88,27,3,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Sun, Mar 2, 2025",,Box Score,,Mississippi,L,,77,85,27,4,K. Gilbert · A. Morrow · L. Poa · S. Smith · M. Williams
+32,"Fri, Mar 7, 2025",,Box Score,N,Florida,W,,101,87,28,4,A. Morrow · L. Poa · M. Sheppard · S. Smith · M. Williams
+33,"Sat, Mar 8, 2025",,Box Score,N,Texas,L,,49,56,28,5,A. Morrow · L. Poa · M. Sheppard · S. Smith · M. Williams
+34,"Sat, Mar 22, 2025",,Box Score,,San Diego State,W,,103,48,29,5,F. Johnson · A. Morrow · L. Poa · S. Smith · M. Williams
+35,"Mon, Mar 24, 2025",,Box Score,,Florida State,W,,101,71,30,5,F. Johnson · A. Morrow · L. Poa · S. Smith · M. Williams
+36,"Fri, Mar 28, 2025",,Box Score,N,NC State,W,,80,73,31,5,F. Johnson · A. Morrow · L. Poa · S. Smith · M. Williams
+37,"Sun, Mar 30, 2025",,Box Score,N,UCLA,L,,65,72,31,6,S. Day-Wilson · F. Johnson · A. Morrow · S. Smith · M. Williams

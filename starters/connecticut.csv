@@ -1,0 +1,44 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Thu, Nov 7, 2024",,Box Score,,Boston University,W,,86,32,1,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+2,"Sun, Nov 10, 2024",,Box Score,,South Florida,W,,86,49,2,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+3,"Fri, Nov 15, 2024",,Box Score,N,North Carolina,W,,69,58,3,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+4,"Wed, Nov 20, 2024",,Box Score,,FDU,W,,85,41,4,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+5,"Mon, Nov 25, 2024",,Box Score,N,Oregon State,W,,71,52,5,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+6,"Wed, Nov 27, 2024",,Box Score,N,Mississippi,W,,73,60,6,0,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+7,"Tue, Dec 3, 2024",,Box Score,,Holy Cross,W,,88,52,7,0,I. Brady · P. Bueckers · K. Chen · A. Fudd · S. Strong
+8,"Sat, Dec 7, 2024",,Box Score,N,Louisville,W,,85,52,8,0,I. Brady · P. Bueckers · K. Chen · A. Fudd · S. Strong
+9,"Thu, Dec 12, 2024",,Box Score,@,Notre Dame,L,,68,79,8,1,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+10,"Sun, Dec 15, 2024",,Box Score,,Georgetown,W,,79,44,9,1,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Tue, Dec 17, 2024",,Box Score,N,Iowa State,W,,101,68,10,1,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+12,"Sat, Dec 21, 2024",,Box Score,,Southern California,L,,70,72,10,2,I. Brady · P. Bueckers · K. Chen · A. Shade · S. Strong
+13,"Sun, Dec 29, 2024",,Box Score,,Providence,W,,67,41,11,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+14,"Wed, Jan 1, 2025",,Box Score,@,Marquette,W,,77,45,12,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+15,"Sun, Jan 5, 2025",,Box Score,@,Villanova,W,,83,52,13,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+16,"Wed, Jan 8, 2025",,Box Score,,Xavier,W,,81,27,14,2,K. Chen · J. El Alfy · A. Fudd · A. Shade · S. Strong
+17,"Sat, Jan 11, 2025",,Box Score,@,Georgetown,W,,73,55,15,2,K. Chen · J. El Alfy · A. Fudd · A. Shade · S. Strong
+18,"Wed, Jan 15, 2025",,Box Score,@,St. John's (NY),W,,71,45,16,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+19,"Sun, Jan 19, 2025",,Box Score,,Seton Hall,W,,96,36,17,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+20,"Wed, Jan 22, 2025",,Box Score,,Villanova,W,,100,57,18,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Creighton,W,,72,61,19,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+22,"Wed, Jan 29, 2025",,Box Score,@,DePaul,W,,84,58,20,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+23,"Sun, Feb 2, 2025",,Box Score,,Butler,W,,101,59,21,2,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+24,"Thu, Feb 6, 2025",,Box Score,@,Tennessee,L,,76,80,21,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+25,"Sun, Feb 9, 2025",,Box Score,@,Providence,W,,77,40,22,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+26,"Wed, Feb 12, 2025",,Box Score,,St. John's (NY),W,,78,40,23,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+27,"Sun, Feb 16, 2025",,Box Score,@,South Carolina,W,,87,58,24,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+28,"Wed, Feb 19, 2025",,Box Score,@,Seton Hall,W,,91,49,25,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+29,"Sat, Feb 22, 2025",,Box Score,@,Butler,W,,86,47,26,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+30,"Thu, Feb 27, 2025",,Box Score,,Creighton,W,,72,53,27,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Sun, Mar 2, 2025",,Box Score,,Marquette,W,,92,57,28,3,P. Bueckers · K. Chen · A. Fudd · A. Griffin · S. Strong
+32,"Sat, Mar 8, 2025",,Box Score,N,St. John's (NY),W,,71,40,29,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+33,"Sun, Mar 9, 2025",,Box Score,N,Villanova,W,,82,54,30,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+34,"Mon, Mar 10, 2025",,Box Score,N,Creighton,W,,70,50,31,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+35,"Sat, Mar 22, 2025",,Box Score,,Arkansas State,W,,103,34,32,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+36,"Mon, Mar 24, 2025",,Box Score,,South Dakota State,W,,91,57,33,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+37,"Sat, Mar 29, 2025",,Box Score,N,Oklahoma,W,,82,59,34,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+38,"Mon, Mar 31, 2025",,Box Score,N,Southern California,W,,78,64,35,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+39,"Fri, Apr 4, 2025",,Box Score,N,UCLA,W,,85,51,36,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
+40,"Sun, Apr 6, 2025",,Box Score,N,South Carolina,W,,82,59,37,3,P. Bueckers · K. Chen · J. El Alfy · A. Fudd · S. Strong
