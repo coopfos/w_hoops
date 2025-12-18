@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Tue, Nov 5, 2024",,Box Score,@,West Virginia,L,,41,85,0,1,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+2,"Sat, Nov 9, 2024",,Box Score,@,George Mason,L,,55,76,0,2,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+3,"Thu, Nov 14, 2024",,Box Score,@,Morgan State,L,,63,64,0,3,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+4,"Sun, Nov 17, 2024",,Box Score,@,Maryland,L,,63,98,0,4,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+5,"Wed, Nov 20, 2024",,Box Score,@,George Washington,L,,57,69,0,5,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+6,"Sun, Nov 24, 2024",,Box Score,,Liberty,L,,57,64,0,6,S. Baynes · D. Bristol · A. Jenkins · I. Johnston · S. Turner
+7,"Fri, Nov 29, 2024",,Box Score,N,UTSA,L,,40,71,0,7,S. Baynes · D. Bristol · I. Johnston · K. Leye · S. Turner
+8,"Sat, Nov 30, 2024",,Box Score,N,Youngstown State,W,,68,57,1,7,S. Baynes · D. Bristol · A. Jenkins · I. Johnston · S. Turner
+9,"Wed, Dec 4, 2024",,Box Score,,Maryland-Baltimore County,L,,60,65,1,8,S. Baynes · D. Bristol · I. Johnston · S. Turner · J. Wakefield
+10,"Sat, Dec 7, 2024",,Box Score,,American,W,,89,62,2,8,S. Baynes · D. Bristol · I. Johnston · S. Turner · J. Wakefield
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 29, 2024",,Box Score,,Columbia,L,,53,73,2,9,D. Bristol · A. Jenkins · I. Johnston · A. Staton · J. Wakefield
+12,"Fri, Jan 3, 2025",,Box Score,@,College of Charleston,L,,50,67,2,10,S. Baynes · D. Bristol · I. Johnston · S. Turner · J. Wakefield
+13,"Sun, Jan 5, 2025",,Box Score,@,UNC Wilmington,W,,70,69,3,10,S. Baynes · D. Bristol · I. Johnston · S. Turner · J. Wakefield
+14,"Fri, Jan 10, 2025",,Box Score,,Monmouth,L,,54,56,3,11,S. Baynes · D. Bristol · I. Johnston · S. Turner · J. Wakefield
+15,"Sun, Jan 12, 2025",,Box Score,,North Carolina A&T,L,,59,61,3,12,D. Bristol · I. Johnston · A. Staton · S. Turner · J. Wakefield
+16,"Fri, Jan 17, 2025",,Box Score,,Northeastern,W,,79,43,4,12,D. Bristol · I. Johnston · A. Staton · S. Turner · J. Wakefield
+17,"Fri, Jan 24, 2025",,Box Score,@,Hampton,L,,58,61,4,13,D. Bristol · I. Johnston · A. Staton · S. Turner · J. Wakefield
+18,"Sun, Jan 26, 2025",,Box Score,@,William & Mary,L,,47,58,4,14,D. Bristol · A. Diakite · I. Johnston · K. Morris · S. Turner
+19,"Fri, Jan 31, 2025",,Box Score,,Delaware,W,,62,48,5,14,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+20,"Sun, Feb 2, 2025",,Box Score,@,Drexel,L,,49,53,5,15,I. Johnston · K. Leye · K. Morris · S. Turner · J. Wakefield
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Fri, Feb 7, 2025",,Box Score,,Hampton,W,,70,54,6,15,A. Jenkins · I. Johnston · K. Morris · S. Turner · J. Wakefield
+22,"Sun, Feb 9, 2025",,Box Score,,Elon,L,,41,45,6,16,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+23,"Fri, Feb 14, 2025",,Box Score,@,Hofstra,W,,63,51,7,16,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+24,"Sun, Feb 16, 2025",,Box Score,,Stony Brook,W,,59,52,8,16,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+25,"Fri, Feb 21, 2025",,Box Score,@,Northeastern,W,,67,51,9,16,D. Bristol · I. Johnston · K. Leye · S. Turner · J. Wakefield
+26,"Sun, Feb 23, 2025",,Box Score,,UNC Wilmington,L,,63,72,9,17,D. Bristol · A. Diakite · I. Johnston · S. Turner · J. Wakefield
+27,"Fri, Feb 28, 2025",,Box Score,,Campbell,L,,57,58,9,18,S. Baynes · D. Bristol · K. Leye · S. Turner · J. Wakefield
+28,"Thu, Mar 6, 2025",,Box Score,@,Monmouth,L,,56,82,9,19,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+29,"Sat, Mar 8, 2025",,Box Score,@,Delaware,W,,69,59,10,19,D. Bristol · A. Diakite · I. Johnston · K. Morris · J. Wakefield
+30,"Wed, Mar 12, 2025",,Box Score,N,Northeastern,W,,67,44,11,19,D. Bristol · A. Jenkins · I. Johnston · S. Turner · J. Wakefield
+31,"Thu, Mar 13, 2025",,Box Score,N,Elon,W,,53,47,12,19,D. Bristol · I. Johnston · K. Morris · S. Turner · J. Wakefield
+32,"Fri, Mar 14, 2025",,Box Score,N,Campbell,L,,54,73,12,20,D. Bristol · A. Diakite · I. Johnston · K. Morris · J. Wakefield

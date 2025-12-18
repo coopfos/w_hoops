@@ -1,0 +1,41 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Incarnate Word,W,,78,48,1,0,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+2,"Thu, Nov 7, 2024",,Box Score,,Houston Christian,W,,63,40,2,0,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+3,"Tue, Nov 12, 2024",,Box Score,,New Mexico,W,,75,68,3,0,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+4,"Sat, Nov 16, 2024",,Box Score,,Washington State,W,,56,52,4,0,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+5,"Tue, Nov 19, 2024",,Box Score,,Abilene Christian,W,,66,40,5,0,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+6,"Sat, Nov 23, 2024",,Box Score,,New Orleans,W,,78,70,6,0,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+7,"Thu, Nov 28, 2024",,Box Score,N,Florida State,L,,62,70,6,1,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+8,"Fri, Nov 29, 2024",,Box Score,N,Gonzaga,W,,67,49,7,1,L. Johnson · B. Maupin · J. Merritt · S. Sanogo · J. Wynn
+9,"Sat, Nov 30, 2024",,Box Score,N,Missouri State,W,,72,69,8,1,L. Johnson · B. Maupin · J. Merritt · S. Sanogo · J. Wynn
+10,"Tue, Dec 3, 2024",,Box Score,,Stephen F. Austin,W,,78,68,9,1,B. Maupin · J. Merritt · S. Sanogo · J. Shavers · J. Wynn
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Wed, Dec 11, 2024",,Box Score,@,Southern Methodist,L,,57,61,9,2,B. Maupin · J. Merritt · S. Sanogo · J. Shavers · J. Wynn
+12,"Sun, Dec 15, 2024",,Box Score,@,Arkansas,W,,75,72,10,2,K. Freelon · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+13,"Tue, Dec 17, 2024",,Box Score,,Lamar,W,,73,67,11,2,K. Freelon · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+14,"Sun, Dec 22, 2024",,Box Score,,Houston,W,,74,59,12,2,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+15,"Wed, Jan 1, 2025",,Box Score,@,Arizona State,L,,61,79,12,3,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+16,"Sat, Jan 4, 2025",,Box Score,@,Kansas State,L,,57,77,12,4,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+17,"Wed, Jan 8, 2025",,Box Score,,West Virginia,L,,53,89,12,5,D. Fritz · B. Maupin · J. Merritt · S. Sanogo · J. Shavers
+18,"Sat, Jan 11, 2025",,Box Score,,TCU,L,,43,69,12,6,J. Bristow · D. Fritz · B. Maupin · S. Sanogo · J. Wynn
+19,"Tue, Jan 14, 2025",,Box Score,@,Iowa State,L,,58,71,12,7,J. Bristow · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+20,"Sat, Jan 18, 2025",,Box Score,,Brigham Young,W,,70,65,13,7,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 22, 2025",,Box Score,@,Houston,W,,62,44,14,7,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+22,"Sat, Jan 25, 2025",,Box Score,,Oklahoma State,L,,68,71,14,8,D. Fritz · B. Maupin · S. Sanogo · J. Shavers · J. Wynn
+23,"Wed, Jan 29, 2025",,Box Score,@,Kansas,L,,50,57,14,9,K. Freelon · D. Fritz · L. Johnson · B. Maupin · S. Sanogo
+24,"Sun, Feb 2, 2025",,Box Score,@,Colorado,L,,51,67,14,10,K. Freelon · D. Fritz · L. Johnson · B. Maupin · S. Sanogo
+25,"Wed, Feb 5, 2025",,Box Score,,Utah,L,,64,70,14,11,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+26,"Sat, Feb 8, 2025",,Box Score,@,TCU,L,,42,63,14,12,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+27,"Sat, Feb 15, 2025",,Box Score,,Baylor,L,,60,66,14,13,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+28,"Wed, Feb 19, 2025",,Box Score,,Cincinnati,L,,56,59,14,14,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+29,"Sat, Feb 22, 2025",,Box Score,@,UCF,L,,60,61,14,15,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+30,"Tue, Feb 25, 2025",,Box Score,@,Arizona,L,,57,66,14,16,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Sat, Mar 1, 2025",,Box Score,,Colorado,W,OT,83,79,15,16,K. Freelon · D. Fritz · B. Maupin · M. Peat · J. Shavers
+32,"Wed, Mar 5, 2025",,Box Score,N,Kansas,W,,57,53,16,16,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+33,"Thu, Mar 6, 2025",,Box Score,N,Utah,W,,75,64,17,16,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+34,"Fri, Mar 7, 2025",,Box Score,N,Oklahoma State,L,,59,62,17,17,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+35,"Thu, Mar 20, 2025",,Box Score,@,Wyoming,W,,65,48,18,17,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+36,"Sun, Mar 23, 2025",,Box Score,@,Virginia Tech,W,,69,59,19,17,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers
+37,"Thu, Mar 27, 2025",,Box Score,@,Florida,L,,63,67,19,18,K. Freelon · D. Fritz · B. Maupin · S. Sanogo · J. Shavers

@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Le Moyne,W,,107,43,1,0,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Lepolo
+2,"Thu, Nov 7, 2024",,Box Score,,Washington State,W,,94,65,2,0,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Lepolo
+3,"Sun, Nov 10, 2024",,Box Score,,Gonzaga,W,,89,58,3,0,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Lepolo
+4,"Wed, Nov 13, 2024",,Box Score,,UC Davis,W,,69,56,4,0,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Lepolo
+5,"Sun, Nov 17, 2024",,Box Score,@,Indiana,L,,66,79,4,1,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Lepolo
+6,"Fri, Nov 22, 2024",,Box Score,,Morgan State,W,,91,49,5,1,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+7,"Mon, Nov 25, 2024",,Box Score,,Cal Poly,W,,81,45,6,1,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+8,"Fri, Nov 29, 2024",,Box Score,,UC San Diego,W,,84,54,7,1,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+9,"Thu, Dec 5, 2024",,Box Score,@,Louisiana State,L,OT,88,94,7,2,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+10,"Fri, Dec 13, 2024",,Box Score,@,California,L,,63,83,7,3,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Mon, Dec 16, 2024",,Box Score,,UTSA,W,,62,57,8,3,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+12,"Fri, Dec 20, 2024",,Box Score,N,Ohio State,L,,59,84,8,4,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+13,"Thu, Jan 2, 2025",,Box Score,@,Southern Methodist,L,,63,67,8,5,N. Agara · E. Bosgana · B. Demetre · J. Harriel · T. Heal
+14,"Sun, Jan 5, 2025",,Box Score,@,Clemson,L,OT,61,65,8,6,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+15,"Thu, Jan 9, 2025",,Box Score,,Florida State,W,,89,84,9,6,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+16,"Sun, Jan 12, 2025",,Box Score,,NC State,L,,67,81,9,7,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+17,"Thu, Jan 16, 2025",,Box Score,@,Wake Forest,W,,74,71,10,7,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+18,"Sun, Jan 19, 2025",,Box Score,@,Duke,L,,49,74,10,8,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+19,"Thu, Jan 23, 2025",,Box Score,,California,L,,72,75,10,9,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+20,"Thu, Jan 30, 2025",,Box Score,,Pittsburgh,W,,58,46,11,9,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Feb 2, 2025",,Box Score,,North Carolina,L,,67,69,11,10,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+22,"Thu, Feb 6, 2025",,Box Score,@,Notre Dame,L,,47,96,11,11,N. Agara · E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye
+23,"Sun, Feb 9, 2025",,Box Score,@,Louisville,L,,65,74,11,12,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+24,"Thu, Feb 13, 2025",,Box Score,,Syracuse,W,,79,58,12,12,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+25,"Sun, Feb 16, 2025",,Box Score,,Boston College,W,,80,75,13,12,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+26,"Thu, Feb 20, 2025",,Box Score,@,Virginia Tech,W,OT,75,74,14,12,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+27,"Sun, Feb 23, 2025",,Box Score,@,Virginia,L,,69,89,14,13,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+28,"Thu, Feb 27, 2025",,Box Score,,Miami (FL),W,,86,69,15,13,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+29,"Sun, Mar 2, 2025",,Box Score,,Georgia Tech,W,,87,82,16,13,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+30,"Wed, Mar 5, 2025",,Box Score,N,Clemson,L,,46,63,16,14,E. Bosgana · C. Clardy · B. Demetre · S. Ijiwoye · M. Stevenson
+31,"Thu, Mar 20, 2025",,Box Score,,Portland,L,OT,68,69,16,15,N. Agara · E. Bosgana · C. Clardy · B. Demetre · C. Ogden

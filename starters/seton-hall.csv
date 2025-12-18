@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Thu, Nov 7, 2024",,Box Score,,Wagner,W,,84,40,1,0,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+2,"Tue, Nov 12, 2024",,Box Score,,Fordham,W,,67,44,2,0,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+3,"Sat, Nov 16, 2024",,Box Score,,Bryant,W,,55,39,3,0,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+4,"Mon, Nov 18, 2024",,Box Score,@,Cincinnati,W,,69,68,4,0,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+5,"Thu, Nov 21, 2024",,Box Score,,Princeton,L,,75,78,4,1,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+6,"Wed, Nov 27, 2024",,Box Score,N,Southern California,L,,51,84,4,2,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+7,"Mon, Dec 2, 2024",,Box Score,,San Francisco,W,,59,53,5,2,S. Catalon · I. Lops · F. Masonius · S. Pinkney · A. Wright
+8,"Fri, Dec 6, 2024",,Box Score,,Howard,W,,87,63,6,2,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+9,"Mon, Dec 9, 2024",,Box Score,,Sacred Heart,W,,67,46,7,2,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+10,"Sat, Dec 14, 2024",,Box Score,,Le Moyne,W,,68,41,8,2,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Tue, Dec 17, 2024",,Box Score,N,Louisiana State,L,,64,91,8,3,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+12,"Sat, Dec 21, 2024",,Box Score,,Providence,W,,51,40,9,3,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+13,"Sun, Dec 29, 2024",,Box Score,@,Butler,W,,69,49,10,3,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+14,"Wed, Jan 1, 2025",,Box Score,@,Villanova,W,,56,55,11,3,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+15,"Sat, Jan 4, 2025",,Box Score,,Georgetown,W,OT,74,71,12,3,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+16,"Sat, Jan 11, 2025",,Box Score,,Creighton,L,,64,72,12,4,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+17,"Wed, Jan 15, 2025",,Box Score,@,Marquette,W,,58,52,13,4,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+18,"Sun, Jan 19, 2025",,Box Score,@,Connecticut,L,,36,96,13,5,J. Eads · M. Hunter · I. Lops · F. Masonius · A. Wright
+19,"Sat, Jan 25, 2025",,Box Score,,St. John's (NY),W,,57,48,14,5,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+20,"Wed, Jan 29, 2025",,Box Score,,Butler,W,,71,48,15,5,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 1, 2025",,Box Score,@,DePaul,W,,72,55,16,5,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+22,"Wed, Feb 5, 2025",,Box Score,@,Creighton,L,,56,72,16,6,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+23,"Sat, Feb 8, 2025",,Box Score,,Xavier,W,,72,47,17,6,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+24,"Wed, Feb 12, 2025",,Box Score,,Marquette,L,,61,68,17,7,J. Eads · K. Lawson · I. Lops · F. Masonius · A. Wright
+25,"Sun, Feb 16, 2025",,Box Score,@,Providence,W,,59,38,18,7,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+26,"Wed, Feb 19, 2025",,Box Score,,Connecticut,L,,49,91,18,8,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+27,"Sun, Feb 23, 2025",,Box Score,@,St. John's (NY),W,,66,57,19,8,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+28,"Thu, Feb 27, 2025",,Box Score,,DePaul,W,,76,67,20,8,S. Catalon · K. Lawson · I. Lops · F. Masonius · A. Wright
+29,"Sun, Mar 2, 2025",,Box Score,@,Xavier,W,,59,57,21,8,S. Catalon · K. Lawson · I. Lops · F. Masonius · A. Wright
+30,"Sat, Mar 8, 2025",,Box Score,N,Xavier,W,,48,40,22,8,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+31,"Sun, Mar 9, 2025",,Box Score,N,Creighton,L,,44,73,22,9,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+32,"Thu, Mar 20, 2025",,Box Score,,Quinnipiac,W,,57,40,23,9,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright
+33,"Sun, Mar 23, 2025",,Box Score,,Portland,L,,55,61,23,10,S. Catalon · J. Eads · I. Lops · F. Masonius · A. Wright

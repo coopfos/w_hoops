@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Fri, Nov 8, 2024",,Box Score,,Lake Erie,W,,95,39,1,0,F. Burch · A. Liber · M. Magestro · X. Rosalez · J. Watkins
+2,"Tue, Nov 12, 2024",,Box Score,,St. Bonaventure,W,,60,52,2,0,F. Burch · A. Liber · M. Magestro · X. Rosalez · J. Watkins
+3,"Fri, Nov 15, 2024",,Box Score,,Clarion,W,,69,52,3,0,F. Burch · A. Liber · M. Magestro · X. Rosalez · J. Watkins
+4,"Tue, Nov 19, 2024",,Box Score,,Mercyhurst,W,,64,56,4,0,F. Burch · A. Liber · M. Magestro · X. Rosalez · J. Watkins
+5,"Sat, Nov 23, 2024",,Box Score,@,Bucknell,L,,36,51,4,1,F. Burch · A. Liber · M. Magestro · X. Rosalez · J. Watkins
+6,"Tue, Nov 26, 2024",,Box Score,@,Xavier,L,,43,61,4,2,F. Burch · E. King · A. Liber · X. Rosalez · J. Watkins
+7,"Fri, Nov 29, 2024",,Box Score,N,Southern Indiana,L,,34,70,4,3,F. Burch · E. King · A. Liber · X. Rosalez · J. Watkins
+8,"Sat, Nov 30, 2024",,Box Score,N,Towson,L,,57,68,4,4,F. Burch · E. King · A. Liber · B. Samz · J. Watkins
+9,"Wed, Dec 4, 2024",,Box Score,,Milwaukee,W,,66,50,5,4,S. Baker · F. Burch · E. King · B. Samz · J. Watkins
+10,"Sat, Dec 7, 2024",,Box Score,@,Northern Kentucky,W,,56,47,6,4,F. Burch · E. King · A. Liber · X. Rosalez · J. Watkins
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sat, Dec 14, 2024",,Box Score,@,Ohio State,L,,39,87,6,5,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+12,"Wed, Dec 18, 2024",,Box Score,,Detroit Mercy,L,,58,65,6,6,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+13,"Sat, Dec 21, 2024",,Box Score,,Point Park,W,,85,42,7,6,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+14,"Sat, Dec 28, 2024",,Box Score,@,IU Indy,L,,50,65,7,7,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins
+15,"Wed, Jan 1, 2025",,Box Score,@,Purdue Fort Wayne,L,,60,74,7,8,S. Gregory · E. King · M. Magestro · X. Rosalez · J. Watkins
+16,"Thu, Jan 9, 2025",,Box Score,,Green Bay,L,,50,58,7,9,S. Gregory · E. King · M. Magestro · X. Rosalez · J. Watkins
+17,"Sun, Jan 12, 2025",,Box Score,@,Wright State,L,,62,77,7,10,S. Gregory · E. King · M. Magestro · X. Rosalez · J. Watkins
+18,"Wed, Jan 15, 2025",,Box Score,,Northern Kentucky,W,,75,66,8,10,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+19,"Sat, Jan 18, 2025",,Box Score,,Robert Morris,L,,61,67,8,11,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+20,"Thu, Jan 23, 2025",,Box Score,@,Cleveland State,L,,53,67,8,12,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Jan 26, 2025",,Box Score,,Oakland,W,,73,56,9,12,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+22,"Wed, Jan 29, 2025",,Box Score,,Purdue Fort Wayne,L,,56,79,9,13,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+23,"Thu, Feb 6, 2025",,Box Score,@,Green Bay,L,,47,58,9,14,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+24,"Sat, Feb 8, 2025",,Box Score,@,Milwaukee,L,,56,61,9,15,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+25,"Thu, Feb 13, 2025",,Box Score,,Wright State,L,OT,76,78,9,16,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+26,"Sat, Feb 15, 2025",,Box Score,,IU Indy,L,OT,68,73,9,17,F. Burch · S. Gregory · M. Magestro · X. Rosalez · J. Watkins
+27,"Thu, Feb 20, 2025",,Box Score,@,Detroit Mercy,W,,67,59,10,17,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins
+28,"Sat, Feb 22, 2025",,Box Score,@,Oakland,W,,52,51,11,17,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins
+29,"Wed, Feb 26, 2025",,Box Score,@,Robert Morris,L,,53,76,11,18,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins
+30,"Sat, Mar 1, 2025",,Box Score,,Cleveland State,W,,73,70,12,18,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins
+31,"Tue, Mar 4, 2025",,Box Score,@,Wright State,L,,58,73,12,19,S. Gregory · M. Magestro · X. Rosalez · H. Thierry · J. Watkins

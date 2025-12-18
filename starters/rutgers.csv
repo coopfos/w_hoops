@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Manhattan,W,,85,79,1,0,D. Adams · A. Bates · J. Lacey · K. McMiller · Z. Perkins
+2,"Thu, Nov 7, 2024",,Box Score,,Cornell,W,,72,61,2,0,D. Adams · A. Bates · J. Lacey · K. McMiller · Z. Perkins
+3,"Sun, Nov 10, 2024",,Box Score,,NJIT,W,,94,84,3,0,D. Adams · A. Bates · J. Lacey · Z. Perkins · M. Petticord
+4,"Fri, Nov 15, 2024",,Box Score,,Iona,W,,81,53,4,0,D. Adams · A. Bates · J. Lacey · Z. Perkins · M. Petticord
+5,"Tue, Nov 19, 2024",,Box Score,@,Virginia Tech,L,,80,91,4,1,D. Adams · A. Bates · C. Cornwell · J. Lacey · K. McMiller
+6,"Sun, Nov 24, 2024",,Box Score,,Princeton,L,,49,66,4,2,D. Adams · J. Lacey · K. McMiller · Z. Perkins · L. Thompson
+7,"Fri, Nov 29, 2024",,Box Score,,Marquette,L,,57,59,4,3,D. Adams · C. Cornwell · J. Lacey · K. McMiller · L. Thompson
+8,"Sat, Nov 30, 2024",,Box Score,,Georgia Southern,W,,77,60,5,3,D. Adams · C. Cornwell · J. Lacey · K. McMiller · L. Thompson
+9,"Sun, Dec 8, 2024",,Box Score,@,Wisconsin,L,,64,66,5,4,D. Adams · C. Cornwell · J. Lacey · K. McMiller · L. Thompson
+10,"Wed, Dec 11, 2024",,Box Score,,FDU,W,,83,58,6,4,D. Adams · J. Lacey · K. McMiller · Z. Perkins · L. Thompson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Wagner,W,,86,48,7,4,D. Adams · J. Lacey · K. McMiller · Z. Perkins · M. Petticord
+12,"Sat, Dec 21, 2024",,Box Score,,Lafayette,W,,72,65,8,4,C. Cornwell · J. Lacey · K. McMiller · Z. Perkins · M. Petticord
+13,"Sun, Dec 29, 2024",,Box Score,,Ohio State,L,,63,77,8,5,D. Adams · J. Lacey · K. McMiller · Z. Perkins · L. Thompson
+14,"Thu, Jan 2, 2025",,Box Score,@,Maryland,L,,61,78,8,6,D. Adams · J. Lacey · K. McMiller · Z. Perkins · L. Thompson
+15,"Sun, Jan 5, 2025",,Box Score,,Southern California,L,,42,92,8,7,D. Adams · J. Lacey · Z. Perkins · A. Sidibe · L. Thompson
+16,"Wed, Jan 8, 2025",,Box Score,@,Minnesota,L,,50,76,8,8,D. Adams · C. Cornwell · J. Lacey · A. Sidibe · L. Thompson
+17,"Sun, Jan 12, 2025",,Box Score,,Nebraska,L,,62,69,8,9,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+18,"Wed, Jan 15, 2025",,Box Score,,Michigan State,L,,60,70,8,10,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+19,"Sat, Jan 18, 2025",,Box Score,@,Michigan,L,,71,87,8,11,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+20,"Thu, Jan 23, 2025",,Box Score,,UCLA,L,,66,84,8,12,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Jan 26, 2025",,Box Score,@,Penn State,W,,77,73,9,12,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+22,"Thu, Jan 30, 2025",,Box Score,,Illinois,L,OT,65,69,9,13,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+23,"Thu, Feb 6, 2025",,Box Score,@,Indiana,L,,60,81,9,14,D. Adams · J. Lacey · K. McMiller · Z. Perkins · A. Sidibe
+24,"Sun, Feb 9, 2025",,Box Score,,Purdue,W,,78,69,10,14,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · A. Sidibe
+25,"Thu, Feb 13, 2025",,Box Score,@,Iowa,L,,43,55,10,15,D. Adams · J. Lacey · Z. Perkins · M. Petticord · A. Sidibe
+26,"Mon, Feb 17, 2025",,Box Score,,Northwestern,L,,59,69,10,16,D. Adams · J. Lacey · Z. Perkins · M. Petticord · A. Sidibe
+27,"Thu, Feb 20, 2025",,Box Score,@,Washington,L,,65,83,10,17,D. Adams · J. Lacey · Z. Perkins · A. Sidibe · L. Thompson
+28,"Sun, Feb 23, 2025",,Box Score,@,Oregon,L,,58,77,10,18,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · L. Thompson
+29,"Sun, Mar 2, 2025",,Box Score,,Penn State,W,,75,70,11,18,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · L. Thompson
+30,"Wed, Mar 5, 2025",,Box Score,N,Nebraska,L,,60,84,11,19,D. Adams · J. Lacey · Z. Perkins · A. Sidibe · L. Thompson
+31,"Sun, Mar 23, 2025",,Box Score,,Army,W,,71,60,12,19,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · A. Sidibe
+32,"Thu, Mar 27, 2025",,Box Score,,College of Charleston,W,,89,67,13,19,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · A. Sidibe
+33,"Sun, Mar 30, 2025",,Box Score,@,Buffalo,L,,64,71,13,20,D. Adams · C. Cornwell · J. Lacey · Z. Perkins · A. Sidibe

@@ -1,0 +1,40 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Brescia,W,,100,49,1,0,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+2,"Fri, Nov 8, 2024",,Box Score,@,Louisville,L,,51,75,1,1,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+3,"Tue, Nov 12, 2024",,Box Score,@,Murray State,W,,82,75,2,1,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+4,"Fri, Nov 15, 2024",,Box Score,,IU Southeast,W,,88,41,3,1,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+5,"Sun, Nov 17, 2024",,Box Score,,Saint Louis,W,,71,59,4,1,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+6,"Sat, Nov 23, 2024",,Box Score,,Northern Kentucky,W,,75,73,5,1,A. Buchanan · S. Loden · M. Raley · A. Saunders · V. Shafford
+7,"Fri, Nov 29, 2024",,Box Score,N,Youngstown State,W,,70,34,6,1,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+8,"Sat, Nov 30, 2024",,Box Score,N,Le Moyne,W,,71,42,7,1,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+9,"Wed, Dec 4, 2024",,Box Score,@,Indiana,L,,63,67,7,2,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+10,"Sat, Dec 7, 2024",,Box Score,,Oakland City,W,,70,45,8,2,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,@,Illinois,L,,50,73,8,3,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+12,"Thu, Dec 19, 2024",,Box Score,,Tennessee State,W,,74,56,9,3,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+13,"Sat, Dec 21, 2024",,Box Score,,Tennessee-Martin,W,,69,59,10,3,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+14,"Tue, Dec 31, 2024",,Box Score,,Morehead State,W,,79,65,11,3,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+15,"Thu, Jan 2, 2025",,Box Score,@,Tennessee Tech,L,,79,83,11,4,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+16,"Thu, Jan 9, 2025",,Box Score,@,Southeast Missouri State,W,,93,69,12,4,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+17,"Sun, Jan 12, 2025",,Box Score,@,Little Rock,L,OT,83,89,12,5,A. Buchanan · M. Raley · T. Ralston · A. Saunders · V. Shafford
+18,"Thu, Jan 16, 2025",,Box Score,,Lindenwood,W,,70,66,13,5,S. Loden · M. Raley · T. Ralston · V. Shafford · M. Webb
+19,"Sat, Jan 18, 2025",,Box Score,,Western Illinois,W,,72,58,14,5,S. Loden · M. Raley · T. Ralston · V. Shafford · M. Webb
+20,"Thu, Jan 23, 2025",,Box Score,@,Southern Illinois-Edwardsville,W,,69,65,15,5,S. Loden · M. Raley · T. Ralston · V. Shafford · M. Webb
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Eastern Illinois,L,,49,51,15,6,S. Loden · M. Raley · T. Ralston · V. Shafford · M. Webb
+22,"Tue, Jan 28, 2025",,Box Score,@,Morehead State,W,,72,52,16,6,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+23,"Sat, Feb 1, 2025",,Box Score,,Tennessee Tech,L,,62,81,16,7,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+24,"Thu, Feb 6, 2025",,Box Score,,Little Rock,L,,61,75,16,8,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+25,"Sat, Feb 8, 2025",,Box Score,,Southeast Missouri State,W,,67,56,17,8,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+26,"Thu, Feb 13, 2025",,Box Score,@,Western Illinois,W,,76,70,18,8,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+27,"Sat, Feb 15, 2025",,Box Score,@,Lindenwood,L,,56,75,18,9,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+28,"Thu, Feb 20, 2025",,Box Score,,Eastern Illinois,W,,66,46,19,9,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+29,"Sat, Feb 22, 2025",,Box Score,,Southern Illinois-Edwardsville,W,,79,42,20,9,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+30,"Thu, Feb 27, 2025",,Box Score,@,Tennessee-Martin,L,,69,84,20,10,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+31,"Sat, Mar 1, 2025",,Box Score,@,Tennessee State,L,,64,73,20,11,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+32,"Wed, Mar 5, 2025",,Box Score,N,Tennessee State,W,,90,66,21,11,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+33,"Thu, Mar 6, 2025",,Box Score,N,Little Rock,W,,73,52,22,11,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+34,"Fri, Mar 7, 2025",,Box Score,N,Tennessee Tech,L,,78,88,22,12,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+35,"Sun, Mar 23, 2025",,Box Score,,Campbell,W,,60,51,23,12,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb
+36,"Thu, Mar 27, 2025",,Box Score,,Buffalo,L,,64,76,23,13,M. Raley · T. Ralston · A. Saunders · V. Shafford · M. Webb

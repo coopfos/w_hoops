@@ -1,0 +1,184 @@
+---
+title: "NCAAW 24-25 Win Probability Modeling"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(dplyr)
+library(randomForest)
+```
+
+## Data and Preprocessing
+
+```{r data-prep}
+set.seed(123)
+
+raw_path <- "main_data/gamelog_clean.csv"
+games <- read.csv(raw_path, stringsAsFactors = FALSE)
+
+# Target variable
+games <- games %>%
+  mutate(
+    game_date = as.Date(date),
+    win = ifelse(res == "W", 1L, 0L),
+    score_diff = tm_score - opp_score
+  )
+
+# Box score stats we can use to build pre-game form indicators
+stat_cols <- c(
+  "fg_rate", "x3p_rate", "x2p_rate", "eff_fg", "ft_rate",
+  "orb", "drb", "trb", "ast", "stl", "blk", "tov", "pf",
+  "fg_rate_o", "x3p_rate_o", "x2p_rate_o", "eff_fg_o", "ft_rate_o",
+  "orb_o", "drb_o", "trb_o", "ast_o", "stl_o", "blk_o", "tov_o", "pf_o"
+)
+
+# Build team-level prior (cumulative) averages so that each row only uses information available before tip-off
+games_features <- games %>%
+  arrange(sid, game_date) %>%
+  group_by(sid) %>%
+  mutate(
+    across(
+      all_of(stat_cols),
+      ~ lag(cummean(.x)),
+      .names = "prior_{.col}"
+    )
+  ) %>%
+  ungroup() %>%
+  mutate(
+    is_home = as.integer(is_home),
+    is_away = as.integer(is_away),
+    is_neutral = as.integer(is_neutral)
+  ) %>%
+  select(
+    sid, opp_sid, game_date, g_seq, win, score_diff,
+    starts_with("prior_"), is_home, is_away, is_neutral
+  ) %>%
+  # Drop games with missing prior info (mostly season openers or missing opponent IDs)
+  tidyr::drop_na()
+
+games_features %>%
+  summarise(
+    rows_after_filter = n(),
+    wins = sum(win),
+    losses = n() - sum(win),
+    avg_score_diff = mean(score_diff)
+  ) %>%
+  print()
+```
+
+## Train/Validation Split
+
+Stratify by outcome to keep the win/loss mix consistent across splits.
+
+```{r split}
+games_features <- games_features %>%
+  mutate(row_id = row_number())
+
+train_ids <- games_features %>%
+  group_by(win) %>%
+  sample_frac(0.8) %>%
+  pull(row_id)
+
+train_df <- games_features %>% filter(row_id %in% train_ids) %>% select(-row_id)
+valid_df <- games_features %>% filter(!row_id %in% train_ids) %>% select(-row_id)
+
+# predictors will exclude the observed outcome win and final score_diff
+predictor_cols <- setdiff(names(train_df), c("win", "score_diff"))
+
+metrics <- function(probs, truth, score_diff) {
+  eps <- 1e-15
+  truth01 <- as.integer(truth)
+  pred_class <- ifelse(probs >= 0.5, 1L, 0L)
+  accuracy <- mean(pred_class == truth01)
+  brier <- mean((probs - truth01)^2)
+  log_loss <- -mean(truth01 * log(pmax(eps, probs)) + (1 - truth01) * log(pmax(eps, 1 - probs)))
+  # AUC using the Wilcoxon-Mann-Whitney formulation
+  ranks <- rank(probs, ties.method = "average")
+  pos <- truth01 == 1
+  n_pos <- sum(pos)
+  n_neg <- length(probs) - n_pos
+  auc <- if (n_pos > 0 && n_neg > 0) {
+    (sum(ranks[pos]) - n_pos * (n_pos + 1) / 2) / (n_pos * n_neg)
+  } else {
+    NA_real_
+  }
+  # Relate win probabilities to final margin; higher probs should align with larger positive margins
+  pearson_corr <- suppressWarnings(cor(probs, score_diff, method = "pearson"))
+  spearman_corr <- suppressWarnings(cor(probs, score_diff, method = "spearman"))
+  margin_fit <- lm(score_diff ~ probs)
+  margin_rmse <- sqrt(mean(residuals(margin_fit)^2))
+  data.frame(
+    accuracy = accuracy,
+    brier = brier,
+    log_loss = log_loss,
+    auc = auc,
+    margin_corr_pearson = pearson_corr,
+    margin_corr_spearman = spearman_corr,
+    margin_rmse = margin_rmse
+  )
+}
+
+# Evaluation now covers both classification quality (accuracy, Brier, log loss, AUC)
+# and how well the win probabilities line up with eventual score margin (Pearson/Spearman correlations and RMSE from a simple margin ~ prob regression).
+```
+
+## Logistic Regression (Baseline)
+
+```{r glm}
+glm_formula <- as.formula(
+  paste(
+    "win ~ g_seq + is_home + is_away + is_neutral +",
+    paste(names(train_df)[grepl('^prior_', names(train_df))], collapse = " + ")
+  )
+)
+
+glm_fit <- glm(glm_formula, data = train_df, family = binomial())
+
+glm_valid_probs <- predict(glm_fit, newdata = valid_df, type = "response")
+glm_metrics <- metrics(glm_valid_probs, valid_df$win, valid_df$score_diff)
+glm_metrics
+```
+
+## Random Forest
+
+```{r rf}
+rf_formula <- glm_formula
+
+rf_fit <- randomForest(
+  x = train_df %>% select(all_of(predictor_cols)),
+  y = factor(train_df$win),
+  ntree = 400,
+  mtry = floor(sqrt(length(predictor_cols))),
+  importance = TRUE
+)
+
+rf_valid_probs <- predict(rf_fit, newdata = valid_df %>% select(all_of(predictor_cols)), type = "prob")[, "1"]
+rf_metrics <- metrics(rf_valid_probs, valid_df$win, valid_df$score_diff)
+rf_metrics
+```
+
+## Model Comparison
+
+```{r compare}
+model_metrics <- dplyr::bind_rows(
+  glm = glm_metrics,
+  random_forest = rf_metrics,
+  .id = "model"
+)
+model_metrics
+```
+
+## Save Validation Predictions
+
+```{r save-preds}
+dir.create("outputs", showWarnings = FALSE)
+
+preds_out <- valid_df %>%
+  mutate(
+    glm_win_prob = glm_valid_probs,
+    rf_win_prob = rf_valid_probs
+  ) %>%
+  select(sid, opp_sid, game_date, g_seq, win, glm_win_prob, rf_win_prob)
+
+write.csv(preds_out, "outputs/win_prob_validation_predictions.csv", row.names = FALSE)
+```

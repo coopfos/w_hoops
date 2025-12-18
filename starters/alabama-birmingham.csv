@@ -1,0 +1,35 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,West Alabama,W,,78,47,1,0,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+2,"Tue, Nov 12, 2024",,Box Score,@,Alabama A&M,W,,74,67,2,0,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+3,"Sat, Nov 16, 2024",,Box Score,,Mississippi Valley State,W,,92,66,3,0,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+4,"Wed, Nov 20, 2024",,Box Score,@,Jacksonville State,L,,56,68,3,1,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+5,"Mon, Nov 25, 2024",,Box Score,N,Clemson,L,,52,90,3,2,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+6,"Tue, Nov 26, 2024",,Box Score,N,Alabama State,W,,76,43,4,2,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+7,"Sun, Dec 1, 2024",,Box Score,,Southern Mississippi,W,,87,66,5,2,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+8,"Sun, Dec 8, 2024",,Box Score,@,Auburn,L,,62,69,5,3,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+9,"Sun, Dec 15, 2024",,Box Score,,Alcorn State,W,,76,51,6,3,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+10,"Wed, Dec 18, 2024",,Box Score,,New Orleans,W,,66,60,7,3,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Fri, Dec 20, 2024",,Box Score,@,Illinois State,W,,71,68,8,3,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+12,"Sun, Dec 22, 2024",,Box Score,@,Southern Illinois,W,,75,57,9,3,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+13,"Sun, Dec 29, 2024",,Box Score,,Temple,L,,74,97,9,4,J. Armstead · S. Bershers · R. Tucker · M. Walsh · J. Weathersby
+14,"Wed, Jan 1, 2025",,Box Score,@,UTSA,L,,56,67,9,5,J. Armstead · S. Bershers · M. Moffitt · R. Tucker · M. Walsh
+15,"Sat, Jan 4, 2025",,Box Score,,Wichita State,L,,70,82,9,6,J. Armstead · S. Bershers · M. Moffitt · R. Tucker · M. Walsh
+16,"Wed, Jan 8, 2025",,Box Score,,Memphis,W,,73,56,10,6,J. Armstead · S. Bershers · M. Moffitt · R. Tucker · M. Walsh
+17,"Sat, Jan 11, 2025",,Box Score,@,Florida Atlantic,W,,73,61,11,6,J. Armstead · S. Bershers · M. Moffitt · R. Tucker · M. Walsh
+18,"Tue, Jan 14, 2025",,Box Score,@,South Florida,W,,62,61,12,6,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+19,"Sat, Jan 18, 2025",,Box Score,,UTSA,L,,63,73,12,7,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+20,"Wed, Jan 22, 2025",,Box Score,,Rice,W,OT,63,56,13,7,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Wichita State,W,OT,76,73,14,7,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+22,"Sat, Feb 1, 2025",,Box Score,@,Tulane,L,,55,72,14,8,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+23,"Wed, Feb 5, 2025",,Box Score,,East Carolina,L,,56,61,14,9,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+24,"Sat, Feb 8, 2025",,Box Score,,Charlotte,W,,86,80,15,9,J. Armstead · S. Bershers · M. Moffitt · M. Walsh · J. Weathersby
+25,"Tue, Feb 11, 2025",,Box Score,@,Temple,L,,53,63,15,10,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+26,"Wed, Feb 19, 2025",,Box Score,@,Memphis,L,,71,80,15,11,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+27,"Sat, Feb 22, 2025",,Box Score,,Tulsa,L,OT,68,72,15,12,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+28,"Tue, Feb 25, 2025",,Box Score,@,Rice,L,,48,73,15,13,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+29,"Sat, Mar 1, 2025",,Box Score,@,North Texas,L,,56,77,15,14,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+30,"Tue, Mar 4, 2025",,Box Score,,Tulane,W,,66,64,16,14,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+31,"Sun, Mar 9, 2025",,Box Score,N,Rice,L,,63,76,16,15,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby
+32,"Fri, Mar 21, 2025",,Box Score,@,Illinois-Chicago,L,,48,63,16,16,S. Bershers · E. Carter · M. Moffitt · M. Walsh · J. Weathersby

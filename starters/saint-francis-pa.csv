@@ -1,0 +1,33 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,NJIT,L,,60,80,0,1,M. Artero · Y. Boyd · K. Dorsey · J. Gibson · M. Shelton
+2,"Sat, Nov 9, 2024",,Box Score,@,Lafayette,L,,45,53,0,2,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+3,"Tue, Nov 12, 2024",,Box Score,@,Coppin State,L,,38,74,0,3,M. Artero · A. Bell · Y. Boyd · N. Johnson · I. Plata
+4,"Fri, Nov 15, 2024",,Box Score,,Canisius,L,,46,48,0,4,M. Artero · A. Bell · Y. Boyd · I. Plata · M. Shelton
+5,"Sun, Nov 17, 2024",,Box Score,,Loyola (MD),L,,52,65,0,5,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+6,"Wed, Nov 20, 2024",,Box Score,@,Robert Morris,W,,58,55,1,5,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+7,"Sun, Nov 24, 2024",,Box Score,@,Maryland,L,,35,107,1,6,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+8,"Wed, Nov 27, 2024",,Box Score,@,Saint Joseph's,L,,35,88,1,7,M. Artero · Y. Boyd · J. Gibson · A. Lavy · I. Plata
+9,"Sun, Dec 1, 2024",,Box Score,@,Duquesne,L,,71,85,1,8,M. Artero · Y. Boyd · J. Gibson · A. Lavy · I. Plata
+10,"Thu, Dec 5, 2024",,Box Score,@,Delaware State,W,,69,60,2,8,M. Artero · Y. Boyd · J. Gibson · A. Lavy · I. Plata
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 8, 2024",,Box Score,,Maryland-Baltimore County,L,,45,61,2,9,Y. Boyd · J. Gibson · A. Lavy · I. Plata · H. Robinson
+12,"Sun, Dec 15, 2024",,Box Score,@,Butler,L,,38,95,2,10,M. Artero · Y. Boyd · J. Gibson · A. Lavy · I. Plata
+13,"Fri, Dec 20, 2024",,Box Score,@,Rhode Island,L,,37,77,2,11,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+14,"Thu, Jan 2, 2025",,Box Score,@,Central Connecticut State,W,,79,63,3,11,M. Artero · Y. Boyd · J. Gibson · N. Johnson · I. Plata
+15,"Sat, Jan 4, 2025",,Box Score,@,Stonehill,L,,59,73,3,12,M. Artero · Y. Boyd · J. Gibson · N. Johnson · I. Plata
+16,"Thu, Jan 9, 2025",,Box Score,,FDU,L,,55,63,3,13,M. Artero · A. Bell · Y. Boyd · I. Plata · M. Shelton
+17,"Sat, Jan 11, 2025",,Box Score,,Le Moyne,W,,73,41,4,13,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+18,"Sat, Jan 18, 2025",,Box Score,,Long Island University,W,,63,54,5,13,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+19,"Mon, Jan 20, 2025",,Box Score,,Wagner,W,,51,47,6,13,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+20,"Thu, Jan 23, 2025",,Box Score,@,Long Island University,L,,56,63,6,14,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Jan 25, 2025",,Box Score,@,Wagner,W,,50,48,7,14,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+22,"Thu, Feb 6, 2025",,Box Score,@,Le Moyne,W,OT,66,60,8,14,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+23,"Sat, Feb 8, 2025",,Box Score,,Chicago State,W,,63,58,9,14,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+24,"Thu, Feb 13, 2025",,Box Score,,Stonehill,L,,43,74,9,15,M. Artero · Y. Boyd · J. Gibson · I. Plata · M. Shelton
+25,"Sat, Feb 15, 2025",,Box Score,,Central Connecticut State,L,OT,67,70,9,16,F. Daffe · J. Gibson · I. Plata · H. Robinson · M. Shelton
+26,"Thu, Feb 20, 2025",,Box Score,,Mercyhurst,W,,70,69,10,16,Y. Boyd · J. Gibson · I. Plata · H. Robinson · M. Shelton
+27,"Sat, Feb 22, 2025",,Box Score,@,FDU,L,,33,60,10,17,M. Artero · J. Gibson · I. Plata · H. Robinson · M. Shelton
+28,"Sat, Mar 1, 2025",,Box Score,@,Chicago State,L,OT,55,58,10,18,M. Artero · J. Gibson · I. Plata · H. Robinson · M. Shelton
+29,"Thu, Mar 6, 2025",,Box Score,@,Mercyhurst,W,,80,65,11,18,J. Gibson · N. Johnson · I. Plata · H. Robinson · M. Shelton
+30,"Mon, Mar 10, 2025",,Box Score,,Le Moyne,L,,51,62,11,19,J. Gibson · N. Johnson · I. Plata · H. Robinson · M. Shelton

@@ -1,0 +1,33 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Tarleton State,W,,52,49,1,0,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+2,"Sun, Nov 10, 2024",,Box Score,,Morehead State,W,,68,41,2,0,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+3,"Sat, Nov 16, 2024",,Box Score,,UTSA,L,,73,78,2,1,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+4,"Sat, Nov 23, 2024",,Box Score,,New Mexico Highlands,W,,83,54,3,1,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+5,"Tue, Nov 26, 2024",,Box Score,@,Texas A&M-Corpus Christi,W,,64,53,4,1,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+6,"Thu, Dec 5, 2024",,Box Score,,Brigham Young,L,,68,81,4,2,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+7,"Sun, Dec 8, 2024",,Box Score,@,Portland,L,,67,83,4,3,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+8,"Sat, Dec 14, 2024",,Box Score,@,Utah Tech,W,,71,57,5,3,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+9,"Mon, Dec 16, 2024",,Box Score,@,Colorado State,L,,52,70,5,4,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+10,"Thu, Dec 19, 2024",,Box Score,,Arkansas-Pine Bluff,W,,70,62,6,4,P. Adams · I. Tensaie · L. Vydrova · D. Zecevic · D. Zita
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Mon, Dec 30, 2024",,Box Score,,Eastern New Mexico,W,,50,48,7,4,P. Adams · N. Mbengue · I. Tensaie · D. Zecevic · D. Zita
+12,"Thu, Jan 2, 2025",,Box Score,@,Louisiana Tech,L,,50,63,7,5,P. Adams · N. Mbengue · M. Moses Amaniyo · I. Tensaie · D. Zita
+13,"Sat, Jan 4, 2025",,Box Score,@,Sam Houston,W,,64,62,8,5,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+14,"Sat, Jan 11, 2025",,Box Score,@,New Mexico State,L,,49,65,8,6,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+15,"Thu, Jan 16, 2025",,Box Score,,Liberty,L,,64,75,8,7,I. Asensio · T. Barbitch · N. Mbengue · I. Tensaie · L. Vydrova
+16,"Sat, Jan 18, 2025",,Box Score,,Florida International,W,,70,68,9,7,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+17,"Thu, Jan 23, 2025",,Box Score,@,Jacksonville State,L,OT,71,72,9,8,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+18,"Sat, Jan 25, 2025",,Box Score,@,Kennesaw State,L,,70,84,9,9,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+19,"Thu, Jan 30, 2025",,Box Score,,Western Kentucky,L,,59,65,9,10,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+20,"Sat, Feb 1, 2025",,Box Score,,Middle Tennessee,L,,42,64,9,11,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sat, Feb 8, 2025",,Box Score,,New Mexico State,L,,60,85,9,12,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+22,"Thu, Feb 13, 2025",,Box Score,@,Florida International,L,,66,83,9,13,P. Adams · A. Davis · O. Igbinedion Omoruyi · M. Moses Amaniyo · H. Samayoa-Mathis
+23,"Sat, Feb 15, 2025",,Box Score,@,Liberty,L,,53,67,9,14,P. Adams · I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova
+24,"Thu, Feb 20, 2025",,Box Score,,Kennesaw State,L,,56,68,9,15,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+25,"Sat, Feb 22, 2025",,Box Score,,Jacksonville State,W,,52,44,10,15,I. Asensio · N. Mbengue · H. Samayoa-Mathis · I. Tensaie · L. Vydrova
+26,"Thu, Feb 27, 2025",,Box Score,@,Western Kentucky,L,,58,81,10,16,I. Asensio · N. Mbengue · H. Samayoa-Mathis · I. Tensaie · L. Vydrova
+27,"Sat, Mar 1, 2025",,Box Score,@,Middle Tennessee,L,,35,57,10,17,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+28,"Thu, Mar 6, 2025",,Box Score,,Sam Houston,W,,65,64,11,17,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+29,"Sat, Mar 8, 2025",,Box Score,,Louisiana Tech,L,,51,69,11,18,I. Asensio · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita
+30,"Tue, Mar 11, 2025",,Box Score,N,Kennesaw State,L,,63,71,11,19,P. Adams · N. Mbengue · I. Tensaie · L. Vydrova · D. Zita

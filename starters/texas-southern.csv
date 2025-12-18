@@ -1,0 +1,36 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,Stephen F. Austin,L,,45,86,0,1,J. Belton · N. Harmon · D. Holmes · A. Knight · C. Loudermill
+2,"Thu, Nov 7, 2024",,Box Score,@,North Texas,L,,54,78,0,2,L. Fantroy · D. Harris · D. Holmes · A. Knight · C. Loudermill
+3,"Mon, Nov 11, 2024",,Box Score,@,Oklahoma State,L,,57,87,0,3,L. Fantroy · D. Harris · D. Holmes · A. Knight · C. Loudermill
+4,"Thu, Nov 21, 2024",,Box Score,,East Texas A&M,L,OT,86,87,0,4,L. Fantroy · D. Harris · A. Henderson · D. Holmes · C. Loudermill
+5,"Tue, Nov 26, 2024",,Box Score,,College of Biblical Studies,W,,119,27,1,4,L. Fantroy · D. Harris · A. Henderson · A. Knight · C. Loudermill
+6,"Wed, Dec 4, 2024",,Box Score,@,Baylor,L,,29,101,1,5,J. Belton · L. Fantroy · A. Henderson · A. Knight · C. Loudermill
+7,"Sat, Dec 7, 2024",,Box Score,,UCF,L,,87,93,1,6,L. Fantroy · D. Harris · A. Henderson · A. Knight · C. Loudermill
+8,"Fri, Dec 13, 2024",,Box Score,@,Rice,L,,62,89,1,7,J. Belton · L. Fantroy · N. Harmon · A. Henderson · C. Loudermill
+9,"Mon, Dec 16, 2024",,Box Score,@,Texas A&M,L,,60,85,1,8,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+10,"Thu, Dec 19, 2024",,Box Score,@,California Baptist,L,,58,72,1,9,J. Belton · L. Fantroy · A. Henderson · C. Loudermill · T. Thompson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 29, 2024",,Box Score,@,Tarleton State,L,,55,67,1,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · A. Thomas
+12,"Thu, Jan 2, 2025",,Box Score,,Grambling,W,,85,74,2,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · A. Thomas
+13,"Sat, Jan 4, 2025",,Box Score,,Southern,W,,55,51,3,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · A. Thomas
+14,"Thu, Jan 9, 2025",,Box Score,@,Mississippi Valley State,W,,80,54,4,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+15,"Thu, Jan 16, 2025",,Box Score,,Jackson State,W,,69,54,5,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+16,"Sat, Jan 18, 2025",,Box Score,,Alcorn State,W,,70,48,6,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+17,"Sat, Jan 25, 2025",,Box Score,@,Alabama A&M,W,,75,65,7,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+18,"Mon, Jan 27, 2025",,Box Score,@,Alabama State,W,,69,67,8,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+19,"Sat, Feb 1, 2025",,Box Score,,Prairie View,W,,82,69,9,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+20,"Tue, Feb 4, 2025",,Box Score,@,Arkansas-Pine Bluff,W,,75,65,10,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Thu, Feb 6, 2025",,Box Score,,Bethune-Cookman,W,,64,57,11,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+22,"Sat, Feb 8, 2025",,Box Score,,Florida A&M,W,,77,70,12,10,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+23,"Thu, Feb 13, 2025",,Box Score,@,Southern,L,,53,63,12,11,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · T. Thompson
+24,"Sat, Feb 15, 2025",,Box Score,@,Grambling,L,,46,71,12,12,L. Fantroy · D. Harris · A. Henderson · C. Loudermill · A. Thomas
+25,"Thu, Feb 20, 2025",,Box Score,,Arkansas-Pine Bluff,W,,73,59,13,12,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · T. Thompson
+26,"Sat, Feb 22, 2025",,Box Score,,Mississippi Valley State,W,,81,72,14,12,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · T. Thompson
+27,"Thu, Feb 27, 2025",,Box Score,@,Alcorn State,L,,52,60,14,13,L. Fantroy · D. Holmes · C. Loudermill · A. Thomas · T. Thompson
+28,"Sat, Mar 1, 2025",,Box Score,@,Jackson State,L,,60,63,14,14,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · A. Thomas
+29,"Sat, Mar 8, 2025",,Box Score,@,Prairie View,W,,64,60,15,14,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · A. Thomas
+30,"Wed, Mar 12, 2025",,Box Score,N,Prairie View,W,,69,49,16,14,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · A. Thomas
+31,"Fri, Mar 14, 2025",,Box Score,N,Alcorn State,L,,55,65,16,15,J. Belton · L. Fantroy · D. Holmes · C. Loudermill · A. Thomas
+32,"Thu, Mar 20, 2025",,Box Score,,Saint Mary's (CA),W,,54,50,17,15,J. Belton · L. Fantroy · D. Holmes · A. Thomas · T. Thompson
+33,"Mon, Mar 24, 2025",,Box Score,@,Louisiana Tech,L,,64,71,17,16,J. Belton · L. Fantroy · D. Holmes · A. Thomas · T. Thompson

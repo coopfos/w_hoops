@@ -1,0 +1,37 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,@,South Dakota,W,OT,85,83,1,0,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · T. Simon
+2,"Thu, Nov 7, 2024",,Box Score,@,Drake,L,,70,95,1,1,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · T. Simon
+3,"Tue, Nov 12, 2024",,Box Score,,Illinois State,W,,78,71,2,1,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · T. Simon
+4,"Sun, Nov 17, 2024",,Box Score,@,Southern Indiana,L,,59,71,2,2,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · T. Simon
+5,"Wed, Nov 20, 2024",,Box Score,@,Missouri,L,,59,112,2,3,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · H. Wallace
+6,"Sat, Nov 23, 2024",,Box Score,,Missouri State,L,,68,91,2,4,S. Anumele · K. Calhoun · B. Gray · P. Kennedy · H. Wallace
+7,"Tue, Nov 26, 2024",,Box Score,@,California Baptist,W,,82,70,3,4,S. Anumele · M. Bergstrom · K. Calhoun · B. Johns · T. Simon
+8,"Fri, Nov 29, 2024",,Box Score,N,Southern California,L,,65,104,3,5,S. Anumele · M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon
+9,"Tue, Dec 3, 2024",,Box Score,,Murray State,L,,66,91,3,6,S. Anumele · M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon
+10,"Sat, Dec 7, 2024",,Box Score,N,Norfolk State,L,,66,75,3,7,S. Anumele · M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Ohio,W,,96,52,4,7,M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon · H. Wallace
+12,"Wed, Dec 18, 2024",,Box Score,,Valparaiso,W,,69,59,5,7,M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon · H. Wallace
+13,"Sat, Dec 21, 2024",,Box Score,,Bellarmine,W,,86,69,6,7,M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon · H. Wallace
+14,"Sun, Dec 29, 2024",,Box Score,@,Rhode Island,L,,63,83,6,8,M. Bergstrom · K. Calhoun · P. Kennedy · T. Simon · H. Wallace
+15,"Thu, Jan 2, 2025",,Box Score,,Massachusetts,L,,55,72,6,9,M. Bergstrom · K. Calhoun · P. Kennedy · M. Shavers · T. Simon
+16,"Sun, Jan 5, 2025",,Box Score,,Davidson,L,,53,94,6,10,M. Bergstrom · K. Calhoun · P. Kennedy · M. Shavers · T. Simon
+17,"Wed, Jan 8, 2025",,Box Score,@,St. Bonaventure,L,,66,68,6,11,M. Bergstrom · K. Calhoun · M. Shavers · T. Simon · H. Wallace
+18,"Wed, Jan 15, 2025",,Box Score,,George Washington,W,,64,63,7,11,M. Bergstrom · K. Calhoun · M. Shavers · T. Simon · I. Tillett
+19,"Sat, Jan 18, 2025",,Box Score,,Loyola (IL),L,,63,66,7,12,M. Bergstrom · K. Calhoun · P. Kennedy · M. Shavers · T. Simon
+20,"Wed, Jan 22, 2025",,Box Score,@,Dayton,L,,76,87,7,13,K. Calhoun · B. Gray · P. Kennedy · M. Shavers · T. Simon
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Sun, Jan 26, 2025",,Box Score,@,Davidson,W,,60,51,8,13,K. Calhoun · B. Gray · P. Kennedy · M. Shavers · T. Simon
+22,"Wed, Jan 29, 2025",,Box Score,,George Mason,L,,53,80,8,14,K. Calhoun · B. Gray · P. Kennedy · M. Shavers · T. Simon
+23,"Sat, Feb 1, 2025",,Box Score,,Fordham,W,OT,59,53,9,14,K. Calhoun · B. Gray · M. Shavers · T. Simon · H. Wallace
+24,"Wed, Feb 5, 2025",,Box Score,@,Saint Joseph's,L,,49,69,9,15,K. Calhoun · B. Gray · M. Shavers · T. Simon · H. Wallace
+25,"Sat, Feb 8, 2025",,Box Score,,La Salle,W,,73,51,10,15,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+26,"Thu, Feb 13, 2025",,Box Score,@,Virginia Commonwealth,W,,59,56,11,15,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+27,"Sun, Feb 16, 2025",,Box Score,@,Richmond,L,,49,59,11,16,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+28,"Wed, Feb 19, 2025",,Box Score,,Dayton,W,,72,63,12,16,K. Calhoun · M. Glanton · M. Shavers · T. Simon · H. Wallace
+29,"Sat, Feb 22, 2025",,Box Score,@,Duquesne,L,,72,84,12,17,K. Calhoun · M. Glanton · M. Shavers · T. Simon · H. Wallace
+30,"Wed, Feb 26, 2025",,Box Score,,Rhode Island,W,,67,63,13,17,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+31,"Sat, Mar 1, 2025",,Box Score,@,Loyola (IL),L,,62,63,13,18,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+32,"Wed, Mar 5, 2025",,Box Score,N,St. Bonaventure,W,,60,50,14,18,K. Calhoun · M. Glanton · P. Kennedy · T. Simon · H. Wallace
+33,"Thu, Mar 6, 2025",,Box Score,N,Massachusetts,W,,67,57,15,18,K. Calhoun · B. Gray · P. Kennedy · T. Simon · H. Wallace
+34,"Fri, Mar 7, 2025",,Box Score,N,George Mason,L,,57,87,15,19,K. Calhoun · B. Gray · P. Kennedy · T. Simon · H. Wallace

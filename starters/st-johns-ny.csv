@@ -1,0 +1,34 @@
+G,Date,Unnamed: 2,Unnamed: 3,Unnamed: 4,Opponent,Unnamed: 6,OT,Tm,Opp,W,L,Unnamed: 12
+1,"Mon, Nov 4, 2024",,Box Score,,Saint Peter's,W,,80,39,1,0,T. Daye · J. Donald · L. Dwyer · P. Gedeon · B. Mayo
+2,"Fri, Nov 8, 2024",,Box Score,@,Long Island University,W,,67,50,2,0,T. Daye · J. Donald · L. Dwyer · P. Gedeon · B. Mayo
+3,"Wed, Nov 13, 2024",,Box Score,@,Loyola (MD),W,,69,61,3,0,T. Daye · J. Donald · L. Dwyer · P. Gedeon · B. Mayo
+4,"Sun, Nov 17, 2024",,Box Score,@,Rhode Island,W,,60,45,4,0,T. Daye · J. Donald · L. Dwyer · P. Gedeon · B. Mayo
+5,"Thu, Nov 21, 2024",,Box Score,,Marist,W,,69,49,5,0,J. Donald · L. Dwyer · P. Gedeon · B. Mayo · S. Owen
+6,"Sun, Nov 24, 2024",,Box Score,,Stony Brook,W,,58,34,6,0,J. Donald · L. Dwyer · P. Gedeon · B. Mayo · S. Owen
+7,"Thu, Nov 28, 2024",,Box Score,,Harvard,L,,52,54,6,1,J. Donald · L. Dwyer · P. Gedeon · B. Mayo · S. Owen
+8,"Mon, Dec 2, 2024",,Box Score,@,Penn State,W,,72,67,7,1,L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo · S. Owen
+9,"Sun, Dec 8, 2024",,Box Score,,Wake Forest,W,,63,45,8,1,L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo · S. Owen
+10,"Wed, Dec 11, 2024",,Box Score,@,Hofstra,W,,62,38,9,1,L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo · S. Owen
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+11,"Sun, Dec 15, 2024",,Box Score,,Fairfield,W,,77,68,10,1,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+12,"Sat, Dec 21, 2024",,Box Score,@,Villanova,L,,57,71,10,2,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+13,"Sat, Dec 28, 2024",,Box Score,,Creighton,L,,56,75,10,3,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+14,"Wed, Jan 1, 2025",,Box Score,@,Providence,L,OT,52,59,10,4,J. Donald · L. Dwyer · P. Gedeon · B. Mayo · S. Owen
+15,"Tue, Jan 7, 2025",,Box Score,,DePaul,L,,60,67,10,5,L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo · S. Owen
+16,"Sat, Jan 11, 2025",,Box Score,@,Xavier,W,,60,39,11,5,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+17,"Wed, Jan 15, 2025",,Box Score,,Connecticut,L,,45,71,11,6,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+18,"Sat, Jan 18, 2025",,Box Score,,Villanova,L,,64,66,11,7,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+19,"Wed, Jan 22, 2025",,Box Score,@,Georgetown,L,,54,56,11,8,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+20,"Sat, Jan 25, 2025",,Box Score,@,Seton Hall,L,,48,57,11,9,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+G,Date,,,,Opponent,,OT,Tm,Opp,W,L,
+21,"Wed, Jan 29, 2025",,Box Score,,Providence,W,,62,55,12,9,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · N. Wingate
+22,"Sun, Feb 2, 2025",,Box Score,,Xavier,W,,55,44,13,9,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · N. Wingate
+23,"Wed, Feb 5, 2025",,Box Score,@,Marquette,L,,55,57,13,10,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+24,"Wed, Feb 12, 2025",,Box Score,@,Connecticut,L,,40,78,13,11,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+25,"Sun, Feb 16, 2025",,Box Score,,Butler,W,,65,43,14,11,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+26,"Wed, Feb 19, 2025",,Box Score,@,Creighton,L,,62,65,14,12,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+27,"Sun, Feb 23, 2025",,Box Score,,Seton Hall,L,,57,66,14,13,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+28,"Wed, Feb 26, 2025",,Box Score,,Georgetown,W,,83,49,15,13,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+29,"Sun, Mar 2, 2025",,Box Score,@,DePaul,L,OT,64,65,15,14,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
+30,"Fri, Mar 7, 2025",,Box Score,N,Butler,W,,66,50,16,14,J. Donald · L. Dwyer · K. Lavelle · B. Mayo · S. Owen
+31,"Sat, Mar 8, 2025",,Box Score,N,Connecticut,L,,40,71,16,15,J. Donald · L. Dwyer · P. Gedeon · K. Lavelle · B. Mayo
