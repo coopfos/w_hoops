@@ -1,0 +1,362 @@
+---
+title: "NCAAW 24-25 Box Score + Gamelog Modeling"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+set.seed(42)
+
+use_pkg <- function(pkg) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    message(sprintf("Package '%s' not available; related models may be skipped.", pkg))
+    return(FALSE)
+  }
+  suppressPackageStartupMessages(library(pkg, character.only = TRUE))
+  TRUE
+}
+
+has_dplyr <- use_pkg("dplyr")
+has_tidyr <- use_pkg("tidyr")
+has_randomForest <- use_pkg("randomForest")
+
+dir.create("outputs", showWarnings = FALSE)
+```
+
+## Data Sources
+
+- master_boxscore: per-player box score rows (basic and advanced) for each game.
+- gamelogs_bind: team-game logs with final outcome and points.
+
+```{r read-data}
+# File paths (relative to repo root)
+bs_path <- "master_boxscore.csv"
+gl_path <- "gamelogs_bind.csv"
+
+box <- read.csv(bs_path, stringsAsFactors = FALSE)
+gl  <- read.csv(gl_path, stringsAsFactors = FALSE)
+
+# Parse dates
+box$game_date <- as.Date(box$game_date)
+gl$Date <- as.Date(gl$Date)
+
+# Ensure syntactic names for safe formulas
+names(box) <- make.names(names(box))
+names(gl)  <- make.names(names(gl))
+```
+
+## Aggregate Team Box Scores
+
+Use the "School Totals" rows to obtain aggregated team-level stats for both basic and advanced tables, then join them per team-game.
+
+```{r aggregate-box}
+# Keep only team aggregated rows
+box_totals <- subset(box, player == "School Totals")
+
+box_basic <- subset(box_totals, table_type == "basic")
+box_adv   <- subset(box_totals, table_type == "advanced")
+
+key_cols <- c("game_id", "game_date", "team", "opponent")
+
+# Select numeric feature columns for each table
+num_cols_basic <- names(box_basic)[sapply(box_basic, is.numeric)]
+num_cols_adv   <- names(box_adv)[sapply(box_adv, is.numeric)]
+
+feat_basic <- box_basic[, unique(c(key_cols, num_cols_basic))]
+feat_adv   <- box_adv[,   unique(c(key_cols, num_cols_adv))]
+
+# Prefix to avoid collisions, excluding keys
+prefixed_basic <- feat_basic
+prefixed_adv   <- feat_adv
+
+bn <- setdiff(names(prefixed_basic), key_cols)
+an <- setdiff(names(prefixed_adv), key_cols)
+
+names(prefixed_basic)[match(bn, names(prefixed_basic))] <- paste0("basic_", bn)
+names(prefixed_adv)[match(an, names(prefixed_adv))]     <- paste0("adv_", an)
+
+# Join basic + advanced per team-game
+team_box <- merge(prefixed_basic, prefixed_adv, by = key_cols, all = TRUE)
+
+# Keep only rows that exist in both (optional)
+team_box <- team_box[order(team_box$team, team_box$game_date), ]
+
+summary_dims <- data.frame(
+  n_rows = nrow(team_box),
+  n_teams = length(unique(team_box$team))
+)
+summary_dims
+```
+
+## Attach Outcomes from Gamelogs
+
+Join gamelog rows to team box totals using `(sid == team) & (Date == game_date)`. This supplies outcome, points, and basic per-game team/opponent stats.
+
+```{r attach-outcomes}
+# Minimal columns from gamelogs used for targets/IDs
+gl_min <- gl[, c("sid", "Date", "Opp", "Rslt", "Tm", "Opp.1", "OT")]
+names(gl_min) <- c("team", "game_date", "opp_name", "res", "tm_pts", "opp_pts", "ot")
+
+# Join to bring in outcomes
+team_games <- merge(team_box, gl_min, by = c("team", "game_date"), all.x = TRUE)
+
+# Derive binary outcome and score_diff
+team_games$win <- as.integer(team_games$res == "W")
+team_games$score_diff <- team_games$tm_pts - team_games$opp_pts
+
+# Keep a tidy core set
+core_cols <- c("team", "opponent", "game_id", "game_date", "win", "score_diff", "tm_pts", "opp_pts", "ot")
+team_games <- team_games[, unique(c(core_cols, setdiff(names(team_games), core_cols)))]
+
+# Save merged dataset for inspection
+write.csv(team_games, file = "outputs/merged_team_games.csv", row.names = FALSE)
+
+data.frame(rows = nrow(team_games), with_outcome = sum(!is.na(team_games$win)))
+```
+
+## Pre-Game Feature Engineering
+
+Compute prior-game averages for all numeric box-score features so each row only uses information available before tip-off. Also mirror opponent features with an `opp_` prefix from the opponent team’s prior form.
+
+```{r pregame-features}
+# Helper to compute lagged cumulative mean (prior to current row)
+lag_cummean <- function(x) {
+  n <- length(x)
+  if (n == 0) return(x)
+  xf <- ifelse(is.finite(x), x, 0)
+  cs <- c(0, cumsum(xf))                # sum of finite values so far
+  cnt <- c(0, cumsum(ifelse(is.finite(x), 1, 0)))
+  out <- ifelse(cnt[-1] > 0, cs[-(n+1)] / cnt[-1], NA_real_)
+  out
+}
+
+# Identify numeric features from box score summaries
+id_cols <- c("team", "opponent", "game_id", "game_date", "win", "score_diff", "tm_pts", "opp_pts", "ot")
+box_feat_cols <- setdiff(names(team_games)[sapply(team_games, is.numeric)], c("win", "score_diff", "tm_pts", "opp_pts"))
+
+# For reproducibility, sort by date within team
+team_games <- team_games[order(team_games$team, team_games$game_date), ]
+
+# Compute prior means per team
+pg_list <- split(team_games, team_games$team)
+pg_list <- lapply(pg_list, function(df) {
+  df <- df[order(df$game_date), ]
+  for (col in box_feat_cols) {
+    df[[paste0("pre_", col)]] <- lag_cummean(df[[col]])
+  }
+  df
+})
+pre_team <- do.call(rbind, pg_list)
+
+# Opponent prior means: self-join by opponent team and date
+opp_pre <- pre_team[, c("team", "game_date", grep("^pre_", names(pre_team), value = TRUE))]
+names(opp_pre) <- c("opponent", "game_date", paste0("opp_", sub("^pre_", "", names(opp_pre)[-c(1,2)])))
+
+pre_joined <- merge(pre_team, opp_pre, by = c("opponent", "game_date"), all.x = TRUE)
+
+# Drop rows without pre-game info (season openers, missing opponent slugs)
+pre_joined <- pre_joined[!is.na(pre_joined$win) & rowSums(is.finite(pre_joined[, grep("^pre_", names(pre_joined))])) > 0, ]
+
+# Save engineered dataset
+write.csv(pre_joined, file = "outputs/pre_game_features.csv", row.names = FALSE)
+
+data.frame(rows = nrow(pre_joined), teams = length(unique(pre_joined$team)))
+```
+
+## Train/Validation Split
+
+Stratify by win/loss to maintain class balance.
+
+```{r split}
+pre_joined$row_id <- seq_len(nrow(pre_joined))
+
+set.seed(42)
+pos_ids <- pre_joined$row_id[pre_joined$win == 1]
+neg_ids <- pre_joined$row_id[pre_joined$win == 0]
+
+train_pos <- if (length(pos_ids) > 1) sample(pos_ids, size = max(1, floor(0.8 * length(pos_ids)))) else pos_ids
+train_neg <- if (length(neg_ids) > 1) sample(neg_ids, size = max(1, floor(0.8 * length(neg_ids)))) else neg_ids
+train_ids <- unique(c(train_pos, train_neg))
+
+train_df <- pre_joined[pre_joined$row_id %in% train_ids, ]
+valid_df <- pre_joined[!pre_joined$row_id %in% train_ids, ]
+
+# Ensure both classes exist in training; if not, move one example from valid
+if (length(unique(train_df$win)) < 2 && nrow(valid_df) > 0) {
+  need <- setdiff(c(0,1), unique(train_df$win))
+  for (y in need) {
+    idx <- which(valid_df$win == y)
+    if (length(idx) > 0) {
+      move_id <- valid_df$row_id[idx[1]]
+      train_df <- rbind(train_df, pre_joined[pre_joined$row_id == move_id, ])
+      valid_df <- valid_df[valid_df$row_id != move_id, ]
+    }
+  }
+}
+
+# Predictor columns: use pre_ and opp_ features only, coerce to numeric
+pred_cols <- c(grep("^pre_", names(pre_joined), value = TRUE), grep("^opp_", names(pre_joined), value = TRUE))
+pred_cols <- unique(setdiff(pred_cols, c("pre_win", "pre_score_diff")))
+
+for (col in pred_cols) {
+  pre_joined[[col]] <- suppressWarnings(as.numeric(pre_joined[[col]]))
+}
+
+# Refresh train/valid with coerced types
+train_df <- pre_joined[pre_joined$row_id %in% train_ids, ]
+valid_df <- pre_joined[!pre_joined$row_id %in% train_ids, ]
+
+# Drop predictors with all NA or zero variance in training
+is_bad <- function(x) {
+  all_na <- all(is.na(x))
+  vx <- var(x, na.rm = TRUE)
+  zero_var <- is.finite(vx) && vx == 0
+  all_na || zero_var
+}
+
+bad_cols <- sapply(train_df[, pred_cols, drop = FALSE], is_bad)
+pred_cols <- pred_cols[!bad_cols]
+
+# Median imputation using training medians
+if (length(pred_cols) == 0) {
+  stop("No usable predictors after filtering. Check that box score features are present and non-constant.")
+}
+
+train_X <- train_df[, pred_cols, drop = FALSE]
+valid_X <- valid_df[, pred_cols, drop = FALSE]
+
+meds <- vapply(train_X, function(v) median(v[is.finite(v)], na.rm = TRUE), numeric(1))
+meds[!is.finite(meds)] <- 0
+
+for (j in seq_along(pred_cols)) {
+  cnam <- pred_cols[j]
+  train_X[[cnam]][!is.finite(train_X[[cnam]]) | is.na(train_X[[cnam]])] <- meds[j]
+  valid_X[[cnam]][!is.finite(valid_X[[cnam]]) | is.na(valid_X[[cnam]])] <- meds[j]
+}
+```
+
+## Metrics Helpers
+
+```{r metrics}
+metrics_class <- function(probs, truth, score_diff) {
+  eps <- 1e-15
+  truth01 <- as.integer(truth)
+  pred_class <- ifelse(probs >= 0.5, 1L, 0L)
+  accuracy <- mean(pred_class == truth01)
+  brier <- mean((probs - truth01)^2)
+  log_loss <- -mean(truth01 * log(pmax(eps, probs)) + (1 - truth01) * log(pmax(eps, 1 - probs)))
+  ranks <- rank(probs, ties.method = "average")
+  pos <- truth01 == 1
+  n_pos <- sum(pos)
+  n_neg <- length(probs) - n_pos
+  auc <- if (n_pos > 0 && n_neg > 0) {
+    (sum(ranks[pos]) - n_pos * (n_pos + 1) / 2) / (n_pos * n_neg)
+  } else NA_real_
+  margin_corr <- suppressWarnings(cor(probs, score_diff, method = "pearson"))
+  data.frame(accuracy = accuracy, brier = brier, log_loss = log_loss, auc = auc, margin_corr = margin_corr)
+}
+
+metrics_reg <- function(pred, truth) {
+  rmse <- sqrt(mean((pred - truth)^2))
+  mae <- mean(abs(pred - truth))
+  r2 <- 1 - sum((pred - truth)^2) / sum((truth - mean(truth))^2)
+  data.frame(rmse = rmse, mae = mae, r2 = r2)
+}
+```
+
+## Win Probability: Logistic Regression
+
+```{r glm}
+glm_train <- data.frame(win = train_df$win, train_X)
+glm_valid <- data.frame(valid_X)
+
+glm_fit <- glm(win ~ ., data = glm_train, family = binomial())
+
+glm_valid_prob <- predict(glm_fit, newdata = glm_valid, type = "response")
+glm_metrics <- metrics_class(glm_valid_prob, valid_df$win, valid_df$score_diff)
+glm_metrics
+```
+
+## Win Probability: Tree-Based (optional)
+
+```{r rf-class}
+if (has_randomForest) {
+  rf_cls <- randomForest::randomForest(
+    x = train_X,
+    y = factor(train_df$win),
+    ntree = 400,
+    mtry = max(1, floor(sqrt(length(pred_cols)))),
+    importance = TRUE
+  )
+  rf_valid_prob <- predict(rf_cls, newdata = valid_X, type = "prob")[, "1"]
+  rf_metrics <- metrics_class(rf_valid_prob, valid_df$win, valid_df$score_diff)
+  rf_metrics
+} else {
+  rf_metrics <- NULL
+}
+```
+
+## Points Prediction: Linear Regression
+
+```{r lm}
+lm_train <- data.frame(tm_pts = train_df$tm_pts, train_X)
+lm_valid <- data.frame(valid_X)
+
+lm_fit <- lm(tm_pts ~ ., data = lm_train)
+
+lm_valid_pred <- predict(lm_fit, newdata = lm_valid)
+lm_metrics <- metrics_reg(lm_valid_pred, valid_df$tm_pts)
+lm_metrics
+```
+
+## Points Prediction: Random Forest Regression (optional)
+
+```{r rf-reg}
+if (has_randomForest) {
+  rf_reg <- randomForest::randomForest(
+    x = train_X,
+    y = train_df$tm_pts,
+    ntree = 400,
+    mtry = max(1, floor(sqrt(length(pred_cols)))),
+    importance = TRUE
+  )
+  rf_pts_pred <- predict(rf_reg, newdata = valid_X)
+  rf_pts_metrics <- metrics_reg(rf_pts_pred, valid_df$tm_pts)
+  rf_pts_metrics
+} else {
+  rf_pts_pred <- NULL
+  rf_pts_metrics <- NULL
+}
+```
+
+## Save Predictions
+
+```{r save}
+# Win probability predictions
+win_preds <- data.frame(
+  team = valid_df$team,
+  opponent = valid_df$opponent,
+  game_date = valid_df$game_date,
+  win_actual = valid_df$win,
+  glm_win_prob = glm_valid_prob,
+  rf_win_prob = if (exists("rf_valid_prob")) rf_valid_prob else NA_real_
+)
+write.csv(win_preds, file = "outputs/win_prob_boxscore_glm_rf_valid.csv", row.names = FALSE)
+
+# Points predictions
+pts_preds <- data.frame(
+  team = valid_df$team,
+  opponent = valid_df$opponent,
+  game_date = valid_df$game_date,
+  tm_pts_actual = valid_df$tm_pts,
+  glm_pts = lm_valid_pred,
+  rf_pts = if (exists("rf_pts_pred")) rf_pts_pred else NA_real_
+)
+write.csv(pts_preds, file = "outputs/points_boxscore_glm_rf_valid.csv", row.names = FALSE)
+```
+
+## Notes
+
+- Features use only prior (pre-game) averages computed within-team to avoid leakage.
+- Opponent pre-game features are joined by slug from the box score opponent column; rows with non-DI or missing opponent slugs remain with NAs.
+- Random Forest sections run only if the package is available; otherwise models fall back to GLM/LM baselines.
+- Inspect `outputs/merged_team_games.csv`, `outputs/pre_game_features.csv`, and the two predictions CSVs for review.
