@@ -1,0 +1,210 @@
+<!-- game_summary #1 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/houston/men/2026.html">Houston</a><span class="pollrank"> (8) </span></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/kansas/men/2026.html">Kansas</a><span class="pollrank"> (17) </span></td>
+<td class="right"></td>
+<td class="right">9:00p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #2 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/louisville/men/2026.html">Louisville</a><span class="pollrank"> (11) </span></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/north-carolina/men/2026.html">UNC</a><span class="pollrank"> (12) </span></td>
+<td class="right"></td>
+<td class="right">7:00p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #3 | 2026-02-23 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/kansas-state/women/2026.html">Kansas State</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/baylor/women/2026.html">Baylor</a><span class="pollrank"> (15) </span></td>
+<td class="right"></td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #4 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/texas-pan-american/men/2026.html">Texas-Rio Grande Valley</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/mcneese-state/men/2026.html">McNeese State</a></td>
+<td class="right"></td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #5 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/incarnate-word/men/2026.html">Incarnate Word</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/northwestern-state/men/2026.html">Northwestern State</a></td>
+<td class="right"></td>
+<td class="right">7:30p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #6 | 2026-02-23 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/georgia/women/2026.html">Georgia</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/auburn/women/2026.html">Auburn</a></td>
+<td class="right"></td>
+<td class="right">7:30p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #7 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/nicholls-state/men/2026.html">Nicholls State</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/lamar/men/2026.html">Lamar</a></td>
+<td class="right"></td>
+<td class="right">7:00p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #8 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/texas-am-corpus-christi/men/2026.html">Texas A&amp;M-Corpus Christi</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/southeastern-louisiana/men/2026.html">Southeastern Louisiana</a></td>
+<td class="right"></td>
+<td class="right">7:00p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #9 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/new-orleans/men/2026.html">New Orleans</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/stephen-f-austin/men/2026.html">Stephen F. Austin</a></td>
+<td class="right"></td>
+<td class="right">7:00p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #10 | 2026-02-23 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/houston-baptist/men/2026.html">Houston Christian</a></td>
+<td class="right"></td>
+<td class="right gamelink">
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/texas-am-commerce/men/2026.html">East Texas A&amp;M</a></td>
+<td class="right"></td>
+<td class="right">7:30p
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
