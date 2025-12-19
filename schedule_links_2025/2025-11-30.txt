@@ -1,0 +1,2112 @@
+<!-- game_summary #1 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/connecticut/women/2026.html">UConn</a><span class="pollrank"> (1) </span></td>
+<td class="right">104</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-xavier_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/xavier/women/2026.html">Xavier</a></td>
+<td class="right">39</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #2 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/tennessee/women/2026.html">Tennessee</a><span class="pollrank"> (14) </span></td>
+<td class="right">77</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-ucla_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/ucla/women/2026.html">UCLA</a><span class="pollrank"> (3) </span></td>
+<td class="right">99</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #3 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/pennsylvania/women/2026.html">Penn</a></td>
+<td class="right">63</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-texas_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/texas/women/2026.html">Texas</a><span class="pollrank"> (4) </span></td>
+<td class="right">81</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #4 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/florida-state/women/2026.html">Florida State</a></td>
+<td class="right">91</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-18-florida-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/oklahoma/women/2026.html">Oklahoma</a><span class="pollrank"> (9) </span></td>
+<td class="right">109</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #5 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/iowa-state/women/2026.html">Iowa State</a><span class="pollrank"> (10) </span></td>
+<td class="right">106</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-indiana_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/indiana/women/2026.html">Indiana</a></td>
+<td class="right">95</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #6 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/fairfield/women/2026.html">Fairfield</a></td>
+<td class="right">72</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-iowa_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/iowa/women/2026.html">Iowa</a><span class="pollrank"> (11) </span></td>
+<td class="right">86</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #7 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/grambling/women/2026.html">Grambling</a></td>
+<td class="right">35</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-baylor_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/baylor/women/2026.html">Baylor</a><span class="pollrank"> (15) </span></td>
+<td class="right">76</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #8 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/wyoming/men/2026.html">Wyoming</a></td>
+<td class="right">72</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-01-texas-tech.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/texas-tech/men/2026.html">Texas Tech</a><span class="pollrank"> (20) </span></td>
+<td class="right">76</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #9 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/michigan-state/women/2026.html">Michigan State</a><span class="pollrank"> (20) </span></td>
+<td class="right">72</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-18-clemson_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/clemson/women/2026.html">Clemson</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #10 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/bellarmine/women/2026.html">Bellarmine</a></td>
+<td class="right">37</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-louisville_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/louisville/women/2026.html">Louisville</a><span class="pollrank"> (23) </span></td>
+<td class="right">100</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #11 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/youngstown-state/women/2026.html">Youngstown State</a></td>
+<td class="right">90</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-akron_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/akron/women/2026.html">Akron</a></td>
+<td class="right">63</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #12 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>SUNY Oneonta</a></td>
+<td class="right">62</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-albany-ny.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/albany-ny/men/2026.html">Albany (NY)</a></td>
+<td class="right">90</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #13 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/ipfw/women/2026.html">Purdue Fort Wayne</a></td>
+<td class="right">53</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-bowling-green-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/bowling-green-state/women/2026.html">Bowling Green</a></td>
+<td class="right">56</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #14 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/cornell/men/2026.html">Cornell</a></td>
+<td class="right">101</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-bucknell.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/bucknell/men/2026.html">Bucknell</a></td>
+<td class="right">72</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #15 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/alabama-am/men/2026.html">Alabama A&amp;M</a></td>
+<td class="right">60</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-coastal-carolina.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/coastal-carolina/men/2026.html">Coastal Carolina</a></td>
+<td class="right">67</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #16 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/ohio/women/2026.html">Ohio</a></td>
+<td class="right">59</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-davidson_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/davidson/women/2026.html">Davidson</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #17 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/towson/women/2026.html">Towson</a></td>
+<td class="right">80</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-delaware_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/delaware/women/2026.html">Delaware</a></td>
+<td class="right">91</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #18 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/eastern-michigan/women/2026.html">Eastern Michigan</a></td>
+<td class="right">64</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-detroit-mercy_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/detroit-mercy/women/2026.html">Detroit Mercy</a></td>
+<td class="right">55</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #19 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/seattle/women/2026.html">Seattle</a></td>
+<td class="right">59</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-florida-international_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/florida-international/women/2026.html">Florida International</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #20 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/long-island-university/women/2026.html">LIU</a></td>
+<td class="right">51</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-fordham_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/fordham/women/2026.html">Fordham</a></td>
+<td class="right">72</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #21 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/new-hampshire/women/2026.html">New Hampshire</a></td>
+<td class="right">45</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-holy-cross_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/holy-cross/women/2026.html">Holy Cross</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #22 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/marshall/women/2026.html">Marshall</a></td>
+<td class="right">56</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-morehead-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/morehead-state/women/2026.html">Morehead State</a></td>
+<td class="right">66</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #23 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/southern-indiana/women/2026.html">Southern Indiana</a></td>
+<td class="right">71</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-northern-kentucky_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/northern-kentucky/women/2026.html">Northern Kentucky</a></td>
+<td class="right">77</td>
+<td class="right">OT
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #24 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/yale/women/2026.html">Yale</a></td>
+<td class="right">64</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-penn-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/penn-state/women/2026.html">Penn State</a></td>
+<td class="right">82</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #25 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/citadel/men/2026.html">The Citadel</a></td>
+<td class="right">41</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-presbyterian.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/presbyterian/men/2026.html">Presbyterian</a></td>
+<td class="right">69</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #26 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/presbyterian/women/2026.html">Presbyterian</a></td>
+<td class="right">48</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-presbyterian_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/maryland-baltimore-county/women/2026.html">UMBC</a></td>
+<td class="right">68</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #27 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/princeton/men/2026.html">Princeton</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-princeton.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/saint-josephs/men/2026.html">St. Joseph's</a></td>
+<td class="right">60</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #28 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/stonehill/men/2026.html">Stonehill</a></td>
+<td class="right">62</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-quinnipiac.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/quinnipiac/men/2026.html">Quinnipiac</a></td>
+<td class="right">76</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #29 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/winthrop/women/2026.html">Winthrop</a></td>
+<td class="right">66</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-south-carolina-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/south-carolina-state/women/2026.html">South Carolina State</a></td>
+<td class="right">45</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #30 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/yale/men/2026.html">Yale</a></td>
+<td class="right">77</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-vermont.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/vermont/men/2026.html">Vermont</a></td>
+<td class="right">74</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #31 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/mercyhurst/men/2026.html">Mercyhurst</a></td>
+<td class="right">38</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-00-west-virginia.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/west-virginia/men/2026.html">West Virginia</a></td>
+<td class="right">70</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #32 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/harvard/women/2026.html">Harvard</a></td>
+<td class="right">69</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-01-arkansas_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/arkansas/women/2026.html">Arkansas</a></td>
+<td class="right">51</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #33 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/le-moyne/women/2026.html">Le Moyne</a></td>
+<td class="right">28</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-01-illinois_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/illinois/women/2026.html">Illinois</a></td>
+<td class="right">100</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #34 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/louisiana-monroe/women/2026.html">Louisiana-Monroe</a></td>
+<td class="right">54</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-01-mississippi-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/mississippi-state/women/2026.html">Mississippi State</a></td>
+<td class="right">66</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #35 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/montana-state/women/2026.html">Montana State</a></td>
+<td class="right">71</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-02-colorado_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/colorado/women/2026.html">Colorado</a></td>
+<td class="right">70</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #36 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/bryant/women/2026.html">Bryant</a></td>
+<td class="right">53</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-02-providence_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/providence/women/2026.html">Providence</a></td>
+<td class="right">62</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #37 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Cal State Monterey Bay</a></td>
+<td class="right">52</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-03-san-francisco_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/san-francisco/women/2026.html">San Francisco</a></td>
+<td class="right">92</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #38 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/lindenwood/women/2026.html">Lindenwood</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-05-lindenwood_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/vermont/women/2026.html">Vermont</a></td>
+<td class="right">54</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #39 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/east-tennessee-state/women/2026.html">ETSU</a></td>
+<td class="right">60</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-11-east-tennessee-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/eastern-illinois/women/2026.html">Eastern Illinois</a></td>
+<td class="right">54</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #40 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/marquette/women/2026.html">Marquette</a></td>
+<td class="right">61</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-11-gonzaga_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/gonzaga/women/2026.html">Gonzaga</a></td>
+<td class="right">65</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #41 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/houston/women/2026.html">Houston</a></td>
+<td class="right">66</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-11-houston_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/tulsa/women/2026.html">Tulsa</a></td>
+<td class="right">61</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #42 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/le-moyne/men/2026.html">Le Moyne</a></td>
+<td class="right">85</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-12-ball-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/ball-state/men/2026.html">Ball State</a></td>
+<td class="right">96</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #43 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/merrimack/men/2026.html">Merrimack</a></td>
+<td class="right">66</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-12-la-salle.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/la-salle/men/2026.html">La Salle</a></td>
+<td class="right">60</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #44 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/appalachian-state/men/2026.html">Appalachian State</a></td>
+<td class="right">55</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-appalachian-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/north-carolina-asheville/men/2026.html">UNC Asheville</a></td>
+<td class="right">67</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #45 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/arkansas-state/women/2026.html">Arkansas State</a></td>
+<td class="right">74</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-arkansas-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/kent-state/women/2026.html">Kent State</a></td>
+<td class="right">54</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #46 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/mercyhurst/women/2026.html">Mercyhurst</a></td>
+<td class="right">67</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-canisius_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/canisius/women/2026.html">Canisius</a></td>
+<td class="right">75</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #47 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Johnson &amp; Wales (RI)</a></td>
+<td class="right">57</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-central-connecticut-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/central-connecticut-state/men/2026.html">Central Connecticut</a></td>
+<td class="right">122</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #48 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/purdue/women/2026.html">Purdue</a></td>
+<td class="right">55</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-central-michigan_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/central-michigan/women/2026.html">Central Michigan</a></td>
+<td class="right">57</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #49 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/gardner-webb/women/2026.html">Gardner-Webb</a></td>
+<td class="right">57</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-coastal-carolina_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/coastal-carolina/women/2026.html">Coastal Carolina</a></td>
+<td class="right">108</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #50 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/siena/men/2026.html">Siena</a></td>
+<td class="right">64</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-maine.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/maine/men/2026.html">Maine</a></td>
+<td class="right">60</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #51 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Maine-Fort Kent</a></td>
+<td class="right">36</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-massachusetts-lowell_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/massachusetts-lowell/women/2026.html">UMass-Lowell</a></td>
+<td class="right">82</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #52 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/duquesne/women/2026.html">Duquesne</a></td>
+<td class="right">69</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-navy_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/navy/women/2026.html">Navy</a></td>
+<td class="right">67</td>
+<td class="right">OT
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #53 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Mitchell</a></td>
+<td class="right">69</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-new-haven.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/new-haven/men/2026.html">New Haven</a></td>
+<td class="right">92</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #54 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/lafayette/women/2026.html">Lafayette</a></td>
+<td class="right">60</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-njit_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/njit/women/2026.html">NJIT</a></td>
+<td class="right">71</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #55 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/queens-nc/women/2026.html">Queens (NC)</a></td>
+<td class="right">59</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-north-carolina-wilmington_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/north-carolina-wilmington/women/2026.html">UNC Wilmington</a></td>
+<td class="right">69</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #56 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/niagara/women/2026.html">Niagara</a></td>
+<td class="right">32</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-ohio-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/ohio-state/women/2026.html">Ohio State</a></td>
+<td class="right">130</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #57 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/depaul/women/2026.html">DePaul</a></td>
+<td class="right">41</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-princeton_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/princeton/women/2026.html">Princeton</a></td>
+<td class="right">71</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #58 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/georgia-southern/women/2026.html">Georgia Southern</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-13-wofford_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/wofford/women/2026.html">Wofford</a></td>
+<td class="right">52</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #59 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/tennessee-state/men/2026.html">Tennessee State</a></td>
+<td class="right">70</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-chattanooga.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/chattanooga/men/2026.html">Chattanooga</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #60 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/new-hampshire/men/2026.html">New Hampshire</a></td>
+<td class="right">68</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-fairfield.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/fairfield/men/2026.html">Fairfield</a></td>
+<td class="right">72</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #61 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/howard/women/2026.html">Howard</a></td>
+<td class="right">62</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-howard_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/syracuse/women/2026.html">Syracuse</a></td>
+<td class="right">78</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #62 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/monmouth/men/2026.html">Monmouth</a></td>
+<td class="right">88</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-lafayette.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/lafayette/men/2026.html">Lafayette</a></td>
+<td class="right">74</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #63 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/brown/women/2026.html">Brown</a></td>
+<td class="right">54</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-lehigh_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/lehigh/women/2026.html">Lehigh</a></td>
+<td class="right">58</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #64 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/hofstra/men/2026.html">Hofstra</a></td>
+<td class="right">77</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-pennsylvania.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/pennsylvania/men/2026.html">Penn</a></td>
+<td class="right">60</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #65 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/stetson/men/2026.html">Stetson</a></td>
+<td class="right">62</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-robert-morris.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/robert-morris/men/2026.html">Robert Morris</a></td>
+<td class="right">80</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #66 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/saint-peters/women/2026.html">St. Peter's</a></td>
+<td class="right">39</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-rutgers_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/rutgers/women/2026.html">Rutgers</a></td>
+<td class="right">57</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #67 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/southeast-missouri-state/women/2026.html">Southeast Missouri State</a></td>
+<td class="right">55</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-san-diego_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/san-diego/women/2026.html">San Diego</a></td>
+<td class="right">65</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #68 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/florida-am/women/2026.html">Florida A&amp;M</a></td>
+<td class="right">54</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-south-alabama_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/south-alabama/women/2026.html">South Alabama</a></td>
+<td class="right">75</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #69 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/new-orleans/women/2026.html">New Orleans</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-south-florida_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/south-florida/women/2026.html">South Florida</a></td>
+<td class="right">90</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #70 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/south-alabama/men/2026.html">South Alabama</a></td>
+<td class="right">82</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-texas-san-antonio.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/texas-san-antonio/men/2026.html">UTSA</a></td>
+<td class="right">58</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #71 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/maryland-eastern-shore/women/2026.html">Maryland-Eastern Shore</a></td>
+<td class="right">59</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-virginia_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/virginia/women/2026.html">Virginia</a></td>
+<td class="right">92</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #72 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/cornell/women/2026.html">Cornell</a></td>
+<td class="right">54</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-wagner_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/wagner/women/2026.html">Wagner</a></td>
+<td class="right">67</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #73 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/old-dominion/men/2026.html">Old Dominion</a></td>
+<td class="right">75</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-14-william-mary.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/william-mary/men/2026.html">William &amp; Mary</a></td>
+<td class="right">88</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #74 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/oregon/women/2026.html">Oregon</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-auburn_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/auburn/women/2026.html">Auburn</a></td>
+<td class="right">53</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #75 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/fordham/men/2026.html">Fordham</a></td>
+<td class="right">62</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-colgate.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/colgate/men/2026.html">Colgate</a></td>
+<td class="right">72</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #76 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/belmont/men/2026.html">Belmont</a></td>
+<td class="right">96</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-college-of-charleston.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/college-of-charleston/men/2026.html">College of Charleston</a></td>
+<td class="right">73</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #77 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/northern-illinois/women/2026.html">Northern Illinois</a></td>
+<td class="right">52</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-evansville_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/evansville/women/2026.html">Evansville</a></td>
+<td class="right">65</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #78 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/st-bonaventure/men/2026.html">St. Bonaventure</a></td>
+<td class="right">70</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-florida-atlantic.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/florida-atlantic/men/2026.html">Florida Atlantic</a></td>
+<td class="right">65</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #79 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/manhattan/women/2026.html">Manhattan</a></td>
+<td class="right">56</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-liberty_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/liberty/women/2026.html">Liberty</a></td>
+<td class="right">68</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #80 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Northeastern State</a></td>
+<td class="right">71</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-missouri-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/missouri-state/men/2026.html">Missouri State</a></td>
+<td class="right">92</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #81 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/western-kentucky/women/2026.html">Western Kentucky</a></td>
+<td class="right">60</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-southern-illinois_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/southern-illinois/women/2026.html">Southern Illinois</a></td>
+<td class="right">52</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #82 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Wisconsin-Stout</a></td>
+<td class="right">40</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-st-thomas-mn_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/st-thomas-mn/women/2026.html">St. Thomas</a></td>
+<td class="right">77</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #83 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>Oakwood</a></td>
+<td class="right">53</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-tennessee-martin_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/tennessee-martin/women/2026.html">UT-Martin</a></td>
+<td class="right">78</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #84 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/prairie-view/women/2026.html">Prairie View</a></td>
+<td class="right">52</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-15-texas-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/texas-state/women/2026.html">Texas State</a></td>
+<td class="right">93</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #85 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/longwood/men/2026.html">Longwood</a></td>
+<td class="right">66</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-american.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/american/men/2026.html">American</a></td>
+<td class="right">92</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #86 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/missouri-state/women/2026.html">Missouri State</a></td>
+<td class="right">77</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-coppin-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/coppin-state/women/2026.html">Coppin State</a></td>
+<td class="right">56</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #87 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/prairie-view/men/2026.html">Prairie View</a></td>
+<td class="right">69</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-north-texas.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/north-texas/men/2026.html">North Texas</a></td>
+<td class="right">72</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #88 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/temple/women/2026.html">Temple</a></td>
+<td class="right">84</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-temple_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/western-carolina/women/2026.html">Western Carolina</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #89 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a>St. Ambrose</a></td>
+<td class="right">73</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-16-western-illinois.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/western-illinois/men/2026.html">Western Illinois</a></td>
+<td class="right">89</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #90 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/san-diego/men/2026.html">San Diego</a></td>
+<td class="right">72</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-17-long-beach-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/long-beach-state/men/2026.html">Long Beach State</a></td>
+<td class="right">76</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #91 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/california-san-diego/women/2026.html">UC-San Diego</a></td>
+<td class="right">94</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-17-portland-state_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/portland-state/women/2026.html">Portland State</a></td>
+<td class="right">64</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #92 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/california-irvine/men/2026.html">UC-Irvine</a></td>
+<td class="right">72</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-17-san-jose-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/san-jose-state/men/2026.html">San Jose State</a></td>
+<td class="right">63</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #93 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/cal-state-bakersfield/men/2026.html">Cal State Bakersfield</a></td>
+<td class="right">76</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-18-fresno-state.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/fresno-state/men/2026.html">Fresno State</a></td>
+<td class="right">71</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #94 | 2025-11-30 -->
+<div class="game_summary nohover gender-m">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/coppin-state/men/2026.html">Coppin State</a></td>
+<td class="right">84</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-18-loyola-md.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/loyola-md/men/2026.html">Loyola (MD)</a></td>
+<td class="right">95</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Men's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #95 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="loser">
+<td><a href="/cbb/schools/eastern-washington/women/2026.html">Eastern Washington</a></td>
+<td class="right">58</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-18-portland_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="winner">
+<td><a href="/cbb/schools/portland/women/2026.html">Portland</a></td>
+<td class="right">73</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- game_summary #96 | 2025-11-30 -->
+<div class="game_summary nohover gender-f">
+<table class="teams">
+<tbody>
+<tr class="winner">
+<td><a href="/cbb/schools/santa-clara/women/2026.html">Santa Clara</a></td>
+<td class="right">76</td>
+<td class="right gamelink">
+<a href="/cbb/boxscores/2025-11-30-19-hawaii_w.html">F<span class="no_mobile">inal</span></a>
+</td>
+</tr>
+<tr class="loser">
+<td><a href="/cbb/schools/hawaii/women/2026.html">Hawaii</a></td>
+<td class="right">57</td>
+<td class="right"> 
+			</td>
+</tr>
+<tr><td class="desc" colspan="3">Women's</td></tr>
+</tbody>
+</table>
+</div>
+
