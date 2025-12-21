@@ -1,0 +1,38 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,,North Carolina Central,REG (Non-Conf),W,90,42,,36,68,.529,8,20,.400,28,48,.583,.588,10,19,.526,11,37,48,16,10,6,19,21,15,57,.263,5,14,.357,10,43,.233,.307,7,16,.438,4,16,20,7,5,3,18,19
+2,2,2025-11-06,,Elon,REG (Non-Conf),W,71,37,,28,71,.394,4,26,.154,24,45,.533,.423,11,17,.647,17,24,41,16,19,3,11,11,15,52,.288,3,19,.158,12,33,.364,.317,4,5,.800,9,23,32,6,8,4,26,17
+3,3,2025-11-13,N,UCLA,REG (Non-Conf),L,60,78,,24,69,.348,9,33,.273,15,36,.417,.413,3,5,.600,8,12,20,14,5,4,7,9,32,61,.525,6,20,.300,26,41,.634,.574,8,11,.727,10,32,42,24,4,4,13,12
+4,4,2025-11-15,N,Fairfield,REG (Non-Conf),W,82,68,,28,67,.418,8,25,.320,20,42,.476,.478,18,24,.750,12,19,31,14,9,1,10,22,23,48,.479,8,23,.348,15,25,.600,.563,14,16,.875,6,23,29,14,2,3,25,20
+5,5,2025-11-20,@,North Carolina A&T,REG (Non-Conf),W,85,50,,33,69,.478,12,34,.353,21,35,.600,.565,7,10,.700,11,23,34,19,13,5,18,24,17,47,.362,0,6,.000,17,41,.415,.362,16,31,.516,6,24,30,7,6,3,24,12
+6,6,2025-11-23,,UNC Greensboro,REG (Non-Conf),W,94,48,,39,59,.661,12,20,.600,27,39,.692,.763,4,5,.800,7,19,26,20,14,7,12,14,15,50,.300,7,22,.318,8,28,.286,.370,11,13,.846,7,11,18,8,4,1,21,10
+7,7,2025-11-27,N,South Dakota State,REG (Non-Conf),W,83,48,,33,73,.452,10,31,.323,23,42,.548,.521,7,15,.467,11,30,41,21,15,3,9,17,18,54,.333,2,19,.105,16,35,.457,.352,10,16,.625,6,31,37,9,6,1,20,10
+8,8,2025-11-28,N,Kansas State,REG (Non-Conf),W,85,73,,30,55,.545,14,26,.538,16,29,.552,.673,11,17,.647,6,18,24,21,10,1,12,22,27,48,.563,7,13,.538,20,35,.571,.635,12,24,.500,7,16,23,11,4,2,17,18
+9,9,2025-11-29,N,Columbia,REG (Non-Conf),W,80,63,,34,59,.576,5,12,.417,29,47,.617,.619,7,16,.438,5,18,23,18,14,0,10,15,22,48,.458,10,21,.476,12,27,.444,.563,9,11,.818,5,19,24,16,4,3,20,17
+10,10,2025-12-04,@,Texas,REG (Non-Conf),L,64,79,,23,49,.469,2,11,.182,21,38,.553,.490,16,20,.800,9,14,23,7,5,5,19,19,29,63,.460,4,9,.444,25,54,.463,.492,17,21,.810,12,15,27,15,11,6,7,14
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-07,,Boston University,REG (Non-Conf),W,82,40,,32,72,.444,11,25,.440,21,47,.447,.521,7,9,.778,18,25,43,16,12,6,8,9,13,45,.289,5,20,.250,8,25,.320,.344,9,11,.818,3,20,23,9,1,2,22,13
+12,12,2025-12-14,,Louisville,REG (Conf),L,66,76,OT,24,64,.375,11,29,.379,13,35,.371,.461,7,12,.583,8,27,35,13,3,2,16,14,27,67,.403,8,26,.308,19,41,.463,.463,14,17,.824,8,28,36,14,11,2,13,14
+13,13,2025-12-17,,UNC Wilmington,REG (Non-Conf),W,84,34,,34,70,.486,11,32,.344,23,38,.605,.564,5,15,.333,19,29,48,19,11,9,15,13,14,56,.250,1,14,.071,13,42,.310,.259,5,10,.500,8,16,24,7,8,2,22,13
+14,,2025-12-21,,Charleston Southern,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2025-12-29,@,Boston College,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-01,,California,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-04,,Stanford,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-11,@,Notre Dame,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-15,,Miami (FL),REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-18,@,Florida State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-22,@,Georgia Tech,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-25,,Syracuse,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-02-02,@,NC State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-05,,Clemson,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-08,@,Wake Forest,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-12,,SMU,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-15,@,Duke,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-19,@,Virginia Tech,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-22,,Pittsburgh,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-26,@,Virginia,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,2026-03-01,,Duke,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,10-3,1026,736,,398,845,.471,117,324,.361,281,521,.539,.540,113,184,.614,142,295,437,214,140,52,166,210,267,696,.384,66,226,.292,201,470,.428,.431,136,202,.673,91,274,365,147,74,36,248,189

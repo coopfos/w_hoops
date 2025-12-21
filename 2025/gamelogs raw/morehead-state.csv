@@ -1,0 +1,38 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,@,Kentucky,REG (Non-Conf),L,59,75,,20,56,.357,10,27,.370,10,29,.345,.446,9,16,.563,2,25,27,15,5,3,16,17,28,75,.373,4,24,.167,24,51,.471,.400,15,22,.682,20,33,53,13,9,12,11,17
+2,2,2025-11-07,@,Bellarmine,REG (Non-Conf),W,84,68,,28,62,.452,8,32,.250,20,30,.667,.516,20,24,.833,7,30,37,17,7,3,19,25,21,63,.333,8,23,.348,13,40,.325,.397,18,22,.818,6,24,30,9,2,3,21,26
+3,3,2025-11-13,@,Ohio,REG (Non-Conf),L,60,76,,22,62,.355,10,42,.238,12,20,.600,.435,6,15,.400,5,30,35,16,7,6,22,25,24,68,.353,6,29,.207,18,39,.462,.397,22,29,.759,9,32,41,10,15,2,17,14
+4,4,2025-11-19,@,Louisville,REG (Non-Conf),L,49,96,,18,51,.353,7,27,.259,11,24,.458,.422,6,17,.353,7,15,22,12,6,0,17,16,33,61,.541,10,26,.385,23,35,.657,.623,20,23,.870,11,30,41,22,10,0,10,16
+5,5,2025-11-22,,USC Upstate,REG (Non-Conf),W,78,64,,24,64,.375,12,37,.324,12,27,.444,.469,18,23,.783,13,21,34,16,13,1,11,19,24,57,.421,8,20,.400,16,37,.432,.491,8,14,.571,11,24,35,15,3,3,21,27
+6,6,2025-11-26,,Eastern Kentucky,REG (Non-Conf),L,60,73,,24,63,.381,5,22,.227,19,41,.463,.421,7,10,.700,7,23,30,7,12,1,14,19,18,48,.375,9,24,.375,9,24,.375,.469,28,31,.903,6,28,34,10,4,4,20,19
+7,7,2025-11-30,,Marshall,REG (Non-Conf),W,66,56,,23,54,.426,8,30,.267,15,24,.625,.500,12,16,.750,5,27,32,19,9,4,17,15,20,61,.328,8,28,.286,12,33,.364,.393,8,13,.615,13,24,37,7,7,6,17,17
+8,8,2025-12-03,,Murray State,REG (Non-Conf),L,78,85,,30,62,.484,10,22,.455,20,40,.500,.565,8,15,.533,4,29,33,19,7,2,19,17,31,72,.431,8,33,.242,23,39,.590,.486,15,19,.789,11,26,37,11,12,2,14,17
+9,9,2025-12-07,@,Louisiana,REG (Non-Conf),W,61,54,,20,49,.408,5,21,.238,15,28,.536,.459,16,21,.762,12,25,37,9,5,2,18,19,18,55,.327,4,17,.235,14,38,.368,.364,14,16,.875,7,14,21,9,6,1,14,20
+10,10,2025-12-11,@,Notre Dame,REG (Non-Conf),L,48,97,,17,54,.315,6,27,.222,11,27,.407,.370,8,14,.571,5,24,29,8,3,0,22,17,35,74,.473,13,28,.464,22,46,.478,.561,14,18,.778,14,26,40,17,11,4,7,12
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-16,,Little Rock,REG (Conf),L,63,76,,20,51,.392,3,25,.120,17,26,.654,.422,20,24,.833,7,21,28,12,3,1,14,22,26,64,.406,10,24,.417,16,40,.400,.484,14,17,.824,9,23,32,15,3,6,10,22
+12,,2025-12-20,@,Southern Indiana,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,,2025-12-28,,Kentucky Christian,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2026-01-01,@,Lindenwood,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-03,@,SIU Edwardsville,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-08,,UT Martin,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-10,,Southeast Missouri State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-15,@,Tennessee State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-17,@,Tennessee Tech,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-22,,Western Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-24,,Eastern Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-29,,SIU Edwardsville,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-01-31,,Lindenwood,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-05,@,Southeast Missouri State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-07,@,UT Martin,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-12,,Tennessee Tech,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-14,,Tennessee State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-19,@,Eastern Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-21,@,Western Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-24,,Southern Indiana,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,2026-02-26,@,Little Rock,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,4-7,706,820,,246,628,.392,84,312,.269,162,316,.513,.459,130,195,.667,74,270,344,150,77,23,189,211,278,698,.398,88,276,.319,190,422,.450,.461,176,224,.786,117,284,401,138,82,43,162,207

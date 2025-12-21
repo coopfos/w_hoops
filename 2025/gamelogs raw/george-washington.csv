@@ -1,0 +1,38 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,,Dist. Columbia,REG (Non-Conf),W,86,47,,32,61,.525,15,27,.556,17,34,.500,.648,7,9,.778,13,23,36,23,8,1,17,17,17,46,.370,5,14,.357,12,32,.375,.424,8,12,.667,6,11,17,8,3,3,22,14
+2,2,2025-11-07,@,Temple,REG (Non-Conf),L,50,86,,20,58,.345,3,17,.176,17,41,.415,.371,7,12,.583,8,17,25,10,4,4,15,15,31,68,.456,12,19,.632,19,49,.388,.544,12,14,.857,15,27,42,21,10,0,14,16
+3,3,2025-11-11,,Howard,REG (Non-Conf),L,60,62,,21,51,.412,3,17,.176,18,34,.529,.441,15,16,.938,5,22,27,9,5,4,19,23,21,55,.382,2,16,.125,19,39,.487,.400,18,26,.692,9,20,29,7,13,5,11,19
+4,4,2025-11-17,@,Longwood,REG (Non-Conf),L,62,71,,24,61,.393,8,24,.333,16,37,.432,.459,6,11,.545,11,26,37,13,10,4,24,22,23,61,.377,5,15,.333,18,46,.391,.418,20,26,.769,13,20,33,12,16,2,17,14
+5,5,2025-11-21,@,Georgetown,REG (Non-Conf),L,50,79,,16,43,.372,3,12,.250,13,31,.419,.407,15,20,.750,6,16,22,11,7,2,21,23,25,56,.446,6,18,.333,19,38,.500,.500,23,26,.885,11,19,30,12,15,5,14,22
+6,6,2025-11-23,,Morgan State,REG (Non-Conf),W,82,56,,27,63,.429,7,24,.292,20,39,.513,.484,21,28,.750,19,19,38,14,11,6,9,17,18,43,.419,5,9,.556,13,34,.382,.477,15,23,.652,3,16,19,9,6,1,18,22
+7,7,2025-11-28,N,Miami (FL),REG (Non-Conf),L,77,83,OT,30,64,.469,8,15,.533,22,49,.449,.531,9,14,.643,10,23,33,19,4,5,18,29,27,63,.429,2,15,.133,25,48,.521,.444,27,40,.675,14,27,41,7,11,4,14,17
+8,8,2025-11-29,N,Charlotte,REG (Non-Conf),W,81,67,,27,50,.540,7,18,.389,20,32,.625,.610,20,25,.800,9,21,30,20,7,7,13,11,27,73,.370,7,26,.269,20,47,.426,.418,6,8,.750,15,13,28,15,7,2,10,19
+9,9,2025-12-03,,Dayton,REG (Conf),W,54,42,,21,58,.362,5,15,.333,16,43,.372,.405,7,11,.636,9,27,36,8,8,5,16,15,17,50,.340,3,15,.200,14,35,.400,.370,5,11,.455,4,24,28,8,6,4,16,20
+10,10,2025-12-06,,Brown,REG (Non-Conf),W,53,48,,19,63,.302,3,21,.143,16,42,.381,.325,12,14,.857,18,19,37,5,6,5,7,10,19,53,.358,8,25,.320,11,28,.393,.434,2,2,1.000,6,22,28,13,5,1,11,17
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-10,@,Delaware,REG (Non-Conf),W,63,59,,22,56,.393,6,20,.300,16,36,.444,.446,13,21,.619,11,20,31,9,7,3,7,16,20,49,.408,5,16,.313,15,33,.455,.459,14,22,.636,10,23,33,9,5,1,14,17
+12,12,2025-12-14,,American,REG (Non-Conf),W,70,44,,28,55,.509,7,24,.292,21,31,.677,.573,7,9,.778,8,25,33,17,9,9,11,12,15,56,.268,5,20,.250,10,36,.278,.313,9,11,.818,8,16,24,10,5,0,12,10
+13,,2025-12-21,,Northwestern,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2025-12-28,,Coppin State,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2025-12-31,@,St. Bonaventure,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-03,@,La Salle,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-07,,Rhode Island,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-11,,George Mason,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-14,@,Duquesne,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-17,,Loyola Chicago,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-21,@,VCU,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-25,,Fordham,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-01-28,,Saint Louis,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-01,@,Dayton,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-07,@,Davidson,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-11,@,Saint Joseph's,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-14,,La Salle,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-18,,Richmond,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-21,@,George Mason,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-25,,St. Bonaventure,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,2026-02-28,@,Rhode Island,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,7-5,788,744,,287,683,.420,75,234,.321,212,449,.472,.475,139,190,.732,127,258,385,158,86,55,177,210,260,673,.386,65,208,.313,195,465,.419,.435,159,221,.719,114,238,352,131,102,28,173,207

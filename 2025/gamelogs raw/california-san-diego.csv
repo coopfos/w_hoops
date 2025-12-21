@@ -1,0 +1,37 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,@,Pacific,REG (Non-Conf),L,66,69,,23,67,.343,4,25,.160,19,42,.452,.373,16,21,.762,6,14,20,10,16,2,9,16,26,54,.481,12,28,.429,14,26,.538,.593,5,11,.455,6,34,40,15,3,5,22,21
+2,2,2025-11-07,,Denver,REG (Non-Conf),W,72,54,,27,66,.409,7,24,.292,20,42,.476,.462,11,13,.846,11,22,33,10,11,5,12,26,16,53,.302,4,21,.190,12,32,.375,.340,18,33,.545,15,25,40,8,3,4,20,14
+3,3,2025-11-12,,Sacramento State,REG (Non-Conf),L,60,71,,20,62,.323,6,21,.286,14,41,.341,.371,14,21,.667,7,22,29,9,8,1,14,23,24,59,.407,8,20,.400,16,39,.410,.475,15,23,.652,15,36,51,13,6,6,19,19
+4,4,2025-11-16,@,San Francisco,REG (Non-Conf),L,69,80,,25,66,.379,6,22,.273,19,44,.432,.424,13,17,.765,6,18,24,9,11,2,17,19,33,70,.471,5,26,.192,28,44,.636,.507,9,11,.818,13,33,46,22,9,2,22,16
+5,5,2025-11-22,,Air Force,REG (Non-Conf),W,55,43,,23,55,.418,4,17,.235,19,38,.500,.455,5,8,.625,6,25,31,13,9,7,18,17,17,63,.270,3,27,.111,14,36,.389,.294,6,10,.600,10,25,35,7,8,3,17,11
+6,6,2025-11-24,,Occidental,REG (Non-Conf),W,87,39,,36,64,.563,5,21,.238,31,43,.721,.602,10,14,.714,13,36,49,21,8,5,13,10,14,59,.237,7,27,.259,7,32,.219,.297,4,8,.500,6,14,20,11,7,0,13,14
+7,7,2025-11-28,@,Washington,REG (Non-Conf),L,50,67,,20,52,.385,7,23,.304,13,29,.448,.452,3,12,.250,4,21,25,8,9,4,18,13,24,61,.393,8,18,.444,16,43,.372,.459,11,15,.733,16,27,43,17,10,3,21,13
+8,8,2025-11-30,@,Portland State,REG (Non-Conf),W,94,64,,36,72,.500,11,24,.458,25,48,.521,.576,11,13,.846,8,30,38,24,7,3,8,27,16,55,.291,4,18,.222,12,37,.324,.327,28,39,.718,10,25,35,9,4,1,13,13
+9,9,2025-12-06,,Long Beach State,REG (Conf),W,75,45,,31,63,.492,9,29,.310,22,34,.647,.563,4,9,.444,11,20,31,22,18,2,18,8,17,52,.327,9,30,.300,8,22,.364,.413,2,4,.500,9,19,28,14,9,4,28,10
+10,10,2025-12-15,@,California Baptist,REG (Non-Conf),W,67,59,,25,63,.397,7,20,.350,18,43,.419,.452,10,16,.625,10,24,34,13,12,3,13,15,23,59,.390,3,25,.120,20,34,.588,.415,10,15,.667,10,25,35,6,9,4,19,18
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,,2025-12-20,,Northern Arizona,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,,2026-01-01,,Cal Poly,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,,2026-01-04,@,Hawaii,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2026-01-08,@,Cal State Fullerton,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-10,,UC Riverside,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-15,@,Cal State Northridge,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-17,,Cal State Bakersfield,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-22,,UC Davis,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-24,@,UC Irvine,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-29,@,UC Santa Barbara,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-31,,Cal State Northridge,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-02-05,@,Long Beach State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-02-07,,Hawaii,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-12,@,UC Davis,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-14,@,UC Riverside,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-21,,UC Irvine,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-26,@,Cal State Bakersfield,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-28,@,Cal Poly,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-03-05,,Cal State Fullerton,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-03-07,,UC Santa Barbara,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,6-4,695,591,,266,630,.422,66,226,.292,200,404,.495,.475,97,144,.674,82,232,314,139,109,34,140,174,210,585,.359,63,240,.263,147,345,.426,.413,108,169,.639,110,263,373,122,68,32,194,149

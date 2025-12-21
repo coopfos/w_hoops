@@ -1,0 +1,37 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-09,,Coppin State,REG (Non-Conf),W,88,59,,36,77,.468,6,26,.231,30,51,.588,.506,10,18,.556,13,29,42,19,13,5,15,21,17,57,.298,2,13,.154,15,44,.341,.316,23,25,.920,9,31,40,9,3,1,23,18
+2,2,2025-11-13,,Bellarmine,REG (Non-Conf),W,90,33,,32,75,.427,8,34,.235,24,41,.585,.480,18,23,.783,18,44,62,16,8,4,10,19,11,60,.183,4,19,.211,7,41,.171,.217,7,20,.350,9,20,29,6,5,1,19,20
+3,3,2025-11-16,@,Connecticut,REG (Non-Conf),L,68,100,,27,59,.458,8,25,.320,19,34,.559,.525,6,9,.667,7,22,29,7,6,6,24,14,39,75,.520,12,27,.444,27,48,.563,.600,10,11,.909,12,25,37,30,14,6,13,19
+4,4,2025-11-19,,Kent State,REG (Non-Conf),W,88,68,,31,75,.413,8,29,.276,23,46,.500,.467,18,25,.720,16,11,27,19,18,2,7,22,21,40,.525,7,14,.500,14,26,.538,.613,19,22,.864,5,26,31,12,2,5,28,25
+5,5,2025-11-24,N,Belmont,REG (Non-Conf),W,68,56,,20,57,.351,8,26,.308,12,31,.387,.421,20,23,.870,9,28,37,14,9,3,15,16,19,58,.328,9,22,.409,10,36,.278,.405,9,15,.600,8,22,30,10,6,4,18,19
+6,6,2025-11-26,N,West Virginia,REG (Non-Conf),W,83,81,,29,61,.475,10,22,.455,19,39,.487,.557,15,20,.750,10,14,24,22,14,6,16,28,27,56,.482,4,17,.235,23,39,.590,.518,23,33,.697,6,22,28,15,7,2,24,16
+7,7,2025-11-30,,Niagara,REG (Non-Conf),W,130,32,,52,85,.612,10,24,.417,42,61,.689,.671,16,24,.667,17,32,49,37,23,11,17,15,10,63,.159,2,17,.118,8,46,.174,.175,10,12,.833,16,15,31,6,6,1,42,24
+8,8,2025-12-07,@,Northwestern,REG (Conf),W,79,70,,28,68,.412,4,18,.222,24,50,.480,.441,19,22,.864,11,20,31,16,11,6,13,15,29,67,.433,7,18,.389,22,49,.449,.485,5,5,1.000,10,23,33,24,5,4,18,21
+9,9,2025-12-11,,Northern Kentucky,REG (Non-Conf),W,94,62,,33,76,.434,4,23,.174,29,53,.547,.461,24,27,.889,13,19,32,17,27,2,11,22,22,49,.449,7,23,.304,15,26,.577,.520,11,18,.611,7,28,35,11,4,2,35,22
+10,10,2025-12-14,,Toledo,REG (Non-Conf),W,85,60,,36,73,.493,3,15,.200,33,58,.569,.514,10,14,.714,12,20,32,16,20,3,12,14,21,46,.457,6,14,.429,15,32,.469,.522,12,15,.800,3,24,27,12,6,1,30,17
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-18,,Norfolk State,REG (Non-Conf),W,79,45,,30,69,.435,8,27,.296,22,42,.524,.493,11,16,.688,17,32,49,18,16,6,19,15,18,59,.305,2,11,.182,16,48,.333,.322,7,16,.438,7,20,27,7,10,9,21,11
+12,,2025-12-22,,Western Michigan,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,,2025-12-28,,UCLA,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2025-12-31,@,Purdue,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-04,,Rutgers,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-07,@,Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-11,@,Maryland,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-14,,Penn State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-19,N,TCU,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-22,,Indiana,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-25,@,Iowa,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-29,,Wisconsin,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-02-01,,Nebraska,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-05,@,Washington,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-08,@,Oregon,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-15,,Maryland,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-18,@,Minnesota,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-22,,Southern California,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-25,,Michigan,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-03-01,@,Michigan State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,10-1,952,666,,354,775,.457,77,269,.286,277,506,.547,.506,167,221,.756,143,271,414,201,165,54,159,201,234,630,.371,62,195,.318,172,435,.395,.421,136,192,.708,92,256,348,142,68,36,271,212

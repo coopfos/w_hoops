@@ -1,0 +1,39 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,,Dayton,REG (Non-Conf),W,87,76,,35,68,.515,5,26,.192,30,42,.714,.551,12,16,.750,14,21,35,24,10,2,11,14,30,57,.526,7,17,.412,23,40,.575,.588,9,15,.600,9,14,23,14,5,4,15,19
+2,2,2025-11-09,@,Illinois,REG (Non-Conf),L,65,75,,27,56,.482,4,14,.286,23,42,.548,.518,7,8,.875,3,19,22,18,6,1,15,17,27,58,.466,3,11,.273,24,47,.511,.491,18,23,.783,7,23,30,16,9,2,9,14
+3,3,2025-11-12,,Chicago State,REG (Non-Conf),W,101,52,,34,68,.500,9,29,.310,25,39,.641,.566,24,31,.774,17,36,53,21,10,7,18,19,19,67,.284,3,33,.091,16,34,.471,.306,11,23,.478,10,15,25,7,9,3,16,27
+4,4,2025-11-18,@,Loyola Chicago,REG (Non-Conf),W,59,44,,21,56,.375,3,13,.231,18,43,.419,.402,14,19,.737,12,30,42,16,5,1,13,7,17,62,.274,4,23,.174,13,39,.333,.306,6,7,.857,12,18,30,13,6,4,13,21
+5,5,2025-11-21,,Saint Louis,REG (Non-Conf),W,81,75,,29,60,.483,6,18,.333,23,42,.548,.533,17,25,.680,9,21,30,21,8,1,18,11,29,64,.453,7,16,.438,22,48,.458,.508,10,12,.833,11,19,30,13,13,6,17,24
+6,6,2025-11-26,N,Rice,REG (Non-Conf),L,72,75,OT,26,68,.382,4,13,.308,22,55,.400,.412,16,20,.800,8,22,30,8,2,2,13,22,25,68,.368,3,20,.150,22,48,.458,.390,22,28,.786,16,28,44,10,5,3,13,24
+7,7,2025-11-27,N,East Carolina,REG (Non-Conf),L,66,73,,21,55,.382,7,26,.269,14,29,.483,.445,17,21,.810,15,24,39,16,4,1,22,16,26,58,.448,5,15,.333,21,43,.488,.491,16,23,.696,9,19,28,14,15,1,12,19
+8,8,2025-11-28,N,Wake Forest,REG (Non-Conf),L,44,57,,16,60,.267,4,29,.138,12,31,.387,.300,8,8,1.000,12,15,27,9,8,0,12,8,23,45,.511,7,21,.333,16,24,.667,.589,4,6,.667,5,22,27,13,11,3,18,17
+9,9,2025-12-03,@,Northern Iowa,REG (Conf),L,54,68,,20,60,.333,6,17,.353,14,43,.326,.383,8,12,.667,9,23,32,11,7,4,16,15,24,55,.436,9,27,.333,15,28,.536,.518,11,14,.786,4,29,33,10,11,6,14,14
+10,,2025-12-06,,Eastern Illinois,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-07,,Eastern Illinois,REG (Non-Conf),W,64,46,,24,68,.353,4,22,.182,20,46,.435,.382,12,16,.750,13,29,42,15,12,5,9,6,17,54,.315,6,16,.375,11,38,.289,.370,6,6,1.000,5,26,31,8,4,7,18,22
+12,12,2025-12-14,@,Nebraska,REG (Non-Conf),L,44,85,,16,54,.296,1,10,.100,15,44,.341,.306,11,13,.846,11,15,26,3,6,6,18,7,37,70,.529,6,20,.300,31,50,.620,.571,5,6,.833,12,27,39,22,10,9,10,14
+13,13,2025-12-19,,Oakland,REG (Non-Conf),W,89,66,,35,55,.636,6,15,.400,29,40,.725,.691,13,16,.813,8,21,29,23,8,6,13,10,23,59,.390,9,23,.391,14,36,.389,.466,11,13,.846,10,12,22,10,9,6,17,18
+14,,2025-12-29,,Indiana State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-02,@,Murray St.,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-04,@,Belmont,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-08,,Illinois–Chicago,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-11,,Evansville,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-15,,Valparaiso,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-22,@,Illinois–Chicago,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-25,@,Indiana State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-29,,Northern Iowa,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-02-01,,Bradley,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-07,,Drake,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-13,@,Southern Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-15,@,Evansville,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-20,,Belmont,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-22,,Murray St.,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-26,,Southern Illinois,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-28,@,Valparaiso,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,2026-03-05,@,Drake,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,,2026-03-08,@,Bradley,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,6-6,826,792,,304,728,.418,59,232,.254,245,496,.494,.458,159,205,.776,131,276,407,185,86,36,178,152,297,717,.414,69,242,.285,228,475,.480,.462,129,176,.733,110,252,362,150,107,54,172,233

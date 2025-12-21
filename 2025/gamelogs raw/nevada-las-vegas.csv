@@ -1,0 +1,37 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-05,,Washington State,REG (Non-Conf),W,64,51,,19,57,.333,2,11,.182,17,46,.370,.351,24,29,.828,13,22,35,9,9,2,12,14,21,56,.375,4,20,.200,17,36,.472,.411,5,6,.833,10,18,28,13,4,7,20,24
+2,2,2025-11-09,,DePaul,REG (Non-Conf),W,85,78,,30,66,.455,3,16,.188,27,50,.540,.477,22,26,.846,9,29,38,12,8,6,12,14,31,69,.449,7,15,.467,24,54,.444,.500,9,15,.600,7,24,31,15,6,5,12,23
+3,3,2025-11-14,,Baylor,REG (Non-Conf),L,54,62,,21,65,.323,5,22,.227,16,43,.372,.362,7,11,.636,10,23,33,12,9,0,12,12,24,58,.414,5,17,.294,19,41,.463,.457,9,10,.900,7,29,36,13,5,11,15,15
+4,4,2025-11-18,@,Montana State,REG (Non-Conf),L,81,94,,30,69,.435,10,27,.370,20,42,.476,.507,11,17,.647,16,29,45,11,7,5,21,22,33,79,.418,13,33,.394,20,46,.435,.500,15,27,.556,21,19,40,19,16,9,11,18
+5,5,2025-11-22,@,Arizona State,REG (Non-Conf),L,53,56,,21,52,.404,9,26,.346,12,26,.462,.490,2,4,.500,4,23,27,11,7,5,15,8,24,57,.421,5,12,.417,19,45,.422,.465,3,4,.750,7,25,32,15,6,2,14,9
+6,6,2025-11-26,,Creighton,REG (Non-Conf),W,76,67,,26,53,.491,7,19,.368,19,34,.559,.557,17,22,.773,6,30,36,18,5,2,13,9,25,67,.373,13,30,.433,12,37,.324,.470,4,4,1.000,8,22,30,18,2,3,9,17
+7,7,2025-11-28,,Northern Iowa,REG (Non-Conf),W,62,56,,22,64,.344,7,25,.280,15,39,.385,.398,11,12,.917,8,25,33,11,6,1,11,12,22,55,.400,7,24,.292,15,31,.484,.464,5,8,.625,5,30,35,11,3,1,17,16
+8,8,2025-12-03,@,UTSA,REG (Non-Conf),W,66,39,,27,67,.403,9,25,.360,18,42,.429,.470,3,6,.500,17,30,47,18,10,8,10,11,17,61,.279,2,17,.118,15,44,.341,.295,3,4,.750,11,19,30,8,5,1,12,12
+9,9,2025-12-06,@,Rice,REG (Non-Conf),L,50,75,,20,57,.351,3,10,.300,17,47,.362,.377,7,12,.583,10,24,34,6,4,4,13,9,28,64,.438,12,22,.545,16,42,.381,.531,7,8,.875,7,26,33,24,6,4,9,12
+10,10,2025-12-13,@,Cincinnati,REG (Non-Conf),L,48,65,,17,59,.288,6,22,.273,11,37,.297,.339,8,14,.571,10,20,30,9,9,6,14,14,25,61,.410,4,15,.267,21,46,.457,.443,11,14,.786,11,33,44,14,7,6,16,18
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-17,@,Grand Canyon,REG (Conf),W,61,60,,26,52,.500,3,10,.300,23,42,.548,.529,6,9,.667,4,17,21,11,6,2,9,11,25,62,.403,6,25,.240,19,37,.514,.452,4,4,1.000,16,23,39,16,3,4,14,14
+12,,2025-12-20,,New Mexico,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,,2025-12-31,,Fresno State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2026-01-03,@,Air Force,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-07,,Utah State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-10,@,Wyoming,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-14,@,San Jose State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-17,,San Diego State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-21,,Air Force,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-24,@,Nevada,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-28,@,New Mexico,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-31,,Colorado State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-02-07,@,Utah State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-02-11,,Wyoming,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-14,,Grand Canyon,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-18,@,San Diego State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-21,,Nevada,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-25,@,Colorado State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-28,@,Fresno State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-03-04,,Boise State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,6-5,700,703,,259,661,.392,64,213,.300,195,448,.435,.440,118,162,.728,107,272,379,128,80,41,142,136,275,689,.399,78,230,.339,197,459,.429,.456,75,104,.721,110,268,378,166,63,53,149,178

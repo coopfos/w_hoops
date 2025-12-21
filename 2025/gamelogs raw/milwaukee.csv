@@ -1,0 +1,38 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,,Loyola Chicago,REG (Non-Conf),L,55,59,,16,42,.381,3,17,.176,13,25,.520,.417,20,29,.690,9,25,34,6,4,3,23,21,23,61,.377,4,19,.211,19,42,.452,.410,9,18,.500,12,18,30,9,12,5,12,23
+2,2,2025-11-07,@,Northern Illinois,REG (Non-Conf),W,76,65,,22,45,.489,9,17,.529,13,28,.464,.589,23,34,.676,7,21,28,12,8,4,16,19,23,57,.404,4,16,.250,19,41,.463,.439,15,21,.714,7,20,27,11,9,1,20,29
+3,3,2025-11-10,@,Wisconsin,REG (Non-Conf),L,46,75,,16,54,.296,7,21,.333,9,33,.273,.361,7,8,.875,6,22,28,11,3,0,24,15,27,60,.450,7,24,.292,20,36,.556,.508,14,15,.933,6,26,32,14,16,8,10,16
+4,4,2025-11-13,,Western Michigan,REG (Non-Conf),L,64,65,,22,48,.458,4,12,.333,18,36,.500,.500,16,21,.762,3,23,26,12,5,6,18,26,19,51,.373,7,25,.280,12,26,.462,.441,20,29,.690,8,21,29,12,9,1,17,23
+5,5,2025-11-16,@,Valparaiso,REG (Non-Conf),W,72,67,OT,27,68,.397,2,15,.133,25,53,.472,.412,16,22,.727,6,28,34,14,7,3,13,20,23,63,.365,6,25,.240,17,38,.447,.413,15,20,.750,7,33,40,18,3,1,15,22
+6,6,2025-11-19,,Marquette,REG (Non-Conf),L,43,75,,17,57,.298,4,21,.190,13,36,.361,.333,5,6,.833,7,23,30,8,10,3,14,17,26,60,.433,10,23,.435,16,37,.432,.517,13,16,.813,10,25,35,20,6,7,12,11
+7,7,2025-11-23,@,Butler,REG (Non-Conf),L,53,67,,20,60,.333,4,15,.267,16,45,.356,.367,9,13,.692,10,22,32,12,5,2,19,17,25,55,.455,7,20,.350,18,35,.514,.518,10,15,.667,4,21,25,14,8,4,17,16
+8,8,2025-11-28,@,Pacific,REG (Non-Conf),L,48,77,,16,50,.320,2,17,.118,14,33,.424,.340,14,21,.667,8,13,21,7,9,3,14,19,24,53,.453,11,28,.393,13,25,.520,.557,18,19,.947,11,18,29,19,7,3,13,25
+9,9,2025-11-29,N,UC Davis,REG (Non-Conf),L,72,81,,26,65,.400,7,28,.250,19,37,.514,.454,13,17,.765,9,18,27,10,10,2,11,13,27,51,.529,16,30,.533,11,21,.524,.686,11,12,.917,4,27,31,19,8,0,18,13
+10,10,2025-12-05,,Youngstown State,REG (Conf),L,56,68,,21,56,.375,3,17,.176,18,39,.462,.402,11,19,.579,5,19,24,6,3,0,12,22,26,51,.510,4,15,.267,22,36,.611,.549,12,20,.600,4,29,33,14,7,6,9,19
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-10,@,Purdue Fort Wayne,REG (Conf),L,60,70,,19,50,.380,13,25,.520,6,25,.240,.510,9,12,.750,7,25,32,14,5,1,16,17,24,61,.393,10,32,.313,14,29,.483,.475,12,16,.750,6,17,23,13,7,3,7,11
+12,12,2025-12-14,,Ripon,REG (Non-Conf),W,72,43,,26,58,.448,12,29,.414,14,29,.483,.552,8,10,.800,7,34,41,21,5,11,13,15,17,70,.243,2,18,.111,15,52,.288,.257,7,11,.636,10,20,30,8,9,4,12,16
+13,,2025-12-20,,Wis. Lutheran,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2025-12-29,@,IU Indy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-02,,Robert Morris,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-04,,Cleveland State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-08,@,Detroit Mercy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-10,@,Oakland,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-14,@,Northern Kentucky,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-17,,Green Bay,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-22,,Detroit Mercy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-24,,Oakland,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-01-28,@,Cleveland State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-01-31,,Wright State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-05,@,Youngstown State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-07,@,Robert Morris,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-12,,Northern Kentucky,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-18,@,Wright State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-21,@,Green Bay,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-25,,Purdue Fort Wayne,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,2026-02-28,,IU Indy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,3-9,717,812,,248,653,.380,70,234,.299,178,419,.425,.433,151,212,.712,84,273,357,133,74,38,193,221,284,693,.410,88,275,.320,196,418,.469,.473,156,212,.736,89,275,364,171,101,43,162,224

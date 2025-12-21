@@ -1,0 +1,37 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Unnamed: 5_level_0,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,Unnamed: 3_level_1,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+1,1,2025-11-03,,Ball State,REG (Non-Conf),L,66,68,,22,72,.306,4,29,.138,18,43,.419,.333,18,35,.514,14,24,38,7,16,0,15,26,21,47,.447,7,22,.318,14,25,.560,.521,19,28,.679,7,42,49,16,8,5,34,26
+2,2,2025-11-07,@,Tarleton State,REG (Non-Conf),W,87,77,OT,30,73,.411,10,28,.357,20,45,.444,.479,17,26,.654,8,25,33,10,15,2,16,26,22,54,.407,5,18,.278,17,36,.472,.454,28,39,.718,5,32,37,11,7,2,27,25
+3,3,2025-11-11,@,Missouri,REG (Non-Conf),L,75,97,,24,66,.364,13,30,.433,11,36,.306,.462,14,19,.737,11,14,25,14,10,0,19,17,37,66,.561,9,19,.474,28,47,.596,.629,14,16,.875,14,31,45,21,9,8,21,18
+4,4,2025-11-15,,Little Rock,REG (Non-Conf),W,76,67,,23,48,.479,9,23,.391,14,25,.560,.573,21,34,.618,9,17,26,16,19,1,26,26,24,44,.545,2,9,.222,22,35,.629,.568,17,23,.739,6,21,27,10,6,1,31,27
+5,5,2025-11-19,@,Central Arkansas,REG (Non-Conf),L,58,81,,21,65,.323,7,37,.189,14,28,.500,.377,9,12,.750,11,14,25,7,17,2,21,23,27,53,.509,10,23,.435,17,30,.567,.604,17,22,.773,10,24,34,17,10,3,21,17
+6,6,2025-11-23,@,Jackson State,REG (Non-Conf),W,75,69,,28,61,.459,8,27,.296,20,34,.588,.525,11,17,.647,10,25,35,14,9,2,19,23,21,58,.362,7,14,.500,14,44,.318,.422,20,26,.769,11,18,29,13,13,1,19,18
+7,7,2025-11-28,N,Houston,REG (Non-Conf),W,83,66,,30,79,.380,11,37,.297,19,42,.452,.449,12,17,.706,15,16,31,18,21,0,22,24,25,52,.481,3,12,.250,22,40,.550,.510,13,25,.520,14,28,42,17,14,11,37,20
+8,8,2025-11-30,N,Kent State,REG (Non-Conf),W,74,54,,26,62,.419,14,36,.389,12,26,.462,.532,8,10,.800,11,17,28,16,9,3,15,20,21,54,.389,2,13,.154,19,41,.463,.407,10,13,.769,10,21,31,13,7,0,21,10
+9,9,2025-12-03,,Florida Gulf Coast,REG (Non-Conf),W,68,58,,25,69,.362,11,38,.289,14,31,.452,.442,7,10,.700,15,19,34,11,15,3,11,19,18,43,.419,6,19,.316,12,24,.500,.488,16,21,.762,7,28,35,12,7,2,23,17
+10,10,2025-12-06,,UT Martin,REG (Non-Conf),W,78,66,,27,71,.380,12,45,.267,15,26,.577,.465,12,17,.706,21,19,40,17,9,1,15,20,24,49,.490,4,13,.308,20,36,.556,.531,14,20,.700,6,24,30,16,10,7,21,12
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+11,11,2025-12-09,,Southern Ark.,REG (Non-Conf),W,97,46,,34,76,.447,14,37,.378,20,39,.513,.539,15,24,.625,19,25,44,20,22,2,13,14,16,57,.281,6,16,.375,10,41,.244,.333,8,8,1.000,14,26,40,8,7,3,33,18
+12,12,2025-12-17,,Louisiana–Monroe,REG (Conf),W,79,58,,26,66,.394,15,40,.375,11,26,.423,.508,12,18,.667,13,20,33,19,15,2,12,18,24,56,.429,3,8,.375,21,48,.438,.455,7,12,.583,13,28,41,9,8,4,25,16
+13,,2025-12-20,,South Alabama,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,2025-12-28,@,Arkansas,REG (Non-Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,2026-01-01,@,Southern Mississippi,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,,2026-01-03,@,Louisiana–Monroe,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,2026-01-08,@,South Alabama,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,2026-01-10,@,Troy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,2026-01-15,,Louisiana,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,2026-01-17,,Southern Mississippi,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Score,Score,Score,Score,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Team,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent,Opponent
+Rk,Gtm,Date,,Opp,Type,Rslt,Tm,Opp,OT,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF
+21,,2026-01-21,,Old Dominion,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,,2026-01-24,,James Madison,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,2026-01-29,@,Georgia State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,2026-01-31,@,Georgia Southern,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,2026-02-04,,Coastal Carolina,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,2026-02-14,@,Marshall,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,2026-02-18,@,Texas State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,,2026-02-21,@,Louisiana,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,2026-02-24,,Troy,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,2026-02-27,,Texas State,REG (Conf),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,9-3,916,807,,316,808,.391,128,407,.314,188,401,.469,.470,156,239,.653,157,235,392,169,177,18,204,256,280,633,.442,64,186,.344,216,447,.483,.493,183,253,.723,117,323,440,163,106,47,313,224
