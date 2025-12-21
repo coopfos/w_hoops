@@ -1,0 +1,284 @@
+---
+title: "NCAAW 2024 Box Score Logistic Win Prob (Time-Series Splits)"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+set.seed(42)
+
+find_data_root <- function() {
+  if (file.exists(file.path("2024", "master_boxscore.csv"))) return(".")
+  if (file.exists(file.path("..", "2024", "master_boxscore.csv"))) return("..")
+  stop("Could not find 2024 data folder. Expected 2024/master_boxscore.csv in repo root or parent.")
+}
+
+data_root <- find_data_root()
+output_dir <- if (basename(getwd()) == "models") "outputs" else file.path("models", "outputs")
+dir.create(output_dir, showWarnings = FALSE)
+```
+
+## Data Sources (2024 Season)
+
+```{r read-data}
+bs_path <- file.path(data_root, "2024", "master_boxscore.csv")
+gl_path <- file.path(data_root, "2024", "gamelog_clean.csv")
+
+box <- read.csv(bs_path, stringsAsFactors = FALSE)
+gl  <- read.csv(gl_path, stringsAsFactors = FALSE)
+
+box$game_date <- as.Date(box$game_date)
+gl$game_date  <- as.Date(gl$date)
+
+names(box) <- make.names(names(box))
+names(gl)  <- make.names(names(gl))
+```
+
+## Aggregate Team Box Scores
+
+```{r aggregate-box}
+box_totals <- subset(box, player == "School Totals")
+box_basic <- subset(box_totals, table_type == "basic")
+box_adv   <- subset(box_totals, table_type == "advanced")
+
+key_cols <- c("game_id", "game_date", "team", "opponent")
+num_cols_basic <- names(box_basic)[sapply(box_basic, is.numeric)]
+num_cols_adv   <- names(box_adv)[sapply(box_adv, is.numeric)]
+
+feat_basic <- box_basic[, unique(c(key_cols, num_cols_basic))]
+feat_adv   <- box_adv[,   unique(c(key_cols, num_cols_adv))]
+
+prefixed_basic <- feat_basic
+prefixed_adv   <- feat_adv
+
+bn <- setdiff(names(prefixed_basic), key_cols)
+an <- setdiff(names(prefixed_adv), key_cols)
+
+names(prefixed_basic)[match(bn, names(prefixed_basic))] <- paste0("basic_", bn)
+names(prefixed_adv)[match(an, names(prefixed_adv))]     <- paste0("adv_", an)
+
+team_box <- merge(prefixed_basic, prefixed_adv, by = key_cols, all = TRUE)
+team_box <- team_box[order(team_box$team, team_box$game_date), ]
+
+data.frame(rows = nrow(team_box), teams = length(unique(team_box$team)))
+```
+
+## Attach Outcomes from Gamelogs
+
+```{r attach-outcomes}
+gl_min <- gl[, c("sid", "game_date", "opp", "res", "tm_score", "opp_score", "ot")]
+names(gl_min) <- c("team", "game_date", "opp_name", "res", "tm_pts", "opp_pts", "ot")
+
+team_games <- merge(team_box, gl_min, by = c("team", "game_date"), all.x = TRUE)
+
+team_games$win <- as.integer(substr(team_games$res, 1, 1) == "W")
+team_games$score_diff <- team_games$tm_pts - team_games$opp_pts
+
+core_cols <- c("team", "opponent", "game_id", "game_date", "win", "score_diff", "tm_pts", "opp_pts", "ot")
+team_games <- team_games[, unique(c(core_cols, setdiff(names(team_games), core_cols)))]
+
+write.csv(team_games, file = file.path(output_dir, "merged_team_games_2024.csv"), row.names = FALSE)
+
+data.frame(rows = nrow(team_games), with_outcome = sum(!is.na(team_games$win)))
+```
+
+## Pre-Game Feature Engineering
+
+```{r pregame-features}
+lag_cummean <- function(x) {
+  n <- length(x)
+  if (n == 0) return(x)
+  xf <- ifelse(is.finite(x), x, 0)
+  cs <- c(0, cumsum(xf))
+  cnt <- c(0, cumsum(ifelse(is.finite(x), 1, 0)))
+  ifelse(cnt[-1] > 0, cs[-(n + 1)] / cnt[-1], NA_real_)
+}
+
+id_cols <- c("team", "opponent", "game_id", "game_date", "win", "score_diff", "tm_pts", "opp_pts", "ot")
+box_feat_cols <- setdiff(names(team_games)[sapply(team_games, is.numeric)], c("win", "score_diff", "tm_pts", "opp_pts"))
+
+team_games <- team_games[order(team_games$team, team_games$game_date), ]
+pg_list <- split(team_games, team_games$team)
+pg_list <- lapply(pg_list, function(df) {
+  df <- df[order(df$game_date), ]
+  for (col in box_feat_cols) {
+    df[[paste0("pre_", col)]] <- lag_cummean(df[[col]])
+  }
+  df
+})
+pre_team <- do.call(rbind, pg_list)
+
+opp_pre <- pre_team[, c("team", "game_date", grep("^pre_", names(pre_team), value = TRUE))]
+names(opp_pre) <- c("opponent", "game_date", paste0("opp_", sub("^pre_", "", names(opp_pre)[-c(1, 2)])))
+
+pre_joined <- merge(pre_team, opp_pre, by = c("opponent", "game_date"), all.x = TRUE)
+
+pre_cols <- grep("^pre_", names(pre_joined), value = TRUE)
+pre_joined <- pre_joined[!is.na(pre_joined$win) &
+  rowSums(is.finite(as.matrix(pre_joined[, pre_cols, drop = FALSE]))) > 0, ]
+
+season_start <- as.Date("2024-11-01")
+season_end   <- as.Date("2025-02-28")
+pre_joined <- pre_joined[pre_joined$game_date >= season_start & pre_joined$game_date <= season_end, ]
+
+write.csv(pre_joined, file = file.path(output_dir, "pre_game_features_2024.csv"), row.names = FALSE)
+
+data.frame(rows = nrow(pre_joined), teams = length(unique(pre_joined$team)))
+```
+
+## Metrics Helpers
+
+```{r metrics}
+metrics_class <- function(probs, truth, score_diff) {
+  eps <- 1e-15
+  truth01 <- as.integer(truth)
+  pred_class <- ifelse(probs >= 0.5, 1L, 0L)
+  accuracy <- mean(pred_class == truth01)
+  brier <- mean((probs - truth01)^2)
+  log_loss <- -mean(truth01 * log(pmax(eps, probs)) + (1 - truth01) * log(pmax(eps, 1 - probs)))
+  ranks <- rank(probs, ties.method = "average")
+  pos <- truth01 == 1
+  n_pos <- sum(pos)
+  n_neg <- length(probs) - n_pos
+  auc <- if (n_pos > 0 && n_neg > 0) {
+    (sum(ranks[pos]) - n_pos * (n_pos + 1) / 2) / (n_pos * n_neg)
+  } else NA_real_
+  margin_corr <- suppressWarnings(cor(probs, score_diff, method = "pearson"))
+  data.frame(accuracy = accuracy, brier = brier, log_loss = log_loss, auc = auc, margin_corr = margin_corr)
+}
+```
+
+## Time-Series Train/Test Splits (5 Random Cutoffs)
+
+```{r time-splits}
+pick_cutoffs <- function(df, n_splits, seed, min_train, min_test) {
+  set.seed(seed)
+  eligible_dates <- sort(unique(df$game_date))
+  eligible_dates <- eligible_dates[eligible_dates > min(df$game_date) & eligible_dates < max(df$game_date)]
+
+  if (length(eligible_dates) < n_splits) {
+    stop("Not enough unique dates to create splits.")
+  }
+
+  for (attempt in 1:200) {
+    cutoffs <- sort(sample(eligible_dates, n_splits))
+    ok <- TRUE
+    for (cut in cutoffs) {
+      n_train <- sum(df$game_date < cut)
+      n_test <- sum(df$game_date >= cut)
+      if (n_train < min_train || n_test < min_test) {
+        ok <- FALSE
+        break
+      }
+    }
+    if (ok) return(cutoffs)
+  }
+
+  idx <- round(seq(1, length(eligible_dates), length.out = n_splits + 2))
+  eligible_dates[idx[2:(n_splits + 1)]]
+}
+
+cutoff_dates <- pick_cutoffs(pre_joined, n_splits = 5, seed = 42, min_train = 200, min_test = 200)
+cutoff_dates
+```
+
+## Logistic Regression Win Prob Models
+
+```{r glm-splits}
+pred_cols <- c(grep("^pre_", names(pre_joined), value = TRUE), grep("^opp_", names(pre_joined), value = TRUE))
+pred_cols <- unique(setdiff(pred_cols, c("pre_win", "pre_score_diff")))
+
+run_split <- function(df, cutoff_date, pred_cols) {
+  train_df <- df[df$game_date < cutoff_date, ]
+  test_df  <- df[df$game_date >= cutoff_date, ]
+
+  train_X <- train_df[, pred_cols, drop = FALSE]
+  test_X  <- test_df[, pred_cols, drop = FALSE]
+
+  for (col in pred_cols) {
+    train_X[[col]] <- suppressWarnings(as.numeric(train_X[[col]]))
+    test_X[[col]]  <- suppressWarnings(as.numeric(test_X[[col]]))
+  }
+
+  is_bad <- function(x) {
+    all_na <- all(is.na(x))
+    vx <- var(x, na.rm = TRUE)
+    zero_var <- is.finite(vx) && vx == 0
+    all_na || zero_var
+  }
+
+  bad_cols <- sapply(train_X, is_bad)
+  use_cols <- pred_cols[!bad_cols]
+
+  train_X <- train_X[, use_cols, drop = FALSE]
+  test_X  <- test_X[, use_cols, drop = FALSE]
+
+  meds <- vapply(train_X, function(v) median(v[is.finite(v)], na.rm = TRUE), numeric(1))
+  meds[!is.finite(meds)] <- 0
+
+  for (j in seq_along(use_cols)) {
+    cnam <- use_cols[j]
+    train_X[[cnam]][!is.finite(train_X[[cnam]]) | is.na(train_X[[cnam]])] <- meds[j]
+    test_X[[cnam]][!is.finite(test_X[[cnam]]) | is.na(test_X[[cnam]])] <- meds[j]
+  }
+
+  glm_train <- data.frame(win = train_df$win, train_X)
+  glm_test  <- data.frame(test_X)
+
+  glm_fit <- glm(win ~ ., data = glm_train, family = binomial())
+  glm_prob <- predict(glm_fit, newdata = glm_test, type = "response")
+  glm_metrics <- metrics_class(glm_prob, test_df$win, test_df$score_diff)
+
+  list(
+    metrics = glm_metrics,
+    probs = glm_prob,
+    test_df = test_df,
+    n_train = nrow(train_df),
+    n_test = nrow(test_df),
+    used_cols = length(use_cols)
+  )
+}
+
+split_results <- lapply(seq_along(cutoff_dates), function(i) {
+  run_split(pre_joined, cutoff_dates[i], pred_cols)
+})
+
+metrics_out <- do.call(rbind, lapply(seq_along(split_results), function(i) {
+  cbind(
+    split_id = i,
+    cutoff_date = cutoff_dates[i],
+    n_train = split_results[[i]]$n_train,
+    n_test = split_results[[i]]$n_test,
+    n_predictors = split_results[[i]]$used_cols,
+    split_results[[i]]$metrics
+  )
+}))
+
+metrics_out
+```
+
+## Save Outputs
+
+```{r save-outputs}
+write.csv(metrics_out, file = file.path(output_dir, "glm_time_series_splits_2024_metrics.csv"), row.names = FALSE)
+
+pred_rows <- do.call(rbind, lapply(seq_along(split_results), function(i) {
+  df <- split_results[[i]]$test_df
+  data.frame(
+    split_id = i,
+    cutoff_date = cutoff_dates[i],
+    team = df$team,
+    opponent = df$opponent,
+    game_date = df$game_date,
+    win_actual = df$win,
+    glm_win_prob = split_results[[i]]$probs
+  )
+}))
+
+write.csv(pred_rows, file = file.path(output_dir, "glm_time_series_splits_2024_predictions.csv"), row.names = FALSE)
+```
+
+## Notes
+
+- Each split uses a random cutoff date within the 2024 season window; training includes only games before the cutoff, while testing is on or after it.
+- All predictors are pre-game rolling averages to avoid leakage.
+- Paths resolve relative to the repo root or the parent of `models/`, so home directory changes do not affect the workflow.

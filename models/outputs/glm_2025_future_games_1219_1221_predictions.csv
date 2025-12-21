@@ -1,0 +1,171 @@
+game_date,team,glm_win_prob,opponent,team_name,opponent_name,cutoff_date
+12/19/25,california-baptist,83%,denver,California Baptist,Denver,12/18/25
+12/19/25,central-connecticut-state,1%,maryland,Central Connecticut,Maryland,12/18/25
+12/19/25,cleveland-state,73%,college-of-charleston,Cleveland State,College of Charleston,12/18/25
+12/19/25,coppin-state,11%,temple,Coppin State,Temple,12/18/25
+12/19/25,eastern-kentucky,96%,presbyterian,Eastern Kentucky,Presbyterian,12/18/25
+12/19/25,fairfield,95%,rider,Fairfield,Rider,12/18/25
+12/19/25,furman,78%,charleston-southern,Furman,Charleston Southern,12/18/25
+12/19/25,gonzaga,60%,missouri-state,Gonzaga,Missouri State,12/18/25
+12/19/25,jackson-state,4%,illinois,Jackson State,Illinois,12/18/25
+12/19/25,manhattan,10%,quinnipiac,Manhattan,Quinnipiac,12/18/25
+12/19/25,marist,31%,mount-st-marys,Marist,Mount St. Mary's,12/18/25
+12/19/25,mercyhurst,3%,syracuse,Mercyhurst,Syracuse,12/18/25
+12/19/25,montana,13%,abilene-christian,Montana,Abilene Christian,12/18/25
+12/19/25,montana-state,53%,oregon-state,Montana State,Oregon State,12/18/25
+12/19/25,morgan-state,1%,davidson,Morgan State,Davidson,12/18/25
+12/19/25,northeastern,30%,boston-college,Northeastern,Boston College,12/18/25
+12/19/25,oakland,24%,illinois-state,Oakland,Illinois State,12/18/25
+12/19/25,sacred-heart,16%,iona,Sacred Heart,Iona,12/18/25
+12/19/25,saint-peters,30%,canisius,St. Peter's,Canisius,12/18/25
+12/19/25,seton-hall,28%,villanova,Seton Hall,Villanova,12/18/25
+12/19/25,siena,89%,niagara,Siena,Niagara,12/18/25
+12/19/25,southern-methodist,86%,sam-houston-state,SMU,Sam Houston,12/18/25
+12/19/25,stonehill,84%,bethune-cookman,Stonehill,Bethune-Cookman,12/18/25
+12/19/25,tarleton-state,82%,buffalo,Tarleton State,Buffalo,12/18/25
+12/19/25,virginia-commonwealth,4%,georgia,VCU,Georgia,12/18/25
+12/19/25,wagner,3%,rhode-island,Wagner,Rhode Island,12/18/25
+12/19/25,washington,41%,stanford,Washington,Stanford,12/18/25
+12/19/25,washington-state,18%,pennsylvania,Washington State,Penn,12/18/25
+12/19/25,western-kentucky,36%,chattanooga,Western Kentucky,Chattanooga,12/18/25
+12/19/25,william-mary,57%,stetson,William &amp; Mary,Stetson,12/18/25
+12/19/25,wright-state,2%,kentucky,Wright State,Kentucky,12/18/25
+12/19/25,xavier,39%,butler,Xavier,Butler,12/18/25
+12/19/25,youngstown-state,81%,florida-international,Youngstown State,Florida International,12/18/25
+12/20/25,appalachian-state,36%,georgia-southern,Appalachian State,Georgia Southern,12/18/25
+12/20/25,austin-peay,68%,illinois-chicago,Austin Peay,UIC,12/18/25
+12/20/25,boise-state,48%,san-diego-state,Boise State,San Diego State,12/18/25
+12/20/25,brigham-young,50%,central-florida,BYU,UCF,12/18/25
+12/20/25,buffalo,4%,abilene-christian,Buffalo,Abilene Christian,12/18/25
+12/20/25,cal-state-fullerton,73%,san-diego,Cal State Fullerton,San Diego,12/18/25
+12/20/25,cal-state-northridge,36%,pepperdine,Cal State Northridge,Pepperdine,12/18/25
+12/20/25,colgate,33%,binghamton,Colgate,Binghamton,12/18/25
+12/20/25,connecticut,76%,iowa,UConn,Iowa,12/18/25
+12/20/25,dartmouth,56%,new-hampshire,Dartmouth,New Hampshire,12/18/25
+12/20/25,delaware,56%,akron,Delaware,Akron,12/18/25
+12/20/25,delaware-state,12%,tulane,Delaware State,Tulane,12/18/25
+12/20/25,depaul,16%,creighton,DePaul,Creighton,12/18/25
+12/20/25,duke,68%,belmont,Duke,Belmont,12/18/25
+12/20/25,eastern-michigan,54%,ball-state,Eastern Michigan,Ball State,12/18/25
+12/20/25,eastern-washington,62%,cal-state-bakersfield,Eastern Washington,Cal State Bakersfield,12/18/25
+12/20/25,florida-atlantic,60%,florida-international,Florida Atlantic,Florida International,12/18/25
+12/20/25,georgia-state,28%,coastal-carolina,Georgia State,Coastal Carolina,12/18/25
+12/20/25,green-bay,41%,miami-oh,Green Bay,Miami (OH),12/18/25
+12/20/25,hawaii,38%,liberty,Hawaii,Liberty,12/18/25
+12/20/25,hawaii,30%,montana-state,Hawaii,Montana State,12/18/25
+12/20/25,houston-baptist,26%,rice,Houston Christian,Rice,12/18/25
+12/20/25,idaho-state,67%,utah-valley,Idaho State,Utah Valley,12/18/25
+12/20/25,james-madison,37%,marshall,James Madison,Marshall,12/18/25
+12/20/25,kansas-state,13%,texas-christian,Kansas State,TCU,12/18/25
+12/20/25,kent-state,21%,bowling-green-state,Kent State,Bowling Green,12/18/25
+12/20/25,lafayette,35%,rutgers,Lafayette,Rutgers,12/18/25
+12/20/25,le-moyne,3%,saint-josephs,Le Moyne,St. Joseph's,12/18/25
+12/20/25,lehigh,52%,towson,Lehigh,Towson,12/18/25
+12/20/25,liberty,43%,oregon-state,Liberty,Oregon State,12/18/25
+12/20/25,long-beach-state,1%,ucla,Long Beach State,UCLA,12/18/25
+12/20/25,louisiana-lafayette,9%,southern-mississippi,Louisiana,Southern Miss,12/18/25
+12/20/25,louisiana-monroe,31%,texas-state,Louisiana-Monroe,Texas State,12/18/25
+12/20/25,memphis,69%,southeastern-louisiana,Memphis,Southeastern Louisiana,12/18/25
+12/20/25,mercer,69%,detroit-mercy,Mercer,Detroit Mercy,12/18/25
+12/20/25,middle-tennessee,39%,wichita-state,Middle Tennessee,Wichita State,12/18/25
+12/20/25,mississippi-state,76%,la-salle,Mississippi State,La Salle,12/18/25
+12/20/25,mississippi-valley-state,4%,alabama-birmingham,Mississippi Valley State,UAB,12/18/25
+12/20/25,morehead-state,11%,southern-indiana,Morehead State,Southern Indiana,12/18/25
+12/20/25,nevada,35%,air-force,Nevada,Air Force,12/18/25
+12/20/25,new-mexico,45%,nevada-las-vegas,New Mexico,UNLV,12/18/25
+12/20/25,new-mexico-state,17%,saint-marys-ca,New Mexico State,Saint Mary's,12/18/25
+12/20/25,northern-arizona,31%,california-san-diego,Northern Arizona,UC-San Diego,12/18/25
+12/20/25,northern-colorado,38%,california-davis,Northern Colorado,UC-Davis,12/18/25
+12/20/25,northern-illinois,28%,central-michigan,Northern Illinois,Central Michigan,12/18/25
+12/20/25,princeton,71%,george-mason,Princeton,George Mason,12/18/25
+12/20/25,richmond,94%,alabama-am,Richmond,Alabama A&amp;M,12/18/25
+12/20/25,saint-louis,72%,ohio,Saint Louis,Ohio,12/18/25
+12/20/25,south-alabama,56%,arkansas-state,South Alabama,Arkansas State,12/18/25
+12/20/25,south-carolina,94%,florida-gulf-coast,South Carolina,Florida Gulf Coast,12/18/25
+12/20/25,south-carolina-state,11%,florida-state,South Carolina State,Florida State,12/18/25
+12/20/25,south-carolina-upstate,28%,queens-nc,USC Upstate,Queens (NC),12/18/25
+12/20/25,southeast-missouri-state,72%,tennessee-state,Southeast Missouri State,Tennessee State,12/18/25
+12/20/25,southern-utah,99%,nebraska-omaha,Southern Utah,Omaha,12/18/25
+12/20/25,st-bonaventure,63%,howard,St. Bonaventure,Howard,12/18/25
+12/20/25,stephen-f-austin,52%,arkansas,Stephen F. Austin,Arkansas,12/18/25
+12/20/25,stonehill,17%,stetson,Stonehill,Stetson,12/18/25
+12/20/25,tarleton-state,55%,montana,Tarleton State,Montana,12/18/25
+12/20/25,tennessee,50%,louisville,Tennessee,Louisville,12/18/25
+12/20/25,tennessee-martin,54%,tennessee-tech,UT-Martin,Tennessee Tech,12/18/25
+12/20/25,texas-san-antonio,14%,columbia,UTSA,Columbia,12/18/25
+12/20/25,texas-southern,2%,vanderbilt,Texas Southern,Vanderbilt,12/18/25
+12/20/25,utah-state,7%,colorado-state,Utah State,Colorado State,12/18/25
+12/20/25,vermont,66%,drexel,Vermont,Drexel,12/18/25
+12/20/25,virginia-commonwealth,15%,penn-state,VCU,Penn State,12/18/25
+12/20/25,weber-state,64%,loyola-marymount,Weber State,Loyola Marymount,12/18/25
+12/20/25,william-mary,97%,bethune-cookman,William &amp; Mary,Bethune-Cookman,12/18/25
+12/20/25,winthrop,2%,virginia,Winthrop,Virginia,12/18/25
+12/20/25,wyoming,57%,fresno-state,Wyoming,Fresno State,12/18/25
+12/20/25,yale,15%,high-point,Yale,High Point,12/18/25
+12/20/25,youngstown-state,53%,massachusetts,Youngstown State,UMass,12/18/25
+12/21/25,bellarmine,1%,notre-dame,Bellarmine,Notre Dame,12/18/25
+12/21/25,bradley,80%,northern-kentucky,Bradley,Northern Kentucky,12/18/25
+12/21/25,california-baptist,10%,nebraska,California Baptist,Nebraska,12/18/25
+12/21/25,campbell,36%,east-carolina,Campbell,East Carolina,12/18/25
+12/21/25,charleston-southern,2%,north-carolina,Charleston Southern,UNC,12/18/25
+12/21/25,colorado,69%,arizona-state,Colorado,Arizona State,12/18/25
+12/21/25,detroit-mercy,31%,tulane,Detroit Mercy,Tulane,12/18/25
+12/21/25,east-tennessee-state,25%,charlotte,ETSU,Charlotte,12/18/25
+12/21/25,evansville,29%,dayton,Evansville,Dayton,12/18/25
+12/21/25,georgetown,71%,providence,Georgetown,Providence,12/18/25
+12/21/25,georgia,99%,coppin-state,Georgia,Coppin State,12/18/25
+12/21/25,gonzaga,78%,california-riverside,Gonzaga,UC-Riverside,12/18/25
+12/21/25,hofstra,5%,albany-ny,Hofstra,Albany (NY),12/18/25
+12/21/25,houston,11%,west-virginia,Houston,West Virginia,12/18/25
+12/21/25,iona,66%,mount-st-marys,Iona,Mount St. Mary's,12/18/25
+12/21/25,iupui,15%,wisconsin,IU Indianapolis,Wisconsin,12/18/25
+12/21/25,jackson-state,12%,purdue,Jackson State,Purdue,12/18/25
+12/21/25,jacksonville-state,95%,presbyterian,Jacksonville State,Presbyterian,12/18/25
+12/21/25,kansas,24%,iowa-state,Kansas,Iowa State,12/18/25
+12/21/25,kennesaw-state,42%,miami-fl,Kennesaw State,Miami (FL),12/18/25
+12/21/25,lamar,76%,northwestern-state,Lamar,Northwestern State,12/18/25
+12/21/25,lindenwood,89%,eastern-illinois,Lindenwood,Eastern Illinois,12/18/25
+12/21/25,maine,51%,harvard,Maine,Harvard,12/18/25
+12/21/25,maryland-baltimore-county,87%,american,UMBC,American,12/18/25
+12/21/25,massachusetts-lowell,28%,holy-cross,UMass-Lowell,Holy Cross,12/18/25
+12/21/25,merrimack,14%,fairfield,Merrimack,Fairfield,12/18/25
+12/21/25,michigan-state,93%,indiana-state,Michigan State,Indiana State,12/18/25
+12/21/25,minnesota,89%,drake,Minnesota,Drake,12/18/25
+12/21/25,mississippi,90%,old-dominion,Ole Miss,Old Dominion,12/18/25
+12/21/25,monmouth,35%,brown,Monmouth,Brown,12/18/25
+12/21/25,morgan-state,11%,loyola-md,Morgan State,Loyola (MD),12/18/25
+12/21/25,navy,38%,south-florida,Navy,South Florida,12/18/25
+12/21/25,norfolk-state,69%,elon,Norfolk State,Elon,12/18/25
+12/21/25,north-alabama,18%,missouri,North Alabama,Missouri,12/18/25
+12/21/25,north-carolina-state,37%,davidson,NC State,Davidson,12/18/25
+12/21/25,north-carolina-wilmington,42%,longwood,UNC Wilmington,Longwood,12/18/25
+12/21/25,north-florida,6%,clemson,North Florida,Clemson,12/18/25
+12/21/25,northern-iowa,31%,st-thomas-mn,Northern Iowa,St. Thomas,12/18/25
+12/21/25,northwestern,53%,george-washington,Northwestern,George Washington,12/18/25
+12/21/25,oakland,5%,michigan,Oakland,Michigan,12/18/25
+12/21/25,oklahoma-state,84%,cincinnati,Oklahoma State,Cincinnati,12/18/25
+12/21/25,pittsburgh,43%,duquesne,Pitt,Duquesne,12/18/25
+12/21/25,portland,85%,portland-state,Portland,Portland State,12/18/25
+12/21/25,prairie-view,3%,texas-am,Prairie View,Texas A&amp;M,12/18/25
+12/21/25,quinnipiac,89%,marist,Quinnipiac,Marist,12/18/25
+12/21/25,radford,16%,virginia-tech,Radford,Virginia Tech,12/18/25
+12/21/25,richmond,61%,penn-state,Richmond,Penn State,12/18/25
+12/21/25,rider,63%,sacred-heart,Rider,Sacred Heart,12/18/25
+12/21/25,sacramento-state,81%,san-jose-state,Sacramento State,San Jose State,12/18/25
+12/21/25,saint-francis-pa,17%,fordham,Saint Francis (PA),Fordham,12/18/25
+12/21/25,saint-peters,58%,niagara,St. Peter's,Niagara,12/18/25
+12/21/25,santa-clara,91%,north-texas,Santa Clara,North Texas,12/18/25
+12/21/25,siena,70%,canisius,Siena,Canisius,12/18/25
+12/21/25,southern,18%,southern-methodist,Southern,SMU,12/18/25
+12/21/25,southern-california,63%,california,USC,California,12/18/25
+12/21/25,southern-utah,69%,loyola-marymount,Southern Utah,Loyola Marymount,12/18/25
+12/21/25,stanford,42%,oregon,Stanford,Oregon,12/18/25
+12/21/25,texas,81%,south-dakota-state,Texas,South Dakota State,12/18/25
+12/21/25,texas-arlington,9%,louisiana-state,UT Arlington,LSU,12/18/25
+12/21/25,texas-tech,64%,baylor,Texas Tech,Baylor,12/18/25
+12/21/25,troy,17%,alabama,Troy,Alabama,12/18/25
+12/21/25,tulsa,23%,florida,Tulsa,Florida,12/18/25
+12/21/25,washington,82%,pacific,Washington,Pacific,12/18/25
+12/21/25,weber-state,98%,nebraska-omaha,Weber State,Omaha,12/18/25
+12/21/25,west-georgia,86%,florida-am,West Georgia,Florida A&amp;M,12/18/25
+12/21/25,western-carolina,2.33270895733007e-07,indiana,Western Carolina,Indiana,12/18/25

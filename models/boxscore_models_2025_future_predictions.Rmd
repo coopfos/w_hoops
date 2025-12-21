@@ -1,0 +1,258 @@
+---
+title: "NCAAW 2025 Win Prob (Cutoff 2025-12-18) + Future Games Predictions"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+set.seed(42)
+
+find_data_root <- function() {
+  if (file.exists(file.path("2025", "master_boxscore.csv"))) return(".")
+  if (file.exists(file.path("..", "2025", "master_boxscore.csv"))) return("..")
+  stop("Could not find 2025 data folder. Expected 2025/master_boxscore.csv in repo root or parent.")
+}
+
+data_root <- find_data_root()
+output_dir <- if (basename(getwd()) == "models") "outputs" else file.path("models", "outputs")
+dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
+```
+
+## Data Sources (2025 Season)
+
+```{r read-data}
+bs_path <- file.path(data_root, "2025", "master_boxscore.csv")
+gl_path <- file.path(data_root, "2025", "gamelogs_bind.csv")
+fg_path <- file.path(data_root, "archive", "future_games.csv")
+
+box <- read.csv(bs_path, stringsAsFactors = FALSE)
+gl  <- read.csv(gl_path, stringsAsFactors = FALSE)
+fg  <- read.csv(fg_path, stringsAsFactors = FALSE)
+
+box$game_date <- as.Date(box$game_date)
+gl$Date <- as.Date(gl$Date)
+fg$game_date <- as.Date(fg$game_date)
+
+names(box) <- make.names(names(box))
+names(gl)  <- make.names(names(gl))
+names(fg)  <- make.names(names(fg))
+```
+
+## Aggregate Team Box Scores
+
+```{r aggregate-box}
+box_totals <- subset(box, player == "School Totals")
+box_basic <- subset(box_totals, table_type == "basic")
+box_adv   <- subset(box_totals, table_type == "advanced")
+
+key_cols <- c("game_id", "game_date", "team", "opponent")
+num_cols_basic <- names(box_basic)[sapply(box_basic, is.numeric)]
+num_cols_adv   <- names(box_adv)[sapply(box_adv, is.numeric)]
+
+feat_basic <- box_basic[, unique(c(key_cols, num_cols_basic))]
+feat_adv   <- box_adv[,   unique(c(key_cols, num_cols_adv))]
+
+prefixed_basic <- feat_basic
+prefixed_adv   <- feat_adv
+
+bn <- setdiff(names(prefixed_basic), key_cols)
+an <- setdiff(names(prefixed_adv), key_cols)
+
+names(prefixed_basic)[match(bn, names(prefixed_basic))] <- paste0("basic_", bn)
+names(prefixed_adv)[match(an, names(prefixed_adv))]     <- paste0("adv_", an)
+
+team_box <- merge(prefixed_basic, prefixed_adv, by = key_cols, all = TRUE)
+team_box <- team_box[order(team_box$team, team_box$game_date), ]
+
+data.frame(rows = nrow(team_box), teams = length(unique(team_box$team)))
+```
+
+## Attach Outcomes from Gamelogs
+
+```{r attach-outcomes}
+gl_min <- gl[, c("sid", "Date", "Opp", "Rslt", "Tm", "Opp.1", "OT")]
+names(gl_min) <- c("team", "game_date", "opp_name", "res", "tm_pts", "opp_pts", "ot")
+
+team_games <- merge(team_box, gl_min, by = c("team", "game_date"), all.x = TRUE)
+
+team_games$win <- as.integer(substr(team_games$res, 1, 1) == "W")
+team_games$score_diff <- team_games$tm_pts - team_games$opp_pts
+
+core_cols <- c("team", "opponent", "game_id", "game_date", "win", "score_diff", "tm_pts", "opp_pts", "ot")
+team_games <- team_games[, unique(c(core_cols, setdiff(names(team_games), core_cols)))]
+
+write.csv(team_games, file = file.path(output_dir, "merged_team_games_2025.csv"), row.names = FALSE)
+
+data.frame(rows = nrow(team_games), with_outcome = sum(!is.na(team_games$win)))
+```
+
+## Pre-Game Feature Engineering
+
+```{r pregame-features}
+lag_cummean <- function(x) {
+  n <- length(x)
+  if (n == 0) return(x)
+  xf <- ifelse(is.finite(x), x, 0)
+  cs <- c(0, cumsum(xf))
+  cnt <- c(0, cumsum(ifelse(is.finite(x), 1, 0)))
+  ifelse(cnt[-1] > 0, cs[-(n + 1)] / cnt[-1], NA_real_)
+}
+
+cummean_inclusive <- function(x) {
+  xf <- ifelse(is.finite(x), x, 0)
+  cs <- cumsum(xf)
+  cnt <- cumsum(ifelse(is.finite(x), 1, 0))
+  ifelse(cnt > 0, cs / cnt, NA_real_)
+}
+
+box_feat_cols <- setdiff(names(team_games)[sapply(team_games, is.numeric)], c("win", "score_diff", "tm_pts", "opp_pts"))
+
+team_games <- team_games[order(team_games$team, team_games$game_date), ]
+pg_list <- split(team_games, team_games$team)
+pg_list <- lapply(pg_list, function(df) {
+  df <- df[order(df$game_date), ]
+  for (col in box_feat_cols) {
+    df[[paste0("pre_", col)]] <- lag_cummean(df[[col]])
+    df[[paste0("pre_inc_", col)]] <- cummean_inclusive(df[[col]])
+  }
+  df
+})
+pre_team <- do.call(rbind, pg_list)
+
+opp_pre <- pre_team[, c("team", "game_date", grep("^pre_", names(pre_team), value = TRUE))]
+names(opp_pre) <- c("opponent", "game_date", paste0("opp_", sub("^pre_", "", names(opp_pre)[-c(1, 2)])))
+
+pre_joined <- merge(pre_team, opp_pre, by = c("opponent", "game_date"), all.x = TRUE)
+
+pre_cols <- grep("^pre_", names(pre_joined), value = TRUE)
+pre_joined <- pre_joined[!is.na(pre_joined$win) &
+  rowSums(is.finite(as.matrix(pre_joined[, pre_cols, drop = FALSE]))) > 0, ]
+
+write.csv(pre_joined, file = file.path(output_dir, "pre_game_features_2025.csv"), row.names = FALSE)
+
+data.frame(rows = nrow(pre_joined), teams = length(unique(pre_joined$team)))
+```
+
+## Train Logistic Regression (Cutoff 2025-12-18)
+
+```{r train-model}
+cutoff_date <- as.Date("2025-12-18")
+
+train_df <- pre_joined[pre_joined$game_date < cutoff_date, ]
+
+pred_cols <- c(grep("^pre_", names(pre_joined), value = TRUE), grep("^opp_", names(pre_joined), value = TRUE))
+pred_cols <- pred_cols[!grepl("^pre_inc_", pred_cols)]
+pred_cols <- pred_cols[!grepl("^opp_inc_", pred_cols)]
+pred_cols <- unique(setdiff(pred_cols, c("pre_win", "pre_score_diff", "opp_name", "opp_pts", "opp_score_diff")))
+
+train_X <- train_df[, pred_cols, drop = FALSE]
+
+for (col in pred_cols) {
+  train_X[[col]] <- suppressWarnings(as.numeric(train_X[[col]]))
+}
+
+is_bad <- function(x) {
+  all_na <- all(is.na(x))
+  vx <- var(x, na.rm = TRUE)
+  zero_var <- is.finite(vx) && vx == 0
+  all_na || zero_var
+}
+
+bad_cols <- sapply(train_X, is_bad)
+use_cols <- pred_cols[!bad_cols]
+
+train_X <- train_X[, use_cols, drop = FALSE]
+
+meds <- vapply(train_X, function(v) median(v[is.finite(v)], na.rm = TRUE), numeric(1))
+meds[!is.finite(meds)] <- 0
+
+for (j in seq_along(use_cols)) {
+  cnam <- use_cols[j]
+  train_X[[cnam]][!is.finite(train_X[[cnam]]) | is.na(train_X[[cnam]])] <- meds[j]
+}
+
+glm_train <- data.frame(win = train_df$win, train_X)
+glm_fit <- glm(win ~ ., data = glm_train, family = binomial())
+
+data.frame(train_rows = nrow(train_df), n_predictors = length(use_cols))
+```
+
+## Build Features for Future Games (12/19/25 - 12/21/25)
+
+```{r future-features}
+fg_w <- fg[fg$gender == "womens" &
+  fg$game_date >= as.Date("2025-12-19") &
+  fg$game_date <= as.Date("2025-12-21"), ]
+
+if (nrow(fg_w) == 0) {
+  stop("No womens games found in future_games.csv for 2025-12-19 to 2025-12-21.")
+}
+
+pre_inc_cols <- grep("^pre_inc_", names(pre_team), value = TRUE)
+team_form <- pre_team[pre_team$game_date < cutoff_date, c("team", "game_date", pre_inc_cols)]
+
+latest_idx <- ave(team_form$game_date, team_form$team, FUN = function(x) seq_along(x))
+team_form <- team_form[latest_idx == ave(latest_idx, team_form$team, FUN = max), ]
+
+names(team_form) <- c("team", "last_game_date", sub("^pre_inc_", "pre_", names(team_form)[-c(1, 2)]))
+
+future_base <- data.frame(
+  game_date = fg_w$game_date,
+  team = fg_w$team1,
+  opponent = fg_w$team2,
+  team_name = fg_w$team1_name,
+  opponent_name = fg_w$team2_name,
+  source_file = fg_w$source_file
+)
+
+future_team <- merge(future_base, team_form, by = "team", all.x = TRUE)
+future_opp  <- merge(future_base, team_form, by.x = "opponent", by.y = "team", all.x = TRUE, suffixes = c("", "_opp"))
+
+opp_cols <- setdiff(names(future_opp), names(future_base))
+opp_cols <- opp_cols[!opp_cols %in% c("last_game_date")]
+
+for (col in opp_cols) {
+  if (startsWith(col, "pre_")) {
+    future_opp[[sub("^pre_", "opp_", col)]] <- future_opp[[col]]
+  }
+}
+
+future_features <- merge(future_team, future_opp[, c("team", "opponent", grep("^opp_", names(future_opp), value = TRUE))],
+  by = c("team", "opponent"), all.x = TRUE
+)
+
+future_X <- future_features[, use_cols, drop = FALSE]
+
+for (col in use_cols) {
+  future_X[[col]] <- suppressWarnings(as.numeric(future_X[[col]]))
+}
+
+for (j in seq_along(use_cols)) {
+  cnam <- use_cols[j]
+  future_X[[cnam]][!is.finite(future_X[[cnam]]) | is.na(future_X[[cnam]])] <- meds[j]
+}
+
+future_prob <- predict(glm_fit, newdata = data.frame(future_X), type = "response")
+```
+
+## Save Predictions
+
+```{r save-outputs}
+pred_out <- data.frame(
+  game_date = future_features$game_date,
+  team = future_features$team,
+  opponent = future_features$opponent,
+  team_name = future_features$team_name,
+  opponent_name = future_features$opponent_name,
+  glm_win_prob = future_prob,
+  cutoff_date = cutoff_date
+)
+
+write.csv(pred_out, file = file.path(output_dir, "glm_2025_future_games_1219_1221_predictions.csv"), row.names = FALSE)
+
+pred_out
+```
+
+## Notes
+
+- Training uses games before 2025-12-18 only.
+- Future game features use each team’s cumulative averages through its last game prior to the cutoff.
