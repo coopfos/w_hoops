@@ -1,0 +1,69 @@
+title,kalshi_code,game_date,yes_bid_close_dollars,price,sid_guess,opponent,team_name,opponent_name,glm_win_prob,cutoff_date,contracts,position,res
+Jackson St. at Illinois Winner?,JKST,12/19/25,0.01,0.02,jackson-state,illinois,Jackson State,Illinois,0.034340717,12/10/25,500,10,0
+Coppin St. at Temple Winner?,COPP,12/19/25,0.06,0.08,coppin-state,temple,Coppin State,Temple,0.096731146,12/10/25,125,10,0
+Xavier at Butler Winner?,XAV,12/19/25,0.26,0.27,xavier,butler,Xavier,Butler,0.431863269,12/10/25,37,10,0
+Seton Hall at Villanova Winner?,HALL,12/19/25,0.2,0.28,seton-hall,villanova,Seton Hall,Villanova,0.303939684,12/10/25,35,10,0
+Georgia at VCU Winner?,UGA,12/19/25,0.9,0.96,georgia,virginia-commonwealth,Georgia,VCU,0.960991021,12/10/25,10,10,1
+Wright St. at Kentucky Winner?,WRST,12/19/25,0,0.01,wright-state,kentucky,Wright State,Kentucky,0.028646873,12/10/25,1000,10,0
+Northeastern at Boston College Winner?,NE,12/19/25,0.11,0.14,northeastern,boston-college,Northeastern,Boston College,0.297736132,12/10/25,71,10,1
+Central Connecticut St. at Maryland Winner?,CCSU,12/19/25,0,0.01,central-connecticut-state,maryland,Central Connecticut,Maryland,0.017278724,12/10/25,1000,10,0
+Wagner at Rhode Island Winner?,WAG,12/19/25,0.01,0.02,wagner,rhode-island,Wagner,Rhode Island,0.028298848,12/10/25,500,10,0
+Mercyhurst at Syracuse Winner?,MHU,12/19/25,0,0.01,mercyhurst,syracuse,Mercyhurst,Syracuse,0.025815566,12/10/25,1000,10,0
+Kansas St. at TCU Winner?,KSU,12/20/25,0.07,0.08,kansas-state,texas-christian,Kansas State,TCU,0.183276549,12/10/25,125,10,0
+Cal State Northridge at Pepperdine Winner?,CSN,12/20/25,0.06,0.1,cal-state-northridge,pepperdine,Cal State Northridge,Pepperdine,0.432806142,12/10/25,100,10,0
+Boise St. at San Diego St. Winner?,BSU,12/20/25,0.17,0.39,boise-state,san-diego-state,Boise State,San Diego State,0.436173383,12/10/25,25,10,0
+Middle Tennessee at Wichita St. Winner?,WICH,12/20/25,0.27,0.46,wichita-state,middle-tennessee,Wichita State,Middle Tennessee,0.463883686,12/10/25,21,10,0
+Mississippi Valley St. at UAB Winner?,MVSU,12/20/25,0.03,0.05,mississippi-valley-state,alabama-birmingham,Mississippi Valley State,UAB,0.050366395,12/10/25,200,10,0
+Stephen F. Austin at Arkansas Winner?,SFA,12/20/25,0.1,0.24,stephen-f-austin,arkansas,Stephen F. Austin,Arkansas,0.511076822,12/10/25,41,10,0
+BYU at UCF Winner?,UCF,12/20/25,0.23,0.39,central-florida,brigham-young,UCF,BYU,0.47694455,12/10/25,25,10,0
+DePaul at Creighton Winner?,DEP,12/20/25,0.1,0.11,depaul,creighton,DePaul,Creighton,0.172761448,12/10/25,90,10,0
+Memphis at Southeastern Louisiana Winner?,MEM,12/20/25,0.52,0.75,memphis,southeastern-louisiana,Memphis,Southeastern Louisiana,0.773890128,12/10/25,13,10,1
+St. Bonaventure at Howard Winner?,SBON,12/20/25,0.15,0.2,st-bonaventure,howard,St. Bonaventure,Howard,0.638156264,12/10/25,50,10,0
+South Carolina St. at Florida St. Winner?,SCST,12/20/25,0.01,0.02,south-carolina-state,florida-state,South Carolina State,Florida State,0.153073277,12/10/25,500,10,0
+Iowa at UConn Winner?,IOWA,12/20/25,0.1,0.12,iowa,connecticut,Iowa,UConn,0.300690049,12/10/25,83,10,0
+UTSA at Columbia Winner?,CLMB,12/20/25,0.82,0.85,columbia,texas-san-antonio,Columbia,UTSA,0.916115294,12/10/25,11,10,1
+Alabama A&M at Richmond Winner?,AAMU,12/20/25,0.01,0.03,alabama-am,richmond,Alabama A&amp;M,Richmond,0.091603397,12/10/25,333,10,0
+Saint Louis at Ohio Winner?,SLU,12/20/25,0.34,0.49,saint-louis,ohio,Saint Louis,Ohio,0.690692992,12/10/25,20,10,1
+Le Moyne at Saint Joseph's Winner?,LMC,12/20/25,0.02,0.03,le-moyne,saint-josephs,Le Moyne,St. Joseph's,0.039695686,12/10/25,333,10,0
+Mississippi St. at La Salle Winner?,LAS,12/20/25,0.1,0.13,la-salle,mississippi-state,La Salle,Mississippi State,0.200878754,12/10/25,76,10,0
+Lafayette at Rutgers Winner?,LAF,12/20/25,0.07,0.1,lafayette,rutgers,Lafayette,Rutgers,0.393592158,12/10/25,100,10,0
+Winthrop at Virginia Winner?,WIN,12/20/25,0.03,0.04,winthrop,virginia,Winthrop,Virginia,0.04848473,12/10/25,250,10,0
+Florida Atlantic at Florida International Winner?,FAU,12/20/25,0.15,0.45,florida-atlantic,florida-international,Florida Atlantic,Florida International,0.692905405,12/10/25,22,10,1
+USC at California Winner?,CAL,12/21/25,0.12,0.2,california,southern-california,California,USC,0.318340289,12/10/25,50,10,0
+Old Dominion at Ole Miss Winner?,ODU,12/21/25,0.03,0.05,old-dominion,mississippi,Old Dominion,Ole Miss,0.170527122,12/10/25,200,10,0
+Bellarmine at Notre Dame Winner?,BELL,12/21/25,0,0.01,bellarmine,notre-dame,Bellarmine,Notre Dame,0.019450608,12/10/25,1000,10,0
+Colorado at Arizona St. Winner?,COLO,12/21/25,0.2,0.52,colorado,arizona-state,Colorado,Arizona State,0.647023932,12/10/25,19,10,0
+Oregon at Stanford Winner?,STAN,12/21/25,0.33,0.4,stanford,oregon,Stanford,Oregon,0.410843073,12/10/25,25,10,1
+Southern Utah at Loyola Marymount Winner?,SUU,12/21/25,0.17,0.34,southern-utah,loyola-marymount,Southern Utah,Loyola Marymount,0.717410128,12/10/25,29,10,0
+Sacramento St. at San Jose St. Winner?,SAC,12/21/25,0.6,0.82,sacramento-state,san-jose-state,Sacramento State,San Jose State,0.834038983,12/10/25,12,10,0
+Gonzaga at UC Riverside Winner?,UCRV,12/21/25,0.11,0.17,california-riverside,gonzaga,UC-Riverside,Gonzaga,0.173994288,12/10/25,58,10,0
+Indiana St. at Michigan St. Winner?,INST,12/21/25,0.01,0.02,indiana-state,michigan-state,Indiana State,Michigan State,0.092725591,12/10/25,500,10,0
+Washington at Pacific Winner?,PAC,12/21/25,0.11,0.14,pacific,washington,Pacific,Washington,0.180717735,12/10/25,71,10,0
+Minnesota at Drake Winner?,DRKE,12/21/25,0.06,0.07,drake,minnesota,Drake,Minnesota,0.172706069,12/10/25,142,10,0
+Santa Clara at North Texas Winner?,SCU,12/21/25,0.53,0.66,santa-clara,north-texas,Santa Clara,North Texas,0.907257374,12/10/25,15,10,1
+Troy at Alabama Winner?,TROY,12/21/25,0.11,0.14,troy,alabama,Troy,Alabama,0.189198019,12/10/25,71,10,0
+Tulsa at Florida Winner?,TLSA,12/21/25,0.06,0.09,tulsa,florida,Tulsa,Florida,0.35708591,12/10/25,111,10,1
+Richmond at Penn St. Winner?,PSU,12/21/25,0.2,0.39,penn-state,richmond,Penn State,Richmond,0.59333366,12/10/25,25,10,0
+Texas at South Dakota St. Winner?,SDST,12/21/25,0.02,0.04,south-dakota-state,texas,South Dakota State,Texas,0.261255798,12/10/25,250,10,0
+UT Arlington at LSU Winner?,UTA,12/21/25,0,0.01,texas-arlington,louisiana-state,UT Arlington,LSU,0.163375934,12/10/25,1000,10,0
+Oklahoma St. at Cincinnati Winner?,OKST,12/21/25,0.78,0.83,oklahoma-state,cincinnati,Oklahoma State,Cincinnati,0.860719086,12/10/25,12,10,1
+Houston at West Virginia Winner?,HOU,12/21/25,0.04,0.06,houston,west-virginia,Houston,West Virginia,0.119801698,12/10/25,166,10,0
+North Alabama at Missouri Winner?,UNA,12/21/25,0.05,0.07,north-alabama,missouri,North Alabama,Missouri,0.275289586,12/10/25,142,10,0
+North Florida at Clemson Winner?,UNF,12/21/25,0.01,0.04,north-florida,clemson,North Florida,Clemson,0.062673228,12/10/25,250,10,0
+Northwestern at George Washington Winner?,NW,12/21/25,0.42,0.6,northwestern,george-washington,Northwestern,George Washington,0.66448991,12/10/25,16,10,0
+Campbell at East Carolina Winner?,CAMP,12/21/25,0.27,0.36,campbell,east-carolina,Campbell,East Carolina,0.397209192,12/10/25,27,10,0
+Prairie View A&M at Texas A&M Winner?,PV,12/21/25,0,0.02,prairie-view,texas-am,Prairie View,Texas A&amp;M,0.029185109,12/10/25,500,10,0
+St. Francis (PA) at Fordham Winner?,SFPA,12/21/25,0.06,0.09,saint-francis-pa,fordham,Saint Francis (PA),Fordham,0.183149477,12/10/25,111,10,0
+Navy at South Florida Winner?,NAVY,12/21/25,0.15,0.18,navy,south-florida,Navy,South Florida,0.282648407,12/10/25,55,10,0
+Georgetown at Providence Winner?,PROV,12/21/25,0.21,0.26,providence,georgetown,Providence,Georgetown,0.316588994,12/10/25,38,10,1
+Evansville at Dayton Winner?,EVAN,12/21/25,0.13,0.18,evansville,dayton,Evansville,Dayton,0.272475673,12/10/25,55,10,0
+Kansas at Iowa St. Winner?,KU,12/21/25,0.1,0.12,kansas,iowa-state,Kansas,Iowa State,0.154771498,12/10/25,83,10,0
+Charleston Southern at North Carolina Winner?,CHSO,12/21/25,0,0.01,charleston-southern,north-carolina,Charleston Southern,UNC,0.022002439,12/10/25,1000,10,0
+IU Indy at Wisconsin Winner?,IUIN,12/21/25,0.04,0.07,iupui,wisconsin,IU Indianapolis,Wisconsin,0.152992947,12/10/25,142,10,0
+California Baptist at Nebraska Winner?,CBU,12/21/25,0,0.02,california-baptist,nebraska,California Baptist,Nebraska,0.169911925,12/10/25,500,10,0
+Jackson St. at Purdue Winner?,JKST,12/21/25,0.07,0.1,jackson-state,purdue,Jackson State,Purdue,0.178632029,12/10/25,100,10,0
+Radford at Virginia Tech Winner?,RAD,12/21/25,0,0.04,radford,virginia-tech,Radford,Virginia Tech,0.185681946,12/10/25,250,10,0
+North Carolina St. at Davidson Winner?,DAV,12/21/25,0.18,0.2,davidson,north-carolina-state,Davidson,NC State,0.609871376,12/10/25,50,10,0
+Kennesaw St. at Miami (FL) Winner?,KENN,12/21/25,0.06,0.09,kennesaw-state,miami-fl,Kennesaw State,Miami (FL),0.336579221,12/10/25,111,10,0
+East Tennessee St. at Charlotte Winner?,ETSU,12/21/25,0.23,0.27,east-tennessee-state,charlotte,ETSU,Charlotte,0.340407986,12/10/25,37,10,1
+Oakland at Michigan Winner?,OAK,12/21/25,0,0.01,oakland,michigan,Oakland,Michigan,0.063068219,12/10/25,1000,10,0
