@@ -1,0 +1,348 @@
+kalshi_code,occurrences,kalshi_name,school_guess,sid_guess,match_type,match_score
+AAMU,4,Alabama A&M,Alabama A&M,alabama-am,exact,1
+AC,2,Abilene Christian,Abilene Christian,abilene-christian,exact,1
+AFA,7,Air Force,Air Force,air-force,exact,1
+AKR,2,Akron,Akron,akron,exact,1
+ALA,9,Alabama,Alabama,alabama,exact,1
+ALBY,2,,,albany-ny,none,0
+ALCN,4,Alcorn St.,Alcorn State,alcorn-state,fuzzy,0.8182
+ALST,3,Alabama St.,Alabama State,alabama-state,fuzzy,0.8333
+AMCC,1,Texas A&M-Corpus Christi,Texas A&M-Corpus Christi,texas-am-corpus-christi,exact,1
+AMER,3,American,American,american,exact,1
+APP,2,Appalachian St.,Appalachian State,appalachian-state,fuzzy,0.875
+ARIZ,8,Arizona,Arizona,arizona,exact,1
+ARK,9,Arkansas,Arkansas,arkansas,exact,1
+ARPB,2,Arkansas-Pine Bluff,Arkansas-Pine Bluff,arkansas-pine-bluff,exact,1
+ARST,1,Arkansas St.,Arkansas State,arkansas-state,fuzzy,0.8462
+ASU,10,Arizona St.,Arizona State,arizona-state,fuzzy,0.8333
+AUB,8,Auburn,Auburn,auburn,exact,1
+BALL,4,Ball St.,Ball State,ball-state,fuzzy,0.7778
+BAY,10,Baylor,Baylor,baylor,exact,1
+BC,8,Boston College,Boston College,boston-college,exact,1
+BEL,2,Belmont,Belmont,belmont,exact,1
+BELL,4,Bellarmine,Bellarmine,bellarmine,exact,1
+BETH,1,Bethesda,Bethune-Cookman,bethune-cookman,fuzzy,0.5455
+BING,2,Binghamton,Binghamton,binghamton,exact,1
+BRAD,2,Bradley,Bradley,bradley,exact,1
+BRWN,1,Brown,Brown,brown,exact,1
+BRY,2,Bryant,Bryant,bryant,exact,1
+BSU,9,Boise State,Boise State,boise-state,exact,1
+BU,1,Boston University,Boston University,boston-university,exact,1
+BUT,8,Butler,Butler,butler,exact,1
+BYU,8,Brigham Young,Brigham Young,brigham-young,exact,1
+CAL,8,California,California,california,exact,1
+CAMP,1,Campbell,Campbell,campbell,exact,1
+CAN,2,Canisius,Canisius,canisius,exact,1
+CBU,3,California Baptist,California Baptist,california-baptist,exact,1
+CCSU,3,Central Connecticut St.,Central Connecticut State,central-connecticut-state,fuzzy,0.913
+CHAP,1,Chapman,Hampton,hampton,fuzzy,0.5714
+CHAR,7,Charlotte,Charlotte,charlotte,exact,1
+CHS,4,Chicago St.,Chicago State,chicago-state,fuzzy,0.8333
+CHSO,2,Charleston Southern,Charleston Southern,charleston-southern,exact,1
+CIN,9,Cincinnati,Cincinnati,cincinnati,exact,1
+CLEM,9,Clemson,Clemson,clemson,exact,1
+CLEV,2,Cleveland St.,Cleveland State,cleveland-state,fuzzy,0.8571
+CLMB,5,Columbia,Columbia,columbia,exact,1
+CMU,4,Central Michigan,Central Michigan,central-michigan,exact,1
+COFC,2,Charleston,Charleston Southern,charleston-southern,fuzzy,0.7143
+COLG,1,Colgate,Colgate,colgate,exact,1
+COLO,9,Colorado,Colorado,colorado,exact,1
+CONN,8,Connecticut,Connecticut,connecticut,exact,1
+COOK,2,Bethune-Cookman,Bethune-Cookman,bethune-cookman,exact,1
+COPP,5,Coppin St.,Coppin State,coppin-state,fuzzy,0.8182
+CP,2,Cal Poly,Cal Poly,cal-poly,exact,1
+CREI,8,Creighton,Creighton,creighton,exact,1
+CSB,3,Cal State Bakersfield,Cal State Bakersfield,cal-state-bakersfield,exact,1
+CSF,3,Cal State Fullerton,Cal State Fullerton,cal-state-fullerton,exact,1
+CSLA,1,Cal State Los Angeles,Cal State Fullerton,cal-state-fullerton,fuzzy,0.6286
+CSMB,2,Cal State Monterey Bay,Cal State Northridge,cal-state-northridge,fuzzy,0.5946
+CSN,2,Cal State Northridge,Cal State Northridge,cal-state-northridge,exact,1
+CSU,10,Colorado State,Colorado State,colorado-state,exact,1
+CSUS,1,Stanislaus St.,Stephen F. Austin,stephen-f-austin,fuzzy,0.5517
+DAV,9,Davidson,Davidson,davidson,exact,1
+DAY,8,Dayton,Dayton,dayton,exact,1
+DEL,3,Delaware,Delaware,delaware,exact,1
+DEN,1,Denver,Denver,denver,exact,1
+DEP,9,DePaul,DePaul,depaul,exact,1
+DET,2,Detroit Mercy,Detroit Mercy,detroit-mercy,exact,1
+DREX,2,Drexel,Drexel,drexel,exact,1
+DRKE,3,Drake,Drake,drake,exact,1
+DSU,4,Delaware St.,Delaware State,delaware-state,fuzzy,0.8462
+DUKE,7,Duke,Duke,duke,exact,1
+DUQ,7,Duquesne,Duquesne,duquesne,exact,1
+ECU,9,East Carolina,East Carolina,east-carolina,exact,1
+EIU,3,Eastern Illinois,Eastern Illinois,eastern-illinois,exact,1
+EKY,2,Eastern Kentucky,Eastern Kentucky,eastern-kentucky,exact,1
+ELON,3,Elon,Elon,elon,exact,1
+EMU,2,Eastern Michigan,Eastern Michigan,eastern-michigan,exact,1
+ESC,1,Evergreen St.,Green Bay,green-bay,fuzzy,0.5455
+ETSU,4,East Tennessee St.,East Tennessee State,east-tennessee-state,fuzzy,0.8889
+EVAN,3,Evansville,Evansville,evansville,exact,1
+EWU,4,Eastern Washington,Eastern Washington,eastern-washington,exact,1
+FAIR,2,Fairfield,Fairfield,fairfield,exact,1
+FAMU,2,Florida A&M,Florida A&M,florida-am,exact,1
+FAU,9,Florida Atlantic,Florida Atlantic,florida-atlantic,exact,1
+FGCU,4,Florida Gulf Coast,Florida Gulf Coast,florida-gulf-coast,exact,1
+FIU,3,Florida International,Florida International,florida-international,exact,1
+FLA,9,Florida,Florida,florida,exact,1
+FOR,7,Fordham,Fordham,fordham,exact,1
+FRES,8,Fresno State,Fresno State,fresno-state,exact,1
+FSU,9,Florida St.,Florida State,florida-state,fuzzy,0.8333
+FUR,1,Clemson,Clemson,clemson,exact,1
+GAST,1,Georgia St.,Georgia State,georgia-state,fuzzy,0.8333
+GB,4,Green Bay,Green Bay,green-bay,exact,1
+GC,6,Grand Canyon,Grand Canyon,grand-canyon,exact,1
+GMU,7,George Mason,George Mason,george-mason,exact,1
+GONZ,9,Gonzaga,Gonzaga,gonzaga,exact,1
+GRAM,3,Grambling St.,Grambling,grambling,fuzzy,0.7826
+GT,8,Georgia Tech,Georgia Tech,georgia-tech,exact,1
+GTWN,7,Georgetown,Georgetown,georgetown,exact,1
+GW,9,George Washington,George Washington,george-washington,exact,1
+HALL,8,Seton Hall,Seton Hall,seton-hall,exact,1
+HARV,3,Harvard,Harvard,harvard,exact,1
+HASK,1,Haskell Indian Nations,Cincinnati,cincinnati,fuzzy,0.5333
+HAW,3,Hawai'i,Hawaii,hawaii,normalized,1
+HCU,2,Houston Christian,Houston Christian,houston-baptist,exact,1
+HOF,4,Hofstra,Hofstra,hofstra,exact,1
+HOU,8,Houston,Houston,houston,exact,1
+HOW,5,Howard,Howard,howard,exact,1
+HP,2,High Point,High Point,high-point,exact,1
+IDHO,3,Idaho,Idaho,idaho,exact,1
+IDST,3,Idaho St.,Idaho State,idaho-state,fuzzy,0.8
+IL,2,Loyola Chicago,Illinois-Chicago,illinois-chicago,fuzzy,0.6429
+ILL,8,Illinois,Illinois,illinois,exact,1
+ILST,5,Illinois St.,Illinois State,illinois-state,fuzzy,0.8462
+IND,8,Indiana,Indiana,indiana,exact,1
+INST,2,Indiana St.,Indiana State,indiana-state,fuzzy,0.8333
+IOWA,8,Iowa,Iowa,iowa,exact,1
+ISU,8,Iowa St.,Iowa State,iowa-state,fuzzy,0.7778
+IUIN,1,IU Indy,IU Indy,iupui,exact,1
+IW,2,Incarnate Word,Incarnate Word,incarnate-word,exact,1
+JAC,2,Jacksonville,Jacksonville,jacksonville,exact,1
+JKST,4,Jackson St.,Jackson State,jackson-state,fuzzy,0.8333
+JMU,6,James Madison,James Madison,james-madison,exact,1
+JOES,7,Saint Joseph's,Saint Joseph's,saint-josephs,exact,1
+JVST,2,Jacksonville St.,Jacksonville State,jacksonville-state,fuzzy,0.8824
+KENN,2,Kennesaw St.,Kennesaw State,kennesaw-state,fuzzy,0.8462
+KENT,2,Kent St.,Kent State,kent-state,fuzzy,0.7778
+KSU,8,Kansas St.,Kansas State,kansas-state,fuzzy,0.8182
+KU,8,Kansas,Kansas,kansas,exact,1
+LAF,2,Lafayette,Lafayette,lafayette,exact,1
+LAS,7,La Salle,La Salle,la-salle,exact,1
+LBSU,4,Long Beach State,Long Beach State,long-beach-state,exact,1
+LCHI,4,Loyola Chicago,Illinois-Chicago,illinois-chicago,fuzzy,0.6429
+LEH,2,Lehigh,Lehigh,lehigh,exact,1
+LIB,4,Liberty,Liberty,liberty,exact,1
+LINW,2,Lindenwood,Lindenwood,lindenwood,exact,1
+LIP,1,Lipscomb,Lipscomb,lipscomb,exact,1
+LIU,3,LIU,IU Indy,iupui,fuzzy,0.4444
+LMC,4,Le Moyne,Le Moyne,le-moyne,exact,1
+LMU,8,Loyola Marymount,Loyola Marymount,loyola-marymount,exact,1
+LONG,2,Longwood,Longwood,longwood,exact,1
+LOU,10,Louisville,Louisville,louisville,exact,1
+LSU,8,LSU,Tulsa,tulsa,fuzzy,0.5
+LT,2,Louisiana Tech,Louisiana Tech,louisiana-tech,exact,1
+MAN,1,Manhattan,Manhattan,manhattan,exact,1
+MARQ,7,Marquette,Marquette,marquette,exact,1
+MASS,2,UMass,Furman,furman,fuzzy,0.5455
+MASSL,1,UMass Lowell,Massachusetts-Lowell,massachusetts-lowell,fuzzy,0.6667
+MCNS,2,McNeese,McNeese State,mcneese-state,fuzzy,0.7368
+MD,8,Maryland,Maryland,maryland,exact,1
+ME,1,Rhode Island,Rhode Island,rhode-island,exact,1
+MEM,7,Memphis,Memphis,memphis,exact,1
+MER,1,Mercer,Mercer,mercer,exact,1
+MHU,4,Mercyhurst,Mercyhurst,mercyhurst,exact,1
+MIA,9,Miami (FL),Miami (FL),miami-fl,exact,1
+MICH,7,Michigan,Michigan,michigan,exact,1
+MILW,2,Milwaukee,Milwaukee,milwaukee,exact,1
+MINN,7,Minnesota,Minnesota,minnesota,exact,1
+MISS,9,Mississippi,Mississippi,mississippi,exact,1
+MIZZ,9,Missouri,Missouri,missouri,exact,1
+MOH,4,Miami (OH),Miami (OH),miami-oh,exact,1
+MONT,2,Montana,Montana,montana,exact,1
+MORE,1,Morehead St.,Morehead State,morehead-state,fuzzy,0.8462
+MORG,7,Morgan St.,Morgan State,morgan-state,fuzzy,0.8182
+MOSU,6,Missouri St.,Missouri State,missouri-state,fuzzy,0.8462
+MRMK,1,Merrimack,Merrimack,merrimack,exact,1
+MRST,1,Marist,Marist,marist,exact,1
+MSM,1,Mount St. Mary's,Mount St. Mary's,mount-st-marys,exact,1
+MSST,8,Mississippi St.,Mississippi State,mississippi-state,fuzzy,0.875
+MSU,7,Michigan St.,Michigan State,michigan-state,fuzzy,0.8462
+MTST,3,Montana St.,Montana State,montana-state,fuzzy,0.8333
+MTU,5,Middle Tennessee,Middle Tennessee,middle-tennessee,exact,1
+MURR,4,Murray St.,Murray State,murray-state,fuzzy,0.8182
+MVSU,4,Mississippi Valley St.,Mississippi Valley State,mississippi-valley-state,fuzzy,0.9091
+NAU,2,Northern Arizona,Northern Arizona,northern-arizona,exact,1
+NAVY,3,Navy,Navy,navy,exact,1
+NCAT,2,North Carolina A&T,North Carolina A&T,north-carolina-at,exact,1
+NCCU,2,North Carolina Central,North Carolina Central,north-carolina-central,exact,1
+NCST,8,North Carolina St.,North Carolina A&T,north-carolina-at,fuzzy,0.8889
+ND,7,Notre Dame,Notre Dame,notre-dame,exact,1
+NDSU,2,North Dakota St.,North Dakota State,north-dakota-state,fuzzy,0.875
+NE,2,Northeastern,Northeastern,northeastern,exact,1
+NEB,6,Nebraska,Nebraska,nebraska,exact,1
+NEOM,2,Omaha,Omaha,nebraska-omaha,exact,1
+NEV,9,Nevada,Nevada,nevada,exact,1
+NHC,1,St. John's,St. John's (NY),st-johns-ny,normalized,1
+NIAG,3,Niagara,Niagara,niagara,exact,1
+NIU,1,Northern Illinois,Northern Illinois,northern-illinois,exact,1
+NKU,1,Northern Kentucky,Northern Kentucky,northern-kentucky,exact,1
+NMHU,1,New Mexico Highlands,New Mexico,new-mexico,fuzzy,0.6667
+NMSU,2,New Mexico St.,New Mexico State,new-mexico-state,fuzzy,0.8571
+NORF,2,Norfolk St.,Norfolk State,norfolk-state,fuzzy,0.8333
+NW,8,Northwestern,Northwestern,northwestern,exact,1
+NWST,2,Northwestern St.,Northwestern State,northwestern-state,fuzzy,0.8824
+OAK,3,Oakland,Oakland,oakland,exact,1
+ODU,4,Old Dominion,Old Dominion,old-dominion,exact,1
+OHIO,3,Ohio,Ohio,ohio,exact,1
+OKLA,6,Oklahoma,Oklahoma,oklahoma,exact,1
+OKST,8,Oklahoma St.,Oklahoma State,oklahoma-state,fuzzy,0.8462
+ORE,9,Oregon,Oregon,oregon,exact,1
+ORST,9,Oregon St.,Oregon State,oregon-state,fuzzy,0.8182
+ORU,3,Oral Roberts,Oral Roberts,oral-roberts,exact,1
+OSU,6,Ohio St.,Ohio State,ohio-state,fuzzy,0.7778
+PAC,8,Pacific,Pacific,pacific,exact,1
+PENN,4,Penn,Penn State,penn-state,fuzzy,0.6154
+PEPP,8,Pepperdine,Pepperdine,pepperdine,exact,1
+PFW,1,Purdue Fort Wayne,Purdue Fort Wayne,ipfw,exact,1
+PITT,9,Pittsburgh,Pittsburgh,pittsburgh,exact,1
+PORT,8,Portland,Portland,portland,exact,1
+PRE,2,Presbyterian,Presbyterian,presbyterian,exact,1
+PRIN,7,Princeton,Princeton,princeton,exact,1
+PROV,8,Providence,Providence,providence,exact,1
+PRST,3,Portland State,Portland State,portland-state,exact,1
+PSU,7,Penn State,Penn State,penn-state,exact,1
+PUR,8,Purdue,Purdue,purdue,exact,1
+PV,3,Prairie View A&M,Prairie View,prairie-view,fuzzy,0.8148
+QUC,1,Queens University,Boston University,boston-university,fuzzy,0.6875
+QUIN,1,Quinnipiac,Quinnipiac,quinnipiac,exact,1
+RAD,2,Radford,Radford,radford,exact,1
+RICE,9,Rice,Rice,rice,exact,1
+RICH,9,Richmond,Richmond,richmond,exact,1
+RID,1,Rider,Rider,rider,exact,1
+RMU,1,Robert Morris,Robert Morris,robert-morris,exact,1
+RUTG,7,Rutgers,Rutgers,rutgers,exact,1
+SAC,3,Sacramento St.,Sacramento State,sacramento-state,fuzzy,0.8667
+SAM,2,Samford,Samford,samford,exact,1
+SBON,8,St. Bonaventure,St. Bonaventure,st-bonaventure,exact,1
+SCAR,8,South Carolina,South Carolina,south-carolina,exact,1
+SCST,3,South Carolina St.,South Carolina State,south-carolina-state,fuzzy,0.8889
+SCU,7,Santa Clara,Santa Clara,santa-clara,exact,1
+SDAK,2,South Dakota,South Dakota,south-dakota,exact,1
+SDSMT,1,South Dakota Mines,South Dakota,south-dakota,fuzzy,0.8148
+SDST,5,South Dakota St.,South Dakota State,south-dakota-state,fuzzy,0.875
+SDSU,5,San Diego State,San Diego State,san-diego-state,exact,1
+SEA,6,Seattle,Seattle,seattle,exact,1
+SELA,2,Southeastern Louisiana,Southeastern Louisiana,southeastern-louisiana,exact,1
+SEMO,2,Southeast Missouri St.,Southeast Missouri State,southeast-missouri-state,fuzzy,0.9091
+SF,7,San Francisco,San Francisco,san-francisco,exact,1
+SFA,1,Stephen F. Austin,Stephen F. Austin,stephen-f-austin,exact,1
+SFPA,3,St. Francis (PA),Saint Francis (PA),saint-francis-pa,normalized,1
+SHSU,3,Sam Houston,Sam Houston,sam-houston-state,exact,1
+SIE,1,Siena,Siena,siena,exact,1
+SIMP,2,Simpson University,Boston University,boston-university,fuzzy,0.7879
+SIU,2,Southern Illinois,Southern Illinois,southern-illinois,exact,1
+SIUE,1,SIU Edwardsville,SIU Edwardsville,southern-illinois-edwardsville,exact,1
+SJSU,10,San Jose State,San Jose State,san-jose-state,exact,1
+SJU,9,St. John's,St. John's (NY),st-johns-ny,normalized,1
+SLU,8,Saint Louis,Saint Louis,saint-louis,exact,1
+SMC,8,Saint Mary's,Saint Mary's (CA),saint-marys-ca,normalized,1
+SMU,9,SMU,Sam Houston,sam-houston-state,fuzzy,0.4615
+SOU,6,Southern University,Boston University,boston-university,fuzzy,0.7647
+SPC,1,Saint Peter's,Saint Peter's,saint-peters,exact,1
+STAN,8,Stanford,Stanford,stanford,exact,1
+STET,2,Stetson,Stetson,stetson,exact,1
+STNH,1,Stonehill,Stonehill,stonehill,exact,1
+STON,2,Stony Brook,Stony Brook,stony-brook,exact,1
+SUU,3,Southern Utah,Southern Utah,southern-utah,exact,1
+SYR,8,Syracuse,Syracuse,syracuse,exact,1
+TAMK,1,Texas A&M-Kingsville,Texas A&M,texas-am,fuzzy,0.6667
+TARL,1,Tarleton St.,Tarleton State,tarleton-state,fuzzy,0.8462
+TCU,9,TCU,TCU,texas-christian,exact,1
+TEM,7,Temple,Temple,temple,exact,1
+TENN,6,Tennessee,Tennessee,tennessee,exact,1
+TEX,9,Texas,Texas,texas,exact,1
+TLSA,8,Tulsa,Tulsa,tulsa,exact,1
+TNST,1,Tennessee St.,Tennessee State,tennessee-state,fuzzy,0.8571
+TNTC,1,Tennessee Tech,Tennessee Tech,tennessee-tech,exact,1
+TOL,1,Toledo,Toledo,toledo,exact,1
+TOWS,1,Towson,Towson,towson,exact,1
+TROY,2,Troy,Troy,troy,exact,1
+TSU,1,Truman St.,Kansas City,missouri-kansas-city,fuzzy,0.5714
+TTU,9,Texas Tech,Texas Tech,texas-tech,exact,1
+TULN,8,Tulane,Tulane,tulane,exact,1
+TXAM,6,Texas A&M,Texas A&M,texas-am,exact,1
+TXSO,4,Texas Southern,Texas Southern,texas-southern,exact,1
+UAA,1,Alaska Anchorage,Alcorn State,alcorn-state,fuzzy,0.5385
+UAB,8,UAB,UAB,alabama-birmingham,exact,1
+UALR,4,Little Rock,Little Rock,arkansas-little-rock,exact,1
+UCD,2,UC Davis,UC Davis,california-davis,exact,1
+UCF,9,UCF,UCF,central-florida,exact,1
+UCI,1,Wichita State,Wichita State,wichita-state,exact,1
+UCLA,7,UCLA,UCLA,ucla,exact,1
+UCRV,4,UC Riverside,UC Riverside,california-riverside,exact,1
+UCSD,2,UC San Diego,UC San Diego,california-san-diego,exact,1
+UGA,8,Georgia,Georgia,georgia,exact,1
+UIC,2,UIC,UCF,central-florida,fuzzy,0.6667
+UK,7,Kentucky,Kentucky,kentucky,exact,1
+ULL,2,Louisiana,Louisiana,louisiana-lafayette,exact,1
+ULM,4,Louisiana-Monroe,Louisiana-Monroe,louisiana-monroe,exact,1
+UMES,5,Maryland-Eastern Shore,Maryland-Eastern Shore,maryland-eastern-shore,exact,1
+UMKC,1,Kansas City,Kansas City,missouri-kansas-city,exact,1
+UNA,1,North Alabama,North Alabama,north-alabama,exact,1
+UNC,10,North Carolina,North Carolina,north-carolina,exact,1
+UNCA,1,UNC Asheville,UNC Asheville,north-carolina-asheville,exact,1
+UNCG,1,UNC Greensboro,UNC Greensboro,north-carolina-greensboro,exact,1
+UNCO,2,Northern Colorado,Northern Colorado,northern-colorado,exact,1
+UNCW,1,UNC Wilmington,UNC Wilmington,north-carolina-wilmington,exact,1
+UND,2,North Dakota,North Dakota,north-dakota,exact,1
+UNF,2,North Florida,North Florida,north-florida,exact,1
+UNH,1,New Hampshire,New Hampshire,new-hampshire,exact,1
+UNI,3,Northern Iowa,Northern Iowa,northern-iowa,exact,1
+UNLV,8,Nevada-Las Vegas,Nevada-Las Vegas,nevada-las-vegas,exact,1
+UNM,8,New Mexico,New Mexico,new-mexico,exact,1
+UNO,3,New Orleans,New Orleans,new-orleans,exact,1
+UNT,8,North Texas,North Texas,north-texas,exact,1
+URI,6,Rhode Island,Rhode Island,rhode-island,exact,1
+USA,2,South Alabama,South Alabama,south-alabama,exact,1
+USC,8,Southern California,Southern California,southern-california,exact,1
+USD,7,San Diego,San Diego,san-diego,exact,1
+USF,9,South Florida,South Florida,south-florida,exact,1
+USM,5,Southern Miss,Southern,southern,fuzzy,0.8
+USU,7,Utah St.,Utah State,utah-state,fuzzy,0.7778
+UTA,5,UT Arlington,UT Arlington,texas-arlington,exact,1
+UTAH,8,Utah,Utah,utah,exact,1
+UTEP,2,UTEP,UTEP,texas-el-paso,exact,1
+UTM,1,Tennessee-Martin,Tennessee-Martin,tennessee-martin,exact,1
+UTRGV,3,UT Rio Grande Valley,Texas-Rio Grande Valley,texas-pan-american,fuzzy,0.8649
+UTSA,7,UTSA,UTSA,texas-san-antonio,exact,1
+UTU,1,Utah Tech,Utah Tech,dixie-state,exact,1
+UVA,7,Virginia,Virginia,virginia,exact,1
+UVM,2,Vermont,Vermont,vermont,exact,1
+UVU,2,Utah Valley,Utah Valley,utah-valley,exact,1
+UWGA,1,West Georgia,West Georgia,west-georgia,exact,1
+VALP,1,St. Bonaventure,St. Bonaventure,st-bonaventure,exact,1
+VAN,8,Vanderbilt,Vanderbilt,vanderbilt,exact,1
+VCU,9,VCU,TCU,texas-christian,fuzzy,0.6667
+VILL,7,Villanova,Villanova,villanova,exact,1
+VT,10,Virginia Tech,Virginia Tech,virginia-tech,exact,1
+WAG,1,Wagner,Wagner,wagner,exact,1
+WAKE,10,Wake Forest,Wake Forest,wake-forest,exact,1
+WASH,8,Washington,Washington,washington,exact,1
+WCU,4,Western Carolina,Western Carolina,western-carolina,exact,1
+WEB,3,Weber St.,Weber State,weber-state,fuzzy,0.8
+WEBB,1,Gardner-Webb,Gardner-Webb,gardner-webb,exact,1
+WICH,8,Wichita State,Wichita State,wichita-state,exact,1
+WIN,4,Winthrop,Winthrop,winthrop,exact,1
+WIS,6,Wisconsin,Wisconsin,wisconsin,exact,1
+WIU,1,Western Illinois,Western Illinois,western-illinois,exact,1
+WKU,2,Western Kentucky,Western Kentucky,western-kentucky,exact,1
+WM,1,William & Mary,William & Mary,william-mary,exact,1
+WMU,3,Western Michigan,Western Michigan,western-michigan,exact,1
+WOF,3,Wofford,Wofford,wofford,exact,1
+WRST,3,Wright St.,Wright State,wright-state,fuzzy,0.8182
+WSU,8,Washington St.,Washington State,washington-state,fuzzy,0.8667
+WVU,8,West Virginia,West Virginia,west-virginia,exact,1
+WYO,7,Wyoming,Wyoming,wyoming,exact,1
+XAV,8,Xavier,Xavier,xavier,exact,1
+YALE,2,Yale,Yale,yale,exact,1

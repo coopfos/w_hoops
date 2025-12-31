@@ -1,0 +1,204 @@
+---
+title: "Kalshi vs Model: 12/10–12/19 Margin-of-Safety Buys"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: false
+params:
+  margin_of_safety: 0.10   # 10 percentage points
+  stake_dollars: 10        # dollars per bet
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(lubridate)
+library(janitor)
+
+theme_set(theme_minimal())
+
+mos <- params$margin_of_safety
+stake <- params$stake_dollars
+```
+
+## Data Sources
+
+- Model predictions: `codex/glm_2025_future_games_1210_1220_predictions.csv`
+- Kalshi snapshots: `codex/prices.csv`
+- Kalshi code to sid map: `codex/kalshi_sid_map.csv`
+- Realized winners: `2025/game_links.csv` (women)
+
+```{r load}
+# Paths (relative to this Rmd in codex/)
+pred_path   <- "glm_2025_future_games_1210_1220_predictions.csv"
+prices_path <- "prices.csv"
+map_path    <- "kalshi_sid_map.csv"
+links_path  <- file.path("..", "2025", "game_links.csv")
+
+# Predictions (model win probabilities)
+pred_raw <- read_csv(pred_path, show_col_types = FALSE) %>% clean_names()
+
+pred <- pred_raw %>%
+  mutate(
+    game_date = as_date(game_date),
+    team = as.character(team)
+  ) %>%
+  # Remove duplicates by team/date (keep first if any repeats exist)
+  arrange(game_date, team) %>%
+  distinct(game_date, team, .keep_all = TRUE)
+
+# Kalshi price snapshots
+prices_raw <- read_csv(prices_path, show_col_types = FALSE) %>% clean_names()
+
+prices <- prices_raw %>%
+  mutate(
+    game_date_local = as_date(game_date_local),
+    # Extract the final team code suffix from the ticker, e.g. "...-GONZ" -> "GONZ"
+    kalshi_code = sub(".*-", "", canonical_ticker)
+  ) %>%
+  filter(status == "ok", !is.na(yes_ask_close_dollars))
+
+# Mapping Kalshi code -> internal sid slug
+code_map <- read_csv(map_path, show_col_types = FALSE) %>% clean_names() %>%
+  select(kalshi_code, sid_guess)
+
+# Realized winners (women only)
+links_raw <- read_csv(links_path, show_col_types = FALSE) %>% clean_names()
+
+links <- links_raw %>%
+  filter(gender == "women") %>%
+  mutate(
+    # Convert mm/dd/yy -> ISO date
+    game_date = as_date(mdy(game_date))
+  ) %>%
+  select(game_date, winner_sid, loser_sid)
+```
+
+## Join and Compute Edges
+
+```{r join}
+# Bring Kalshi codes to sid slugs
+prices_sid <- prices %>%
+  left_join(code_map, by = "kalshi_code") %>%
+  rename(sid = sid_guess)
+
+# Restrict date window to 2025-12-10 through 2025-12-19 inclusive
+start_date <- as_date("2025-12-10")
+end_date   <- as_date("2025-12-19")
+
+prices_window <- prices_sid %>%
+  filter(game_date_local >= start_date, game_date_local <= end_date)
+
+# Join model probs to Kalshi snapshots by (date, team sid)
+comp <- prices_window %>%
+  inner_join(
+    pred %>% select(game_date, team, glm_win_prob, team_name, opponent, opponent_name),
+    by = c("game_date_local" = "game_date", "sid" = "team")
+  ) %>%
+  mutate(
+    edge = glm_win_prob - yes_ask_close_dollars,
+    mos_threshold = glm_win_prob - mos,
+    buy_signal = yes_ask_close_dollars <= mos_threshold
+  )
+
+glimpse(comp)
+```
+
+```{r edge-summary}
+edge_summary <- comp %>%
+  summarise(
+    n_markets = n(),
+    mean_edge = mean(edge, na.rm = TRUE),
+    median_edge = median(edge, na.rm = TRUE),
+    pctl_90_edge = quantile(edge, 0.9, na.rm = TRUE)
+  )
+
+edge_summary
+```
+
+## Potential Buys (10% Margin)
+
+```{r buys}
+buys <- comp %>%
+  filter(buy_signal) %>%
+  arrange(desc(edge)) %>%
+  select(
+    game_date = game_date_local,
+    team_sid = sid,
+    team_name,
+    opponent_sid = opponent,
+    opponent_name,
+    glm_win_prob,
+    yes_ask_close_dollars,
+    edge,
+    canonical_ticker,
+    title
+  )
+
+nrow(buys)
+head(buys, 20)
+```
+
+## Realized Performance ($10 per buy)
+
+Assumptions:
+
+- Buy a YES position worth `$10` at the quoted ask.
+- Payout per contract is $1 if the team wins, $0 if it loses.
+- Fractional contracts allowed for simulation (contracts = stake / ask).
+- Fees ignored for simplicity.
+
+```{r pnl}
+buys_scored <- buys %>%
+  left_join(links, by = c("game_date" = "game_date")) %>%
+  mutate(
+    won = case_when(
+      !is.na(winner_sid) & winner_sid == team_sid ~ TRUE,
+      !is.na(loser_sid)  & loser_sid  == team_sid ~ FALSE,
+      TRUE ~ NA
+    ),
+    contracts = stake / yes_ask_close_dollars,
+    payout = case_when(
+      won == TRUE  ~ contracts * 1.0,
+      won == FALSE ~ 0.0,
+      TRUE         ~ NA_real_
+    ),
+    profit = payout - stake,
+    roi = profit / stake
+  )
+
+perf_summary <- buys_scored %>%
+  summarise(
+    bets = n(),
+    decided = sum(!is.na(won)),
+    wins = sum(won == TRUE, na.rm = TRUE),
+    losses = sum(won == FALSE, na.rm = TRUE),
+    hit_rate = wins / decided,
+    total_staked = sum(stake, na.rm = TRUE),
+    total_payout = sum(payout, na.rm = TRUE),
+    net_profit = sum(profit, na.rm = TRUE),
+    roi = net_profit / total_staked
+  )
+
+perf_summary
+```
+
+```{r show-buys}
+buys_scored %>%
+  arrange(desc(edge)) %>%
+  select(game_date, team_sid, team_name, opponent_sid, opponent_name,
+         glm_win_prob, yes_ask_close_dollars, edge, won, contracts, profit) %>%
+  head(50)
+```
+
+## Notes
+
+- Margin of safety is treated as absolute 10 percentage points (e.g., buy when ask <= model - 0.10). You can tweak via the `params$margin_of_safety` knob.
+- The join uses `kalshi_sid_map.csv` to translate Kalshi codes to internal sids and matches on date + team sid.
+- Markets with missing candles are excluded via `status == "ok"` and non-missing ask.
+- Some prediction rows may list placeholder or duplicated `team_name`/`opponent_name`; the join keys use the sid slugs which are consistent across sources.
+- Realized winners come from `2025/game_links.csv` and are filtered to `women`.
+
+```{r session, echo=FALSE}
+sessionInfo()
+```
