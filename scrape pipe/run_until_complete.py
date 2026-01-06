@@ -67,13 +67,15 @@ def run_with_retries(
     sleep_between: int,
     headless: bool,
 ):
+    completed = False
     for round_num in range(1, max_rounds + 1):
         box_missing = missing_boxscores(box_list) if box_list.exists() else pd.DataFrame()
         gamelog_missing = missing_gamelogs(gamelog_list) if gamelog_list.exists() else pd.DataFrame()
 
         if box_missing.empty and gamelog_missing.empty:
             print("All expected files present. Done.")
-            return
+            completed = True
+            break
 
         if not box_missing.empty:
             tmp_box = OUTPUT_DIR / "_boxscore_scrape_list_retry.csv"
@@ -90,7 +92,9 @@ def run_with_retries(
         if round_num < max_rounds:
             time.sleep(sleep_between)
 
-    print(f"Reached max rounds ({max_rounds}). Some items may still be missing.")
+    if not completed:
+        print(f"Reached max rounds ({max_rounds}). Some items may still be missing.")
+    return completed
 
 
 def main(argv: list[str] | None = None):
@@ -101,6 +105,7 @@ def main(argv: list[str] | None = None):
     parser.add_argument("--sleep-between", type=int, default=10)
     parser.add_argument("--headless", action="store_true", default=True)
     parser.add_argument("--show-browser", dest="headless", action="store_false")
+    parser.add_argument("--skip-update-masters", action="store_true")
     args = parser.parse_args(argv)
 
     run_with_retries(
@@ -110,6 +115,11 @@ def main(argv: list[str] | None = None):
         sleep_between=max(args.sleep_between, 0),
         headless=args.headless,
     )
+
+    if not args.skip_update_masters:
+        from update_masters import main as update_masters_main
+
+        update_masters_main([])
 
 
 if __name__ == "__main__":

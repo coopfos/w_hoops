@@ -1,0 +1,290 @@
+---
+title: "Win Probability Model (xgboost)"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(dplyr)
+library(readr)
+library(stringr)
+library(tidyr)
+library(xgboost)
+library(Matrix)
+```
+
+## Data Inputs
+
+```{r paths}
+repo_root <- normalizePath("..")
+
+seasons <- list(
+  list(season = "2024", box = file.path(repo_root, "2024", "master_boxscore.csv"),
+       gl = file.path(repo_root, "2024", "master_gamelog.csv")),
+  list(season = "2025", box = file.path(repo_root, "2025", "master_boxscore.csv"),
+       gl = file.path(repo_root, "2025", "master_gamelog.csv"))
+)
+```
+
+## Build Features From Boxscores
+
+```{r boxscore_features}
+stat_cols <- c(
+  "FG", "FGA", "FG%", "3P", "3PA", "3P%", "2P", "2PA", "2P%",
+  "eFG%", "FT", "FTA", "FT%", "ORB", "DRB", "TRB", "AST", "STL",
+  "BLK", "TOV", "PF", "PTS"
+)
+
+load_box_totals <- function(path, season) {
+  if (!file.exists(path)) {
+    return(tibble())
+  }
+  read_csv(path, show_col_types = FALSE) %>%
+    filter(player == "School Totals", str_to_lower(table_type) == "basic") %>%
+    transmute(
+      season = season,
+      game_id,
+      game_date = as.Date(game_date),
+      sid = team,
+      opp_sid = if_else(is.na(opponent) | opponent == "", "no_sid", opponent),
+      across(all_of(stat_cols), as.numeric, .names = "tm_{.col}")
+    )
+}
+
+box_totals <- seasons %>%
+  lapply(function(s) load_box_totals(s$box, s$season)) %>%
+  bind_rows()
+
+opp_stats <- box_totals %>%
+  select(game_id, sid, starts_with("tm_")) %>%
+  rename(opp_sid = sid) %>%
+  rename_with(~ str_replace(.x, "^tm_", "opp_"), starts_with("tm_"))
+
+box_features <- box_totals %>%
+  left_join(opp_stats, by = c("game_id", "opp_sid"))
+```
+
+## Build Features From Gamelogs
+
+```{r gamelog_features}
+load_gamelogs <- function(path, season) {
+  if (!file.exists(path)) {
+    return(tibble())
+  }
+  read_csv(path, show_col_types = FALSE) %>%
+    mutate(
+      season = season,
+      date = as.Date(date),
+      sid = str_trim(sid),
+      opp_sid = if_else(is.na(opp_sid) | opp_sid == "", "no_sid", opp_sid)
+    ) %>%
+    transmute(
+      season,
+      sid,
+      date,
+      opp_sid,
+      loc = if_else(is.na(loc) | loc == "", "H", loc),
+      type = if_else(is.na(type), "", type),
+      g_seq,
+      ot,
+      res,
+      tm_score,
+      opp_score
+    )
+}
+
+gamelogs <- seasons %>%
+  lapply(function(s) load_gamelogs(s$gl, s$season)) %>%
+  bind_rows()
+```
+
+## Assemble Modeling Table
+
+```{r assemble}
+data_full <- box_features %>%
+  left_join(
+    gamelogs,
+    by = c("season", "sid" = "sid", "game_date" = "date", "opp_sid" = "opp_sid")
+  ) %>%
+  mutate(
+    win = case_when(
+      res == "W" ~ 1,
+      res == "L" ~ 0,
+      TRUE ~ NA_real_
+    )
+  ) %>%
+  filter(!is.na(win))
+
+# Basic feature cleanup
+data_full <- data_full %>%
+  mutate(
+    loc = factor(loc, levels = c("H", "@", "N")),
+    type = as.factor(type)
+  )
+```
+
+## Train / Test Split
+
+```{r split}
+train_df <- data_full %>% filter(season == "2024")
+test_df <- data_full %>% filter(season == "2025")
+
+feature_cols <- setdiff(
+  names(data_full),
+  c("season", "game_id", "game_date", "sid", "opp_sid", "res", "win")
+)
+
+# Drop single-level factors in the training set to avoid contrasts errors.
+train_features <- train_df[, feature_cols, drop = FALSE]
+factor_cols <- names(train_features)[vapply(train_features, is.factor, logical(1))]
+single_level <- factor_cols[
+  vapply(train_features[factor_cols], function(x) length(unique(x)) < 2, logical(1))
+]
+if (length(single_level) > 0) {
+  train_features <- train_features[, setdiff(names(train_features), single_level), drop = FALSE]
+}
+
+x_train <- sparse.model.matrix(~ . - 1, data = train_features)
+y_train <- train_df$win
+
+test_features <- test_df[, names(train_features), drop = FALSE]
+x_test <- sparse.model.matrix(~ . - 1, data = test_features)
+y_test <- test_df$win
+```
+
+## Baseline Model
+
+```{r baseline}
+params <- list(
+  objective = "binary:logistic",
+  eval_metric = c("logloss", "auc"),
+  max_depth = 5,
+  eta = 0.05,
+  min_child_weight = 5,
+  subsample = 0.8,
+  colsample_bytree = 0.8
+)
+
+dtrain <- xgb.DMatrix(data = x_train, label = y_train)
+dtest <- xgb.DMatrix(data = x_test, label = y_test)
+
+set.seed(42)
+model <- xgb.train(
+  params = params,
+  data = dtrain,
+  nrounds = 500,
+  watchlist = list(train = dtrain, test = dtest),
+  early_stopping_rounds = 25,
+  verbose = 0
+)
+```
+
+```{r baseline_eval}
+pred <- predict(model, dtest)
+logloss <- -mean(y_test * log(pred + 1e-9) + (1 - y_test) * log(1 - pred + 1e-9))
+auc <- xgb.eval.metric(preds = pred, labels = y_test, metric = "auc")
+logloss
+auc
+```
+
+## Grid Tuning (Coarse)
+
+```{r tune_grid}
+grid <- expand.grid(
+  max_depth = c(3, 5, 7),
+  eta = c(0.03, 0.05, 0.1),
+  min_child_weight = c(1, 5, 10),
+  subsample = c(0.7, 0.85),
+  colsample_bytree = c(0.7, 0.85),
+  gamma = c(0, 1)
+)
+
+cv_results <- list()
+set.seed(42)
+
+for (i in seq_len(nrow(grid))) {
+  p <- as.list(grid[i, ])
+  p$objective <- "binary:logistic"
+  p$eval_metric <- "logloss"
+
+  cv <- xgb.cv(
+    params = p,
+    data = dtrain,
+    nrounds = 400,
+    nfold = 5,
+    early_stopping_rounds = 20,
+    verbose = 0
+  )
+
+  best_iter <- cv$best_iteration
+  best_logloss <- cv$evaluation_log$test_logloss_mean[best_iter]
+  cv_results[[i]] <- c(grid[i, ], best_iter = best_iter, test_logloss = best_logloss)
+}
+
+cv_df <- bind_rows(lapply(cv_results, as_tibble))
+cv_df <- cv_df %>% arrange(test_logloss)
+head(cv_df, 10)
+```
+
+## Grid Tuning (Fine, Optional)
+
+```{r tune_fine}
+best <- cv_df[1, ]
+
+fine_grid <- expand.grid(
+  max_depth = c(best$max_depth - 1, best$max_depth, best$max_depth + 1),
+  eta = c(best$eta * 0.5, best$eta, best$eta * 1.5),
+  min_child_weight = c(best$min_child_weight, best$min_child_weight + 2),
+  subsample = c(best$subsample - 0.05, best$subsample, best$subsample + 0.05),
+  colsample_bytree = c(best$colsample_bytree - 0.05, best$colsample_bytree, best$colsample_bytree + 0.05),
+  gamma = c(best$gamma, best$gamma + 0.5)
+)
+
+fine_grid <- fine_grid %>%
+  mutate(
+    subsample = pmin(pmax(subsample, 0.5), 1),
+    colsample_bytree = pmin(pmax(colsample_bytree, 0.5), 1)
+  )
+
+cv_results_fine <- list()
+set.seed(42)
+
+for (i in seq_len(nrow(fine_grid))) {
+  p <- as.list(fine_grid[i, ])
+  p$objective <- "binary:logistic"
+  p$eval_metric <- "logloss"
+
+  cv <- xgb.cv(
+    params = p,
+    data = dtrain,
+    nrounds = 500,
+    nfold = 5,
+    early_stopping_rounds = 25,
+    verbose = 0
+  )
+
+  best_iter <- cv$best_iteration
+  best_logloss <- cv$evaluation_log$test_logloss_mean[best_iter]
+  cv_results_fine[[i]] <- c(fine_grid[i, ], best_iter = best_iter, test_logloss = best_logloss)
+}
+
+cv_df_fine <- bind_rows(lapply(cv_results_fine, as_tibble))
+cv_df_fine <- cv_df_fine %>% arrange(test_logloss)
+head(cv_df_fine, 10)
+```
+
+## Feature Importance
+
+```{r importance}
+imp <- xgb.importance(model = model)
+head(imp, 20)
+```
+
+## Save Scored Results (Optional)
+
+```{r save_scores, eval=FALSE}
+scored <- test_df %>%
+  mutate(pred_win_prob = pred)
+
+write.csv(scored, file.path(repo_root, "models", "outputs", "win_prob_predictions.csv"),
+          row.names = FALSE)
+```

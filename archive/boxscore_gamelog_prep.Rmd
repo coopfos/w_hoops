@@ -1,0 +1,188 @@
+---
+title: "Boxscore + Gamelog Prep Pipeline"
+output: html_document
+params:
+  seed: 42
+  train_end_date: "2025-12-31"
+  valid_end_date: "2026-01-31"
+  test_end_date: "2026-03-31"
+  random_holdout_pct: 0.0
+  random_holdout_label: "holdout"
+  use_2025_placeholder: true
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+set.seed(params$seed)
+dir.create("outputs", showWarnings = FALSE)
+
+read_csv_safe <- function(path) {
+  if (!file.exists(path) || file.info(path)$size == 0) {
+    return(data.frame())
+  }
+  read.csv(path, stringsAsFactors = FALSE)
+}
+
+empty_like <- function(df) {
+  df[0, , drop = FALSE]
+}
+
+coerce_numeric <- function(df, exclude_cols) {
+  out <- df
+  num_cols <- setdiff(names(out), exclude_cols)
+  for (col in num_cols) {
+    out[[col]] <- suppressWarnings(as.numeric(out[[col]]))
+  }
+  out
+}
+
+normalize_loc_flags <- function(df) {
+  if (!("loc" %in% names(df))) {
+    df$loc <- NA
+  }
+  if (!("is_home" %in% names(df))) {
+    df$is_home <- ifelse(df$loc == "", NA, ifelse(df$loc == "@", 0, ifelse(df$loc == "N", 0, 1)))
+  }
+  if (!("is_away" %in% names(df))) {
+    df$is_away <- ifelse(df$loc == "", NA, ifelse(df$loc == "@", 1, 0))
+  }
+  if (!("is_neutral" %in% names(df))) {
+    df$is_neutral <- ifelse(df$loc == "N", 1, 0)
+  }
+  df
+}
+```
+
+## Load Data
+
+```{r load-data}
+bs_2024 <- read_csv_safe(file.path("..", "2024", "master_boxscore.csv"))
+gl_2024 <- read_csv_safe(file.path("..", "2024", "master_gamelog.csv"))
+
+if (isTRUE(params$use_2025_placeholder)) {
+  bs_2025 <- empty_like(bs_2024)
+  gl_2025 <- empty_like(gl_2024)
+} else {
+  bs_2025 <- read_csv_safe(file.path("..", "2025", "master_boxscore.csv"))
+  gl_2025 <- read_csv_safe(file.path("..", "2025", "master_gamelog.csv"))
+}
+
+bs_2024$season <- "2024"
+gl_2024$season <- "2024"
+bs_2025$season <- "2025"
+gl_2025$season <- "2025"
+
+all_box <- rbind(bs_2024, bs_2025)
+all_gl  <- rbind(gl_2024, gl_2025)
+
+all_box$game_date <- as.Date(all_box$game_date)
+all_gl$date <- as.Date(all_gl$date)
+```
+
+## Clean + Aggregate Boxscores
+
+```{r aggregate-boxscores}
+box_totals <- subset(all_box, player == "School Totals")
+box_basic <- subset(box_totals, table_type == "basic")
+box_adv   <- subset(box_totals, table_type == "advanced")
+
+key_cols <- c("game_id", "game_date", "team", "opponent", "season")
+
+num_cols_basic <- names(box_basic)[sapply(box_basic, is.numeric)]
+num_cols_adv   <- names(box_adv)[sapply(box_adv, is.numeric)]
+
+feat_basic <- box_basic[, unique(c(key_cols, num_cols_basic))]
+feat_adv   <- box_adv[,   unique(c(key_cols, num_cols_adv))]
+
+prefixed_basic <- feat_basic
+prefixed_adv   <- feat_adv
+
+bn <- setdiff(names(prefixed_basic), key_cols)
+an <- setdiff(names(prefixed_adv), key_cols)
+
+names(prefixed_basic)[match(bn, names(prefixed_basic))] <- paste0("basic_", bn)
+names(prefixed_adv)[match(an, names(prefixed_adv))]     <- paste0("adv_", an)
+
+team_box <- merge(prefixed_basic, prefixed_adv, by = key_cols, all = TRUE)
+team_box <- team_box[order(team_box$team, team_box$game_date), ]
+```
+
+## Clean + Prep Gamelogs
+
+```{r prep-gamelogs}
+all_gl <- normalize_loc_flags(all_gl)
+
+gl_min <- all_gl[, c(
+  "sid", "date", "opp_sid", "opp", "res", "tm_score", "opp_score", "ot",
+  "is_home", "is_away", "is_neutral", "season"
+)]
+names(gl_min) <- c(
+  "team", "game_date", "opp_sid", "opp_name", "res", "tm_pts", "opp_pts", "ot",
+  "is_home", "is_away", "is_neutral", "season"
+)
+```
+
+## Join + Targets
+
+```{r join-targets}
+team_games <- merge(team_box, gl_min, by = c("team", "game_date", "season"), all.x = TRUE)
+team_games$win <- as.integer(team_games$res == "W")
+team_games$score_diff <- team_games$tm_pts - team_games$opp_pts
+
+id_cols <- c("team", "opponent", "opp_sid", "game_id", "game_date", "season", "res")
+team_games <- coerce_numeric(team_games, exclude_cols = id_cols)
+```
+
+## Split: Date + Optional Random Holdout
+
+```{r split-data}
+train_end <- as.Date(params$train_end_date)
+valid_end <- as.Date(params$valid_end_date)
+test_end  <- as.Date(params$test_end_date)
+
+team_games <- team_games[!is.na(team_games$game_date), ]
+
+train_df <- subset(team_games, game_date <= train_end)
+valid_df <- subset(team_games, game_date > train_end & game_date <= valid_end)
+test_df  <- subset(team_games, game_date > valid_end & game_date <= test_end)
+
+if (params$random_holdout_pct > 0 && nrow(train_df) > 0) {
+  holdout_n <- floor(nrow(train_df) * params$random_holdout_pct)
+  holdout_idx <- sample(seq_len(nrow(train_df)), size = holdout_n)
+  holdout_df <- train_df[holdout_idx, ]
+  train_df <- train_df[-holdout_idx, ]
+} else {
+  holdout_df <- team_games[0, ]
+}
+
+split_label <- function(df, label) {
+  df$split <- label
+  df
+}
+
+train_df <- split_label(train_df, "train")
+valid_df <- split_label(valid_df, "valid")
+test_df  <- split_label(test_df, "test")
+holdout_df <- split_label(holdout_df, params$random_holdout_label)
+
+all_splits <- rbind(train_df, valid_df, test_df, holdout_df)
+```
+
+## Outputs
+
+```{r outputs}
+write.csv(team_games, file = file.path("outputs", "team_games_prepped.csv"), row.names = FALSE)
+write.csv(train_df,   file = file.path("outputs", "team_games_train.csv"), row.names = FALSE)
+write.csv(valid_df,   file = file.path("outputs", "team_games_valid.csv"), row.names = FALSE)
+write.csv(test_df,    file = file.path("outputs", "team_games_test.csv"), row.names = FALSE)
+if (nrow(holdout_df) > 0) {
+  write.csv(holdout_df, file = file.path("outputs", "team_games_holdout.csv"), row.names = FALSE)
+}
+
+data.frame(
+  total_rows = nrow(team_games),
+  train_rows = nrow(train_df),
+  valid_rows = nrow(valid_df),
+  test_rows = nrow(test_df),
+  holdout_rows = nrow(holdout_df)
+)
+```

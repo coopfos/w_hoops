@@ -6,7 +6,7 @@ from datetime import date
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "2025"
 
-SEASON_YEAR = 2025
+SEASON_YEAR = 2026
 SEASON_START = date(2025, 11, 1)
 DEFAULT_GENDER = "women"
 
@@ -14,6 +14,7 @@ SCHEDULE_DIR = DATA_DIR / "schedule_links"
 GAME_LINKS_CSV = DATA_DIR / "game_links.csv"
 
 MASTER_BOXSCORE_CSV = DATA_DIR / "master_boxscore.csv"
+MASTER_GAMELOG_CSV = DATA_DIR / "master_gamelog.csv"
 BOX_RAW_DIR = DATA_DIR / "box scores raw"
 
 GAMELOG_CLEAN_CSV = DATA_DIR / "gamelog_clean.csv"

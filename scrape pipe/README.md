@@ -1,6 +1,6 @@
 # Scrape Pipe (Daily)
 
-Daily, manual scrape pipeline for new game links, boxscores, and team gamelogs.
+Daily, manual scrape pipeline for new game links and boxscores, with gamelogs generated from boxscores.
 
 ## Quick Start (typical daily run)
 
@@ -8,7 +8,7 @@ Daily, manual scrape pipeline for new game links, boxscores, and team gamelogs.
 python3 "scrape pipe/update_game_links.py"
 python3 "scrape pipe/build_scrape_lists.py"
 python3 "scrape pipe/scrape_boxscores.py"
-python3 "scrape pipe/scrape_gamelogs.py"
+python3 "scrape pipe/update_masters.py"
 ```
 
 If timeouts happen, use the retry utility to loop until everything is scraped:
@@ -16,6 +16,7 @@ If timeouts happen, use the retry utility to loop until everything is scraped:
 ```bash
 python3 "scrape pipe/run_until_complete.py"
 ```
+This will also append to the master files unless you pass `--skip-update-masters`.
 
 ## What Each Step Does
 
@@ -34,8 +35,9 @@ python3 "scrape pipe/run_until_complete.py"
 3) `scrape_boxscores.py`
 - Scrapes missing boxscore tables into `2025/box scores raw/`.
 
-4) `scrape_gamelogs.py`
-- Scrapes full team gamelog tables into `2025/gamelogs raw/`.
+4) `update_masters.py`
+- Appends newly scraped raw files into `2025/master_boxscore.csv`.
+- Generates team gamelog rows from boxscores and appends to `2025/master_gamelog.csv`.
 
 ## Useful Options
 
@@ -43,7 +45,6 @@ python3 "scrape pipe/run_until_complete.py"
 python3 "scrape pipe/update_game_links.py" --start-date 2025-11-01 --end-date 2025-11-15
 python3 "scrape pipe/build_scrape_lists.py" --through 2025-11-30
 python3 "scrape pipe/scrape_boxscores.py" --show-browser
-python3 "scrape pipe/scrape_gamelogs.py" --show-browser
 python3 "scrape pipe/run_until_complete.py" --max-rounds 10 --sleep-between 15
 ```
 
