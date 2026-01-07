@@ -16,14 +16,14 @@ library(Matrix)
 
 ```{r paths}
 repo_root <- normalizePath("..")
-box_2024 <- file.path(repo_root, "2024", "master_boxscore.csv")
+box_2025 <- file.path(repo_root, "2025", "master_boxscore.csv")
 ```
 
 ## Inspect Boxscore Structure
 
 ```{r inspect}
-stopifnot(file.exists(box_2024))
-df_head <- suppressMessages(read_csv(box_2024, n_max = 5, show_col_types = FALSE))
+stopifnot(file.exists(box_2025))
+df_head <- suppressMessages(read_csv(box_2025, n_max = 5, show_col_types = FALSE))
 print(names(df_head))
 print(str(df_head))
 ```
@@ -52,16 +52,17 @@ load_box_totals <- function(path, season) {
   df
 }
 
-box_totals <- load_box_totals(box_2024, "2024")
-
-# Exclude non-NCAA/unknown opponents
-box_totals <- box_totals %>% filter(opp_sid != "no_sid")
+box_totals <- load_box_totals(box_2025, "2025") %>%
+  filter(opp_sid != "no_sid") %>%
+  filter(stringr::str_ends(game_id, "_w")) %>%
+  distinct(game_id, sid, .keep_all = TRUE)
 
 # Build opponent stats by re-keying team totals as opponent
 opp_stats <- box_totals %>%
   select(game_id, sid, starts_with("tm_")) %>%
   rename(opp_sid = sid) %>%
-  rename_with(~ str_replace(.x, "^tm_", "opp_"), starts_with("tm_"))
+  rename_with(~ str_replace(.x, "^tm_", "opp_"), starts_with("tm_")) %>%
+  distinct(game_id, opp_sid, .keep_all = TRUE)
 
 # Join own and opponent stats for each game row
 box_full <- box_totals %>%
@@ -96,13 +97,18 @@ box_prior <- box_full %>%
 
 # Opponent prior features (same date lookup of opponent's priors)
 opp_prior <- box_prior %>%
-  select(sid, game_date, gp_prior, starts_with("pr_")) %>%
+  select(sid, game_id, gp_prior, starts_with("pr_")) %>%
   rename(opp_gp_prior = gp_prior) %>%
   rename_with(~ paste0("opp_", .x), starts_with("pr_"))
 
 model_df <- box_prior %>%
-  left_join(opp_prior, by = c("opp_sid" = "sid", "game_date" = "game_date")) %>%
-  filter(gp_prior >= 1, opp_gp_prior >= 1)
+  left_join(opp_prior, by = c("opp_sid" = "sid", "game_id" = "game_id")) %>%
+  filter(gp_prior >= 1, opp_gp_prior >= 1) %>%
+  distinct(game_id, sid, .keep_all = TRUE) %>%
+  group_by(game_date, sid, opp_sid) %>%
+  arrange(desc(stringr::str_ends(game_id, "_w")), game_id, .by_group = TRUE) %>%
+  slice(1) %>%
+  ungroup()
 
 cat("Model rows available for rolling eval:", nrow(model_df), "\n")
 ```
@@ -121,7 +127,7 @@ auc_manual <- function(labels, scores) {
   as.numeric(auc)
 }
 
-eval_dates <- seq(as.Date("2025-01-01"), as.Date("2025-02-28"), by = "day")
+eval_dates <- seq(as.Date("2025-12-15"), as.Date("2026-01-05"), by = "day")
 
 all_preds <- list()
 daily_metrics <- list()
@@ -223,4 +229,3 @@ dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 write.csv(preds_df, file.path(out_dir, "rolling_predictions_boxscore_v4.csv"), row.names = FALSE)
 write.csv(metrics_df, file.path(out_dir, "rolling_metrics_boxscore_v4.csv"), row.names = FALSE)
 ```
-
