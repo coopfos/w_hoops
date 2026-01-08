@@ -9,7 +9,7 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-repo_root <- normalizePath("..")
+repo_root <- normalizePath("/Users/coop/desktop/w_hoops")
 box_csv <- file.path(repo_root, "2025", "master_boxscore.csv")
 art_dir <- file.path(repo_root, "models", "artifacts")
 dir.create(art_dir, showWarnings = FALSE, recursive = TRUE)
@@ -59,6 +59,7 @@ xgb_fit <- xgb.train(
   params = params,
   data = dtrain,
   nrounds = 300,
+  evals = list(train = dtrain),
   early_stopping_rounds = 15,
   verbose = 0
 )

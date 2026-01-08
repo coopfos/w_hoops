@@ -18,7 +18,7 @@ parse_flag <- function(flag, default = NULL) {
   sub(key, "", hit[[1]], fixed = TRUE)
 }
 
-repo_root <- normalizePath("..")
+repo_root <- normalizePath("/users/coop/desktop/w_hoops")
 box_csv <- file.path(repo_root, "2025", "master_boxscore.csv")
 future_csv <- file.path(repo_root, "2025", "future_games.csv")
 art_dir <- file.path(repo_root, "models", "artifacts")
@@ -118,6 +118,17 @@ out <- feat_df %>%
     model_glm = glm_probs,
     model_xgb = xgb_probs
   )
+
+out_opp <- out %>% 
+  mutate(model_glm = (1-model_glm),
+         model_xgb = (1-model_xgb)) %>% 
+  mutate(sidx = opp_sid,
+         opp_sidx = sid) %>% 
+  select(-sid, -opp_sid) %>% 
+  rename(sid = sidx,
+         opp_sid = opp_sidx)
+
+out <- rbind(out, out_opp)
 
 readr::write_csv(out, out_path)
 print(out)
