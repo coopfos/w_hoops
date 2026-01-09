@@ -7,8 +7,10 @@ Based on kalshi/api.ipynb patterns:
 - Resolve markets via GET /markets
 - Fetch candlesticks via GET /markets/candlesticks
 
-Outputs a CSV with one row per market including the latest 1-minute candle
-in a configurable lookback window, plus a concise console summary.
+Outputs a CSV with one row per market including the latest available
+1-minute candle near "now". The script adaptively expands the lookback
+window until it finds at least one candle (up to a configurable maximum),
+then picks the most recent candle to reflect current market prices.
 
 Note: This script does not require auth for public endpoints. If you get
 401/403, pass an Authorization header via --auth or KALSHI_AUTH env var.
@@ -54,6 +56,13 @@ def pick_latest_candle(candles: List[dict]) -> Optional[dict]:
     if not candles:
         return None
     return max(candles, key=lambda c: c.get("end_period_ts", 0))
+
+
+def pick_latest_candle_safe(candles: List[dict]) -> Optional[dict]:
+    try:
+        return pick_latest_candle(candles)
+    except Exception:
+        return None
 
 
 def rate_limited_get(rate_limit_per_min: int):
@@ -167,6 +176,44 @@ def fetch_candles_for_ticker(
     return mkts[0].get("candlesticks", []) if mkts else []
 
 
+def fetch_latest_candle_for_ticker(
+    ticker: str,
+    *,
+    end_ts: int,
+    initial_lookback_min: int,
+    max_lookback_min: int,
+    period_interval: int = 1,
+    headers: Optional[Dict[str, str]] = None,
+    http_get=requests.get,
+) -> Optional[dict]:
+    """Fetch the most recent candle by adaptively expanding lookback.
+
+    Tries increasing windows ending at ``end_ts`` until it finds at least
+    one candle or reaches ``max_lookback_min``. Returns the latest candle
+    in the window if found, else None.
+    """
+    lb = max(1, int(initial_lookback_min))
+    max_lb = max(lb, int(max_lookback_min))
+    while lb <= max_lb:
+        start_ts = end_ts - lb * 60
+        candles = fetch_candles_for_ticker(
+            ticker,
+            start_ts=start_ts,
+            end_ts=end_ts,
+            period_interval=period_interval,
+            headers=headers,
+            http_get=http_get,
+        )
+        latest = pick_latest_candle_safe(candles)
+        if latest:
+            return latest
+        # Expand the window (double each iteration) but cap at max_lb
+        if lb >= max_lb:
+            break
+        lb = min(max_lb, lb * 2)
+    return None
+
+
 def build_headers(auth_header: Optional[str]) -> Dict[str, str]:
     if not auth_header:
         # Empty headers is fine for public endpoints; Kalshi may not require auth.
@@ -192,7 +239,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     p.add_argument("--status", default=None, help="Optional market status filter (e.g., trading, open)")
     p.add_argument("--date", default=None, help="Target local date YYYY-MM-DD (default: today in local TZ)")
     p.add_argument("--local-tz", default="America/New_York", help="Local timezone (default: America/New_York)")
-    p.add_argument("--lookback-min", type=int, default=15, help="Candles lookback minutes ending now (default: 15)")
+    p.add_argument("--lookback-min", type=int, default=15, help="Initial lookback minutes ending now (default: 15)")
+    p.add_argument("--max-lookback-min", type=int, default=24*60, help="Max lookback minutes for adaptive latest search (default: 1440)")
     p.add_argument("--period-min", type=int, default=1, help="Candlestick period in minutes (default: 1)")
     p.add_argument("--rate-limit", type=int, default=20, help="Max requests per minute (default: 20)")
     p.add_argument("--out", default="kalshi/today_candles.csv", help="Output CSV path")
@@ -254,10 +302,9 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     todays = filtered
 
-    # 2) For each market, fetch recent candles ending now
+    # 2) For each market, fetch the latest available candle ending near now
     now_utc = dt.datetime.now(tz=dt.timezone.utc)
     end_ts = unix_ts(now_utc)
-    start_ts = end_ts - args.lookback_min * 60
 
     rows = []
     for m in todays:
@@ -265,15 +312,15 @@ def main(argv: Optional[List[str]] = None) -> int:
         title = m.get("title") or ""
         close_time = m.get("close_time") or ""
         try:
-            candles = fetch_candles_for_ticker(
+            latest = fetch_latest_candle_for_ticker(
                 ticker,
-                start_ts=start_ts,
                 end_ts=end_ts,
+                initial_lookback_min=args.lookback_min,
+                max_lookback_min=args.max_lookback_min,
                 period_interval=args.period_min,
                 headers=headers,
                 http_get=http_get,
             )
-            latest = pick_latest_candle(candles)
             if latest:
                 end_period_ts = latest.get("end_period_ts")
                 end_period_utc = dt.datetime.fromtimestamp(end_period_ts, tz=dt.timezone.utc).isoformat() if end_period_ts else ""
@@ -289,7 +336,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                 price = bid = ask = None
                 volume = oi = None
                 status = "no_candle"
-                error = "no candle in lookback"
+                error = "no candle found up to max lookback"
         except Exception as e:
             end_period_utc = ""
             price = bid = ask = None
