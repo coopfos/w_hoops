@@ -1,0 +1,128 @@
+---
+title: "NCAAW 2025 Player Impact with PIDs"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Inputs
+
+```{r paths}
+# Expect to run from the players directory
+pid_path <- "pid_map.csv"
+master_path <- file.path("..", "2025", "master_boxscore.csv")
+
+if (!file.exists(pid_path)) {
+  stop(sprintf("Missing pid mapping: %s", pid_path))
+}
+if (!file.exists(master_path)) {
+  stop(sprintf("Missing master boxscore: %s", master_path))
+}
+```
+
+## Add PIDs to the 2025 master boxscore
+
+```{r add-pids}
+pid_map <- read.csv(pid_path, stringsAsFactors = FALSE)
+box <- read.csv(master_path, stringsAsFactors = FALSE)
+
+# Match by team + player to preserve boxscore ordering
+key_map <- paste(pid_map$team, pid_map$player, sep = "||")
+key_box <- paste(box$team, box$player, sep = "||")
+box$pid <- pid_map$pid[match(key_box, key_map)]
+
+missing_pids <- sum(is.na(box$pid))
+missing_pids
+```
+
+```{r write-boxscore}
+boxscore_with_pid_path <- "master_boxscore_2025_with_pid.csv"
+write.csv(box, boxscore_with_pid_path, row.names = FALSE)
+boxscore_with_pid_path
+```
+
+## Build a player impact table
+
+```{r impact-setup}
+parse_num <- function(x) {
+  if (is.numeric(x)) return(x)
+  as.numeric(gsub("[^0-9.-]", "", x))
+}
+
+impact_source <- box
+if ("table_type" %in% names(box)) {
+  basic_rows <- box[box$table_type == "basic", ]
+  if (nrow(basic_rows) > 0) {
+    impact_source <- basic_rows
+  }
+}
+
+impact_cols <- c("MP", "PTS", "TRB", "AST", "STL", "BLK", "TOV")
+missing_cols <- setdiff(impact_cols, names(impact_source))
+if (length(missing_cols) > 0) {
+  stop(sprintf("Missing columns in boxscore: %s", paste(missing_cols, collapse = ", ")))
+}
+
+for (col in impact_cols) {
+  impact_source[[col]] <- parse_num(impact_source[[col]])
+}
+```
+
+```{r impact-aggregate}
+player_totals <- aggregate(
+  impact_source[impact_cols],
+  by = list(team = impact_source$team, player = impact_source$player, pid = impact_source$pid),
+  FUN = sum,
+  na.rm = TRUE
+)
+
+team_totals <- aggregate(
+  player_totals[impact_cols],
+  by = list(team = player_totals$team),
+  FUN = sum,
+  na.rm = TRUE
+)
+
+impact <- merge(player_totals, team_totals, by = "team", suffixes = c("", "_team"), sort = FALSE)
+
+share <- function(x, denom) ifelse(denom > 0, x / denom, NA_real_)
+impact$mp_share <- share(impact$MP, impact$MP_team)
+impact$pts_share <- share(impact$PTS, impact$PTS_team)
+impact$trb_share <- share(impact$TRB, impact$TRB_team)
+impact$ast_share <- share(impact$AST, impact$AST_team)
+impact$stl_share <- share(impact$STL, impact$STL_team)
+impact$blk_share <- share(impact$BLK, impact$BLK_team)
+impact$tov_share <- share(impact$TOV, impact$TOV_team)
+
+# Impact score: minutes + scoring + playmaking/rebounding + defensive events - turnovers
+impact$impact_score <- (
+  0.45 * impact$mp_share +
+    0.25 * impact$pts_share +
+    0.10 * impact$trb_share +
+    0.10 * impact$ast_share +
+    0.05 * impact$stl_share +
+    0.05 * impact$blk_share -
+    0.05 * impact$tov_share
+)
+
+impact <- impact[order(impact$team, -impact$impact_score), ]
+```
+
+```{r impact-output}
+impact_path <- "player_impact_2025.csv"
+write.csv(impact, impact_path, row.names = FALSE)
+impact_path
+```
+
+```{r impact-preview}
+head(impact, 20)
+```
+
+```{r top-players}
+# Top 5 players by impact per team
+split_by_team <- split(impact, impact$team)
+impact_top5 <- do.call(rbind, lapply(split_by_team, function(df) head(df, 5)))
+head(impact_top5, 20)
+```

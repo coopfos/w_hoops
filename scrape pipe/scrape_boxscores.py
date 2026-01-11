@@ -144,9 +144,17 @@ def main(argv: list[str] | None = None):
             if not url:
                 continue
 
+            row_game_id = s(row.get("game_id"))
             winner_sid = s(row.get("winner_sid"))
             loser_sid = s(row.get("loser_sid"))
             gender = s(row.get("gender")).lower() or DEFAULT_GENDER
+
+            if not gender.startswith("w"):
+                print(f"[SKIP] row {i}: non-women gender '{gender}'")
+                continue
+            if row_game_id and "_w" not in row_game_id:
+                print(f"[SKIP] row {i}: non-women game_id '{row_game_id}'")
+                continue
 
             valid_sids = [sid for sid in [winner_sid, loser_sid] if sid]
             if not valid_sids:
@@ -154,7 +162,7 @@ def main(argv: list[str] | None = None):
                 continue
 
             gid = game_id_from_url(url)
-            suffix = "_w" if gender.startswith("w") else ""
+            suffix = "_w"
 
             table_specs = []
             for sid in valid_sids:

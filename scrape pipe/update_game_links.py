@@ -180,8 +180,13 @@ def main():
             continue
         for div in game_divs:
             row = parse_game_div(div, d)
-            if row["boxscore_url"]:
-                rows.append(row)
+            if row["gender"] != "women":
+                continue
+            if not row["boxscore_url"]:
+                continue
+            if "_w" not in row["boxscore_url"]:
+                continue
+            rows.append(row)
 
     if not rows:
         print("No new game links found.")

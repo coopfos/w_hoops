@@ -56,7 +56,7 @@ CHS,4,Chicago St.,Chicago State,chicago-state,fuzzy,0.8333
 CIN,9,Cincinnati,Cincinnati,cincinnati,exact,1
 HASK,1,Haskell Indian Nations,Cincinnati,cincinnati,fuzzy,0.5333
 CLEM,9,Clemson,Clemson,clemson,exact,1
-FUR,1,Clemson,Clemson,clemson,exact,1
+FUR,1,Furman,Furman,furman,exact,1
 CLEV,2,Cleveland St.,Cleveland State,cleveland-state,fuzzy,0.8571
 COLG,1,Colgate,Colgate,colgate,exact,1
 COLO,9,Colorado,Colorado,colorado,exact,1
@@ -129,7 +129,7 @@ IOWA,8,Iowa,Iowa,iowa,exact,1
 ISU,8,Iowa St.,Iowa State,iowa-state,fuzzy,0.7778
 PFW,1,Purdue Fort Wayne,Purdue Fort Wayne,ipfw,exact,1
 IUIN,1,IU Indy,IU Indy,iupui,exact,1
-LIU,3,LIU,IU Indy,iupui,fuzzy,0.4444
+LIU,3,LIU,Long Island University,long-island-university,fuzzy,0.4444
 JKST,4,Jackson St.,Jackson State,jackson-state,fuzzy,0.8333
 JAC,2,Jacksonville,Jacksonville,jacksonville,exact,1
 JVST,2,Jacksonville St.,Jacksonville State,jacksonville-state,fuzzy,0.8824
@@ -226,7 +226,7 @@ ORU,3,Oral Roberts,Oral Roberts,oral-roberts,exact,1
 ORE,9,Oregon,Oregon,oregon,exact,1
 ORST,9,Oregon St.,Oregon State,oregon-state,fuzzy,0.8182
 PAC,8,Pacific,Pacific,pacific,exact,1
-PENN,4,Penn,Penn State,penn-state,fuzzy,0.6154
+PENN,4,Penn,Pennsylvania,pennsylvania,fuzzy,0.6154
 PSU,7,Penn State,Penn State,penn-state,exact,1
 PEPP,8,Pepperdine,Pepperdine,pepperdine,exact,1
 PITT,9,Pittsburgh,Pittsburgh,pittsburgh,exact,1
@@ -340,3 +340,33 @@ WRST,3,Wright St.,Wright State,wright-state,fuzzy,0.8182
 WYO,7,Wyoming,Wyoming,wyoming,exact,1
 XAV,8,Xavier,Xavier,xavier,exact,1
 YALE,2,Yale,Yale,yale,exact,1
+SIND,,Southern Indiana,Southern Indiana,southern-indiana,,
+UCI,,UC Irvine,UC Irvine,california-irvine,,
+UST,,St. Thomas (MN),St. Thomas (MN),st-thomas-mn,,
+LAM,,Lamar,Lamar,lamar,,
+TXST,,Texas State,Texas State,texas-state,,
+ETAM,,East Texas A&M,East Texas A&M,texas-am-commerce,,
+BGSU,,Bowling Green,Bowling Green,bowling-green-state,,
+PEAY,,Austin Peay,Austin Peay,austin-peay,,
+SHU,,Sacred Heart,Sacred Heart,sacred-heart,,
+NICH,,Nicholls State,Nicholls State,nicholls-state,,
+CARK,,Central Arkansas,Central Arkansas,central-arkansas,,
+SCUS,,South Caroline Upstate,South Caroline Upstate,south-carolina-upstate,,
+CHAT,,Chattanooga,Chattanooga,chattanooga,,
+LMD,,Loyola (MD),Loyola (MD),loyola-md,,
+BUCK,,Bucknell,Bucknell,bucknell,,
+FDU,,FDU,FDU,fairleigh-dickinson,,
+BUFF,,Buffalo,Buffalo,buffalo,,
+HC,,Holy Cross,Holy Cross,holy-cross,,
+YSU,,Youngstown St.,Youngstown St.,youngstown-state,,
+DART,,Dartmouth,Dartmouth,dartmouth,,
+COR,,Cornell,Cornell,cornell,,
+GASO,,Georgia Southern,Georgia Southern,georgia-southern,,
+IONA,,Iona,Iona,iona,,
+ARMY,,Army,Army,army,,
+MRSH,,Marshall,Marshall,marshall,,
+CCAR,,Coastal Carolina,Coastal Carolina,coastal-carolina,,
+UMBC,,Maryland-Baltimore County,Maryland-Baltimore County,maryland-baltimore-county,,
+NJIT,,NJIT,NJIT,njit,,
+MONM,,Monmouth,Monmouth,monmouth,,
+HAMP,,Hampton,Hampton,hampton,,

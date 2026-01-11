@@ -1,0 +1,393 @@
+---
+title: "Calibration Check (XGBoost + Logistic Regression)"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(dplyr)
+library(readr)
+library(stringr)
+library(tidyr)
+library(xgboost)
+library(Matrix)
+```
+
+## Data Inputs
+
+```{r paths}
+repo_root <- normalizePath("..")
+box_2025 <- file.path(repo_root, "2025", "master_boxscore.csv")
+stopifnot(file.exists(box_2025))
+```
+
+## Feature Build (Boxscore Priors)
+
+```{r feature_build}
+load_box_totals <- function(path, season) {
+  raw <- suppressMessages(read_csv(path, show_col_types = FALSE))
+  df <- raw %>%
+    filter(player == "School Totals", str_to_lower(table_type) == "basic") %>%
+    transmute(
+      season = season,
+      game_id,
+      game_date = as.Date(game_date),
+      sid = str_trim(team),
+      opp_sid = if_else(is.na(opponent) | opponent == "", "no_sid", str_trim(opponent)),
+      across(
+        .cols = setdiff(names(.), c("game_id","game_date","team","opponent","table_type","player")),
+        .fns = ~ suppressWarnings(as.numeric(.x)),
+        .names = "tm_{.col}"
+      )
+    )
+  df
+}
+
+prior_mean <- function(x) {
+  x <- suppressWarnings(as.numeric(x))
+  s <- cumsum(replace(x, is.na(x), 0))
+  n <- cumsum(!is.na(x))
+  lag(s) / lag(n)
+}
+
+build_model_df <- function(box_path, season_label) {
+  box_totals <- load_box_totals(box_path, season_label) %>%
+    mutate(
+      sid = as.character(sid),
+      opp_sid = as.character(opp_sid)
+    ) %>%
+    filter(opp_sid != "no_sid") %>%
+    filter(stringr::str_ends(game_id, "_w")) %>%
+    distinct(game_id, sid, .keep_all = TRUE)
+
+  opp_stats <- box_totals %>%
+    select(game_id, sid, starts_with("tm_")) %>%
+    rename(opp_sid = sid) %>%
+    rename_with(~ str_replace(.x, "^tm_", "opp_"), starts_with("tm_")) %>%
+    distinct(game_id, opp_sid, .keep_all = TRUE)
+
+  box_full <- box_totals %>%
+    left_join(opp_stats, by = c("game_id", "opp_sid")) %>%
+    rename_with(~ str_replace_all(.x, "%", "pct")) %>%
+    mutate(
+      across(starts_with("tm_"), ~ suppressWarnings(as.numeric(.x))),
+      across(c(starts_with("opp_"), -all_of("opp_sid")), ~ suppressWarnings(as.numeric(.x))),
+      win = as.integer(.data[["tm_PTS"]] > .data[["opp_PTS"]])
+    ) %>%
+    filter(!is.na(win))
+
+  tm_cols  <- names(box_full)[startsWith(names(box_full), "tm_")]
+  opp_cols <- names(box_full)[startsWith(names(box_full), "opp_")]
+
+  box_prior <- box_full %>%
+    dplyr::arrange(game_date) %>%
+    dplyr::group_by(sid) %>%
+    mutate(
+      gp_prior = lag(cumsum(rep(1L, dplyr::n()))),
+      across(all_of(tm_cols),  prior_mean, .names = "pr_{.col}"),
+      across(all_of(opp_cols), prior_mean, .names = "pr_{.col}")
+    ) %>% dplyr::ungroup()
+
+  opp_prior <- box_prior %>%
+    select(sid, game_id, gp_prior, starts_with("pr_")) %>%
+    rename(opp_gp_prior = gp_prior) %>%
+    rename_with(~ paste0("opp_", .x), starts_with("pr_"))
+
+  model_df <- box_prior %>%
+    left_join(opp_prior, by = c("opp_sid" = "sid", "game_id" = "game_id")) %>%
+    filter(gp_prior >= 1, opp_gp_prior >= 1) %>%
+    distinct(game_id, sid, .keep_all = TRUE) %>%
+    dplyr::group_by(game_date, sid, opp_sid) %>%
+    dplyr::arrange(desc(stringr::str_ends(game_id, "_w")), game_id, .by_group = TRUE) %>%
+    dplyr::slice(1) %>%
+    dplyr::ungroup()
+
+  model_df
+}
+
+model_df <- build_model_df(box_2025, "2025")
+cat("Model rows available:", nrow(model_df), "\n")
+```
+
+## Shared Helpers
+
+```{r helpers}
+auc_manual <- function(labels, scores) {
+  labels <- as.integer(labels)
+  n_pos <- sum(labels == 1L)
+  n_neg <- sum(labels == 0L)
+  if (n_pos == 0 || n_neg == 0) return(NA_real_)
+  r <- rank(scores, ties.method = "average")
+  sum_pos_ranks <- sum(r[labels == 1L])
+  auc <- (sum_pos_ranks - n_pos * (n_pos + 1) / 2) / (n_pos * n_neg)
+  as.numeric(auc)
+}
+
+clamp01 <- function(p, eps = 1e-6) {
+  pmin(pmax(p, eps), 1 - eps)
+}
+
+log_loss <- function(y, p) {
+  p <- clamp01(p)
+  -mean(y * log(p) + (1 - y) * log(1 - p))
+}
+
+brier <- function(y, p) {
+  mean((p - y) ^ 2)
+}
+
+make_feature_mats <- function(train_df, test_df) {
+  drop_cols <- c("season","game_id","game_date","sid","opp_sid","win","gp_prior","opp_gp_prior")
+  num_cols_train <- names(train_df)[vapply(train_df, is.numeric, logical(1))]
+  feature_cols <- setdiff(num_cols_train, drop_cols)
+  feature_cols <- feature_cols[grepl("^pr_|^opp_pr_", feature_cols)]
+  if (length(feature_cols) == 0) return(NULL)
+
+  train_features <- as.data.frame(train_df[, feature_cols, drop = FALSE])
+  test_features  <- as.data.frame(test_df[, intersect(names(test_df), feature_cols), drop = FALSE])
+
+  colmap <- stats::setNames(make.names(names(train_features)), names(train_features))
+  names(train_features) <- unname(colmap[names(train_features)])
+  names(test_features)  <- unname(colmap[names(test_features)])
+  missing_in_test <- setdiff(names(train_features), names(test_features))
+  if (length(missing_in_test) > 0) for (mc in missing_in_test) test_features[[mc]] <- NA_real_
+  test_features <- test_features[, names(train_features), drop = FALSE]
+
+  train_means <- vapply(train_features, function(x) mean(as.numeric(x), na.rm = TRUE), numeric(1))
+  train_means[is.na(train_means)] <- 0
+  for (nm in names(train_features)) {
+    v <- as.numeric(train_features[[nm]]); v[is.na(v)] <- train_means[[nm]]; train_features[[nm]] <- v
+  }
+  for (nm in names(test_features)) {
+    v <- as.numeric(test_features[[nm]]); v[is.na(v)] <- train_means[[nm]]; test_features[[nm]] <- v
+  }
+
+  list(train = train_features, test = test_features)
+}
+
+eval_dates <- seq(as.Date("2025-12-15"), as.Date("2026-01-05"), by = "day")
+```
+
+## Rolling Predictions: XGBoost
+
+```{r rolling_xgb}
+roll_preds_xgb <- function(df) {
+  all_preds <- list()
+
+  for (d in eval_dates) {
+    train_df_day <- df %>% filter(game_date < d)
+    test_df_day  <- df %>% filter(game_date == d)
+    if (nrow(test_df_day) == 0 || nrow(train_df_day) == 0) next
+
+    mats <- make_feature_mats(train_df_day, test_df_day)
+    if (is.null(mats)) next
+
+    x_train <- data.matrix(mats$train)
+    x_test  <- data.matrix(mats$test)
+    y_train <- train_df_day$win
+    y_test  <- test_df_day$win
+
+    params <- list(
+      objective = "binary:logistic",
+      eval_metric = c("logloss", "auc"),
+      max_depth = 5,
+      eta = 0.05,
+      min_child_weight = 5,
+      subsample = 0.8,
+      colsample_bytree = 0.8
+    )
+    dtrain <- xgb.DMatrix(data = x_train, label = y_train, missing = NA)
+    dtest  <- xgb.DMatrix(data = x_test,  label = y_test,  missing = NA)
+    set.seed(42)
+    model <- xgb.train(
+      params = params,
+      data = dtrain,
+      nrounds = 300,
+      evals = list(train = dtrain),
+      early_stopping_rounds = 15,
+      verbose = 0
+    )
+
+    pred <- predict(model, dtest)
+    all_preds[[as.character(d)]] <- test_df_day %>%
+      transmute(
+        date = game_date,
+        game_id, sid, opp_sid,
+        win = y_test,
+        pred = as.numeric(pred)
+      )
+  }
+
+  bind_rows(all_preds)
+}
+
+preds_xgb <- roll_preds_xgb(model_df)
+cat("XGB rolling preds:", nrow(preds_xgb), "\n")
+```
+
+## Rolling Predictions: Logistic Regression
+
+```{r rolling_logreg}
+roll_preds_logreg <- function(df) {
+  all_preds <- list()
+
+  for (d in eval_dates) {
+    train_df_day <- df %>% filter(game_date < d)
+    test_df_day  <- df %>% filter(game_date == d)
+    if (nrow(test_df_day) == 0 || nrow(train_df_day) == 0) next
+
+    mats <- make_feature_mats(train_df_day, test_df_day)
+    if (is.null(mats)) next
+
+    y_train <- train_df_day$win
+    y_test  <- test_df_day$win
+    if (length(unique(y_train)) < 2) next
+
+    train_df_glm <- data.frame(win = y_train, mats$train, check.names = TRUE)
+    fit <- try(glm(win ~ ., data = train_df_glm, family = binomial(), control = list(maxit = 200)), silent = TRUE)
+    if (inherits(fit, "try-error")) next
+
+    test_df_glm <- data.frame(mats$test, check.names = TRUE)
+    pred <- try(predict(fit, newdata = test_df_glm, type = "response"), silent = TRUE)
+    if (inherits(pred, "try-error")) next
+
+    all_preds[[as.character(d)]] <- test_df_day %>%
+      transmute(
+        date = game_date,
+        game_id, sid, opp_sid,
+        win = y_test,
+        pred = as.numeric(pred)
+      )
+  }
+
+  bind_rows(all_preds)
+}
+
+preds_logreg <- roll_preds_logreg(model_df)
+cat("LogReg rolling preds:", nrow(preds_logreg), "\n")
+```
+
+## Calibration (Platt Scaling + Isotonic)
+
+```{r calibration_helpers}
+split_by_date <- function(df, frac = 0.7) {
+  unique_dates <- sort(unique(df$date))
+  cut_idx <- max(1, floor(length(unique_dates) * frac))
+  train_dates <- unique_dates[1:cut_idx]
+  df_train <- df %>% filter(date %in% train_dates)
+  df_test  <- df %>% filter(!date %in% train_dates)
+  list(train = df_train, test = df_test)
+}
+
+fit_platt <- function(df_train) {
+  glm(win ~ pred, data = df_train, family = binomial())
+}
+
+apply_platt <- function(model, pred) {
+  as.numeric(predict(model, newdata = data.frame(pred = pred), type = "response"))
+}
+
+fit_isotonic <- function(df_train) {
+  ord <- order(df_train$pred)
+  iso <- isoreg(df_train$pred[ord], df_train$win[ord])
+  stats::approxfun(iso$x, iso$yf, rule = 2)
+}
+
+apply_isotonic <- function(iso_fn, pred) {
+  as.numeric(iso_fn(pred))
+}
+
+calibration_report <- function(df, label) {
+  splits <- split_by_date(df, frac = 0.7)
+  train_df <- splits$train
+  test_df  <- splits$test
+
+  platt_model <- fit_platt(train_df)
+  iso_fn <- fit_isotonic(train_df)
+
+  test_df <- test_df %>%
+    mutate(
+      pred_platt = apply_platt(platt_model, pred),
+      pred_iso = apply_isotonic(iso_fn, pred)
+    )
+
+  metrics <- tibble(
+    model = label,
+    base_auc = auc_manual(test_df$win, test_df$pred),
+    base_logloss = log_loss(test_df$win, test_df$pred),
+    base_brier = brier(test_df$win, test_df$pred),
+    platt_auc = auc_manual(test_df$win, test_df$pred_platt),
+    platt_logloss = log_loss(test_df$win, test_df$pred_platt),
+    platt_brier = brier(test_df$win, test_df$pred_platt),
+    iso_auc = auc_manual(test_df$win, test_df$pred_iso),
+    iso_logloss = log_loss(test_df$win, test_df$pred_iso),
+    iso_brier = brier(test_df$win, test_df$pred_iso),
+    n_test = nrow(test_df)
+  )
+
+  list(metrics = metrics, test = test_df, platt_model = platt_model, iso_fn = iso_fn)
+}
+```
+
+```{r calibration_run}
+cal_xgb <- calibration_report(preds_xgb, "xgboost")
+cal_logreg <- calibration_report(preds_logreg, "logreg")
+
+metrics_all <- bind_rows(cal_xgb$metrics, cal_logreg$metrics)
+metrics_all
+```
+
+## Reliability Plots
+
+```{r reliability_plots}
+reliability_table <- function(df, prob_col, n_bins = 10) {
+  df <- df %>%
+    mutate(
+      bin = cut(.data[[prob_col]], breaks = seq(0, 1, length.out = n_bins + 1), include.lowest = TRUE)
+    ) %>%
+    group_by(bin) %>%
+    summarize(
+      pred_mean = mean(.data[[prob_col]]),
+      win_rate = mean(win),
+      n = n(),
+      .groups = "drop"
+    )
+  df
+}
+
+plot_reliability <- function(df, title) {
+  plot(df$pred_mean, df$win_rate,
+       xlim = c(0, 1), ylim = c(0, 1),
+       xlab = "Predicted win prob", ylab = "Observed win rate",
+       main = title, pch = 19)
+  abline(0, 1, lty = 2, col = "gray40")
+}
+
+par(mfrow = c(2, 3))
+
+xgb_base <- reliability_table(cal_xgb$test, "pred")
+xgb_platt <- reliability_table(cal_xgb$test, "pred_platt")
+xgb_iso <- reliability_table(cal_xgb$test, "pred_iso")
+plot_reliability(xgb_base, "XGB Base")
+plot_reliability(xgb_platt, "XGB Platt")
+plot_reliability(xgb_iso, "XGB Isotonic")
+
+log_base <- reliability_table(cal_logreg$test, "pred")
+log_platt <- reliability_table(cal_logreg$test, "pred_platt")
+log_iso <- reliability_table(cal_logreg$test, "pred_iso")
+plot_reliability(log_base, "LogReg Base")
+plot_reliability(log_platt, "LogReg Platt")
+plot_reliability(log_iso, "LogReg Isotonic")
+
+par(mfrow = c(1, 1))
+```
+
+## Optional: Save Calibration Outputs
+
+```{r save_outputs, eval=FALSE}
+out_dir <- file.path(repo_root, "models", "outputs")
+dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+
+write.csv(metrics_all, file.path(out_dir, "calibration_metrics_xgb_logreg.csv"), row.names = FALSE)
+write.csv(cal_xgb$test, file.path(out_dir, "calibration_predictions_xgb.csv"), row.names = FALSE)
+write.csv(cal_logreg$test, file.path(out_dir, "calibration_predictions_logreg.csv"), row.names = FALSE)
+```

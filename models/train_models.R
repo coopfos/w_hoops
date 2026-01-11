@@ -59,7 +59,7 @@ xgb_fit <- xgb.train(
   params = params,
   data = dtrain,
   nrounds = 300,
-  evals = list(train = dtrain),
+  watchlist = list(train = dtrain),
   early_stopping_rounds = 15,
   verbose = 0
 )
@@ -76,4 +76,3 @@ saveRDS(xgb_fit, file = file.path(art_dir, "xgb_model.rds"))
 saveRDS(meta,    file = file.path(art_dir, "model_meta.rds"))
 
 message("Artifacts written to ", art_dir)
-
