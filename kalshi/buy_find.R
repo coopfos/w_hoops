@@ -3,7 +3,7 @@ library(stringr)
 
 cand <- read.csv('/users/coop/desktop/w_hoops/kalshi/today_candles.csv')
 
-preds <- read.csv('/users/coop/desktop/w_hoops/models/outputs/predictions_2026-01-13.csv')
+preds <- read.csv('/users/coop/desktop/w_hoops/models/outputs/predictions_2026-01-14.csv')
 
 sid_map <- read.csv('/users/coop/desktop/w_hoops/kalshi/kalshi_sid_map.csv')
 
@@ -19,7 +19,7 @@ cand <- preds %>%
   select(sid, model_glm, model_xgb) %>% 
   right_join(cand, by = c('sid' = 'sid_guess'))
 
-size_order <- function(p, q, bankroll, mos = 0.14,
+size_order <- function(p, q, bankroll, mos = 0.15,
                        kelly_scale = 0.5, max_fraction = 0.05) {
   edge <- p - q
   if (is.na(edge) || edge < mos) return(list(contracts = 0, stake = 0, f = 0))

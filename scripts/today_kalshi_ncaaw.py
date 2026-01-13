@@ -235,6 +235,15 @@ def fmt_float(x: Optional[float]) -> str:
 
 def main(argv: Optional[List[str]] = None) -> int:
     p = argparse.ArgumentParser(description=__doc__)
+    # Relative-day selector: t (today), t1 (tomorrow), t2 (in two days).
+    # Ignored if --date is provided.
+    p.add_argument(
+        "when",
+        nargs="?",
+        default="t",
+        choices=["t", "t1", "t2"],
+        help="Target day: t (today), t1 (tomorrow), t2 (two days). Default: t",
+    )
     p.add_argument("--series", default=SERIES_TICKER_DEFAULT, help="Kalshi series ticker (default: KXNCAAWBGAME)")
     p.add_argument("--status", default=None, help="Optional market status filter (e.g., trading, open)")
     p.add_argument("--date", default=None, help="Target local date YYYY-MM-DD (default: today in local TZ)")
@@ -261,7 +270,10 @@ def main(argv: Optional[List[str]] = None) -> int:
             print(f"Invalid --date: {args.date}: {e}", file=sys.stderr)
             return 2
     else:
-        target_date_local = dt.datetime.now(tz=local_tz).date()
+        # Map when -> offset days
+        when_map = {"t": 0, "t1": 1, "t2": 2}
+        offset_days = when_map.get(args.when, 0)
+        target_date_local = (dt.datetime.now(tz=local_tz) + dt.timedelta(days=offset_days)).date()
 
     headers = build_headers(args.auth)
     http_get = rate_limited_get(args.rate_limit)
