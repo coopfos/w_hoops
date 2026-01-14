@@ -14,10 +14,10 @@ box_csv <- file.path(repo_root, "2025", "master_boxscore.csv")
 art_dir <- file.path(repo_root, "models", "artifacts")
 dir.create(art_dir, showWarnings = FALSE, recursive = TRUE)
 
-source(file.path(repo_root, "models", "feature_prep.R"))
+source(file.path(repo_root, "models", "feature_prep_v2.R"))
 
 message("[1/4] Building prior features from ", box_csv)
-pf <- build_prior_features(box_csv)
+pf <- build_prior_features_v2(box_csv)
 m_df <- pf$model_df
 
 # Select numeric, prior-derived feature columns only
