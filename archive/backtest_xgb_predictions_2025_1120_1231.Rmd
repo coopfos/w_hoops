@@ -1,0 +1,206 @@
+---
+title: "Backtest Validation Set (XGBoost) — Daily Retrain 2025-11-20 to 2025-12-31"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(dplyr)
+library(readr)
+library(stringr)
+library(tidyr)
+library(xgboost)
+```
+
+## Inputs
+
+```{r paths}
+repo_root <- normalizePath("/users/coop/desktop/w_hoops")
+box_2025 <- file.path(repo_root, "2025", "master_boxscore.csv")
+stopifnot(file.exists(box_2025))
+```
+
+## Prepare Features (Team Totals, Basic)
+
+```{r prep}
+load_box_totals <- function(path, season) {
+  raw <- suppressMessages(read_csv(path, show_col_types = FALSE))
+  df <- raw %>%
+    filter(player == "School Totals", str_to_lower(table_type) == "basic") %>%
+    transmute(
+      season = season,
+      game_id,
+      game_date = as.Date(game_date),
+      sid = str_trim(team),
+      opp_sid = if_else(is.na(opponent) | opponent == "", "no_sid", str_trim(opponent)),
+      across(
+        .cols = setdiff(names(.), c("game_id","game_date","team","opponent","table_type","player")),
+        .fns = ~ suppressWarnings(as.numeric(.x)),
+        .names = "tm_{.col}"
+      )
+    )
+  df
+}
+
+box_totals <- load_box_totals(box_2025, "2025") %>%
+  filter(opp_sid != "no_sid") %>%
+  filter(stringr::str_ends(game_id, "_w")) %>%
+  distinct(game_id, sid, .keep_all = TRUE)
+
+opp_stats <- box_totals %>%
+  select(game_id, sid, starts_with("tm_")) %>%
+  rename(opp_sid = sid) %>%
+  rename_with(~ str_replace(.x, "^tm_", "opp_"), starts_with("tm_")) %>%
+  distinct(game_id, opp_sid, .keep_all = TRUE)
+
+box_full <- box_totals %>%
+  left_join(opp_stats, by = c("game_id", "opp_sid")) %>%
+  rename_with(~ str_replace_all(.x, "%", "pct")) %>%
+  mutate(win = as.integer(.data[["tm_PTS"]] > .data[["opp_PTS"]])) %>%
+  filter(!is.na(win))
+
+prior_mean <- function(x) {
+  s <- cumsum(replace(x, is.na(x), 0))
+  n <- cumsum(!is.na(x))
+  lag(s) / lag(n)
+}
+
+tm_cols  <- names(box_full)[startsWith(names(box_full), "tm_")]
+opp_cols <- names(box_full)[startsWith(names(box_full), "opp_")]
+
+box_prior <- box_full %>%
+  arrange(game_date) %>%
+  group_by(sid) %>%
+  mutate(
+    gp_prior = lag(cumsum(rep(1L, dplyr::n()))),
+    across(all_of(tm_cols),  prior_mean, .names = "pr_{.col}"),
+    across(all_of(opp_cols), prior_mean, .names = "pr_{.col}")
+  ) %>%
+  ungroup()
+
+opp_prior <- box_prior %>%
+  select(sid, game_id, gp_prior, starts_with("pr_")) %>%
+  rename(opp_gp_prior = gp_prior) %>%
+  rename_with(~ paste0("opp_", .x), starts_with("pr_"))
+
+model_df <- box_prior %>%
+  left_join(opp_prior, by = c("opp_sid" = "sid", "game_id" = "game_id")) %>%
+  filter(gp_prior >= 1, opp_gp_prior >= 1) %>%
+  distinct(game_id, sid, .keep_all = TRUE) %>%
+  group_by(game_date, sid, opp_sid) %>%
+  arrange(desc(stringr::str_ends(game_id, "_w")), game_id, .by_group = TRUE) %>%
+  dplyr::slice(1) %>%
+  ungroup()
+
+cat("Model rows available:", nrow(model_df), "\n")
+```
+
+## Daily Retrain and Predict (2025-11-20 to 2025-12-31)
+
+```{r backtest}
+auc_manual <- function(labels, scores) {
+  labels <- as.integer(labels)
+  n_pos <- sum(labels == 1L)
+  n_neg <- sum(labels == 0L)
+  if (n_pos == 0 || n_neg == 0) return(NA_real_)
+  r <- rank(scores, ties.method = "average")
+  sum_pos_ranks <- sum(r[labels == 1L])
+  auc <- (sum_pos_ranks - n_pos * (n_pos + 1) / 2) / (n_pos * n_neg)
+  as.numeric(auc)
+}
+
+eval_dates <- seq(as.Date("2025-11-20"), as.Date("2025-12-31"), by = "day")
+
+all_preds <- list()
+daily_metrics <- list()
+
+for (d in eval_dates) {
+  train_df_day <- model_df %>% filter(game_date < d)
+  test_df_day  <- model_df %>% filter(game_date == d)
+
+  if (nrow(test_df_day) == 0 || nrow(train_df_day) == 0) {
+    next
+  }
+
+  drop_cols <- c("season","game_id","game_date","sid","opp_sid","win",
+                 "gp_prior","opp_gp_prior")
+  num_cols_train <- names(train_df_day)[vapply(train_df_day, is.numeric, logical(1))]
+  feature_cols <- setdiff(num_cols_train, drop_cols)
+  feature_cols <- feature_cols[grepl("^pr_|^opp_pr_", feature_cols)]
+  if (length(feature_cols) == 0) next
+
+  train_features <- as.data.frame(train_df_day[, feature_cols, drop = FALSE])
+  test_features  <- as.data.frame(test_df_day[, intersect(names(test_df_day), feature_cols), drop = FALSE])
+
+  colmap <- stats::setNames(make.names(names(train_features)), names(train_features))
+  names(train_features) <- unname(colmap[names(train_features)])
+  names(test_features)  <- unname(colmap[names(test_features)])
+  missing_in_test <- setdiff(names(train_features), names(test_features))
+  if (length(missing_in_test) > 0) for (mc in missing_in_test) test_features[[mc]] <- NA_real_
+  test_features <- test_features[, names(train_features), drop = FALSE]
+
+  train_means <- vapply(train_features, function(x) mean(as.numeric(x), na.rm = TRUE), numeric(1))
+  train_means[is.na(train_means)] <- 0
+  for (nm in names(train_features)) {
+    v <- as.numeric(train_features[[nm]]); v[is.na(v)] <- train_means[[nm]]; train_features[[nm]] <- v
+  }
+  for (nm in names(test_features)) {
+    v <- as.numeric(test_features[[nm]]); v[is.na(v)] <- train_means[[nm]]; test_features[[nm]] <- v
+  }
+
+  x_train <- data.matrix(train_features)
+  x_test  <- data.matrix(test_features)
+  y_train <- train_df_day$win
+  y_test  <- test_df_day$win
+
+  params <- list(
+    objective = "binary:logistic",
+    eval_metric = c("logloss", "auc"),
+    max_depth = 5,
+    eta = 0.05,
+    min_child_weight = 5,
+    subsample = 0.8,
+    colsample_bytree = 0.8
+  )
+  dtrain <- xgb.DMatrix(data = x_train, label = y_train, missing = NA)
+  dtest  <- xgb.DMatrix(data = x_test,  label = y_test,  missing = NA)
+  set.seed(42)
+  model <- xgb.train(
+    params = params,
+    data = dtrain,
+    nrounds = 300,
+    watchlist = list(train = dtrain),
+    early_stopping_rounds = 15,
+    verbose = 0
+  )
+
+  pred <- predict(model, dtest)
+  day_auc <- auc_manual(y_test, pred)
+  daily_metrics[[as.character(d)]] <- tibble(date = d, n_games = length(y_test), auc = day_auc)
+
+  all_preds[[as.character(d)]] <- test_df_day %>%
+    transmute(
+      date = game_date,
+      game_id, sid, opp_sid,
+      win = y_test,
+      pred = pred
+    )
+}
+
+preds_df <- bind_rows(all_preds)
+metrics_df <- bind_rows(daily_metrics)
+
+overall_auc <- if (nrow(preds_df) > 0) auc_manual(preds_df$win, preds_df$pred) else NA_real_
+list(
+  total_games_scored = nrow(preds_df),
+  overall_auc = overall_auc,
+  daily_sample = head(metrics_df %>% arrange(date), 10)
+)
+```
+
+## Save Predictions
+
+```{r save}
+output_path <- "backtest_xgb_preds_2025_1120_1231.csv"
+write.csv(preds_df, output_path, row.names = FALSE)
+output_path
+```
